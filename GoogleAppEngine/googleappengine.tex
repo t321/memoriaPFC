@@ -1,0 +1,16 @@
+\section{Google App Engine.\label{ref_google_app_engine}}
+En este apartado de la memoria voy a explicar lo que es, la configuración y el como usar la plataforma Google App Engine.
+
+\subsection{Introduccion.\label{ref_introduccion_google_app_engine}}
+Google App Engine es una conjunto de apis que proporciona Google para construir tus propias aplicaciones web, que pueden ser alojadas y usadas en su servicio Google App y vendidas en Google Apps Marketplace. Además de alojamiento gratuito Google, ofrecen un dominio, que es: \textit{nombre\_de\_la\_aplicacion.appspot.com} y una base de datos propietaria de Google que se accede transparentemente a través de la api, gestión de usuarios mediante autentificación con cuentas Google del tipo:\textit{usuario@gmail.com}, autentificación por federación o \textit{openID}.
+\\
+\\
+Además de todas esas características Google proporciona apis para Java, Python y Go, este último un lenguaje experimental del propio Google. Para usar dicha API, Google también da un plugin para Eclipse, en caso de que el lenguaje elegido sea Java, que ayuda al despliegue de la aplicación web, autocompletado y gestión de de las aplicaciones creadas. 
+%TODO:En el anexo 1 se puede ver como instalar el puglins para eclipse de google app engine.
+\\
+\\
+En el proyecto solo he usado la API de Google App Engine de Java, por lo que todo lo que voy a comentar es de dicha API, la parte de Python y Go no se han estudiado.
+\\ \\
+En general el uso de Google App Engine para crear aplicaciones web es idéntico a crear una aplicación web con Java 2 Enterprise Edition (Java2EE), se pueden crear servlet que recogen valores \textbf{GET} o \textbf{POST} y además clases java para hacer cosas con dichos valores. A su vez para mostrar la infomación se pueden generar archivos *.jsp en los cuales se pueden introducir líneas java mediante la etiqueta: $<$\%= línea de código Java \%$>$ o $<$\% Bloque de código Java \%$>$
+
+
