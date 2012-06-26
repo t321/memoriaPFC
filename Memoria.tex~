@@ -1,6 +1,8 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
 \title{}
 \author{juanantonio}
 \date{\today}

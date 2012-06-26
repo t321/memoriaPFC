@@ -1,21 +1,22 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  26 JUN 2012 14:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  26 JUN 2012 18:50
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
 (/home/juanantonio/memoriaPFC/Memoria.tex
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -245,7 +246,7 @@ Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count87
+\babel@savecnt=\count88
 \U@D=\dimen103
 )
 
@@ -254,33 +255,107 @@ Package babel Warning: No hyphenation patterns were loaded for
 (babel)                I will use the patterns loaded for \language=0 instead.
 
 \l@spanish = a dialect from \language0
-\es@datefmt=\count88
+\es@datefmt=\count89
 \es@quottoks=\toks16
-\es@quotdepth=\count89
+\es@quotdepth=\count90
 Package babel Info: Making " an active character on input line 492.
 Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
-)) (/home/juanantonio/memoriaPFC/Memoria.aux)
+)) (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count91
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count92
+\lst@currlwidth=\dimen104
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen107
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
+\lst@framebox=\box27
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/home/juanantonio/memoriaPFC/Memoria.aux)
 \openout1 = `Memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+\c@lstlisting=\count100
 
-(./GoogleAppEngine/googleappengine.tex
-Overfull \hbox (44.54773pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/10 jamien-to gra-tu-ito Google, ofre-cen un do-minio, que es: \OT1
-/cmr/m/it/10 nom-bre[]de[]la[]aplicacion.appspot.com
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen110
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen111
+\MPnumerator=\count105
+\everyMPtoPDFconversion=\toks20
+) (./GoogleAppEngine/googleappengine.tex
+Cap\'{\i }tulo 1.
+! Undefined control sequence.
+l.5 ...to Google, ofrecen un dominio, que es: \url
+                                                  {http://nombre\_de\_la\_ap...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (78.84258pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 jamien-to gra-tu-ito Google, ofre-cen un do-minio, que es: http
+://nombre[]de[]la[]aplicacion.appspot.com
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -289,28 +364,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 12.
 [1
 
+
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.48286pt too wide) in paragraph at lines 16--16
+[]\OT1/cmr/bx/n/14.4 Explicaci^^Son de una apli-caci^^Son web en Google
+ []
+
+
 Overfull \hbox (1.83832pt too wide) in paragraph at lines 28--30
-\OT1/cmr/m/n/10 que im-ple-mente la an-te-ri-or in-ter-faz, co-mo puede ser \OT
+\OT1/cmr/m/n/10 que im-ple-mente la in-ter-faz an-te-ri-or, co-mo puede ser \OT
 1/cmr/m/it/10 javax.servlet.http.HttpServlet
  []
 
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
-Overfull \hbox (227.24501pt too wide) in paragraph at lines 43--43
-[]\OT1/cmtt/m/n/10 protected void doGet(HttpServletRequest req, HttpServletResp
-onse resp) throws ServletException, IOException {[] 
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+
+Overfull \hbox (87.0044pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (232.49496pt too wide) in paragraph at lines 43--43
-[]\OT1/cmtt/m/n/10 protected void doPost(HttpServletRequest req, HttpServletRes
-ponse resp) throws ServletException, IOException {[] 
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 42--43
+[][][][][][][][][][][][][][][] 
  []
 
-[2]
+! Undefined control sequence.
+l.66 ...nes \textbf{GET} sería la siquiente: \url
+                                                  {https://servertimestamp.a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.62 .../servertimestamp.appspot.com/search?id=63&
-                                                  texto=Prueba
+l.66 .../servertimestamp.appspot.com/search?id=63&
+                                                  texto=Prueba}, como se pue...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -318,33 +415,225 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+! Undefined control sequence.
+l.66 ...e puede ver la dirección base seria: \url
+                                                  {https://servertimestamp.a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+! Undefined control sequence.
+l.66 ... próximas sección, en la dirección \url
+                                                  {/search} y el primer par�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 ... el primer parámetro va precedido de \url
+                                                  {?id\_parámetro} y el res...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66 ...e \url{?id\_parámetro} y el resto de \url
+                                                  {\&id\_parámetro}. En nue...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.86183pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/10 siquiente: https://servertimestamp.appspot.com/search?id=63text
+o=Prueba, co-
+ []
+
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=14, 354.32375pt x 405.515pt>
+File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
+
+<use ./GoogleAppEngine/imagenes/JSP_Model.png>
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 83.
+
+(/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 83.
+
+Overfull \hbox (17.70016pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
+NE. \OT1/cmr/m/n/10 3
+ []
+
+[3]
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 105--106
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [4 <./GoogleAppEngine/imagenes/JSP_Model.png>]
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 113--114
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+<./GoogleAppEngine/imagenes/carpetawar.png, id=24, 210.03468pt x 349.305pt>
+File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
+
+<use ./GoogleAppEngine/imagenes/carpetawar.png>
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 150--151
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.70016pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
+NE. \OT1/cmr/m/n/10 5
+ []
+
+[5]
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 152--153
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 154--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (57.00409pt too wide) in paragraph at lines 158--159
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[6 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
+Overfull \hbox (105.00458pt too wide) in paragraph at lines 166--167
+[][][][][][][][][][][][][][][][][] 
+ []
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \begin{lstlisting}[language=YAML]
+                                       
+The following languages weren't loadable:
+    ,yaml$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \begin{lstlisting}[language=YAML]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.191 ...ml} se puede consultar estos enlaces \url
+                                                  {https://developers.google...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.191 ...le.com/appengine/docs/java/config/}, \url
+                                                  {https://developers.google...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 187--11
 
  []
 
-) [3] (/home/juanantonio/memoriaPFC/Memoria.aux)
+
+Overfull \hbox (0.40582pt too wide) in paragraph at lines 187--11
+\OT1/cmr/m/n/10 Para ver to-das las op-ciones de con-fig-u-raci^^Son que se pue
+den mod-i-ficar en \OT1/cmr/m/it/10 app.yalm
+ []
+
+
+Overfull \hbox (114.70616pt too wide) in paragraph at lines 187--11
+\OT1/cmr/m/n/10 o en \OT1/cmr/m/it/10 web.xml \OT1/cmr/m/n/10 se puede con-sul-
+tar es-tos en-laces https://developers.google.com/appengine/docs/java/config/,
+ []
+
+
+Overfull \hbox (2.05637pt too wide) in paragraph at lines 187--11
+\OT1/cmr/m/n/10 https://developers.google.com/appengine/docs/java/configyaml/. 
+En el primero
+ []
+
+
+Overfull \hbox (17.70016pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
+NE. \OT1/cmr/m/n/10 7
+ []
+
+[7] (/home/juanantonio/memoriaPFC/Memoria.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1045 strings out of 495061
- 11915 string characters out of 1182621
- 71384 words of memory out of 3000000
- 4272 multiletter control sequences out of 15000+50000
- 5672 words of font info for 21 fonts, out of 3000000 for 9000
+ 3913 strings out of 495061
+ 49712 string characters out of 1182621
+ 137475 words of memory out of 3000000
+ 7074 multiletter control sequences out of 15000+50000
+ 6770 words of font info for 24 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,4n,27p,1213b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,51p,1213b,1957s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmtt10.pfb>
-Output written on Memoria.pdf (3 pages, 96643 bytes).
+c/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.p
+fb>
+Output written on Memoria.pdf (7 pages, 167590 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
