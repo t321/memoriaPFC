@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  25 JUN 2012 19:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  26 JUN 2012 14:07
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -278,51 +278,73 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
 (./GoogleAppEngine/googleappengine.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
-
-Overfull \hbox (44.54773pt too wide) in paragraph at lines 5--15
+Overfull \hbox (44.54773pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/10 jamien-to gra-tu-ito Google, ofre-cen un do-minio, que es: \OT1
 /cmr/m/it/10 nom-bre[]de[]la[]aplicacion.appspot.com
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--15
-
- []
-
-) [1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/home/juanantonio/memoriaPFC/Memoria.aux) ) 
+Overfull \hbox (1.83832pt too wide) in paragraph at lines 28--30
+\OT1/cmr/m/n/10 que im-ple-mente la an-te-ri-or in-ter-faz, co-mo puede ser \OT
+1/cmr/m/it/10 javax.servlet.http.HttpServlet
+ []
+
+
+Overfull \hbox (227.24501pt too wide) in paragraph at lines 43--43
+[]\OT1/cmtt/m/n/10 protected void doGet(HttpServletRequest req, HttpServletResp
+onse resp) throws ServletException, IOException {[] 
+ []
+
+
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 43--43
+[]\OT1/cmtt/m/n/10 protected void doPost(HttpServletRequest req, HttpServletRes
+ponse resp) throws ServletException, IOException {[] 
+ []
+
+[2]
+! Misplaced alignment tab character &.
+l.62 .../servertimestamp.appspot.com/search?id=63&
+                                                  texto=Prueba
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
+) [3] (/home/juanantonio/memoriaPFC/Memoria.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1042 strings out of 495061
- 11859 string characters out of 1182621
- 68384 words of memory out of 3000000
- 4270 multiletter control sequences out of 15000+50000
- 5504 words of font info for 20 fonts, out of 3000000 for 9000
+ 1045 strings out of 495061
+ 11915 string characters out of 1182621
+ 71384 words of memory out of 3000000
+ 4272 multiletter control sequences out of 15000+50000
+ 5672 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,4n,27p,705b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Memoria.pdf (1 page, 62644 bytes).
+ 25i,4n,27p,1213b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmtt10.pfb>
+Output written on Memoria.pdf (3 pages, 96643 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
