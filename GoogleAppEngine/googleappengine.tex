@@ -13,7 +13,7 @@ En general el uso de Google App Engine para crear aplicaciones web es idéntico 
 
 Para este proyecto se han tenido que desarrollar dos aplicaciones web, una que es un servidor de timestamp y otra que es una aplicación para gestión de las firmas digitales que realice cada usuario. A continuación vamos a explicar en profundida la tecnología usada y ambas aplicaciones web.
 
-\section{Explicación de una aplicación web en Google App Engine.\label{ref_explicacion_google_app_engine}}
+\section{Explicación de una aplicación web genérica en Google App Engine.\label{ref_explicacion_google_app_engine}}
 En esta parte voy a explicar en profundidad que es un servlet, los archivos de configuración, los archivos \textit{*.jsp} y el resto de archivos necesarios para poder desplegar una aplicación en Google Apps.
  
 \subsection{¿Qué es un servlet?.}
@@ -189,3 +189,36 @@ Al tener el archivo \textit{app.yalm} en la carpeta WEB-INF el parseador de YALM
 \\
 \\
 Para ver todas las opciones de configuración que se pueden modificar en \textit{app.yalm} o en \textit{web.xml} se puede consultar estos enlaces \url{https://developers.google.com/appengine/docs/java/config/}, \url{https://developers.google.com/appengine/docs/java/configyaml/}. En el primero podemos ver todas las opciones configurables de \textit{web.xml} y el la segunda las de \textit{app.yalm}.
+
+\section{Servidor de timestamp.\label{ref_server_timestamp_google_app_engine}}
+En este apartado voy a explicar en profundidad todo lo relacionado con la aplicación de timestamp que he tenido que desarrollar, desde el diseño que se ha seguido hasta los problemas que me han surgido.
+
+En principio me gustaría explicar para que se usa un servidor de timestamp en general. Un servidor de timestamp es un registro donde toda persona puede subir un documento y el servidor guarda ese documento añadiendole la fecha en la que se realizó la subida, dicha aplicación luego ofrece el servicio de consultar a que hora fue subido dicho documento. Un ejemplo podría ser \url{https://seguro.ips.es/servidortimestamp/index.asp} que se puede ver una captura de pantalla en la figura~\ref{fig:server_ips_timestamp}. En dicha captura podemos ver que tiene las opciones básicas de un servidor de timestamping como puede ser generar un sello, consultar su validez, etc. 
+
+\begin{figure}[hbt]
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/server_ips_timestamp.png}
+  \caption{Servidor Timestamp https://seguro.ips.es}
+  \label{fig:server_ips_timestamp}
+\end{figure}
+
+La veracidad de que el sellado de dicho documento fue en el instante que dice ser, depende de la confianza que se tenga en ese servicio. Es similar a cuando se necesita que te sellen un documento físico, que dependiendo de para quien lo necesite, necesitas que lo firme un notario o un empleado público si es para una entidad pública. Normalmente suelen existir servidores de timestamping en los que se tiene confianza y los documentos sellados se consideran verdaderos.
+
+Existen tres modelos principales de servidor de timestamping que son los siguientes:
+\begin{itemize}
+\item \textbf{Solución Arbitrada básica:} En esta solución el usuario que quiere sellar algo mandaría una copia del documento que quiere sellar a la entidad de sellado, que a su vez pondría el sello de tiempo y a su vez guardaría una copia de dicho documento, este es el modelo mas parecido a la vida real. Esta solución tiene un par de problemas grandes como puede ser que la privacidad del documento se pierde, tenemos que tener en cuenta que el servidor de timestamping puede estar en España, EEUU o en cualquier otro país y a su vez la base de datos para almacenar todos los documentos tiene que ser enorme, por lo que almacenar todos los documentos nos puede acarrear muchos problemas.
+
+\item \textbf{Solución Arbitrada avanzada:} Esta solución es una evolución de la anterior, en ella el cambio que se hace es que el usuario que quiere que le sellen el documento manda el hash de dicho documento, un hash es el resultado de una función unidireccional que recibe un documento y devuelve un valor único, teniendo dicho valor no se puede saber el documento original, pero dicho documento siempre creará ese valor único, y la entidad solo tendría que almacenar dicho hash junto con el sello de tiempo que se ha generado. Esta solución no tiene los inconvenientes de la anterior, ya que el tamaño de los documentos se reduciría a unos pocos bytes, y la privacidad del documento no se ve comprometida. El problema que si persiste es que el usuario conozca a la entidad de certificación y puedan generar timestamp falsos, pero este problema ya va dentro de la confianza que queramos darle a ese servicio. Suponemos que si es un servicio oficial y serio este problema no va a suceder, de todas formas existen otras soluciones que arreglan este problema.
+
+\item \textbf{Solución Arbitrada avanzada y distribuida:} Esta forma consigue arreglar el problema de la anterior que se produzca un uso fraudulento del timestamping es usando varias entidades de timestamping, por lo que el usuario mandaría el hash a varias entidades de sellado y el usuario guarde los reguardos que están firmados digitalmente de todas las entidades. Así si en una hay un problema tiene varias copias que certifican que se selló dicho instante.
+
+\item \textbf{Solución mediante enlaces:} Esta solución es la mas compleja y a su vez la que soluciona todos los problemas anteriores, además tiene la ventaja de que no tiene que usar multitud de entidades de certificación. Consiste en que cuando un usuario quiere sellar algo, manda el hash del documento, la entidad añade el número de serie del documento anterior, el timestamp y lo firma digitalmente, entonces el problema de que se introduzcan valores fraudulentos por mitad se anula, ya que cada recibo está enlazado con el anterior.
+\end{itemize}
+
+En nuestro caso hemos desarrollado un servidor de timestamping en su versión solución arbitrada avanzada.
+
+A continuación voy a explicar la aplicación web, los servlets que la componen y sus funciones.
+
+\subsection{Explicación de la aplicación web\label{ref_explicación_server_timestamp_google_app_engine}}
+
+

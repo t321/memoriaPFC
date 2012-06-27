@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  26 JUN 2012 18:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  27 JUN 2012 17:59
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -582,45 +582,94 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 187--11
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 
  []
 
 
-Overfull \hbox (0.40582pt too wide) in paragraph at lines 187--11
+Overfull \hbox (0.40582pt too wide) in paragraph at lines 187--192
 \OT1/cmr/m/n/10 Para ver to-das las op-ciones de con-fig-u-raci^^Son que se pue
 den mod-i-ficar en \OT1/cmr/m/it/10 app.yalm
  []
 
 
-Overfull \hbox (114.70616pt too wide) in paragraph at lines 187--11
+Overfull \hbox (114.70616pt too wide) in paragraph at lines 187--192
 \OT1/cmr/m/n/10 o en \OT1/cmr/m/it/10 web.xml \OT1/cmr/m/n/10 se puede con-sul-
 tar es-tos en-laces https://developers.google.com/appengine/docs/java/config/,
  []
 
 
-Overfull \hbox (2.05637pt too wide) in paragraph at lines 187--11
+Overfull \hbox (2.05637pt too wide) in paragraph at lines 187--192
 \OT1/cmr/m/n/10 https://developers.google.com/appengine/docs/java/configyaml/. 
 En el primero
  []
 
+! Undefined control sequence.
+l.196 ...ho documento. Un ejemplo podría ser \url
+                                                  {https://seguro.ips.es/ser...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (17.70016pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
-NE. \OT1/cmr/m/n/10 7
+[7]
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=35, 738.50906pt x 307.
+1475pt>
+File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
+g)
+ <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png>
+Overfull \hbox (24.25363pt too wide) in paragraph at lines 200--201
+ [][] 
  []
 
-[7] (/home/juanantonio/memoriaPFC/Memoria.aux)
+[8 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]) [9]
+(/home/juanantonio/memoriaPFC/Memoria.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \penalty 
+l.32 ...r_timestamp_google_app_engine}{{1.3.1}{9}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...r_timestamp_google_app_engine}{{1.3.1}{9}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.32 ...r_timestamp_google_app_engine}{{1.3.1}{9}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 \end{document}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
  ) 
 Here is how much of TeX's memory you used:
- 3913 strings out of 495061
- 49712 string characters out of 1182621
- 137475 words of memory out of 3000000
- 7074 multiletter control sequences out of 15000+50000
+ 3923 strings out of 495061
+ 50053 string characters out of 1182621
+ 137495 words of memory out of 3000000
+ 7083 multiletter control sequences out of 15000+50000
  6770 words of font info for 24 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  29i,6n,51p,1213b,1957s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -631,9 +680,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
 c/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.p
 fb>
-Output written on Memoria.pdf (7 pages, 167590 bytes).
+Output written on Memoria.pdf (9 pages, 211177 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
