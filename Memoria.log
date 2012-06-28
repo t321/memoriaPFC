@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  27 JUN 2012 17:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  28 JUN 2012 18:57
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -312,7 +312,7 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(/home/juanantonio/memoriaPFC/Memoria.aux)
+No file Memoria.aux.
 \openout1 = `Memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -328,7 +328,6 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 \c@lstlisting=\count100
-
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
@@ -366,11 +365,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.48286pt too wide) in paragraph at lines 16--16
-[]\OT1/cmr/bx/n/14.4 Explicaci^^Son de una apli-caci^^Son web en Google
- []
-
-
 Overfull \hbox (1.83832pt too wide) in paragraph at lines 28--30
 \OT1/cmr/m/n/10 que im-ple-mente la in-ter-faz an-te-ri-or, co-mo puede ser \OT
 1/cmr/m/it/10 javax.servlet.http.HttpServlet
@@ -457,6 +451,9 @@ Overfull \hbox (5.86183pt too wide) in paragraph at lines 66--67
 o=Prueba, co-
  []
 
+
+LaTeX Warning: Reference `fig:modoJSP' on page 3 undefined on input line 71.
+
 <./GoogleAppEngine/imagenes/JSP_Model.png, id=14, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
@@ -475,9 +472,9 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 83.
 
-Overfull \hbox (17.70016pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
-NE. \OT1/cmr/m/n/10 3
+Overfull \hbox (74.57414pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
+LE APP ENGINE. \OT1/cmr/m/n/10 3
  []
 
 [3]
@@ -493,10 +490,18 @@ Overfull \hbox (3.00354pt too wide) in paragraph at lines 113--114
 [][][][][][][][][][][][][][][][][][][] 
  []
 
+
+LaTeX Warning: Reference `fig:carpetawar' on page 5 undefined on input line 132
+.
+
 <./GoogleAppEngine/imagenes/carpetawar.png, id=24, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/carpetawar.png>
+
+LaTeX Warning: Reference `ref_archivos_configuracion_google_app_engine' on page
+ 5 undefined on input line 141.
+
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -505,9 +510,9 @@ Overfull \hbox (27.00378pt too wide) in paragraph at lines 150--151
  []
 
 
-Overfull \hbox (17.70016pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB EN GOOGLE APP ENGI
-NE. \OT1/cmr/m/n/10 5
+Overfull \hbox (74.57414pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 1.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
+LE APP ENGINE. \OT1/cmr/m/n/10 5
  []
 
 [5]
@@ -614,6 +619,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Reference `fig:server_ips_timestamp' on page 7 undefined on inpu
+t line 196.
+
 [7]
 <./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=35, 738.50906pt x 307.
 1475pt>
@@ -624,7 +633,87 @@ Overfull \hbox (24.25363pt too wide) in paragraph at lines 200--201
  [][] 
  []
 
-[8 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]) [9]
+[8 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:paquete_pfc' on page 9 undefined on input line 22
+6.
+
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=39, 1111.15125pt x 510.90875pt>
+File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
+
+<use ./GoogleAppEngine/imagenes/UML_pfc.png>
+Overfull \hbox (210.57426pt too wide) in paragraph at lines 230--231
+ [][] 
+ []
+
+
+Overfull \hbox (28.00357pt too wide) in paragraph at lines 240--241
+[][][][][][][][][][][][][][] 
+ []
+
+[9]
+Overfull \hbox (190.00522pt too wide) in paragraph at lines 241--242
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (76.00406pt too wide) in paragraph at lines 243--244
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.00357pt too wide) in paragraph at lines 248--249
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (106.00436pt too wide) in paragraph at lines 249--250
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (274.00607pt too wide) in paragraph at lines 287--288
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (136.00467pt too wide) in paragraph at lines 288--289
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (244.00577pt too wide) in paragraph at lines 289--290
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (340.00674pt too wide) in paragraph at lines 290--291
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (58.00388pt too wide) in paragraph at lines 291--292
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: \begin{description} on input line 237 ended by \end{decription}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \end{decription}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [11] [12 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>]
 (/home/juanantonio/memoriaPFC/Memoria.aux
 ! Missing \endcsname inserted.
 <to be read again> 
@@ -651,6 +740,9 @@ I'm ignoring this, since I wasn't doing a \csname.
 
 )
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 ! Missing $ inserted.
@@ -666,13 +758,13 @@ my insertion and my current dilemma will both disappear.
 
  ) 
 Here is how much of TeX's memory you used:
- 3923 strings out of 495061
- 50053 string characters out of 1182621
- 137495 words of memory out of 3000000
- 7083 multiletter control sequences out of 15000+50000
+ 3965 strings out of 495061
+ 50665 string characters out of 1182621
+ 137491 words of memory out of 3000000
+ 7126 multiletter control sequences out of 15000+50000
  6770 words of font info for 24 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,6n,51p,1213b,1957s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,6n,51p,1213b,1957s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
@@ -680,9 +772,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
 c/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.p
 fb>
-Output written on Memoria.pdf (9 pages, 211177 bytes).
+Output written on Memoria.pdf (12 pages, 288470 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

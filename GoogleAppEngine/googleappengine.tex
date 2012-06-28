@@ -220,5 +220,79 @@ En nuestro caso hemos desarrollado un servidor de timestamping en su versión so
 A continuación voy a explicar la aplicación web, los servlets que la componen y sus funciones.
 
 \subsection{Explicación de la aplicación web\label{ref_explicación_server_timestamp_google_app_engine}}
+%TODO: falta explicar como funciona la BD...
+En este capítulo voy a explicar todas las partes que componen la aplicación web que he desarrollado para la implementación del servidor timestamp.
 
+En la figura~\ref{fig:paquete_pfc} se puede ver las clases que forman el paquete \textit{pfc}.
 
+\begin{figure}[gae]
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/UML_pfc.png}
+  \caption{Detalles del paquete pfc}
+  \label{fig:paquete_pfc}
+\end{figure}
+
+A continuación voy a explicar una a una las clases desarrolladas.
+
+\begin{description}
+\item \textbf{Dao.java:} Esta clase es la encargada de todos los accesos a la base de datos, desde insercción, borrado y listado de las filas, hasta consultas que se necesiten hacer. Se puede observar que las consultas que son de listado de columnas se ejecutan con una sentencia SQL, un ejemplo es la siguiente:
+\begin{lstlisting}[language=Java]
+EntityManager em = EMFService.get().createEntityManager();
+Query q = em.createQuery("select t from RowTimerstamp t where t.num_sec = :num_sec");
+q.setParameter("num_sec", id);
+RowTimerstamp RowTimerstamps = (RowTimerstamp)q.getSingleResult();
+\end{lstlisting}
+
+Pero las consultas que implican borrado o inclusión de filas no se realizan con sentencias SQL convencionales, se añaden con métodos que proporciona la API, un ejemplo es el siguiente:
+\begin{lstlisting}[language=Java]
+EntityManager em = EMFService.get().createEntityManager();
+RowTimerstamp RowTimerstamp = new RowTimerstamp(num_sec, firma, fecha);
+em.persist(RowTimerstamp);
+em.close();
+\end{lstlisting}
+
+\item \textbf{RowTimerstamp.java:} En esta clase se diseña el formato de las filas de la base de datos, que como se ha explicado anteriormente no se crea con sentencias SQL, se usa un modelo de programación llamado JPA. Para dicho modelo hay que crear una clase que contenga como variables de clase las columnas de la tabla de la base de datos. Como podemos ver mediante anotaciones Java se le indica que campo es la clave primaría, también se puede indicar que ese campo es autoincrementado y otras opciones que habría que indicar en la creación de la tabla.   
+
+\begin{lstlisting}[language=Java]
+@Id
+@GeneratedValue(strategy = GenerationType.SEQUENCE)
+private Long id;
+private Long num_sec;
+private String firma;
+private Date fecha;
+\end{lstlisting}
+
+Se puede ver que el campo id será la clave primaría que se indica con \textit{@id} y que es autoincremental, a su vez también podemos ver el resto de datos que se van a guardar, el campo \textit{num\_sec} es el número de secuencia, ya que el campo \textit{@id} lo usa la base de datos para organizarse ella, el campo \textit{firma} es hash firmado por el usuario y que se quiere tener constancia de que se subío en la fecha que indica el campo \textit{fecha}.
+El resto de métodos que tiene esta clase es un contructor, getter para consultar los campos y setter para insertar valores.
+
+\item \textbf{ServletCreateRow.java:} Esta clase es un servet que se encagar de recibir todos los parámetros necesarios y añadirlos a la base de datos. Al recibir los parámetros mediante \textbf{GET} tiene que implementar el método \textit{doGet}, casi todos los servlets implementados en el proyecto mandan los parámetros mediante \textbf{GET}. La forma de recibir parámetros es la siguiente:
+
+\begin{lstlisting}[language=Java]
+String firma = req.getParameter("firma");
+\end{lstlisting}
+
+El resto de parámetros que se necesitan se generan en el servidor para que no puedan ser falseados, como es el número de secuencia y la fecha.
+
+Si la insercción se produce correctamente se devuelve una cadena que tiene el siguiente formato: ``ok;;num\_sec;;fecha" que será interpretado en la aplicación android y que parseará dicha cadena para conseguir los valores que necesitemos.
+
+\item \textbf{ServletDeleteAll.java:} Es un servlet ``secreto" que se usa para borrar todas las filas del servidor, cosa que no se debería poder para no poder falsear los datos introducidos en el servidor de timestamp. Hay que llamarlo con un parámetro que es \textbf{borrar} con valor \textbf{5}.
+
+\item \textbf{ServletSearchDate.java:} Es un servlet que devuelve una cadena con la fecha de una fila que tiene el número de secuencia que se le pasa en el parámetro \textbf{token}.
+
+\item \textbf{ServletSearchRow.java:} Es un servlet que devuelve una página web donde se puede observar en una única columna toda la infomación almacenada que corresponde con el número de secuencia que se le pasa en el parámetro \textbf{id}. La forma de hacerlo es la siguiente:
+
+\begin{lstlisting}[language=Java]
+PrintWriter pw = resp.getWriter();
+pw.print("<!DOCTYPE html>");
+pw.print("<html><head><title>Lista Time Stamp</title><link rel=\"stylesheet\" type=\"text/css\" " +
+		"href=\"css/main.css\"/> <meta charset=\"utf-8\"> </head>");
+pw.print("<body><table><tr><th>ID</th><th>Num sec</th><th>Firma</th><th>Date</th></tr><tr> " +
+		"<td>"+ row.getId() +"</td><td>"+ row.getNum_sec() +"</td><td>"+ row.getFirma() +"</td><td>" +
+		row.getFecha() + "</td></tr> </table></body>");
+pw.flush();
+\end{lstlisting}
+
+Como se puede ver se crea una tabla en una web que su fila se generan dinámicamente dependiendo del número de secuencia que se le pase.
+
+\item \textbf{ServletSearchSign.java:} Es un servlet que devuelve una cadena con la firma que corresponde al número de secuencia que se pasa por el parámetro \textbf{token}.
+\end{decription}
