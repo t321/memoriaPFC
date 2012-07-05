@@ -1,7 +1,7 @@
-\chapter{Google App Engine.\label{ref_google_app_engine}}
+\chapter{Google App Engine.}
 En este apartado de la memoria voy a explicar lo que es, la configuración y el como usar la plataforma Google App Engine.
 
-\section{Introduccion.\label{ref_introduccion_google_app_engine}}
+\section{Introduccion.}
 Google App Engine es una conjunto de apis que proporciona Google para construir tus propias aplicaciones web, que pueden ser alojadas y usadas en su servicio Google App y vendidas en Google Apps Marketplace. Además de alojamiento gratuito Google, ofrecen un dominio, que es: \url{http://nombre\_de\_la\_aplicacion.appspot.com} y una base de datos propietaria de Google que se accede transparentemente a través de la api, gestión de usuarios mediante autentificación con cuentas Google del tipo: \textit{usuario@gmail.com}, autentificación por federación o \textit{openID}.
 
 Además de todas esas características Google proporciona apis para Java, Python y Go, este último un lenguaje experimental del propio Google. Para usar dicha API, Google también da un plugin para Eclipse, en caso de que el lenguaje elegido sea Java, que ayuda al despliegue de la aplicación web, autocompletado y gestión de de las aplicaciones creadas. 
@@ -13,7 +13,7 @@ En general el uso de Google App Engine para crear aplicaciones web es idéntico 
 
 Para este proyecto se han tenido que desarrollar dos aplicaciones web, una que es un servidor de timestamp y otra que es una aplicación para gestión de las firmas digitales que realice cada usuario. A continuación vamos a explicar en profundida la tecnología usada y ambas aplicaciones web.
 
-\section{Explicación de una aplicación web genérica en Google App Engine.\label{ref_explicacion_google_app_engine}}
+\section{Explicación de una aplicación web genérica en Google App Engine.}
 En esta parte voy a explicar en profundidad que es un servlet, los archivos de configuración, los archivos \textit{*.jsp} y el resto de archivos necesarios para poder desplegar una aplicación en Google Apps.
  
 \subsection{¿Qué es un servlet?.}
@@ -67,10 +67,10 @@ La forma de acceder a un servlet mandandole peticiones \textbf{GET} sería la si
 
 El método \textbf{POST} es el utilizado para pasar parámetros por medio de formularios.
 
-\subsection{¿Qué es JSP?.\label{ref_jsp_google_app_engine}}
+\subsection{¿Qué es JSP?.}
 JSP es el acrónimo de JavaServer Pages y es una tecnología que ayuda a crear dinámicamente páginas web badas en HTML o XML y es la solución equivalente a PHP de Oracle. En la figura~\ref{fig:modoJSP} se puede observar el proceso que sigue desde que se hace la petición en el navegador hasta que se muestra.
 
-\begin{figure}[hbt]
+\begin{figure}
   \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/JSP_Model.png}
   \caption{Modo de interpretación de un archivo JSP}
@@ -131,7 +131,7 @@ Como se puede ver en este trozo de código este jsp genera una tabla que se rell
 \subsection{La carpeta WAR.}
 La carpeta WAR es la carpeta principal para el despliegue de una aplicación web, ya que en ella es donde tienen que ir todos los archivos que necesitemos, desde archivos HTML, CSS, JSP, imágenes, etc. En la figura~\ref{fig:carpetawar} se puede ver un ejemplo de la carpeta WAR de mi aplicación web.
 
-\begin{figure}[hbt]
+\begin{figure}
   \centering
     \includegraphics{./GoogleAppEngine/imagenes/carpetawar.png}
   \caption{Carpeta WAR}
@@ -190,7 +190,7 @@ Al tener el archivo \textit{app.yalm} en la carpeta WEB-INF el parseador de YALM
 \\
 Para ver todas las opciones de configuración que se pueden modificar en \textit{app.yalm} o en \textit{web.xml} se puede consultar estos enlaces \url{https://developers.google.com/appengine/docs/java/config/}, \url{https://developers.google.com/appengine/docs/java/configyaml/}. En el primero podemos ver todas las opciones configurables de \textit{web.xml} y el la segunda las de \textit{app.yalm}.
 
-\section{Servidor de timestamp.\label{ref_server_timestamp_google_app_engine}}
+\section{Servidor de timestamp.}
 En este apartado voy a explicar en profundidad todo lo relacionado con la aplicación de timestamp que he tenido que desarrollar, desde el diseño que se ha seguido hasta los problemas que me han surgido.
 
 En principio me gustaría explicar para que se usa un servidor de timestamp en general. Un servidor de timestamp es un registro donde toda persona puede subir un documento y el servidor guarda ese documento añadiendole la fecha en la que se realizó la subida, dicha aplicación luego ofrece el servicio de consultar a que hora fue subido dicho documento. Un ejemplo podría ser \url{https://seguro.ips.es/servidortimestamp/index.asp} que se puede ver una captura de pantalla en la figura~\ref{fig:server_ips_timestamp}. En dicha captura podemos ver que tiene las opciones básicas de un servidor de timestamping como puede ser generar un sello, consultar su validez, etc. 
@@ -219,13 +219,13 @@ En nuestro caso hemos desarrollado un servidor de timestamping en su versión so
 
 A continuación voy a explicar la aplicación web, los servlets que la componen y sus funciones.
 
-\subsection{Explicación de la aplicación web\label{ref_explicación_server_timestamp_google_app_engine}}
+\subsection{Explicación de la aplicación web.}
 %TODO: falta explicar como funciona la BD...
 En este capítulo voy a explicar todas las partes que componen la aplicación web que he desarrollado para la implementación del servidor timestamp.
 
 En la figura~\ref{fig:paquete_pfc} se puede ver las clases que forman el paquete \textit{pfc}.
 
-\begin{figure}[gae]
+\begin{figure}
   \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/UML_pfc.png}
   \caption{Detalles del paquete pfc}
@@ -235,7 +235,7 @@ En la figura~\ref{fig:paquete_pfc} se puede ver las clases que forman el paquete
 A continuación voy a explicar una a una las clases desarrolladas.
 
 \begin{description}
-\item \textbf{Dao.java:} Esta clase es la encargada de todos los accesos a la base de datos, desde insercción, borrado y listado de las filas, hasta consultas que se necesiten hacer. Se puede observar que las consultas que son de listado de columnas se ejecutan con una sentencia SQL, un ejemplo es la siguiente:
+\item \textbf{Dao.java: \label{prueba}} Esta clase es la encargada de todos los accesos a la base de datos, desde insercción, borrado y listado de las filas, hasta consultas que se necesiten hacer. Se puede observar que las consultas que son de listado de columnas se ejecutan con una sentencia SQL, un ejemplo es la siguiente:
 \begin{lstlisting}[language=Java]
 EntityManager em = EMFService.get().createEntityManager();
 Query q = em.createQuery("select t from RowTimerstamp t where t.num_sec = :num_sec");
@@ -295,4 +295,191 @@ pw.flush();
 Como se puede ver se crea una tabla en una web que su fila se generan dinámicamente dependiendo del número de secuencia que se le pase.
 
 \item \textbf{ServletSearchSign.java:} Es un servlet que devuelve una cadena con la firma que corresponde al número de secuencia que se pasa por el parámetro \textbf{token}.
-\end{decription}
+\end{description}
+%TODO: falta los jsp
+
+\section{Servidor de registro de firmas.}
+El servidor de registro de firmas que hemos desarrollado es una aplicación web en la que se pueden consultar las firmas que tu has realizado, las firmas en las que el destinatario eres tú, gestión del certificado de clave pública, verificar una firma, exportar una cadena con la que cualquier persona puede mirar si la firma que has realizado es válida para comprobaciones en caso de algún problema, y generar códigos QR para que que alguien que lo necesite pueda firmarlo.
+
+El sistema de gestión de usuarios la proporciona google, y para entrar en la aplicación web hay que tener una cuenta de google, si no se produce una redirección a la página de logueo que se puede ver en la figura~\ref{fig:logueoRepoGeneral}.
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/login_repositorio_general.png}
+  \caption{Login en Repositorio General}
+  \label{fig:logueoRepoGeneral}
+\end{figure}
+La parte de la seguridad de los usuarios, logueo y mantenimiento de las base de datos ya las proporciona el mismo Google.
+
+La aplicación web se puede ver en la figura~\ref{fig:repositorio_general}.
+\begin{figure}[gae]
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/repositorio_general.png}
+  \caption{Repositorio General}
+  \label{fig:repositorio_general}
+\end{figure}
+
+La aplicación tiene varias pestañas, que se explicarán posteriormente cuando expliquemos cada archivo \textit{*.jsp}, pero principalmente cada una de ellas se encarga de hacer una de las funciones que hemos comentado anteriormente.
+
+\subsection{Explicación de la aplicación web.}
+%TODO: falta explicar como funciona la BD...
+En la figura~\ref{fig:clasesReposotorioGeneral} se puede ver las clases que forman el paquete \textit{pfc} de la aplicación web repositorio general.
+
+\begin{figure}
+
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/UML_repositorio.png}
+  \caption{Detalles de las clases Repositorio General.}
+  \label{fig:clasesReposotorioGeneral}
+\end{figure}
+
+A continuación vamos a explicar una a una las clases desarrolladas.
+
+\begin{description}
+\item \textbf{Dao.java:} Al igual en el servidor de timestamp esta clase es la encargada de hacer todas operaciones contra la base de datos. Para mas información mirar el apartado~\ref{prueba}.
+
+\item \textbf{DaoUserCert.java:} En este aplicación hemos utilizado dos bases de datos, una para guardar las firmas y otra para guardar los certificados de clave pública que se necesitan para verificar si una firma es correcta o no. Esta clase es la encargada de todos los accesos, tanto inserciones como consultas, a dicha tabla. 
+
+\item \textbf{RowRepositorioGeneral.java:} Esta es la clase con la que se crea la tabla en la que se almacenan las firmas de los usuario, tiene los siguientes campos:  
+
+\begin{lstlisting}[language=Java]
+@Id
+@GeneratedValue(strategy = GenerationType.SEQUENCE) //	 GenerationType.IDENTITY
+private Long id;
+private Long num_sec;
+private String url_firma;
+private String texto_claro;
+private Long token_tiempo;
+private String usuario;
+private Boolean confirmado;
+private String destino;
+private BlobKey blobKey;
+private Date fecha;
+\end{lstlisting}
+
+Tiene una clave primaría que es \textit{id} que es usada por Google internamente para el almacenado de la información, \textit{num\_sec} es el número de secuencia dentro la tabla que va incrementandose automáticamente, \textit{url\_firma} es la dirección en la cual se puede consultar la firma del texto en claro que está en el campo \textit{texto\_claro}. También se guarda el \textit{token\_tiempo} que es el \textit{num\_sec} de en la aplicación web del servidor de timestamp. La columna \textit{usuario} almacena el usuario que ha subido la firma, y en La columna \textit{destino} se guarda a quien va dirigido la firma, ya que todas firmas tienen un destinatario. En la columna \textit{blobkey} se guarda la referencia al certificado de clave pública que estaba en activo cuando fue subido a la aplicación web, la columna \textit{confirmado} puede valer true or false e indica si al subir la firma se pudo verificar y el texto en claro coincidía con el texto cifrado, en \textit{fecha} está la fecha en la que se almacenó.
+
+\item \textbf{RowUserCert.java:} Esta clase es la encagargada de crear la tabla que usamos para guardar los archivos con la clave pública.
+%TODO: poner el tipo de archivo que necesitamos usar y esas cosas.
+Los campos que usaremos para almacenarlos serán los que se pueden ver en 
+
+\begin{lstlisting}[language=Java]
+@Id
+@GeneratedValue(strategy = GenerationType.SEQUENCE)
+private Long id;
+private String usuario;
+private Date fecha;
+private BlobKey certificado;
+\end{lstlisting}
+
+Como podemos observar el campo \textit{id} será la clave pública y como hemos explicado será usado por la base de datos de Google para autogestión de las filas, el campo \textit{usuario} guardará una cadena con el email de la persona que ha subido ese archivo, el campo \textit{fecha} es la fecha en la que se subió el archivo, dicho campo se usará para comprobar que no se puedan falsear firmas, con varias comprobaciones y para anular certificados en caso de perdidas o que se necesite reemplazarlo, \textit{certificado} es un campo del tipo \textbf{BlobKey} que es como la ruta al archivo de certificado.
+
+\end{description}
+A continuación vamos a explicar los diferentes servlets que hemos desarrollado para la aplicación web.
+
+\begin{description}
+\item \textbf{ServletCreateCertificate.java:} Este servlet es el encargado de añadir a la base de datos el certificado de clave pública. Es usado en la pestaña de certificados de la aplicación web y es llamado cuando se pulsa subir certificado. Se puede observar el botón subir certificado en la figura~\ref{fig:pestanhaCertificados}.
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png}
+  \caption{Pantallazo de la pestaña certificados.}
+  \label{fig:pestanhaCertificados}
+\end{figure}
+
+\item \textbf{ServletCreateRowRepositorio.java:} Este servlet está mapeado en la dirección: \url{https://repositoriorecibos.appspot.com/add} y recibe los siguientes parámetros: \textit{texto}, \textit{url\_firma}, \textit{token}, \textit{destino} y \textit{fecha}. Es el encargado de añadir una fila por cada llamada a dicha dirección, a dicho dirección no hay forma de acceder desde la aplicación web, solo se pueden comprobar las firmas ya introducidas. A su vez antes de introducir la fila comprueba que la firma se puede validar y marca como verdadero o falso la columna verificado que posteriormente en el archivo \textit{RepositorioGeneralApplication.jsp} se cambiará por una imagen para hacer la verificación más visual. Si se hemos podido insertar la fila, el servlet devuelve la cadena \textbf{OK}, si no se devuelven varias cadenas con los fallos que se han producido.
+
+\item \textbf{ServletDeleteAll.java:} Servlet ``secreto" que borra todas las filas de firmas almacenadas, hay que llamarlo con un parámetro que es \textit{borrar} con valor \textit{7}
+
+\item \textbf{ServletExport.java:} Este servlet es el encargado de exportar una fila de nuestras filas para que otra persona pueda comprobar si es válida. Este servlet es llamado cuando se pulsa el botón exportar de la pestaña principal de la aplicación web. Se puede observar en la figura~\ref{fig:botonExportar}
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/botonExportar.png}
+  \caption{Detalle del botón exportar.}
+  \label{fig:botonExportar}
+\end{figure}
+
+El servlet recibe los siguiente parámetros:
+
+\begin{lstlisting}[language=Java]
+String mensaje = checkNull(req.getParameter("mensaje"));
+String url_firma = checkNull(req.getParameter("token"));
+String id_blob = checkNull(req.getParameter("id_blob"));
+String user = checkNull(req.getParameter("usuario"));
+\end{lstlisting}
+
+Una vez se tienen esos parámetros creamos una cadena de texto en la que unimos los siguiente campos y cada parámetro va separado por el separador: \textit{;/:}.
+\begin{lstlisting}[language=Java]
+String cadACodificar = mensaje + ";/:" + url_firma + ";/:" + id_blob + ";/:" + user;
+\end{lstlisting}
+
+Acto seguido codificamos la cadena con \textbf{Base64}, que es una forma simple de codificar los caracteres para que no viajen en texto claro.
+\begin{lstlisting}[language=Java]
+String cadCodificada = Base64.encode(cadACodificar.getBytes("UTF-8"));
+\end{lstlisting}
+
+También añadimos unos limitadores para que cuando tengamos que decodificar ese mensaje podamos saber donde empiezan y donde termina la exportación.
+\begin{lstlisting}[language=Java]
+pw.println("BEGIN EXPORT");
+pw.println("--------------------------");
+pw.println(cadCodificada);
+pw.println("--------------------------");
+pw.println("END EXPORT");
+\end{lstlisting}
+
+\item \textbf{ServletListRow.java:} Este servlet es el encargado en devolver todas las filas de la tabla que pertenecen a un usuario. La forma de hacerlo es la siguiente, primero se identifica el usuario con el que se ha logueado de esta forma:
+
+\begin{lstlisting}[language=Java]
+UserService userService = UserServiceFactory.getUserService();
+User user = userService.getCurrentUser();
+\end{lstlisting}
+
+Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro tiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces:\url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
+
+La creación de los objetos JSON la realizamos de la siguiente forma:
+\begin{lstlisting}[language=Java]
+JSONObject jsonObject = new JSONObject();
+
+jsonObject.put("num_sec", rowRepositorioGeneral.getNum_sec().toString());
+jsonObject.put("texto", rowRepositorioGeneral.getTexto_claro());
+jsonObject.put("url_firma", rowRepositorioGeneral.getUrl_firma());
+jsonObject.put("token_tiempo", rowRepositorioGeneral.getToken_tiempo().toString());
+jsonObject.put("usuario",rowRepositorioGeneral.getUsuario());
+jsonObject.put("fecha", rowRepositorioGeneral.getFecha().toString());
+jsonObject.put("verificado", rowRepositorioGeneral.getConfirmado().toString());
+jsonObject.put("destino", rowRepositorioGeneral.getDestino());
+\end{lstlisting}
+
+Ese objeto JSON se añade un objeto JSONArray que a su vez es el que devolveremos como respuesta al final de la ejecución de nuestro servlet y que espera la aplicación android que lo ha pedido.
+
+\item \textbf{ServletVerify.java:} Este servlet es el utilizado en la pestaña verificar de nuestra aplicación web, como se puede observar en la figura~\ref{fig:pestañaVerificar}
+
+\begin{figure}
+
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaVerificar.png}
+  \caption{Detalle de la pestaña verificación.}
+  \label{fig:pestañaVerificar}
+\end{figure}
+
+Como podemos observar hay un cuadro de texto para introducir la cadena que devolvería al pulsar el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en Base64 y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habiamos revocado ese certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
+\end{description}
+
+Los archivos \textit{*.jsp} que hemos creado en su mayoría solo rellenan tablas dinámicamente haciendo llamadas a funciones de la clase \textit{Dao.java}. Solo habría uno que no realiza esas funciones que es el siguiente:
+\begin{description}
+\item \textbf{GenerarQR.jsp:} Este archivo JSP es el que se muestra en la pestaña \textit{Generar QR}, se puede ver en la figura~\ref{fig:pestanhaQR}. Su función es generar un código QR para que pueda ser leido por la aplicación del móvil. Hay que rellenar los campos de destino y el texto que queremos que firme dicha persona. Al darle a \textit{Generar código QR} se hace una llamada a la API Google Chart y se genera un código QR que contiene dichas cadenas y se muestra en la parte de la derecha, como se puede ver en la figura~\ref{fig:codigoQR}.
+
+\begin{figure}
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaQR.png}
+  \caption{Pestaña para generar el código QR.}
+  \label{fig:pestanhaQR}
+\end{figure}
+
+\begin{figure}
+
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/codigoQR.png}
+  \caption{Pestaña con el código QR generado.}
+  \label{fig:codigoQR}
+\end{figure}
+
+\end{description}
+
+
