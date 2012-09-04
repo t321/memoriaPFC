@@ -465,7 +465,21 @@ Como podemos observar hay un cuadro de texto para introducir la cadena que devol
 
 Los archivos \textit{*.jsp} que hemos creado en su mayoría solo rellenan tablas dinámicamente haciendo llamadas a funciones de la clase \textit{Dao.java}. Solo habría uno que no realiza esas funciones que es el siguiente:
 \begin{description}
-\item \textbf{GenerarQR.jsp}
+\item \textbf{GenerarQR.jsp:} Este archivo JSP es el que se muestra en la pestaña \textit{Generar QR}, se puede ver en la figura~\ref{fig:pestanhaQR}. Su función es generar un código QR para que pueda ser leido por la aplicación del móvil. Hay que rellenar los campos de destino y el texto que queremos que firme dicha persona. Al darle a \textit{Generar código QR} se hace una llamada a la API Google Chart y se genera un código QR que contiene dichas cadenas y se muestra en la parte de la derecha, como se puede ver en la figura~\ref{fig:codigoQR}.
+
+\begin{figure}
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaQR.png}
+  \caption{Pestaña para generar el código QR.}
+  \label{fig:pestanhaQR}
+\end{figure}
+
+\begin{figure}
+
+    \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/codigoQR.png}
+  \caption{Pestaña con el código QR generado.}
+  \label{fig:codigoQR}
+\end{figure}
+
 \end{description}
 
 
