@@ -27,7 +27,9 @@ Los servlet forman parte de Java Enterprise Edition (JEE) que a su vez es una am
 
 Para crear un servlet hay que generar una clase java que implemente la interfaz \textit{javax.servlet.Servlet} o que extienda cualquier clase que herede de una clase o que implemente la interfaz anterior, como puede ser \textit{javax.servlet.http.HttpServlet} que es específico para conexiones HTTP. 
 Una vez generada la clase hay que implementar el método \textbf{doGet} para peticiones tipo \textbf{GET} o el método \textbf{doPost} para peticiones de tipo \textbf{POST}. En el siguiente trozo se código se puede ver la implementación mas básica de los métodos \textbf{doGet} y \textbf{doPost}, con las llamadas sus respectivas llamadas a \textit{super}.
-
+\begin{small}
+ \begin{flushleft}
+\begin{scriptsize}
 \begin{lstlisting}[language=Java] 
 
 @Override
@@ -44,6 +46,9 @@ HttpServletResponse resp) throws ServletException, IOException {
 	super.doPost(req, resp);
 }
 \end{lstlisting}
+\end{scriptsize}
+\end{flushleft}
+\end{small}
 
 Una vez implementados los métodos que se necesiten se pueden usar el parámetro \textit{HttpServletRequest req} para recibir los valores que queramos enviar a la aplicación web y podemos usar \textit{HttpServletResponse resp} para enviar lo que queramos desde una redirección a JSP o una página web a una JSON o cadena de texto. 
 Un ejemplo de como se reciben los parámetros sería: 
@@ -433,7 +438,7 @@ UserService userService = UserServiceFactory.getUserService();
 User user = userService.getCurrentUser();
 \end{lstlisting}
 
-Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro tiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces:\url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
+Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro contiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces: \url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
 
 La creación de los objetos JSON la realizamos de la siguiente forma:
 \begin{lstlisting}[language=Java]

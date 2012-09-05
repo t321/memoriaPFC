@@ -1,7 +1,7 @@
 \chapter{Google App Engine.}
 En este apartado de la memoria voy a explicar lo que es, la configuración y el como usar la plataforma Google App Engine.
 
-\section{Introduccion.}
+\section{Introducción.}
 Google App Engine es una conjunto de apis que proporciona Google para construir tus propias aplicaciones web, que pueden ser alojadas y usadas en su servicio Google App y vendidas en Google Apps Marketplace. Además de alojamiento gratuito Google, ofrecen un dominio, que es: \url{http://nombre\_de\_la\_aplicacion.appspot.com} y una base de datos propietaria de Google que se accede transparentemente a través de la api, gestión de usuarios mediante autentificación con cuentas Google del tipo: \textit{usuario@gmail.com}, autentificación por federación o \textit{openID}.
 
 Además de todas esas características Google proporciona apis para Java, Python y Go, este último un lenguaje experimental del propio Google. Para usar dicha API, Google también da un plugin para Eclipse, en caso de que el lenguaje elegido sea Java, que ayuda al despliegue de la aplicación web, autocompletado y gestión de de las aplicaciones creadas. 
@@ -27,7 +27,9 @@ Los servlet forman parte de Java Enterprise Edition (JEE) que a su vez es una am
 
 Para crear un servlet hay que generar una clase java que implemente la interfaz \textit{javax.servlet.Servlet} o que extienda cualquier clase que herede de una clase o que implemente la interfaz anterior, como puede ser \textit{javax.servlet.http.HttpServlet} que es específico para conexiones HTTP. 
 Una vez generada la clase hay que implementar el método \textbf{doGet} para peticiones tipo \textbf{GET} o el método \textbf{doPost} para peticiones de tipo \textbf{POST}. En el siguiente trozo se código se puede ver la implementación mas básica de los métodos \textbf{doGet} y \textbf{doPost}, con las llamadas sus respectivas llamadas a \textit{super}.
-
+\begin{small}
+ \begin{flushleft}
+\begin{scriptsize}
 \begin{lstlisting}[language=Java] 
 
 @Override
@@ -44,6 +46,9 @@ HttpServletResponse resp) throws ServletException, IOException {
 	super.doPost(req, resp);
 }
 \end{lstlisting}
+\end{scriptsize}
+\end{flushleft}
+\end{small}
 
 Una vez implementados los métodos que se necesiten se pueden usar el parámetro \textit{HttpServletRequest req} para recibir los valores que queramos enviar a la aplicación web y podemos usar \textit{HttpServletResponse resp} para enviar lo que queramos desde una redirección a JSP o una página web a una JSON o cadena de texto. 
 Un ejemplo de como se reciben los parámetros sería: 

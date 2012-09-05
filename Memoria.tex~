@@ -1,8 +1,10 @@
-\documentclass{book}
+\documentclass[a4paper,12pt]{book}
+
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{listings}
 \usepackage{graphicx}
+
 \title{\Huge Plataforma de firma digital para la Universidad de Málaga.}
 	
  	\author{Juan Antonio Pérez Ariza \\
@@ -13,12 +15,9 @@
 		Isaac Agudo Ruíz\\
 		Departamento Lenguajes y Ciencias de la Comunicación \\
 		Universidad de Málaga}
-	%\date{\today}
+
 \begin{document}
 	\maketitle	
-	
-
-	
 	
 	%Table of contents	
 	\tableofcontents
@@ -26,7 +25,12 @@
 	%separacion entre parrafos
 	\parskip=5mm
 	
+	\mainmatter
+	%introducción
 	\input{./Introduccion/introduccion.tex}
+	%conocimientos previos sobre las tecnologías
+	\input{./ConocimientosPrevios/conocimientosPrevios.tex}
+	%google app engine
 	\input{./GoogleAppEngine/googleappengine.tex}
 	\appendix
 	
