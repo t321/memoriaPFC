@@ -1,0 +1,23 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n.}{1}
+\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Por qu\IeC {\'e} decidimos hacer el proyecto?}{1}
+\contentsline {section}{\numberline {1.2}Objetivos que quer\IeC {\'\i }amos conseguir.}{2}
+\contentsline {section}{\numberline {1.3}Organizaci\IeC {\'o}n de la memoria.}{5}
+\contentsline {section}{\numberline {1.4}Material usado.}{5}
+\contentsline {chapter}{\numberline {2}Conocimientos previos}{7}
+\contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}
+\contentsline {subsection}{\numberline {2.1.1}Historia}{9}
+\contentsline {subsection}{\numberline {2.1.2}Versiones}{10}
+\contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}
+\contentsline {subsection}{\numberline {2.2.1}Historia}{12}
+\contentsline {chapter}{\numberline {3}Google App Engine.}{15}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n.}{15}
+\contentsline {section}{\numberline {3.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{16}
+\contentsline {subsection}{\numberline {3.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{16}
+\contentsline {subsection}{\numberline {3.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{18}
+\contentsline {subsection}{\numberline {3.2.3}La carpeta WAR.}{20}
+\contentsline {subsection}{\numberline {3.2.4}Archivos de configuraci\IeC {\'o}n.}{22}
+\contentsline {section}{\numberline {3.3}Servidor de timestamp.}{23}
+\contentsline {subsection}{\numberline {3.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{26}
+\contentsline {section}{\numberline {3.4}Servidor de registro de firmas.}{28}
+\contentsline {subsection}{\numberline {3.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{29}
