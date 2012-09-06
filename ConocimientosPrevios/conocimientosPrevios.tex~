@@ -40,7 +40,7 @@ En 2009-2010 Oracle Corporation compró Sun Microsystem por lo que Java actualme
 
 \begin{itemize}
 
-	\item \textbf{JDK 1.0}  (23 de enero de 1996): Primer lanzamiento
+	\item \textbf{JDK 1.0} (23 de enero de 1996): Primer lanzamiento
 	
 	\item \textbf{JDK 1.1} (19 de febrero de 1997): Las primeras características añadidas fuero una reestructuración intensiva del modelo de eventos AWT (Abstract Windowing Toolkit), clases internas (inner classes), JavaBeans, JDBC (Java Database Connectivity), para la integración de bases de datos y RMI (Remote Method Invocation).
 	
@@ -80,31 +80,133 @@ Eclipse es un entorno integral de desarrollo que consta de un entorno de desarro
   \label{fig:pantallaEclipse}
 \end{figure} 
 
+En el proyecto hemos usado la versión Indigo, que equivale a la versión 3.7 de eclipse.
+
 \subsection{Historia}
 
 Eclipse comenzó como un proyecto de IBM Canadá. En noviembre de 2001 se creó un grupo de empresas para promover el desarrollo de Eclipse como software libre, los miembros iniciales eran Borland, IBM, Merant, QNX Software Systems, Rational Software, Red Hat, SuSE, TogetherSoft and WebGain. Finalmente en enero de 2004 se creó la Eclipse Foundation. 
 
-%TODO: mirar esto xDD
-Todas las versiones de eclipse empezaron llamandose como las lunas del planeta Júpiter.
+\subsection{Versiones}
+
+\begin{itemize}
+
+	\item \textbf{Versión 3.0} (21 de junio de 2004)
+	
+	\item \textbf{Versión 3.1} (28 de junio de 2005)
+	
+	\item \textbf{Versión 3.2} (30 de junio de 2006): recibió el nombre de Callisto.
+	
+	\item \textbf{Versión 3.3} (29 de junio de 2007): recibió el nombre de Europa.
+	
+	\item \textbf{Versión 3.4} (25 de junio de 2008): recibió el nombre de Ganymede.
+	
+	\item \textbf{Versión 3.5} (24 de junio de 2009): recibió el nombre de Galileo.
+	
+	\item \textbf{Versión 3.6} (23 de junio de 2010): recibió el nombre de Helios.
+	
+	\item \textbf{Versión 3.7} (22 de junio de 2011): recibió el nombre de Indigo.
+	
+	\item \textbf{Versión 4.2} (27 de junio de 20012): recibió el nombre de Juno.
+	
+	\item \textbf{Versión 4.3} (26 de junio de 2004): esta será la proxima versión, que saldrá el próximo año y recibirá el nombre de Kepler.
+
+\end{itemize}
+
+\section{Criptografía.}
+
+La criptografía es la ciencia que se encarga del estudio de técnicas para proteger una comunicación, para que solamente la gente autorizada pueda verla, leerla y entenderla. En la actualidad la criptografía es un término que se usa de forma similar a encriptación, que es el proceso para transformar información mediante diferentes algoritmos en un mensaje que no pueda entender un atacante que intercepte la comunicación. 
+
+
+%Añadir el número de capitulo aquí... en vez de el especifico.. xD
+En el proyecto hemos usado una criptografía llamada Criptografía de Clave Pública, que como veremos a continuación en la historia y en el capítulo especifico en el que se explica la criptografía usada en profundidad, consta de dos claves que están enlazadas matemáticamente y que si sabemos una no podemos averiguar la otra, una es pública que se le pasaría a la persona que quiera desencriptar el mensaje, que es la que da nombre a este algoritmo y otra privada que solo conoce la persona que quiere encriptar el mensaje.
+
+La criptografía ha evolucionado y ya no solo se usan para proteger mensajes, si no que también se usa para proteger la integridad de dichos, que es uno de los usos más común de este tipo de criptografía.
+
+\subsection{Historia}
+
+Podemos hacer dos grandes grupos dentro de la historia de la criptografía, la criptografía clásica y la criptografía durante la época de los ordenadores.
+
+	Durante la época de la criptografía clásica solo se quería proteger el mensaje que se enviaba de la mirada de curiosos y enemigos por lo que solo existian algoritmos de encriptación, la integridad del mensaje no importaba en esa época.  
+	
+	En dicha época todos los algoritmos de cifrados que existían eran por transposición o sustitución de caracteres. A continuación vamos a poner unos ejemplos de los algoritmos mas famosos. 
+\begin{itemize}
+	\item \textbf{Cifrado Cesar:} dicho cifrado es famoso porque los usaban las centurias romanas para comunicarse entre ellas y que si un mensaje era interceptado no pudiera ser leido. Consiste en sustituir cada caracter del mensaje por el que hay tres lugares a la derecha. Por ejemplo si tenemos el mensaje ``Hola" si lo ciframos con este cifrado conseguimos ``Krod", en la figura \ref{fig:cifradoCesar} podemos ver como es el cifrado.
+	Para desencriptar solo habría que intercambiar por la tercera letra anterior.
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.6]{./ConocimientosPrevios/imagenes/cifradoCesar.png}
+  \caption{Ejemplo Cifrado Cesar}
+  \label{fig:cifradoCesar}
+\end{figure} 
+	
+	\item \textbf{Cifrado Homofónico:} Es una evolución del siguiente, pero en vez de sustituir siempre por el mismo carácter lo que se hace es tener la posibilidad de poder realizar varios cambios posibles, por lo que un mismo mensaje podría generar varios textos cifrados, complicando así su desencriptación. En la figura \ref{fig:cifradoHomofonico} podemos ver una tabla sencilla de sustitución para realizar el cifrado. Por ejemplo si ciframos la palabra ``PLATON" nos daría de resultado ``882110772963", pero podríamos sustituir la P no solo por 88 si no por cualquier valor de la tabla dando lugar a que pudieramos crear varios mensajes cifrados.
+	
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.7]{./ConocimientosPrevios/imagenes/cifradoHomofonico.png}
+  \caption{Tabla para cifrado homofónico}
+  \label{fig:cifradoHomofonico}
+\end{figure}
+
+	\item \textbf{Cifrado por Transposición:} consiste en realizar una permutación de las posiciones que ocupan las letras escritas, un ejemplo podría ser escribir todo el texto con una cierta longitud preestablecida y luego leerlo por columnas en vez de por filas. En la figura \ref{fig:cifradoTransposicion} podemos ver un ejemplo del mecanismo de cifrado.  
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.4]{./ConocimientosPrevios/imagenes/cifradoTransposicion.png}
+  \caption{Ejemplo de cifrado por sustitución}
+  \label{fig:cifradoTransposicion}
+\end{figure}	
+
+	\item \textbf{Cifrado Producto:} Es un cifrado que combina sustitución y transposición y se puede considerar como un encadenamiento de varios cifrados. Esto da lugar a cifrados complejos, seguros y dificiles de atacar, ya que tendríamos que averiguar no solo el método utilizado igual que la clave también tendríamos que saber el orden en el que se ha ejecutado.
+
+
+	\item \textbf{Cifrado Vernam:} es un tipo de cifrado que se denomina cifrado de flujo. El texto en claro se combina con una cadena del mismo tamaño que el texto en claro de número aleatorios o pseudoaleatorio por medio de la función XOR. Lo inventó Gilbert Vernam que era un ingeniero de AT\&T en 1917. Es también conocido como RC4 en internet.  
+	
+\end{itemize}
+
+La criptografía dio un gran salto en cuanto a calidad en el momento en el que se pudieron empezar a usar ordenadores para encriptar y desencriptar textos, debido a que los ordenadores son máquinas que las tareas repetitivas las hacen muy bien y muy rápidos.
+
+Se empezaron a idear nuevos algoritmos de cifrado mucho más complejos, los cuales se pueden dividir en dos grandes grupos, la criptografía de clave simétrica y la criptografía de clave pública.
+
+A continuación vamos a explicar brevemente los algoritmos más famosos de estos dos grupos.
+
+\textbf{Clave simétrica}
+	
+Esta técnicas de criptografía se principal característica es que usan la misma clave para encriptar y desencriptar.
+\begin{itemize}
+
+	\item \textbf{Data Encryption Standard (DES):} Fue presentado por IBM en 1974, para generar un estandar para cifrado de transmisión de datos y para cifrado de almacenamiento de datos, para el gobierno, empresas privadas o cualquier tipo de usuario. IBM comenzó el desarrollo basandose en un dispositivo de cifrado llamado Lucifer el cual tenia una clave de 128 bits. Es un criptosistema de clave secreta que cifra en bloques de 64 bits del texto en claro y genera otros bloques de 64 bits del texto cifrado. La clave utilizada también es de 64 bits, pero el bit final de cada octeto de los 64 bits de la clave se usa como bit de paridad para control de errores. El cifrado se realiza en 16 iteraciones en las que se usan varias operaciones como son operaciones XOR, permutaciones y sustituciones. El esquema para cifrar se puede ver en la figura \ref{fig:cifradoDes}.
+	
+\begin{figure}
+  \centering
+    \includegraphics{./ConocimientosPrevios/imagenes/cifradoDes.png}
+  \caption{Iteraciones en el cifrado DES}
+  \label{fig:cifradoDes}
+\end{figure}
+
+\item \textbf{AES (Rijndael):} Fue presentado al concurso AES el 2 de enero de 1997 y anunciado ganador en 2001. Fue diseñado por dos criptólogos llamados Joan Daemen y Vincent Rijmen, ambos estudiantes de la Katholieke Universiteit Leuven de Bélgica. Al contrario que DES, AES es una red de sustituciones y permutaciones no una red de Feistel, se transformó en estándar efectivo el 26 de mayo de 2002 y en la actualidad es uno de los algoritmos de encriptación más famosos. Opera con bloques de 128 bits y tiene claves de 128, 192 y 256 bits.
+
+\end{itemize}
+
+El mayor problema que tiene este tipo de criptografía es que para que el destinatario pueda leer el mensaje necesita saber la clave y el intercambio de clave puede ser un problema muy grande, si los dos usuarios no se pueden comunicar directamente, ya que usando cualquier otro método podría ser interceptado y todo el proceso de encriptación no serviría de nada.
+
+\textbf{Clave de Clave Pública}
+
+La criptografía de clave pública fue inventada por Diffie y Hellman y paralelamente por Merkle y ambos grupos aportaron a la criptografía el concepto de la utilización de pares de claves.
+
+La característica principal es que cada usuario posee dos claves una privada que solo conoce el dueño de la clave y será usada para descifrar todo lo que otros usuarios cifren con su clave pública, así de esta forma si una persona quiere comunicarse con otra de forma secreta solo tiene que conocer su clave pública, cifrar con ella y el destinatario podrá desencriptar el mensaje con su clave privada. También posee una clave pública que será conocida por el resto de usuarios y que estos usarán para encriptar el mensaje que queremos que sea secreto. 
+
+Otras características son que las claves son imposibles de deducir una a partir de la otra, cualquier usuario puede encriptar un mensaje con la clave pública pero no puede desencriptarla, ya que solo se puede desencriptar con la clave privada. Ambas cláves son de una gran longitud y son generadas por exponenciación y/o productos de números primos grandes.
+
+En los primeros años de existencia de la criptografía de clave pública se inventaron tres sistemas, Algoritmo de la mochila de Merkle-Hellman que fue roto, el esquema de McEliece que está considerado imposible de llevar a la práctica y un tercero que es el que explicaremos a continuación llamado RSA que es el más usado actualmente.
+
+\begin{itemize}
+
+	\item \textbf{RSA:} Su nombre proviene de sus creadores que son Rivest, Shamir y Adleman y se basaron en la idea de ``es muy fácil multiplicar dos números enteros primos grandes, pero extremadamente difícil hallar la factorización del producto" cuando inventaron el RSA en 1997.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\end{itemize}
 
 
 

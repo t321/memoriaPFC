@@ -8,16 +8,20 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. {http://www.tiobe.com/}}}{8}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces C\IeC {\'o}digo ejemplo c\IeC {\'o}digo for mejorado.}}{11}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Eclipse 4.2 Juno.}}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ejemplo Cifrado Cesar}}{15}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Iteraciones en el cifrado DES}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Carpeta WAR}}{21}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Detalles del paquete pfc}}{26}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Login en Repositorio General}}{29}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Repositorio General}}{35}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Detalles de las clases Repositorio General.}}{36}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{37}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{37}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{37}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{37}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{38}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Carpeta WAR}}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{30}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Detalles del paquete pfc}}{32}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Login en Repositorio General}}{35}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Repositorio General}}{41}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Detalles de las clases Repositorio General.}}{42}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{43}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{43}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{43}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{43}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{44}
