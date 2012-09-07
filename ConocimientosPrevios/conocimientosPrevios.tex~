@@ -36,7 +36,7 @@ El 13 de noviembre del 2006, Sun lanzó Java gratis y software libre, bajo la li
 
 En 2009-2010 Oracle Corporation compró Sun Microsystem por lo que Java actualmente pertenece a Oracle.
 
-\subsection{Versiones}
+\subsubsection{Versiones}
 
 \begin{itemize}
 
@@ -126,6 +126,8 @@ La criptografía ha evolucionado y ya no solo se usan para proteger mensajes, si
 
 Podemos hacer dos grandes grupos dentro de la historia de la criptografía, la criptografía clásica y la criptografía durante la época de los ordenadores.
 
+\subsection{Critografía clásica.}
+
 	Durante la época de la criptografía clásica solo se quería proteger el mensaje que se enviaba de la mirada de curiosos y enemigos por lo que solo existian algoritmos de encriptación, la integridad del mensaje no importaba en esa época.  
 	
 	En dicha época todos los algoritmos de cifrados que existían eran por transposición o sustitución de caracteres. A continuación vamos a poner unos ejemplos de los algoritmos mas famosos. 
@@ -164,13 +166,15 @@ Podemos hacer dos grandes grupos dentro de la historia de la criptografía, la c
 	
 \end{itemize}
 
+\subsection{Criptografía durante la época de los ordenadores.}
+
 La criptografía dio un gran salto en cuanto a calidad en el momento en el que se pudieron empezar a usar ordenadores para encriptar y desencriptar textos, debido a que los ordenadores son máquinas que las tareas repetitivas las hacen muy bien y muy rápidos.
 
 Se empezaron a idear nuevos algoritmos de cifrado mucho más complejos, los cuales se pueden dividir en dos grandes grupos, la criptografía de clave simétrica y la criptografía de clave pública.
 
 A continuación vamos a explicar brevemente los algoritmos más famosos de estos dos grupos.
 
-\textbf{Clave simétrica}
+\subsubsection*{Critografía de Clave simétrica}
 	
 Esta técnicas de criptografía se principal característica es que usan la misma clave para encriptar y desencriptar.
 \begin{itemize}
@@ -190,7 +194,7 @@ Esta técnicas de criptografía se principal característica es que usan la mism
 
 El mayor problema que tiene este tipo de criptografía es que para que el destinatario pueda leer el mensaje necesita saber la clave y el intercambio de clave puede ser un problema muy grande, si los dos usuarios no se pueden comunicar directamente, ya que usando cualquier otro método podría ser interceptado y todo el proceso de encriptación no serviría de nada.
 
-\textbf{Clave de Clave Pública}
+\subsubsection*{Criptografía de Clave Pública}
 
 La criptografía de clave pública fue inventada por Diffie y Hellman y paralelamente por Merkle y ambos grupos aportaron a la criptografía el concepto de la utilización de pares de claves.
 
@@ -202,11 +206,131 @@ En los primeros años de existencia de la criptografía de clave pública se inv
 
 \begin{itemize}
 
-	\item \textbf{RSA:} Su nombre proviene de sus creadores que son Rivest, Shamir y Adleman y se basaron en la idea de ``es muy fácil multiplicar dos números enteros primos grandes, pero extremadamente difícil hallar la factorización del producto" cuando inventaron el RSA en 1997.
+	\item \textbf{RSA:} Su nombre proviene de sus creadores que son Rivest, Shamir y Adleman y se basaron en la idea de ``es muy fácil multiplicar dos números enteros primos grandes, pero extremadamente difícil hallar la factorización del producto" cuando inventaron el RSA en 1997. Se trata de un algoritmo exponencial. Tanto el mensaje como el texto cifrado tienen que ser un código decimal, por lo que se usaría por ejemplo el valor ASCII de la letra. Un ejemplo de uso sería el siguiente, lo primero que se debe de hacer antes de enviar el mensaje es acordar el algoritmo que se va a usar, lo siguiente el emisor cifra el mensaje usando la clave pública del receptor y lo envia por el método que el prefiera, acto seguido el receptor descifra el mensaje que ha enviado el receptor usando su propia clave privada, la gran ventaja de todo este método que soluciona el gran problema que dijismo que tenían los algoritmos de cifrado simétrico, que antes de nada había que intercambiar la clave con el problema que eso implicaba. 
 
+\end{itemize}
+
+%TODO: poner el número del capítulo
+El algoritmo RSA será explicado con más profundidad en el capítulo de criptografía correspondiente.
+
+Los algoritmos de clave pública tienen un gran problema y es que son muy lentos cifrando y descifrando por lo que en la vida real se suelen usar para intercambio de claves de algoritmos de clave simétrica que son mucho más rápido y también seguros.
+
+\section{Android.}
+
+Android es un sistema operativo basado en Linux especialmente diseñado para smartphone, tablet, smart TV y una infinidad de dispositivos, desarrollado por Google con Open Handset Alliance. Android empezó siendo desarrollado por la compañia llamada Android que inicialemente fue financiada y después comprada por Google en 2005. En 2007 cuando se presentó por primera vez Android también se anunción la fundación de Open Handset Alliance que es un conjunto de 86 empresas entre las que hay compañías de hardware, software y de telecomunicaciones, interesadas en el mundo de los dispositivos móviles. Android es código abierto y está distribuido bajo licencia Apache\footnote{Para saber más sobre la licencia visite: \url{http://en.wikipedia.org/wiki/Apache\_License}}. La tarea del mantenimiento y desarrollo de Android es de Android Open Source Project (AOSP).
+
+Android tiene una gran comunidad de desarrolladores que pueden extender las funcionabilidades de los telefonos o dispositivos donde se pueda ejecutar android, android se puede desarrollar en Java usando el SDK de Android o en C++ usando el NDK de Android. Android posee una tienda online llamada Google Play (anteriormente Android Market) desde la que cualquier desarrollador por una pequeña cantidad de dinero (Alrededor de 25€ por una cuenta vitalicia de desarrollador) puede subir todas las aplicaciones que desee, de forma gratuita o pagada. En Junio de 2012 había alrededor de 600.000 aplicaciones en Google Play.
+
+En el primer cuarto de 2012, Android tenia el 59\% del mercado de smartphones en el mundo, de ahí la importancia de esta plataforma para los desarrolladores, ya que proporciona un mercado muy amplio y una forma muy fácil y barata de conseguir un gran número de usuarios.
+
+%TODO: poner capítulo.
+Los detalles técnicos de android se explicarán con más profundidad en el tema de android
+
+\subsection{Historia.}
+
+Como hemos dicho anteriormente Android fue diseñado y creado originalmente por una compañía llamada Android que fue fundada en Palo Alto, California en 2003 por Andy Rubin, Rich Miner, Nick Sears y Chris White. Originalmente solo estaba diseñado para funcionar con smartphones ya que ellos pensaban que un smartphone era algo más que un dispositivo que sirviera para usar el GPS y tener preferencias. 
+
+Google compró Android el 17 de agosto de 2005 con la intención de entrar en el mercado de los teléfonos móviles. Después de varios años de rumores el 5 de noviembre de 2007, Google presentó la Open Handset Alliance un grupo de empresas que incluian a Broadcom Corporation, Google, HTC, Intel, LG, Marvell Technology Group, Motorola, Nvidia, Qualcomm, Samsung Electronics, Sprint Nextel, T-Mobile and Texas Instruments entre otras muchas empresas que estaban interesadas en generar estándares para dispositivos móviles. Ese mismo día también se lanzó el primer producto android basado en el kernell de Linux 2.6.
+
+Android ha sido muy criticado por la gran fragmentación que tiene debido al gran número de versiones que tiene, que son compatibles hacia abajo pero no hacia arriba, por lo que necesita que los fabricantes actualicen el software de sus teléfono lo que es un gran problema debido a que muchos no lo hacen, hubo un pequeño intento de solucionar este problema haciendo que los fabricantes sacaran actualizaciones en al menos en los 18 meses posteriores a la salida al mercado del terminal, pero al final no hubo ningún acuerdo.   
+
+\subsection{Versiones.}
+
+Como curiosidad todas las versiones de Android se denominan con un nombre en clave que es un postre.
+\begin{itemize}
+
+	\item \textbf{1.0 (Apple Pie):} primera versión lanzada el 23 de septibmre del 2008.
+	
+	\item \textbf{1.1 (Banana Bread):} lanzada el 9 de febrero del 2009.
+	
+	\item \textbf{1.5 (Cupcake):} fue presentada el 30 de abril del 2009, esta fue la primera versión con la que android empezó a despuntar y entrar en el mundo de los teléfonos móviles, anteriormente apenas si era conocido. Tenía características nuevas muy interesantes como poder grabar y reproducir video, podía subir videos a Youtube e imágenes a Picasa directamente desde el teléfono, un nuevo teclado predictivo, nuevos widget y carpetas para colocar en la pantalla de inicio y transiciones animadas.
+
+	\item \textbf{1.6 (Donut):} fue presentada el 15 de septiembre de 2009. Se le añadieron las siguientes características nuevas como una interfaz ingrada para la cámara, la grabadora de video y la galería, se actualizó la búsqueda por voz añadiendo soporte a más aplicaciones nativas y la posibilidad de llamar a contactos, se añadió un buscador general en la pantalla de inicio donde se podía buscar contactos, historiales y páginas web, se añadió un nuevo framework de gestos y las herramientas de desarrollo llamado GestureBuilder.
+
+	\item \textbf{2.0 / 2.1 (Eclair):} la versión 2.0 fue presentada el 26 de octubre de 2009 y la 2.1 fue liberada el 3 de diciembre del 2009. Se añadieron un gran número de mejoras, se optimizó la velocidad de hardware, se soportaron más tamaño de pantallas y resoluciones, se rediseñó la interfaz de usuario, el navegador también fue renovado y se le añadió soporte para HTML5, nueva lista de contactos, se añadió soporte para el flash de la cámara, zoom digital, soporte para bluetooth 2.1, se mejoraron la captura de eventos multi-touch con MotionEvent y fondos de pantalla animados.
+	
+	\item \textbf{2.2 (Froyo):} fue lanzada el 20 de mayo de 2010. Se optimizó el sistema Android, la memoria y el rendimiento, se mejoró la velocidad de las aplicaciones gracias a la implementación de JIT, se implementó el motor JavaScript V8 de Google Chrome en el navegador del móvil, nueva funcionalidad de WiFi hotspot y tethering por USB, se actualizó el android market para que tuviera actualizaciones automáticas, marcación por voz y compartir contactos por Bluetooth, soporte para contraseñas numéricas y alphanuméricas, soporte para Adobe Flash 10 y soporte para pantallas de Hdpi, como pueden ser pantallas de 4" y resolución de 720p. 
+
+	\item \textbf{2.3 (Gingerbread):} fue presentado el 6 de diciembre del 2010. Cambiaron el diseño de la interfaz de usuario, añadieron soporte para pantallas extra grandes y resoluciones WXGA, soporte nativo para VoIP SIP, reproducción nativa de videos WebM/VP8 un formato de video patrocinado por Google que es la alternativa al H264 en la reproducción de video en HTML5 y decodificación de audios en AAC, se añadió soporte a NFC (Near Field Communication), nuevo teclado multitactic, soporte mejorado para programar en código nativo, soporte nativo de más sensores como pueden ser acelerómetros o barómetros, soporte para múltiples cámaras y cambio del sistema de archivos YAFFS a ext4. La versión 2.3.3 sigue siendo la versión de Android más usada actualmente. 
+
+	\item \textbf{3.0 / 3.1 / 3.2 (Honeycomb):} Esta versión fue diseñada expresamente para tablet, por lo que no hubo smartphones que actualizaran a esta versión.
 
 
 \end{itemize}
+
+
+
+
+
+
+3.0 / 3.1 / 3.2 (Honeycomb)64 	
+
+    Mejor soporte para tablets65
+    Escritorio 3D con widgets rediseñados
+    Sistema multitarea mejorado
+    Mejoras en el navegador web predeterminado, entre lo que destaca la navegación por pestañas, autorelleno de formularios, sincronización de favoritos con Google Chrome y navegación privada
+    Soporte para videochat mediante Google Talk
+    Mejor soporte para redes Wi-Fi, así como guardar una configuración independiente para cada SSID
+    Añade soporte para una gran variedad de periféricos y accesorios con conexión USB: teclados, ratones,hubs, dispositivos de juego y cámaras digitales. Cuando un accesorio está conectado, el sistema busca la aplicación necesaria y ofrece su ejecución.
+    Los widgets pueden redimensionarse de forma manual sin la limitación del número de cuadros que tenga cada escritorio.
+    Se añade soporte opcional para redimensionar correctamente las aplicaciones inicialmente creadas para móvil para que se vean bien en Tablets
+
+4.0 (Ice Cream Sandwich) 	
+
+    Versión que unifica el uso en cualquier dispositivo, tanto en teléfonos, tablets, televisores, netbooks, etc.
+    Interfaz limpia y moderna llamada "Holo" con una nueva fuente llamada "Roboto", muy al estilo de Honeycomb.
+    Opción de utilizar los botones virtuales en la interfaz de usuario, en lugar de los botones táctiles capacitivos.
+    Soporte de aceleración gráfica por hardware, lo que significa que la interfaz podrá ser manejada y dibujada por la GPU y aumentando notablemente su rapidez, su respuesta y evidentemente, la experiencia de usuario.
+    Multitarea mejorada, estilo Honeycomb. Añadiendo la posibilidad de finalizar una tarea simplemente desplazándola fuera de la lista.
+    Ha añadido un gestor del tráfico de datos de internet. El entorno le permite establecer alertas cuando llegue a una cierta cantidad de uso y desactivación de los datos cuando se pasa de su límite.
+    Los widgets están en una nueva pestaña del box de aplicaciones, que figuran en una lista similar a las aplicaciones en el menú principal. Por tanto la opción de ser añadidos mediante una larga pulsación en una zona vacía del escritorio ha desaparecido.
+    El corrector de texto ha sido rediseñado y mejorado, ofreciendo la opción de tocar en una palabra para que nos aparezca una lista con las diferentes opciones de edición y sugerencias de palabras similares.
+    Las notificaciones tiene la posibilidad de descartar las que no son importantes y también desplegar la barra de notificaciones con el dispositivo bloqueado.
+    La captura de pantalla, con solo pulsando el botón de bajar volumen y el botón de encendido.
+    La aplicación de la cámara se ha llevado un buen lavado de cara, con nuevas utilidades como es la posibilidad de hacer fotografías panorámicas de forma automática.
+    Android Beam es la nueva característica que nos permitirá compartir contenido entre teléfonos. Vía NFC (Near Field Communication).
+    Reconocimiento de voz del usuario
+    Aplicación de teléfono nuevo con la funcionalidad de buzón de voz visual que le permite adelantarlo o retroceder los mensajes de voz.
+    Reconocimiento facial, lo que haría que puedas cambiar la vista
+    Las carpetas son mucho más fáciles de crear, con un estilo de arrastrar y soltar
+    Un único y nuevo framework para las aplicaciones
+    El usuario tendrá herramientas para ocultar y controlar las aplicaciones que nos “cuelgue” la operadora de turno o el fabricante, liberando recursos de segundo plano (ciclos de ejecución y memoria ram). No obstante, no se podrán desinstalar.
+    Soporte nativo del contenedor MKV
+    Soporte nativo para el uso de Stylus (lápiz táctil).
+
+4.1 (Jelly Bean) 	
+
+    Mejora de la fluidez y de la estabilidad gracias al proyecto "Project Butter".
+    Ajuste automático de widgets cuando se añaden al escritorio, cambiando su tamaño y lugar para permitir que los nuevos elementos se puedan colocar.
+    Dictado por voz mejorado con posibilidad de utilizarlo sin conexión a Internet.
+    Nuevas lenguas no occidentales.
+    Android Beam mejorado con posibilidad de transmitir vídeo por NFC.
+    Nuevo modo de acceso rápido al álbum en la cámara, llamado Quick View.
+    Notificaciones mejoradas, con acceso más rápido a más información en la propia barra de notificaciones.
+    Nueva función Google Now, que nos permite tener una serie de "tarjetas inteligentes" que nos muestran información importante como el tiempo, el tráfico, si nuestros vuelos se han cancelado y muchas otras funciones.
+    Búsqueda por voz mejorada, ahora contesta preguntas formuladas como si estuviéramos hablando con otra persona y nos da información en la misma aplicación, actualmente solo en inglés, pero han prometido más idiomas, en las comparativas se demuestra la velocidad de este servicio frente a otros como "Siri" de Apple.
+    Cifrado de aplicaciones.
+    En las actualizaciones de aplicaciones solo se descarga la parte de ésta que ha sido cambiada.
+    Google Chrome se convierte en el navegador por defecto de Android.
+    Se pone fín al soporte de Flash Player para Android a partir de esta versión.
+    Nueva función "Sound Search", que permite saber que música estas escuchando.
+    Gestual Mode para las personas discapacitadas visualmente.
+    Pequeños cambios en la interfaz, como la nueva barra de búsquedas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
