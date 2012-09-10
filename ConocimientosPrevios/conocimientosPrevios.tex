@@ -253,69 +253,93 @@ Como curiosidad todas las versiones de Android se denominan con un nombre en cla
 
 	\item \textbf{2.3 (Gingerbread):} fue presentado el 6 de diciembre del 2010. Cambiaron el diseño de la interfaz de usuario, añadieron soporte para pantallas extra grandes y resoluciones WXGA, soporte nativo para VoIP SIP, reproducción nativa de videos WebM/VP8 un formato de video patrocinado por Google que es la alternativa al H264 en la reproducción de video en HTML5 y decodificación de audios en AAC, se añadió soporte a NFC (Near Field Communication), nuevo teclado multitactic, soporte mejorado para programar en código nativo, soporte nativo de más sensores como pueden ser acelerómetros o barómetros, soporte para múltiples cámaras y cambio del sistema de archivos YAFFS a ext4. La versión 2.3.3 sigue siendo la versión de Android más usada actualmente. 
 
-	\item \textbf{3.0 / 3.1 / 3.2 (Honeycomb):} Esta versión fue diseñada expresamente para tablet, por lo que no hubo smartphones que actualizaran a esta versión.
+	\item \textbf{3.0 / 3.1 / 3.2 (Honeycomb):} Esta versión fue diseñada exclusivamente para tablet, por lo que no hubo smartphones que actualizaran a esta versión. Las características principales fueron un escritorio en 3D con widget rediseñado, sistema multitarea mejorado, mejoras en el navegador de internet, videochat mediante Google Talk, mejoras en el soporte de redes WiFi, añadidos soporte para gran cantidad de periféricos y conexión USB.
+	
+	\item \textbf{4.0 (Ice Cream Sandwich):} Fue una de las actualizaciones más importantes que ha recibido Android y fue lanzada el 19 de octubre de 2011, en ella se unificaron todas las versiones y se tenía una sola versión para smartphne, televisores, tablets, netbooks, etc. Se añadió una nueva versión de interfaz mucho más limpia y usable llamada Holo, una nueva fuente llamada Roboto, se da la opción de utilizar botones virtuales en la interfaz de usuario en vez de botones físicos, soporte para aceleración gráfica por hardware, por lo que la interfaz es manejada y dibujada por la GPU, aumentando notablemente el rendimiento, multitarea mejorada, se ha añadido un nuevo corrector ortográfico, en la lista de notificaciones se pueden eliminar las que no sean interesantes, capturas de pantalla pulsando el botón de encendido y el de bajar volumen, mejorada la aplicación encargada de hacer fotografías, añadida una nueva opción para crear fotos panorámicas, Android Beam, una nueva característica que nos permite compartir contenidos entre teléfonos mediante NFC, reconocimiento de voz del usuario, reconocimiento facial, para bloqueo y desbloqueo del teléfono, añadidas nuevas carpetas que se crean solo con arrastrar y soltar, un único y nuevo framework para crear aplicaciones y soporte para contenedor MKV.
 
-
+	\item \textbf{4.1 (Jelly Bean):} Esta es la última versión de Android que hay en el mercado, fue lanzada el 27 de junio de 2012 durantes la última Google I/O. Se mejoró la fluidez y la estabilidad gracias al proyecto ``Project Butter", ajuste automático de widget cuando se añaden al escritorio, se añadió soporte para lenguas no occidentales, mejora de Android Beam para poder enviar video por NFC, dictado de voz mejorada y sin tener que tener conexión a internet para usarlo, nuevas notificaciones en las que se puede añadir botones para controlar o tener acceso a opciones más comunes, como puede ser responder a un email, pulsar pause o pasar de canción, nueva función Google Now que intenta ser el SIRI de Android, cifrado de aplicaciones y nuevas actualizaciones incrementales, en las que no es necesario volver a bajar toda la aplicación para actualizarla, solo se baja las partes nuevas, Google Chrome se convierte en el navegador por defecto de Android y se pone fin al soporte de Adoble Flash Player, se añade una nueva función llamada Sound Search que permite identificar la canción que está sonando, se ha añadido una nueva función llamada Gestual Mode para personas discapacitadas visualmente.
 \end{itemize}
 
+En el proyecto se ha usado la versión 4.0 para el desarrollo.
+
+En la figura \ref{fig:android41} se puede como se ve visualemte android en la actualidad con la versión 4.1.
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.3]{./ConocimientosPrevios/imagenes/android41.jpeg}
+  \caption{Versión de Android 4.1}
+  \label{fig:android41}
+\end{figure}
 
 
+\section{Google App Engine.}
+
+Google App Engine es un plataforma de cloud computing para desarrollar y almacenar aplicaciones web que ofrece Google. Las aplicaciones web pueden ser escalables y si necesitan más recursos automáticamente le son asignados para poder seguir ofreciendo servicio. Google App Engine es gratis para un cierto número de peticiones y almacenamiento, la primera versión fue lanzada en abril del 2008.
+
+Actualmente se puede desarrollar en tres lenguajes, que son Java, Python y Go, este último un lenguaje propiedad de Google. En el proyecto hemos usado el lenguaje Java para desarrollar la aplicación web. 
+
+Google App Engine para Java soporta muchos estándares y framework, y el Core está hecho con la tecnología servlet 2.5 usando el servidor de software libre llamado Jetty Web Server acompañado con otras tecnologías como JSP. El almacén de datos puede ser muy intuitivo pero se puede acceder facilmente con JPA y los métodos JDO para escritura y lectura de datos. También se pueden usar tecnologías como Spring Framework.
+
+Google garantiza que aplicación estará disponible el 99.95\% del tiempo, al estar altamente replicada.
+
+La base de datos a la que dan acceso no es una base de datos que tiene una sintaxis muy parecida a SQL pero es GQL, una de las principales características es que no admite sentencias join, debido a la ineficiencia de la misma. La versión de java soporta consultas asincronas no bloqueantes, ofreciendo así una forma de procesamiento paralelo de datos.
+
+Para más información se puede visitar la web diseñada para desarrolladores que proporciona Google, \url{https://developers.google.com/appengine/}. 
+
+En el capítulo \ref{cap:GAE} veremos más ampliamente todo lo relacionado con Google App Engine que se ha usado en el proyecto.
+
+\section{SQLite.}
+
+SQLite es un sistema de gestión de bases de datos relacionadas compatibles con ACID, ACID es un acrónimo de Atomicity, Consistency, Isolation and Durability que son todas las características que deben de tener una bases de datos para que se consideren bases de datos relacional. La característica principal es que ocupa muy poco espacio alrededor de 275 Kb y fue escrita en C por Richard Hipp. Está distribuida bajo licencia de dominio público.
+
+A diferencia de los sitemas de gestión de bases de datos clientes-servidor el motor de SQLite pasa a ser parte del programa que quiere usarlo ya que se integra con él. Esto hace que tenga mayor rendimiento debido a la comunicación por medio de funciones es mucho más eficiente que mediante comunicación de procesos. La totalidad de la base de datos, tablas, indices y los datos, se guardan en un solo fichero estándar en la máquina host. La versión 3 de SQLite permite base de datos de hasta 2 Terabytes y permite campos del tipo BLOB.
+
+SQLite está muy extendido y se puede programar en infinidad de lenguajes de programación como pueden ser C, C++, Perl, Python, PHP, Java, etc.
+
+Es utilizado en infinidad de programas y sistemas, que van desde editores de imagen como puede ser Adobe Photoshop Elements, reproductores de sonido como Clementine o navegadores como Firefox, Chrome u Opera.
+
+Esta es una de las tres formas que proporciona Android para guardar datos, al estar embebida en cada aplicación para mejorar el rendimiento, cada aplicación debe de tener una. 
+
+\section{XML.}
+
+XML son las siglas en inglés de e\textbf{X}tensible \textbf{M}arkup \textbf{L}anguage que es un lenguaje de marcas desarrollado por el World Wide Web Consortium (W3C), deriva del lenguaje SGML y permite definir la gramática de lenguajes específicos para estructurar documentos grandes.
+
+Es una de las formas de intercambio estructurado de información mas extendidas en internet, ya que se puede usar en base de datos, hojas de cálculo o en casi cualquier información que se quiera usar.
+
+XML es un lenguaje que puede ser analizado sintáxticamente para averigurar si está bien formado o no, por lo que para que cualquier parser ( analizador sintáxtico ) confirme que es correcto debe te mantener una estructura que viene definida en el estándar. Todos los documentos tiene que tener las siguientes partes para que sean bien formados, prólogo, cuerpo, elementos y atributos.
+
+Un ejemplo de la figura \ref{cod:XML} podemos ver un trozo de código XML para almacenar un libro en una librería.
+
+\begin{figure}
+\begin{small}
+ \begin{center}
+
+    
+  \begin{lstlisting}[language=XML]   
+<?xml version="1.0"?>
+<libro>
+<titulo> Cien años de soledad </titulo>
+<disponible tiempo="24" unidad="horas"/>
+<autor> Gabriel García Márquez </autor>
+<formato> Rústica </formato>
+<publicacion>1967 </publicacion>
+<precio cantidad="9.99" moneda="euro"/>
+<descuento cantidad="5"/>
+<enlacelibro href="/exec/ISBN/84-473-0619-4"/>
+</libro>
+    
+  \end{lstlisting}
+
+\end{center}
+\end{small}
+  
+  \caption{Código ejemplo XML.}
+  \label{cod:XML}
+\end{figure}
+
+En el proyecto hemos usado XML para los archivos de configuración de android o para el diseño de las interfaces en android. En una de la aplicaciones web realizadas para los archivos de configuración también hemos usado XML en la otra hemos usado un lenguaje parecido llamado YALM, que es equivalente a XML.
 
 
-
-3.0 / 3.1 / 3.2 (Honeycomb)64 	
-
-    Mejor soporte para tablets65
-    Escritorio 3D con widgets rediseñados
-    Sistema multitarea mejorado
-    Mejoras en el navegador web predeterminado, entre lo que destaca la navegación por pestañas, autorelleno de formularios, sincronización de favoritos con Google Chrome y navegación privada
-    Soporte para videochat mediante Google Talk
-    Mejor soporte para redes Wi-Fi, así como guardar una configuración independiente para cada SSID
-    Añade soporte para una gran variedad de periféricos y accesorios con conexión USB: teclados, ratones,hubs, dispositivos de juego y cámaras digitales. Cuando un accesorio está conectado, el sistema busca la aplicación necesaria y ofrece su ejecución.
-    Los widgets pueden redimensionarse de forma manual sin la limitación del número de cuadros que tenga cada escritorio.
-    Se añade soporte opcional para redimensionar correctamente las aplicaciones inicialmente creadas para móvil para que se vean bien en Tablets
-
-4.0 (Ice Cream Sandwich) 	
-
-    Versión que unifica el uso en cualquier dispositivo, tanto en teléfonos, tablets, televisores, netbooks, etc.
-    Interfaz limpia y moderna llamada "Holo" con una nueva fuente llamada "Roboto", muy al estilo de Honeycomb.
-    Opción de utilizar los botones virtuales en la interfaz de usuario, en lugar de los botones táctiles capacitivos.
-    Soporte de aceleración gráfica por hardware, lo que significa que la interfaz podrá ser manejada y dibujada por la GPU y aumentando notablemente su rapidez, su respuesta y evidentemente, la experiencia de usuario.
-    Multitarea mejorada, estilo Honeycomb. Añadiendo la posibilidad de finalizar una tarea simplemente desplazándola fuera de la lista.
-    Ha añadido un gestor del tráfico de datos de internet. El entorno le permite establecer alertas cuando llegue a una cierta cantidad de uso y desactivación de los datos cuando se pasa de su límite.
-    Los widgets están en una nueva pestaña del box de aplicaciones, que figuran en una lista similar a las aplicaciones en el menú principal. Por tanto la opción de ser añadidos mediante una larga pulsación en una zona vacía del escritorio ha desaparecido.
-    El corrector de texto ha sido rediseñado y mejorado, ofreciendo la opción de tocar en una palabra para que nos aparezca una lista con las diferentes opciones de edición y sugerencias de palabras similares.
-    Las notificaciones tiene la posibilidad de descartar las que no son importantes y también desplegar la barra de notificaciones con el dispositivo bloqueado.
-    La captura de pantalla, con solo pulsando el botón de bajar volumen y el botón de encendido.
-    La aplicación de la cámara se ha llevado un buen lavado de cara, con nuevas utilidades como es la posibilidad de hacer fotografías panorámicas de forma automática.
-    Android Beam es la nueva característica que nos permitirá compartir contenido entre teléfonos. Vía NFC (Near Field Communication).
-    Reconocimiento de voz del usuario
-    Aplicación de teléfono nuevo con la funcionalidad de buzón de voz visual que le permite adelantarlo o retroceder los mensajes de voz.
-    Reconocimiento facial, lo que haría que puedas cambiar la vista
-    Las carpetas son mucho más fáciles de crear, con un estilo de arrastrar y soltar
-    Un único y nuevo framework para las aplicaciones
-    El usuario tendrá herramientas para ocultar y controlar las aplicaciones que nos “cuelgue” la operadora de turno o el fabricante, liberando recursos de segundo plano (ciclos de ejecución y memoria ram). No obstante, no se podrán desinstalar.
-    Soporte nativo del contenedor MKV
-    Soporte nativo para el uso de Stylus (lápiz táctil).
-
-4.1 (Jelly Bean) 	
-
-    Mejora de la fluidez y de la estabilidad gracias al proyecto "Project Butter".
-    Ajuste automático de widgets cuando se añaden al escritorio, cambiando su tamaño y lugar para permitir que los nuevos elementos se puedan colocar.
-    Dictado por voz mejorado con posibilidad de utilizarlo sin conexión a Internet.
-    Nuevas lenguas no occidentales.
-    Android Beam mejorado con posibilidad de transmitir vídeo por NFC.
-    Nuevo modo de acceso rápido al álbum en la cámara, llamado Quick View.
-    Notificaciones mejoradas, con acceso más rápido a más información en la propia barra de notificaciones.
-    Nueva función Google Now, que nos permite tener una serie de "tarjetas inteligentes" que nos muestran información importante como el tiempo, el tráfico, si nuestros vuelos se han cancelado y muchas otras funciones.
-    Búsqueda por voz mejorada, ahora contesta preguntas formuladas como si estuviéramos hablando con otra persona y nos da información en la misma aplicación, actualmente solo en inglés, pero han prometido más idiomas, en las comparativas se demuestra la velocidad de este servicio frente a otros como "Siri" de Apple.
-    Cifrado de aplicaciones.
-    En las actualizaciones de aplicaciones solo se descarga la parte de ésta que ha sido cambiada.
-    Google Chrome se convierte en el navegador por defecto de Android.
-    Se pone fín al soporte de Flash Player para Android a partir de esta versión.
-    Nueva función "Sound Search", que permite saber que música estas escuchando.
-    Gestual Mode para las personas discapacitadas visualmente.
-    Pequeños cambios en la interfaz, como la nueva barra de búsquedas.
 
 
 

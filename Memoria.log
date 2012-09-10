@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  7 SEP 2012 17:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  10 SEP 2012 19:44
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -316,7 +316,7 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -327,7 +327,7 @@ LaTeX Warning: Label `fig:pesta\IeC {\~n}aVerificar' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -339,7 +339,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -347,7 +347,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -398,11 +398,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+ [3])
 \tf@toc=\write3
 \openout3 = `Memoria.toc'.
 
- [3] [4]
+ [4]
 (./Introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
 
@@ -621,12 +621,140 @@ tiem-bre de 2009. Se le a~nadieron
  []
 
 [22] [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./ConocimientosPrevios/imagenes/android41.jpeg, id=119, 722.7pt x 1284.8pt>
+File: ./ConocimientosPrevios/imagenes/android41.jpeg Graphic file (type jpg)
 
- [24])
-(./GoogleAppEngine/googleappengine.tex [25] [26
+<use ./ConocimientosPrevios/imagenes/android41.jpeg> [24] [25 <./ConocimientosP
+revios/imagenes/android41.jpeg>]
+! Undefined control sequence.
+l.287 ...arrolladores que proporciona Google, \url
+                                                  {https://developers.google...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
+[26] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 319.
+
+
+! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
+h LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 <titulo> Cien años 
+                          de soledad </titulo>
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 <titulo> Cien años 
+                          de soledad </titulo>
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
+h LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 <autor> Gabriel García 
+                              Márquez </autor>
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 <autor> Gabriel García 
+                              Márquez </autor>
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
+h LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 <autor> Gabriel García Márquez 
+                                       </autor>
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 <autor> Gabriel García Márquez 
+                                       </autor>
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
+h LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 <formato> Rústica 
+                         </formato>
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 <formato> Rústica 
+                         </formato>
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 328.
+) (./GoogleAppEngine/googleappengine.tex [27] [28]
 Cap\'{\i }tulo 3.
 ! Undefined control sequence.
 l.5 ...to Google, ofrecen un dominio, que es: \url
@@ -643,12 +771,14 @@ Overfull \hbox (107.90982pt too wide) in paragraph at lines 5--6
 ://nombre[]de[]la[]aplicacion.appspot.com
  []
 
-[27]
+[29
+
+]
 Overfull \hbox (4.21973pt too wide) in paragraph at lines 16--16
 []\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-caci^^Son web gen^^Seri-
  []
 
-[28]
+[30]
 Overfull \hbox (52.53311pt too wide) in paragraph at lines 28--31
 \OT1/cmr/m/n/12 clase o que im-ple-mente la in-ter-faz an-te-ri-or, co-mo puede
  ser \OT1/cmr/m/it/12 javax.servlet.http.HttpServlet
@@ -659,10 +789,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 3.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 29
+LE APP ENGINE. \OT1/cmr/m/n/12 31
  []
 
-[29]
+[31]
 ! Undefined control sequence.
 l.71 ...nes \textbf{GET} sería la siquiente: \url
                                                   {https://servertimestamp.a...
@@ -730,16 +860,13 @@ Overfull \hbox (20.39713pt too wide) in paragraph at lines 71--72
 rtimestamp.appspot.com/,
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=141, 354.32375pt x 405.515pt>
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=151, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-)
-(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-) [30]
+) [32]
 Overfull \hbox (68.2492pt too wide) in paragraph at lines 110--111
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -750,10 +877,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 3.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 31
+LE APP ENGINE. \OT1/cmr/m/n/12 33
  []
 
-[31 <./GoogleAppEngine/imagenes/JSP_Model.png>]
+[33 <./GoogleAppEngine/imagenes/JSP_Model.png>]
 Overfull \hbox (11.8493pt too wide) in paragraph at lines 117--118
 [][][][][][][][][][][][][] 
  []
@@ -763,22 +890,19 @@ Overfull \hbox (18.89929pt too wide) in paragraph at lines 118--119
 [][][][][][][][][][][][][][][][][][][] 
  []
 
-<./GoogleAppEngine/imagenes/carpetawar.png, id=150, 210.03468pt x 349.305pt>
+<./GoogleAppEngine/imagenes/carpetawar.png, id=159, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/carpetawar.png>
 Underfull \vbox (badness 2846) has occurred while \output is active []
 
- [32]
+ [34]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 3.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 33
+LE APP ENGINE. \OT1/cmr/m/n/12 35
  []
 
-[33 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
-(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
-)
+[35 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
 Overfull \hbox (47.09924pt too wide) in paragraph at lines 155--156
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -837,7 +961,7 @@ l.179 \begin{lstlisting}[language=YAML]
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[34]
+[36]
 ! Undefined control sequence.
 l.196 ...ml} se puede consultar estos enlaces \url
                                                   {https://developers.google...
@@ -884,16 +1008,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=160, 738.50906pt x 307
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=169, 738.50906pt x 307
 .1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
- <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [35]
-[36 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]
+ <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [37]
+[38 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=171, 1111.15125pt x 510.90875pt>
+ [39]
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=180, 1111.15125pt x 510.90875pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
@@ -916,7 +1040,7 @@ Overfull \hbox (104.67389pt too wide) in paragraph at lines 248--249
 [][][][][][][][][][][][][][][] 
  []
 
-[38 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>]
+[40 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>]
 Overfull \hbox (48.27399pt too wide) in paragraph at lines 253--254
 [][][][][][][][][][][][][][] 
  []
@@ -926,7 +1050,7 @@ Overfull \hbox (139.92383pt too wide) in paragraph at lines 254--255
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
-[39]
+[41]
 Overfull \hbox (1.48349pt too wide) in paragraph at lines 287--288
 []\OT1/cmr/bx/n/12 ServletSearchRow.java: \OT1/cmr/m/n/12 Es un servlet que de-
 vuelve una p^^Sagi-na web donde
@@ -966,8 +1090,8 @@ Overfull \hbox (1.9237pt too wide) in paragraph at lines 302--303
 r el par^^Sametro
  []
 
-[40]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=181, 841.64438pt 
+[42]
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=190, 841.64438pt 
 x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
@@ -977,7 +1101,7 @@ Overfull \hbox (30.82117pt too wide) in paragraph at lines 312--313
  []
 
 
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=182, 962.84718pt x 357.
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=191, 962.84718pt x 357.
 58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
@@ -987,7 +1111,7 @@ Overfull \hbox (91.42241pt too wide) in paragraph at lines 321--322
  []
 
 
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=183, 1089.06876pt x 933.487
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=192, 1089.06876pt x 933.487
 5pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png>
@@ -995,13 +1119,13 @@ Overfull \hbox (154.53305pt too wide) in paragraph at lines 334--335
 [][] 
  []
 
-[41 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
+[43 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
 Overfull \hbox (41.224pt too wide) in paragraph at lines 350--351
 [][][][][][][][][][][][][][][][]
  []
 
-[42]
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=190, 800.992
+[44]
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=200, 800.992
 5pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
@@ -1020,8 +1144,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[43]
-<./GoogleAppEngine/imagenes/botonExportar.png, id=195, 955.31906pt x 33.87656pt
+[45]
+<./GoogleAppEngine/imagenes/botonExportar.png, id=204, 955.31906pt x 33.87656pt
 >
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png>
@@ -1100,7 +1224,7 @@ T1/cmr/m/it/12 pub-lic List<RowRepositorioGeneral>getRowRepositorioGeneralList(
 String
  []
 
-[44]
+[46]
 Overfull \hbox (154.0238pt too wide) in paragraph at lines 447--448
 [][][][][][][][][][][][][][][][][] 
  []
@@ -1175,15 +1299,15 @@ l.459 ... en la figura~\ref{fig:pestañaVerificar}
 I'm ignoring this, since I wasn't doing a \csname.
 
 
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=199, 773.13844pt x 252.19
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=208, 773.13844pt x 252.19
 218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
- <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [45]
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=203, 529.98pt x 268.75406pt>
+ <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [47]
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=212, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
-<./GoogleAppEngine/imagenes/codigoQR.png, id=204, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=213, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
@@ -1191,16 +1315,16 @@ Overfull \hbox (88.78758pt too wide) in paragraph at lines 483--484
 [][] 
  []
 
-) [46] [47 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
-[48 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [49 <./GoogleA
+) [48] [49 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
+[50 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [51 <./GoogleA
 ppEngine/imagenes/certificadosRepositorioGeneral.png> <./GoogleAppEngine/imagen
 es/botonExportar.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaVerificar.
 png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaQR.png (PNG copy)>]
-[50 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>]
+[52 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>]
 (/home/juanantonio/memoriaPFC/Memoria.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51
+ [53
 
 
 ])
@@ -1208,11 +1332,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout4 = `Memoria.lof'.
 
 
-[52] (/home/juanantonio/memoriaPFC/Memoria.aux
+[54] (/home/juanantonio/memoriaPFC/Memoria.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1220,7 +1344,7 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.88 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{49}}
+l.96 ...fig:pesta\IeC {\~n}aVerificar}{{3.10}{51}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -1230,28 +1354,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4182 strings out of 495061
- 56780 string characters out of 1182621
- 137786 words of memory out of 3000000
- 7299 multiletter control sequences out of 15000+50000
- 11074 words of font info for 38 fonts, out of 3000000 for 9000
+ 4208 strings out of 495061
+ 57255 string characters out of 1182621
+ 138061 words of memory out of 3000000
+ 7322 multiletter control sequences out of 15000+50000
+ 11998 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,8n,51p,1263b,1982s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
-i8.pfb>
-Output written on Memoria.pdf (58 pages, 1546132 bytes).
+ 30i,8n,51p,1479b,1980s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Memoria.pdf (60 pages, 1910564 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
+ 286 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

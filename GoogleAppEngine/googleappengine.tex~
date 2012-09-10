@@ -1,4 +1,4 @@
-\chapter{Google App Engine.}
+\chapter{Google App Engine.}\label{cap:GAE}
 En este apartado de la memoria voy a explicar lo que es, la configuración y el como usar la plataforma Google App Engine.
 
 \section{Introducción.}
@@ -438,7 +438,7 @@ UserService userService = UserServiceFactory.getUserService();
 User user = userService.getCurrentUser();
 \end{lstlisting}
 
-Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro tiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces:\url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
+Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro contiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces: \url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
 
 La creación de los objetos JSON la realizamos de la siguiente forma:
 \begin{lstlisting}[language=Java]
