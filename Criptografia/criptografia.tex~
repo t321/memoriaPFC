@@ -1,0 +1,64 @@
+\chapter{Criptografía usada en el proyecto.}
+
+En la sección \ref{lbl:criptografia} del capítulo \ref{cap:conocimientos} hemos hecho una breve introducción a la criptografía de clave pública, a continuación vamos a explicarla con más extensión y los usos que le hemos dado en el proyecto.
+
+Toda la criptografía que hemos usado es criptografía de clave pública, y en concreto el criptosistema llamado RSA. Se pensó en usar DSA pero finalmente se usó RSA. En el proyecto se ha usado la criptografía no para cifrar nada, si no para firmar digitalmente.
+
+\section{RSA.}
+
+RSA se basa en la idea de que múltiplicar dos números enteros primos, pero muy dificil sabiendo el resultado de la multiplicación averiguar dichos dos números.
+
+El proceso para generar las claves es el siguiente:
+\begin{itemize}
+
+	\item Se eligen dos números primos grandes que llamaremos \textbf{p} y \textbf{q}, dichos números se múltiplican y obtenemos \textbf{n}, $n = p \cdot q$, dicho valor de $n$ es el que se usa como módulo de la clave privada y pública. 
+
+	\item Calculamos $\varphi(n)$ de la siguiente forma $\varphi(n)=(p-1)\cdot(q-1)$, donde $\varphi(n)$ es la función $\varphi$ de Euler.
+
+	\item Se elige un entero positivo $e$ menor que $\varphi(n)$ y que sea coprimo con $\varphi(n)$. El valor $e$ es el exponente de la clave pública.
+	
+	\item Se busca un valor $d$ que satisfaga la congruencia $d=e^{-1}\,mod\,\varphi(n)$. Este valor se suele calcular con el algoritmo de Euclides extendido y el valor $d$ es el exponente para la clave privada. 
+\end{itemize}
+
+La clave pública será $(n,e)$ y la clave privada será $(n,d)$.
+
+El proceso de cifrado y descifrado será el siguiente.
+
+\begin{itemize}
+	\item \textbf{Cifrado:} el receptor (Alice) envia su clave pública $(n,e)$ al emisor (Bob) y guarda la clave privada, $(n,d)$, en secreto, a partir de este momento Alice usando la clave pública de Bob puede comunicarse seguramente. El mensaje que Bob quiere enviar a Alice será $M$. Bob primero convierte $M$ en un número menor que $n$, y que sea de una forma reversible de forma que sabiendo $n$ podamos volver a conseguir $M$. Acto seguido calcula $c$ de esta forma, $c\equiv m^e\,(mod\,n)$. Bob mandaría $c$ a Alice y la comunicación finalizaría.
+	
+	\item \textbf{Descifrado:} Alice empezará el proceso para recuperar $m$ a partir de $c$ y $d$. $m\equiv c^d\,(mod\,n)$, una vez ha calculado $m$ puede conseguir $M$.
+
+\end{itemize}
+
+El proceso de descifrado funciona porque $c^d=(m^e)^d\equiv m^{ed}\, (mod\, n)$ y hemos elegido $d$ y $e$ de forma que $e\cdot d =1+k\cdot\varphi(n)$, se cumple que $ m^{ed}\cdot m^{1+k\cdot\varphi(n)} = m(m^{\varphi(n)})^k = m\, (mod\, n)$, esta última congruencia se obtiene directamente del teorema de Euler cuando $m$ y $n$ son coprimos.
+
+
+
+
+Aquí tenemos un ejemplo de cifrado/descifrado con RSA. Los parámetros usados aquí son pequeños y orientativos con respecto a los que maneja el algoritmo, pero podemos usar también OpenSSL para generar y examinar un par de claves reales.
+p=61 	1º nº primo privado
+q=53 	2º nº primo privado
+n=pq=3233 	producto p*q
+e=17 	exponente público
+d=2753 	exponente privado
+
+La clave pública (e, n). La clave privada es (d, n). La función de cifrado es:
+
+        \mbox{encrypt}(m) = m^e\pmod{n} = m^{17}\pmod{3233}
+
+Donde m es el texto sin cifrar. La función de descifrado es:
+
+        \mbox{decrypt(c)} = c^d\pmod{n} = c^{2753}\pmod{3233}
+
+Donde c es el texto cifrado. Para cifrar el valor del texto sin cifrar 123, nosotros calculamos:
+
+        \mbox{encrypt(123)} = 123^{17}\pmod{3233} = 855
+
+Para descifrar el valor del texto cifrado, nosotros calculamos:
+
+        \mbox{decrypt(855)} = 855^{2753}\pmod{3233} = 123
+
+Ambos de estos cálculos pueden ser eficientemente usados por el algoritmo de multiplicación cuadrática para exponenciación modular
+
+

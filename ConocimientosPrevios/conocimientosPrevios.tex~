@@ -112,7 +112,7 @@ Eclipse comenzó como un proyecto de IBM Canadá. En noviembre de 2001 se creó 
 
 \end{itemize}
 
-\section{Criptografía.}
+\section{Criptografía.}\label{lbl:critografia}
 
 La criptografía es la ciencia que se encarga del estudio de técnicas para proteger una comunicación, para que solamente la gente autorizada pueda verla, leerla y entenderla. En la actualidad la criptografía es un término que se usa de forma similar a encriptación, que es el proceso para transformar información mediante diferentes algoritmos en un mensaje que no pueda entender un atacante que intercepte la comunicación. 
 
@@ -354,7 +354,7 @@ Git es un software de control de versiones a la vez que mantenedor al coherencia
 
 En el proyecto hemos estado usando GIT como control de versiones por si en algún cambio ocurría algún problema y debíamos volver atrás y para tener una copia de seguridad del proyecto alojado en todo momento en un servidor externo por si había algún fallo.
 
-A lo largo del proyecto hemos usado dos servicios gratuitos como son el conocido \url{https://github.com/} y \url{https://bitbucket.org/}. El primero es muy famoso actualmente y hay mucho software libre en dicha plataforma, tiene un probema y es que el código tiene que ser libre y en la versión gratuita no se pueden tener repositorios privados, cosa que en el segundo servicio si te los ofrece. Para todo el código fuente usando, tanto en la aplicación de android como en las dos aplicaciones hemos usado bitbucket y para la memoria de proyecto hemos usado github. La dirección del repositorio de la memoria es la siguiente: \url{https://github.com/t321/memoriaPFC}, el repositorio de las aplicaciones web \url{https://bitbucket.org/t321/pfcaeg} y el de la aplicación de Android \url{https://bitbucket.org/t321/pfcandroid}.
+A lo largo del proyecto hemos usado dos servicios gratuitos como el conocido \url{https://github.com/} y \url{https://bitbucket.org/}. El primero es muy famoso actualmente y hay mucho software libre en dicha plataforma, tiene un probema y es que el código tiene que ser libre y en la versión gratuita no se pueden tener repositorios privados, cosa que en el segundo servicio si te los ofrece. Para todo el código fuente usando, tanto en la aplicación de android como en las dos aplicaciones hemos usado bitbucket y para la memoria de proyecto hemos usado github. La dirección del repositorio de la memoria es la siguiente: \url{https://github.com/t321/memoriaPFC}, el repositorio de las aplicaciones web \url{https://bitbucket.org/t321/pfcaeg} y el de la aplicación de Android \url{https://bitbucket.org/t321/pfcandroid}.
 
 %TODO: poner el apendice
 La configuración básica para el uso de GIT tanto con Eclipse como con la terminal se puede ver en el apendice !!!?????¿¿  
