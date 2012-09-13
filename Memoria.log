@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  11 SEP 2012 19:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  13 SEP 2012 18:59
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -316,7 +316,7 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{55}}
+l.123 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{63}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -327,7 +327,7 @@ LaTeX Warning: Label `fig:pesta\IeC {\~n}aVerificar' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{55}}
+l.123 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{63}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -339,7 +339,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{55}}
+l.123 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{63}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -347,7 +347,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{55}}
+l.123 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{63}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -807,106 +807,129 @@ and I'll forget about whatever was undefined.
 
 ]
 Cap\'{\i }tulo 3.
-[31]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48         \mbox{encrypt}(m) = m^
-                                   e\pmod{n} = m^{17}\pmod{3233}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[31] [32]
+Overfull \hbox (27.13457pt too wide) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/12 La fun-ci^^Son de cifra-do quedar^^S^^Pa co-mo la sigu-iente:
+ $[](\OML/cmm/m/it/12 m\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 m[] mod\OT1/cmr/m/n
+/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) =
+ []
 
-Runaway argument?
-{n} = m^{17}\pmod {3233} 
-! Paragraph ended before \pmod was complete.
-<to be read again> 
-                   \par 
-l.49 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (10.48508pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/12 La fun-ci^^Son de de-scifra-do ser^^S^^Pa: $[] = \OML/cmm/m/i
+t/12 c[] mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/cmm/m/i
+t/12 c[] mod\OT1/cmr/m/n/12 (3233)$,
+ []
 
-[32]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.52         \mbox{decrypt(c)} = c^
-                                   d\pmod{n} = c^{2753}\pmod{3233}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[33] <./Criptografia/imagenes/esquemaPKI.png, id=156, 1003.75pt x 709.65125pt>
+File: ./Criptografia/imagenes/esquemaPKI.png Graphic file (type png)
 
-Runaway argument?
-{n} = c^{2753}\pmod {3233} 
-! Paragraph ended before \pmod was complete.
-<to be read again> 
-                   \par 
-l.53 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+<use ./Criptografia/imagenes/esquemaPKI.png>
+Overfull \hbox (111.87378pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.53 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[34] [35 <./Criptografia/imagenes/esquemaPKI.png>]
+<./Criptografia/imagenes/pkiDnie.png, id=164, 438.13687pt x 188.20313pt>
+File: ./Criptografia/imagenes/pkiDnie.png Graphic file (type png)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56         \mbox{encrypt(123)} = 123^
-                                       {17}\pmod{3233} = 855
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<use ./Criptografia/imagenes/pkiDnie.png>
+Overfull \hbox (48.13579pt too wide) in paragraph at lines 83--84
+ [][] 
+ []
 
-Runaway argument?
-{3233} = 855 
-! Paragraph ended before \pmod was complete.
-<to be read again> 
-                   \par 
-l.57 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60         \mbox{decrypt(855)} = 855^
-                                       {2753}\pmod{3233} = 123
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ [36 <./Criptografia/imagenes/pkiDnie.png (PNG copy)>]
+! Undefined control sequence.
+l.94 ...varias PKI importantes como Verisign: \url
+                                                  {http://www.verisign.com/}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Undefined control sequence.
+l.94 ...{http://www.verisign.com/}, o Comodo: \url
+                                                  {http://www.comodo.com}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-) (./GoogleAppEngine/googleappengine.tex [33] [34
+
+Overfull \hbox (47.22185pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/12 tantes co-mo Verisign: http://www.verisign.com/, o Co-mo-do: ht
+tp://www.comodo.com 
+ []
+
+! Undefined control sequence.
+l.101 ...ión de números aleatorios, etc. En \url
+                                                  {http://docs.oracle.com/ja...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (139.10146pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 eraci^^Son de n^^Sumeros aleato-rios, etc. En http://docs.oracl
+e.com/javase/6/docs/technotes/guides/security/
+ []
+
+<./Criptografia/imagenes/messageDigest.png, id=168, 225.09094pt x 42.91031pt>
+File: ./Criptografia/imagenes/messageDigest.png Graphic file (type png)
+
+<use ./Criptografia/imagenes/messageDigest.png>
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
+ [37 <./Criptografia/imagenes/messageDigest.png>]
+<./Criptografia/imagenes/signature.png, id=174, 483.8075pt x 221.82875pt>
+File: ./Criptografia/imagenes/signature.png Graphic file (type png)
+
+<use ./Criptografia/imagenes/signature.png>
+Overfull \hbox (93.80632pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./Criptografia/imagenes/signature.png>]
+<./Criptografia/imagenes/cipher.png, id=180, 514.92375pt x 180.675pt>
+File: ./Criptografia/imagenes/cipher.png Graphic file (type png)
+
+<use ./Criptografia/imagenes/cipher.png>
+Overfull \hbox (73.4271pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+[39]
+
+LaTeX Warning: Reference `cod:keyStore' on page 40 undefined on input line 185.
+
+
+
+Overfull \hbox (120.01129pt too wide) in paragraph at lines 193--194
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (172.89418pt too wide) in paragraph at lines 201--204
+\OT1/cmr/m/n/12 Stream(path), pass-word.toCharArray()); Pri-vateKey key = (Pri-
+vateKey) ks.getKey(ks.aliases().nextElement(),
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./Criptografia/imagenes/cipher.png>]) (./GoogleAppEngine/googleappengine.
+tex
+[41] [42
 
 ]
 Cap\'{\i }tulo 4.
@@ -925,12 +948,12 @@ Overfull \hbox (107.90982pt too wide) in paragraph at lines 5--6
 ://nombre[]de[]la[]aplicacion.appspot.com
  []
 
-[35]
+[43]
 Overfull \hbox (4.21973pt too wide) in paragraph at lines 16--16
 []\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-caci^^Son web gen^^Seri-
  []
 
-[36]
+[44]
 Overfull \hbox (52.53311pt too wide) in paragraph at lines 28--31
 \OT1/cmr/m/n/12 clase o que im-ple-mente la in-ter-faz an-te-ri-or, co-mo puede
  ser \OT1/cmr/m/it/12 javax.servlet.http.HttpServlet
@@ -941,10 +964,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 4.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 37
+LE APP ENGINE. \OT1/cmr/m/n/12 45
  []
 
-[37]
+[45]
 ! Undefined control sequence.
 l.71 ...nes \textbf{GET} sería la siquiente: \url
                                                   {https://servertimestamp.a...
@@ -1012,13 +1035,13 @@ Overfull \hbox (20.39713pt too wide) in paragraph at lines 71--72
 rtimestamp.appspot.com/,
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=171, 354.32375pt x 405.515pt>
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=205, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) [38]
+) [46]
 Overfull \hbox (68.2492pt too wide) in paragraph at lines 110--111
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1029,10 +1052,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 4.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 39
+LE APP ENGINE. \OT1/cmr/m/n/12 47
  []
 
-[39 <./GoogleAppEngine/imagenes/JSP_Model.png>]
+[47 <./GoogleAppEngine/imagenes/JSP_Model.png>]
 Overfull \hbox (11.8493pt too wide) in paragraph at lines 117--118
 [][][][][][][][][][][][][] 
  []
@@ -1042,19 +1065,19 @@ Overfull \hbox (18.89929pt too wide) in paragraph at lines 118--119
 [][][][][][][][][][][][][][][][][][][] 
  []
 
-<./GoogleAppEngine/imagenes/carpetawar.png, id=179, 210.03468pt x 349.305pt>
+<./GoogleAppEngine/imagenes/carpetawar.png, id=213, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/carpetawar.png>
 Underfull \vbox (badness 2846) has occurred while \output is active []
 
- [40]
+ [48]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 4.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 41
+LE APP ENGINE. \OT1/cmr/m/n/12 49
  []
 
-[41 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
+[49 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
 Overfull \hbox (47.09924pt too wide) in paragraph at lines 155--156
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1113,7 +1136,7 @@ l.179 \begin{lstlisting}[language=YAML]
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[42]
+[50]
 ! Undefined control sequence.
 l.196 ...ml} se puede consultar estos enlaces \url
                                                   {https://developers.google...
@@ -1160,16 +1183,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=189, 738.50906pt x 307
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=224, 738.50906pt x 307
 .1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
- <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [43]
-[44 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]
+ <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [51]
+[52 <./GoogleAppEngine/imagenes/server_ips_timestamp.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=200, 1111.15125pt x 510.90875pt>
+ [53]
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=234, 1111.15125pt x 510.90875pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
@@ -1192,7 +1215,7 @@ Overfull \hbox (104.67389pt too wide) in paragraph at lines 248--249
 [][][][][][][][][][][][][][][] 
  []
 
-[46 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>]
+[54 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>]
 Overfull \hbox (48.27399pt too wide) in paragraph at lines 253--254
 [][][][][][][][][][][][][][] 
  []
@@ -1202,7 +1225,7 @@ Overfull \hbox (139.92383pt too wide) in paragraph at lines 254--255
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
-[47]
+[55]
 Overfull \hbox (1.48349pt too wide) in paragraph at lines 287--288
 []\OT1/cmr/bx/n/12 ServletSearchRow.java: \OT1/cmr/m/n/12 Es un servlet que de-
 vuelve una p^^Sagi-na web donde
@@ -1242,8 +1265,8 @@ Overfull \hbox (1.9237pt too wide) in paragraph at lines 302--303
 r el par^^Sametro
  []
 
-[48]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=210, 841.64438pt 
+[56]
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=245, 841.64438pt 
 x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
@@ -1253,7 +1276,7 @@ Overfull \hbox (30.82117pt too wide) in paragraph at lines 312--313
  []
 
 
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=211, 962.84718pt x 357.
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=246, 962.84718pt x 357.
 58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
@@ -1263,7 +1286,7 @@ Overfull \hbox (91.42241pt too wide) in paragraph at lines 321--322
  []
 
 
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=212, 1089.06876pt x 933.487
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=247, 1089.06876pt x 933.487
 5pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png>
@@ -1271,13 +1294,13 @@ Overfull \hbox (154.53305pt too wide) in paragraph at lines 334--335
 [][] 
  []
 
-[49 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
+[57 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
 Overfull \hbox (41.224pt too wide) in paragraph at lines 350--351
 [][][][][][][][][][][][][][][][]
  []
 
-[50]
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=220, 800.992
+[58]
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=254, 800.992
 5pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
@@ -1296,8 +1319,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[51]
-<./GoogleAppEngine/imagenes/botonExportar.png, id=224, 955.31906pt x 33.87656pt
+[59]
+<./GoogleAppEngine/imagenes/botonExportar.png, id=258, 955.31906pt x 33.87656pt
 >
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png>
@@ -1376,7 +1399,7 @@ T1/cmr/m/it/12 pub-lic List<RowRepositorioGeneral>getRowRepositorioGeneralList(
 String
  []
 
-[52]
+[60]
 Overfull \hbox (154.0238pt too wide) in paragraph at lines 447--448
 [][][][][][][][][][][][][][][][][] 
  []
@@ -1451,15 +1474,15 @@ l.459 ... en la figura~\ref{fig:pestañaVerificar}
 I'm ignoring this, since I wasn't doing a \csname.
 
 
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=228, 773.13844pt x 252.19
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=262, 773.13844pt x 252.19
 218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
- <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [53]
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=232, 529.98pt x 268.75406pt>
+ <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [61]
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=267, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
-<./GoogleAppEngine/imagenes/codigoQR.png, id=233, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=268, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
@@ -1467,16 +1490,16 @@ Overfull \hbox (88.78758pt too wide) in paragraph at lines 483--484
 [][] 
  []
 
-) [54] [55 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
-[56 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [57 <./GoogleA
+) [62] [63 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
+[64 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [65 <./GoogleA
 ppEngine/imagenes/certificadosRepositorioGeneral.png> <./GoogleAppEngine/imagen
 es/botonExportar.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaVerificar.
 png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaQR.png (PNG copy)>]
-[58 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>]
+[66 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>]
 (/home/juanantonio/memoriaPFC/Memoria.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59
+ [67
 
 
 ])
@@ -1484,11 +1507,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout4 = `Memoria.lof'.
 
 
-[60] (/home/juanantonio/memoriaPFC/Memoria.aux
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+ [68]
+[69] (/home/juanantonio/memoriaPFC/Memoria.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{57}}
+l.125 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{65}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1496,20 +1522,23 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.104 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{57}}
+l.125 ...ig:pesta\IeC {\~n}aVerificar}{{4.10}{65}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4215 strings out of 495061
- 57401 string characters out of 1182621
- 138084 words of memory out of 3000000
- 7325 multiletter control sequences out of 15000+50000
+ 4280 strings out of 495061
+ 58840 string characters out of 1182621
+ 138498 words of memory out of 3000000
+ 7384 multiletter control sequences out of 15000+50000
  11998 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  30i,8n,51p,1479b,1980s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1527,9 +1556,9 @@ onts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 mf-texlive/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Memoria.pdf (66 pages, 1934809 bytes).
+Output written on Memoria.pdf (75 pages, 2139038 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

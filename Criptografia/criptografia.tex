@@ -2,7 +2,7 @@
 
 En la sección \ref{lbl:criptografia} del capítulo \ref{cap:conocimientos} hemos hecho una breve introducción a la criptografía de clave pública, a continuación vamos a explicarla con más extensión y los usos que le hemos dado en el proyecto.
 
-Toda la criptografía que hemos usado es criptografía de clave pública, y en concreto el criptosistema llamado RSA. Se pensó en usar DSA pero finalmente se usó RSA. En el proyecto se ha usado la criptografía no para cifrar nada, si no para firmar digitalmente.
+Toda la criptografía que hemos usado es criptografía de clave pública, y en concreto el criptosistema llamado RSA. Se pensó en usar DSA pero finalmente usamos RSA. En el proyecto se ha usado la criptografía para firmar digitalmente, no para cifrar los mensajes.
 
 \section{RSA.}
 
@@ -33,33 +33,183 @@ El proceso de cifrado y descifrado será el siguiente.
 
 El proceso de descifrado funciona porque $c^d=(m^e)^d\equiv m^{ed}\, (mod\, n)$ y hemos elegido $d$ y $e$ de forma que $e\cdot d =1+k\cdot\varphi(n)$, se cumple que $ m^{ed}\cdot m^{1+k\cdot\varphi(n)} = m(m^{\varphi(n)})^k = m\, (mod\, n)$, esta última congruencia se obtiene directamente del teorema de Euler cuando $m$ y $n$ son coprimos.
 
-Un ejemplo de cifrado y descifrado es el siguiente:
+Un ejemplo de cifrado y descifrado mediante el algoritmo RSA es el siguiente:
+
+\begin{itemize}
+
+\item Elegimos $p=61$, $q=53$. Podemos observar que ambos son primos. Se ha elegido para el ejemplo unos valores pequeños para que podamos hacer los cálculos con facilidad.
+
+\item Calculamos $n=p\cdot q= 3233$.
+
+\item Elegimos $e=17$ y $d=2753$, como exponente público el $e$ y como exponente privado el $d$. La clave pública quedaría como $(17, 3233)$ y la clave privada sería $(2753, 3233)$.
+
+\item La función de cifrado quedaría como la siguiente: $\mbox{encrypt}(m) = m^e \,mod(n) = m^{17}\,mod(3233)$, donde $m$ es el texto sin cifrar. Imaginemos que $m=123$, luego los cálculos quedarían, $\mbox{encrypt(123)} = 123^{17}\,mod(3233) = 855$.
+
+\item La función de descifrado sería: $\mbox{decrypt(c)} = c^d\,mod(n) = c^{2753}\,mod(3233)$, donde $c$ es el mensaje cifrado. Usando la función para descifrar $c=855$ obtenemos lo siguiente: $\mbox{decrypt(855)} = 855^{2753}\,mod(3233) = 123$.
+
+\end{itemize}
+
+Podemos observar que hemos conseguido cifrar y descifrar de forma segura usando dos claves diferentes y una de ellas siendo pública.
+
+Una de las característica del algoritmo RSA es que permite la verificación de la veracidad de documentos mediante un proceso que se llama firma digital. Con ello no garantizamos que un atacante no pueda leer el mensaje, ya que no daría igual, pero si podemos garantizar que dicho mensaje no ha sido modificado. 
+
+La forma de realizar la firma es la siguiente, en vez de firmar todo el documento, que sería un gran problema ya que estos algoritmos son muy lentos, Alice genera un hash del documento con una longitud fija (128 o 256 bits) y se firma dicho hash con su firma privada. Una función hash es una función matemática que para una entrada devuelve un valor único, por lo que podemos garantizar que un documento solo va a devolver un único valor númerico y si modificamos algo del documento ese valor se alterará. Acto seguido se envia el valor de la función hash firmado junto con el documento original. Cuando Bob recibe el mensaje lo único que tiene que hacer es volver a generar el hash del documento de la misma forma que lo hizo Alice y usando la clave pública de Alice descifrar el hash firmardo. Si ambos valores son iguales podemos garantizar que el mensaje es el original que Alice quería enviar.
+
+En el proyecto hemos usado librerías que proporciona Java en su API \textit{java.security.*}. En dicha librería, como veremos en la sección \ref{cap:javasecurity} con más profundidad, proporciona todas las utilidades para manejo y creación de claves públicas y privadas, keystores, certificados de clave pública, funciones hash, algoritmos como RSA o DSA y algoritmos de cifrados simétricos, etc. 
+
+Generalmente cuando se intercambian las claves no se pasan los números en un par como hemos hecho anteriormente ya que los numeros primos no son de dos dígitos son números primos muy grandes, se usan contenedores de certificados de claves en los que van incluidos ambas claves o solo la pública, además de más datos como entidades que verifican que el certificado es real. Uno de los grandes problemas que tiene la criptografía de clave pública es que cualquiera puede generar un certificado y decir que es otra persona, por lo que se necesita de entidades ajenas y que no tengan ningún compromiso con ninguna de las partes. Esto es lo que se llama una PKI (Public-Key Infrastructure).
+
+\section{Public-Key Infrastructure.}
+
+Una PKI es una combinación de hardware, software, políticas y procedimientos de seguridad que garantizan las operaciones de cifrado, firma digital y el no repudio de las transacciones electrónicas, y que se encargan de crear, almacenar, distribuir, usar y revocar los certificados digitales usados por empresas y particulares para que garantizar las comunicaciones electrónicas. Esto se puede garantizar gracias a autoridades de certificación, que son empresas o entidades públicas que garantizan todo lo anterior.
+
+Hay varias entidades dentro del sistema como puede ser una CA (Certificate Authority) que es la entidad que firma todos los certificados, solo se usa para autofirmarse el certificado de ella y para firmar a las entidades certificadoras subordinadas, si este nodo del sistema es comprometido, toda la estructura caerá. Las autoridades subordinadas son las encargadas de certificar digitalemente a un usuario y garantizar que el usuario es real y de verdad es quien dice ser.  Las VA (Validation Authority) es la autoridad que se encarga de comprobar el estado del certificado emitido, si es válido o está revocado. Para asegurar que cada clave pública está unica y pertenece a un usuario real se usa una RA (Registration Authority), la cual se encarga de verificarlo. Hay otra entidad importante que son los repositorios para almacen de certificados y los repositorios de listas de revocación de certificados. La lista de revocación es un componente muy importante de la PKI, ya que en dicha lista están los certificados revocados antes del tiempo indicado dentro del certificado. También suelen incluir TSA (TimeStamp Authority) que es la encargada de certificar que la operación fue realizada a un tiempo en concreto.
+
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.5]{./Criptografia/imagenes/esquemaPKI.png}
+  \caption{Estructura genérica de una PKI.}
+  \label{fig:esquemaPKI}
+\end{figure} 
+
+
+En la imagen \ref{fig:esquemaPKI} podemos ver todas las autoridades que hemos explicado anteriormente.
+
+En España tenemos dos PKI, la FNMI y la creada por la Policía Nacional para dotar al DNIe de todo los certificados necesarios para que se pueda verificar la veracidad de dicho usuario de forma telemática. Tiene una estructura en la que hay una CA principal que está en la raíz y de ella cuelgan tres autoridades certificadoras subordinadas las emiten los certificados que se usan en el DNIe. La VA serían las comisarías donde se consigue el DNIe, donde hay que certificar que eres dicha persona para conseguir el DNIe. En la figura \ref{fig:pkiDnie} se puede ver la estructura.
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=1]{./Criptografia/imagenes/pkiDnie.png}
+  \caption{Jerarquía de la PKI del DNIe.}
+  \label{fig:pkiDnie}
+\end{figure} 
+
+Una PKI puede garantizar la veracidad de la autentificación frente a otros usuarios y proporciona métodos para conseguir certificados de identidad de otros usuarios para firmar digitalmente, cifrar y descifrar. En toda operación hay tres pasos principales, el primero es el inicio de un usuario de la operación, el segundo un sistema de servidores que dan fe de que la operación ha ocurrido y garantizan la veracidad, como puede ser servidores de timestamp, la autoridad de certificación y la autoridad de registro, el tercer paso es el receptor recibe los datos firmados o cifrados y puede garantizar la veracidad de los documentos.
+
+La tecnología PKI se puede usar para los siguientes casos, autentificación de usuarios y sistemas, identificación del interlocutor, cifrado de datos digitales, firmado digital de datos, tales como documentos, software, etc, asegurar comunicaciones y garantía de no repudio.
+
+Existen varios tipos de certificados entre los que podemos encontrar certificados de tipo personal, que acredita la identidad del titular, un certificado de pertenencia a una empresa, que además de garantizar la identidad garantiza la empresa para la que trabaja, certificado de representante, que acredita los poderes que tiene dicho usuario sobre la empresa, certificado de servidor seguro, que utilizan los servidores para asegurar las conexiones con sus clientes, certificados de firma de código para garantizar que los cambios realizados en el código son legítimos y muchos otros tipos.
+
+En el ámbito de servidores y sistemas informáticos hay varias PKI importantes como Verisign: \url{http://www.verisign.com/}, o Comodo: \url{http://www.comodo.com} 
+
+%Poner anexo
+En el proyecto hemos usado certificados generados por una CA imaginaria, en el anexo podemos ver como generar certificados, para poder hacer las pruebas pero si el proyecto se llevase a cabo podría ser fácilmente extensible con una PKI propia de la Universidad de Málaga o con cualquier que dote de validez legal en España.
+
+\section{Critografía en Java.}\label{cap:javasecurity}
+
+Como ya hemos dicho Java dota de una API llamada \textit{java.security} donde proporciona todo tipo de algoritmos de hash, de firma digital, cifrado, generación de números aleatorios, etc. En \url{http://docs.oracle.com/javase/6/docs/technotes/guides/security/} está toda la documentación necesaria sobre todos los métodos de cifrado o firmado que proporciona la API.
+
+El paquete \textit{java.security.*} proporciona diferentes clases que vamos a explicar a continuación:
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=1]{./Criptografia/imagenes/messageDigest.png}
+  \caption{Uso de la clase MessageDigest.}
+  \label{fig:messageDigest}
+\end{figure} 
+
+\textbf{MessageDigest:} es la clase que proporciona todos los mecanismos para realizar funciones hash. La forma de generar el hash se puede observar en la figura \ref{fig:messageDigest}. 
+
+La forma de uso es la siguiente, se genera un objeto del tipo MessageDigest, el objeto se inicializa con la función getInstance() de la fábrica de métodos estáticos, acto seguido se usa el método update() para añadir los byte del mensaje al que queremos realizar la función hash y seguidamente usamos la función digest() que devuelve el hash del mensaje que hemos introducido con el método update(). Un ejemplo de esto se puede ver en la figura \ref{cod:digest}.
+
+\begin{figure}
+
+	\begin{scriptsize}
+	\begin{lstlisting}[language=Java] 
+	MessageDigest md = MessageDigest.getInstance("SHA");
+	md.update(toChapter1);
+	byte[] toChapter1Digest = tc1.digest();
+	\end{lstlisting}
+	\end{scriptsize}
+		\caption{Ejemplo de un trozo de código fuente con el uso de MessageDigest.}
+		\label{cod:digest}
+\end{figure}
+
+\textbf{Signature:} es la clase que proporciona todos los métodos de firmado mediante algoritmos DSA o RSA. En la figura \ref{fig:signature} podemos ver el modo de uso. Para usarlo primero hay que poseer una clave (Key), puede ser una clave pública o privada y dependiendo de cual poseamos podemos firmar o verificar una firma. En el proyecto hemos usado la instancia \textit{SHA1withRSA}.
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=1]{./Criptografia/imagenes/signature.png}
+  \caption{Modo de uso de la clase Signature.}
+  \label{fig:signature}
+\end{figure} 
+
+El uso es muy parecido a la clase de \textbf{MessageDigest}, lo primero es crear un objeto usando una de las clases fábrica que queramos, acto seguido usamos el método initSign(Key) con el cual añadimos la clave al proceso. Acto seguido usamos el método update() y añadimos los datos con los que queremos operar, tanto para firmar o verificar. Si lo que queremos es firmar usamos la función sign() y si queremos verficar la función verify(). La función sign() devuelve un array de bytes que sería la firma de los datos y la función verify() devuelve un booleano con valor true si la firma es válida o false si no se puede verificar.
+
+En la figura \ref{cod:signature} se puede observar un trozo de código donde se firma un mensaje. En la figura \ref{cod:verify} podemos ver un ejemplo de una verificación de un texto cifrado.
+
+\begin{figure}
+
+	\begin{scriptsize}
+	\begin{lstlisting}[language=Java] 
+	Signature instance = Signature.getInstance("SHA1withRSA");
+	instance.initSign(key);
+	instance.update((plainText).getBytes());
+	byte[] signature = instance.sign();
+	\end{lstlisting}
+	\end{scriptsize}
+		\caption{Ejemplo de un trozo de código fuente con el uso de la función sign().}
+		\label{cod:signature}
+\end{figure}
+
+\begin{figure}
+
+	\begin{scriptsize}
+	\begin{lstlisting}[language=Java] 
+	Signature instance = Signature.getInstance("SHA1withRSA");
+	instance.initSign(key);
+	instance.update((cipherText).getBytes());
+	boolean verify = instance.verify();
+	\end{lstlisting}
+	\end{scriptsize}
+		\caption{Ejemplo de un trozo de código fuente con el uso de la función verify().}
+		\label{cod:verify}
+\end{figure}
+
+\textbf{Cipher:} es una de las clases que más posibilidades ofrece, ya que implementa un gran número de algoritmos de cifrado simétrico. En la figura \ref{fig:cipher} se puede observar la forma de uso. 
+
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.9]{./Criptografia/imagenes/cipher.png}
+  \caption{Modo de uso de la clase Cipher.}
+  \label{fig:cipher}
+\end{figure} 
+
+En el proyecto solo hemos usado criptografía de clave pública, pero la forma de uso es sencilla, se genera un objeto llamando a la fábrica de objetos que tiene la clase con getInstance() mandándole una cadena con el algoritmo que queremos usar, DES, AES, etc y además el padding usado, si es necesario, como por ejemplo ``DES/CFB8/NoPadding" o ``DES/OFB32/PKCS5Padding", acto seguido debemos de usar el procedimiento init() donde debemos de indicar si el objeto se va a usar para encriptar o desencriptar y la clave usada, para finalizar podemos usar la función doFinal() a la que le pasaríamos el texto cifrado o en claro dependiendo del tipo de proceso que queramos usar.
+
+Existen varias clases que se basan en la clase Cipher para cifrado de flujos o archivos enteros sin tener que ir byte a byte. Por ejemplo \textbf{CipherInputStream} y \textbf{CipherOutputStream}. 
+
+\textbf{Key:} para el manejo de las claves dentro del paquete hay una interfaz con la que se manejan todos los tipos de claves que podemos tener, desde claves públicas y privadas hasta claves de cifrado simétrico. Esta interfaz la implementan un gran número de clases como pueden ser     PrivateKey, PublicKey, SecretKey, RSAPrivateKey, RSAPublicKey, DSAPrivateKey, DSAPublicKey, etc. Para generar las claves hay que usar clases factoría como pueden ser KeyGenerator, KeyPairGenerator o KeyFactory dependiendo de si queremos generar una clave simétrica o un par de claves o usar KeyStore si lo que queremos es cargarla llave de un llavero (archivo de claves) que tengamos.
+
+En el proyecto las no hemos tenido que generar claves, ya que queríamos que se puediera cargar un llavero con la clave privada y pública, en el trozo de código de la figura \ref{cod:keyStore} podemos ver como se usa.
+
+\begin{figure}
+
+	\begin{scriptsize}
+	\begin{lstlisting}[language=Java] 
+	KeyStore ks = KeyStore.getInstance("PKCS12");
+	ks.load(new FileInputStream(path), password.toCharArray());
+	PrivateKey key = (PrivateKey) ks.getKey(ks.aliases().nextElement(), password.toCharArray());
+	\end{lstlisting}
+	\end{scriptsize}
+		\caption{Ejemplo de un trozo de código fuente con el uso de la función verify().}
+		\label{cod:verify}
+\end{figure}
+
+
+KeyStore ks = KeyStore.getInstance("PKCS12");
+ks.load(new FileInputStream(path), password.toCharArray());
+PrivateKey key = (PrivateKey) ks.getKey(ks.aliases().nextElement(), password.toCharArray());
 
 
 
-Aquí tenemos un ejemplo de cifrado/descifrado con RSA. Los parámetros usados aquí son pequeños y orientativos con respecto a los que maneja el algoritmo, pero podemos usar también OpenSSL para generar y examinar un par de claves reales.
-p=61 	1º nº primo privado
-q=53 	2º nº primo privado
-n=pq=3233 	producto p*q
-e=17 	exponente público
-d=2753 	exponente privado
-
-La clave pública (e, n). La clave privada es (d, n). La función de cifrado es:
-
-        \mbox{encrypt}(m) = m^e\pmod{n} = m^{17}\pmod{3233}
-
-Donde m es el texto sin cifrar. La función de descifrado es:
-
-        \mbox{decrypt(c)} = c^d\pmod{n} = c^{2753}\pmod{3233}
-
-Donde c es el texto cifrado. Para cifrar el valor del texto sin cifrar 123, nosotros calculamos:
-
-        \mbox{encrypt(123)} = 123^{17}\pmod{3233} = 855
-
-Para descifrar el valor del texto cifrado, nosotros calculamos:
-
-        \mbox{decrypt(855)} = 855^{2753}\pmod{3233} = 123
-
-Ambos de estos cálculos pueden ser eficientemente usados por el algoritmo de multiplicación cuadrática para exponenciación modular
 
 
+
+
+
+
+
+
+ 
