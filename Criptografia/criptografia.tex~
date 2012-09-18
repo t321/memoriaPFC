@@ -182,7 +182,7 @@ Existen varias clases que se basan en la clase Cipher para cifrado de flujos o a
 
 \textbf{Key:} para el manejo de las claves dentro del paquete hay una interfaz con la que se manejan todos los tipos de claves que podemos tener, desde claves públicas y privadas hasta claves de cifrado simétrico. Esta interfaz la implementan un gran número de clases como pueden ser     PrivateKey, PublicKey, SecretKey, RSAPrivateKey, RSAPublicKey, DSAPrivateKey, DSAPublicKey, etc. Para generar las claves hay que usar clases factoría como pueden ser KeyGenerator, KeyPairGenerator o KeyFactory dependiendo de si queremos generar una clave simétrica o un par de claves o usar KeyStore si lo que queremos es cargarla llave de un llavero (archivo de claves) que tengamos.
 
-En el proyecto las no hemos tenido que generar claves, ya que queríamos que se puediera cargar un llavero con la clave privada y pública, en el trozo de código de la figura \ref{cod:keyStore} podemos ver como se usa.
+En el proyecto las no hemos tenido que generar claves, ya que queríamos que se puediera cargar un llavero con la clave privada y pública, en el trozo de código de la figura \ref{cod:keyStore} podemos ver como se usa la clase KeyStore en el proyecto.
 
 \begin{figure}
 
@@ -193,16 +193,11 @@ En el proyecto las no hemos tenido que generar claves, ya que queríamos que se 
 	PrivateKey key = (PrivateKey) ks.getKey(ks.aliases().nextElement(), password.toCharArray());
 	\end{lstlisting}
 	\end{scriptsize}
-		\caption{Ejemplo de un trozo de código fuente con el uso de la función verify().}
-		\label{cod:verify}
+		\caption{Ejemplo de un trozo de código donde se carga un KeyStore.}
+		\label{cod:keyStore}
 \end{figure}
 
-
-KeyStore ks = KeyStore.getInstance("PKCS12");
-ks.load(new FileInputStream(path), password.toCharArray());
-PrivateKey key = (PrivateKey) ks.getKey(ks.aliases().nextElement(), password.toCharArray());
-
-
+Como podemos ver lo primero que tenemos que hacer es generar un objeto KeyStore, usando la función getInstance() a la que tenemos que pasarle el tipo de llavero que vamos a usar, nosotros hemos usado PKCS12\footnote{Para más información visite \url{http://en.wikipedia.org/wiki/PKCS12}.} que es un archivo creado especialmente para almacenar claves. Acto seguido cargamos el fichero, con el método load(), al cual tenemos que pasarle la ruta hasta el archivo y el password del archivo PKCS12. Para conseguir la clave privada usamos la función getKey() a la que hay que pasarle el alias con el que está guardada la clave en el llavero y el password para poder sacarla. En el código se puede ver un casting ya que la función getKey() devuelve un elemento que implementa la interfaz Key, pero nosotros sabemos que es un objeto de la clase PrivateKey. Acto seguido ya podemos usar la clave para lo que queramos.
 
 
 
