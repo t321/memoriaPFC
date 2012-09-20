@@ -19,23 +19,28 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{38}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{40}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{51}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{53}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{56}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{58}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{61}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{67}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{68}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{69}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{69}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{69}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{69}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{70}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{61}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{63}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{66}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{68}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{72}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{78}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{79}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{80}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{80}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{80}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{80}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{81}
