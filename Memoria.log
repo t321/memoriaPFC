@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  20 SEP 2012 19:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  24 SEP 2012 20:00
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -287,6 +287,120 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen106
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count94
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count98
+)
 (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -296,23 +410,23 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count92
+\lst@mode=\count99
 \lst@gtempboxa=\box26
-\lst@token=\toks18
-\lst@length=\count93
-\lst@currlwidth=\dimen106
-\lst@column=\count94
-\lst@pos=\count95
-\lst@lostspace=\dimen107
-\lst@width=\dimen108
-\lst@newlines=\count96
-\lst@lineno=\count97
-\lst@maxwidth=\dimen109
+\lst@token=\toks19
+\lst@length=\count100
+\lst@currlwidth=\dimen109
+\lst@column=\count101
+\lst@pos=\count102
+\lst@lostspace=\dimen110
+\lst@width=\dimen111
+\lst@newlines=\count103
+\lst@lineno=\count104
+\lst@maxwidth=\dimen112
 
 (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count98
-\lst@skipnumbers=\count99
+\c@lstnumber=\count105
+\lst@skipnumbers=\count106
 \lst@framebox=\box27
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
@@ -324,7 +438,7 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -335,7 +449,7 @@ LaTeX Warning: Label `fig:pesta\IeC {\~n}aVerificar' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -347,7 +461,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -355,52 +469,81 @@ If that doesn't work, type  X <return>  to quit.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
 \openout1 = `Memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen110
+\scratchcounter=\count107
+\scratchdimen=\dimen113
 \scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen111
-\MPnumerator=\count104
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen114
+\MPnumerator=\count111
+\everyMPtoPDFconversion=\toks21
 )
-\c@lstlisting=\count105
+Package hyperref Info: Link coloring OFF on input line 78.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count112
+)
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+
+(/home/juanantonio/memoriaPFC/Memoria.out)
+(/home/juanantonio/memoriaPFC/Memoria.out)
+\@outlinefile=\write3
+\openout3 = `Memoria.out'.
+
+\AtBeginShipoutBox=\box29
+\c@lstlisting=\count113
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 67.
+(Font)              <14.4> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 67.
- [1] [2
+(Font)              <7> on input line 80.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 
+      [1]pdfTeX warning (ext4): destination with the same identifier (name{page
+.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 	\tableofcontents
+                       [2
 
-]
-(/home/juanantonio/memoriaPFC/Memoria.toc
+] (/home/juanantonio/memoriaPFC/Memoria.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -408,25 +551,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [3])
-\tf@toc=\write3
-\openout3 = `Memoria.toc'.
+\tf@toc=\write4
+\openout4 = `Memoria.toc'.
 
- [4]
-(./Introduccion/introduccion.tex
+
+[4] (./Introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \vbox (badness 7504) has occurred while \output is active []
 
- [1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 
+      [1
 
 
-]
-[2] <./Introduccion/imagenes/actionbar.png, id=31, 815.045pt x 325.215pt>
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 
+      [2]
+<./Introduccion/imagenes/actionbar.png, id=262, 815.045pt x 325.215pt>
 File: ./Introduccion/imagenes/actionbar.png Graphic file (type png)
 
 <use ./Introduccion/imagenes/actionbar.png>
-<./Introduccion/imagenes/graficoEvolucionAndroid.png, id=33, 509.65407pt x 222.
-07968pt>
+<./Introduccion/imagenes/graficoEvolucionAndroid.png, id=266, 509.65407pt x 222
+.07968pt>
 File: ./Introduccion/imagenes/graficoEvolucionAndroid.png Graphic file (type pn
 g)
  <use ./Introduccion/imagenes/graficoEvolucionAndroid.png>
@@ -435,8 +588,8 @@ Overfull \hbox (17.7238pt too wide) in paragraph at lines 32--33
  []
 
 
-<./Introduccion/imagenes/graficoUsoAndroid.png, id=34, 799.98875pt x 471.7625pt
->
+<./Introduccion/imagenes/graficoUsoAndroid.png, id=267, 799.98875pt x 471.7625p
+t>
 File: ./Introduccion/imagenes/graficoUsoAndroid.png Graphic file (type png)
  <use ./Introduccion/imagenes/graficoUsoAndroid.png>
 Overfull \hbox (9.9934pt too wide) in paragraph at lines 39--40
@@ -446,10 +599,20 @@ Overfull \hbox (9.9934pt too wide) in paragraph at lines 39--40
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./Introduccion/imagenes/actionbar.png>] [4 <./Introduccion/imagenes/grafic
-oEvolucionAndroid.png (PNG copy)> <./Introduccion/imagenes/graficoUsoAndroid.pn
-g>]
-<./Introduccion/imagenes/nexus.png, id=42, 474.77374pt x 889.3225pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 
+      [3 <./Introduccion/imagenes/actionbar.png>]pdfTeX warning (ext4): destina
+tion with the same identifier (name{page.4}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.51 
+      [4 <./Introduccion/imagenes/graficoEvolucionAndroid.png (PNG copy)> <./In
+troduccion/imagenes/graficoUsoAndroid.png>]
+<./Introduccion/imagenes/nexus.png, id=277, 474.77374pt x 889.3225pt>
 File: ./Introduccion/imagenes/nexus.png Graphic file (type png)
 
 <use ./Introduccion/imagenes/nexus.png>)
@@ -460,51 +623,11 @@ xus.png>] [6
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 9.
-! Undefined control sequence.
-<argument> ...formación sobre Jame Gosling: \url 
-                                                  {http://en.wikipedia.org/w...
-l.9 ...tp://en.wikipedia.org/wiki/James\_Gosling}}
-                                                   para Sun Microsystems, qu...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (5.87863pt too wide) in paragraph at lines 9--9
-[][]\OT1/cmr/m/n/10 Para m^^Sas in-for-ma-ci^^Son so-bre Jame Gosling: http://e
-n.wikipedia.org/wiki/James[]Gosling| 
- []
-
 [7]
-<./ConocimientosPrevios/imagenes/indiceTiobe.png, id=57, 429.10312pt x 145.2928
-2pt>
+<./ConocimientosPrevios/imagenes/indiceTiobe.png, id=302, 429.10312pt x 145.292
+82pt>
 File: ./ConocimientosPrevios/imagenes/indiceTiobe.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/indiceTiobe.png>
-! Undefined control sequence.
-<argument> ... tiobe en septiembre del 2012. \url 
-                                                  {http://www.tiobe.com/}}}{...
-l.16 ...bre del 2012. \url{http://www.tiobe.com/}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... tiobe en septiembre del 2012. \url 
-                                                  {http://www.tiobe.com/}
-l.16 ...bre del 2012. \url{http://www.tiobe.com/}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Overfull \hbox (16.05412pt too wide) in paragraph at lines 21--22
 []\OT1/cmr/m/n/12 La im-ple-mentaci^^Son orig-i-nal y las ref-er-en-cias del co
 m-pi-lador de ja-va, m^^Saquinas
@@ -522,21 +645,9 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 57.
- [10]
-! Undefined control sequence.
-<argument> ...Para más información visite: \url 
-                                                  {http://en.wikipedia.org/w...
-l.74 ...ipedia.org/wiki/Eclipse\_Public\_License}}
-                                                   la cual es una licencia d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[11]
-<./ConocimientosPrevios/imagenes/pantallaEclipse.png, id=73, 783.67781pt x 520.
-19344pt>
+ [10] [11]
+<./ConocimientosPrevios/imagenes/pantallaEclipse.png, id=335, 783.67781pt x 520
+.19344pt>
 File: ./ConocimientosPrevios/imagenes/pantallaEclipse.png Graphic file (type pn
 g)
  <use ./ConocimientosPrevios/imagenes/pantallaEclipse.png>
@@ -544,21 +655,18 @@ Overfull \hbox (1.83794pt too wide) in paragraph at lines 78--79
  [][] 
  []
 
-
-Underfull \vbox (badness 3354) has occurred while \output is active []
-
- [12 <./ConocimientosPrevios/imagenes/pantallaEclipse.png (PNG copy)>] [13]
-<./ConocimientosPrevios/imagenes/cifradoCesar.png, id=81, 501.875pt x 211.79124
-pt>
+[12 <./ConocimientosPrevios/imagenes/pantallaEclipse.png (PNG copy)>] [13]
+<./ConocimientosPrevios/imagenes/cifradoCesar.png, id=349, 501.875pt x 211.7912
+4pt>
 File: ./ConocimientosPrevios/imagenes/cifradoCesar.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/cifradoCesar.png> [14]
-<./ConocimientosPrevios/imagenes/cifradoHomofonico.png, id=85, 337.26pt x 175.6
-5625pt>
+<./ConocimientosPrevios/imagenes/cifradoHomofonico.png, id=356, 337.26pt x 175.
+65625pt>
 File: ./ConocimientosPrevios/imagenes/cifradoHomofonico.png Graphic file (type 
 png)
  <use ./ConocimientosPrevios/imagenes/cifradoHomofonico.png>
-<./ConocimientosPrevios/imagenes/cifradoTransposicion.png, id=86, 969.6225pt x 
-564.1075pt>
+<./ConocimientosPrevios/imagenes/cifradoTransposicion.png, id=358, 969.6225pt x
+ 564.1075pt>
 File: ./ConocimientosPrevios/imagenes/cifradoTransposicion.png Graphic file (ty
 pe png)
  <use ./ConocimientosPrevios/imagenes/cifradoTransposicion.png>
@@ -570,25 +678,14 @@ s.
  []
 
 [16 <./ConocimientosPrevios/imagenes/cifradoTransposicion.png>]
-<./ConocimientosPrevios/imagenes/cifradoDes.png, id=96, 366.61969pt x 499.8675p
-t>
+<./ConocimientosPrevios/imagenes/cifradoDes.png, id=373, 366.61969pt x 499.8675
+pt>
 File: ./ConocimientosPrevios/imagenes/cifradoDes.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/cifradoDes.png>
 Underfull \vbox (badness 1565) has occurred while \output is active []
 
  [17]
 [18 <./ConocimientosPrevios/imagenes/cifradoDes.png (PNG copy)>] [19]
-! Undefined control sequence.
-<argument> ...más sobre la licencia visite: \url 
-                                                  {http://en.wikipedia.org/w...
-l.220 ...//en.wikipedia.org/wiki/Apache\_License}}
-                                                  . La tarea del mantenimien...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 ! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
 
@@ -613,19 +710,15 @@ tiem-bre de 2009. Se le a~nadieron
  []
 
 [22] [23]
-<./ConocimientosPrevios/imagenes/android41.jpeg, id=119, 722.7pt x 1284.8pt>
+<./ConocimientosPrevios/imagenes/android41.jpeg, id=411, 722.7pt x 1284.8pt>
 File: ./ConocimientosPrevios/imagenes/android41.jpeg Graphic file (type jpg)
 
 <use ./ConocimientosPrevios/imagenes/android41.jpeg> [24] [25 <./ConocimientosP
 revios/imagenes/android41.jpeg>]
-! Undefined control sequence.
-l.287 ...arrolladores que proporciona Google, \url
-                                                  {https://developers.google...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (24.58173pt too wide) in paragraph at lines 287--288
+\OT1/cmr/m/n/12 ladores que pro-por-ciona Google, []$\OT1/cmtt/m/n/12 https : /
+ / developers . google . com / appengine/$[]\OT1/cmr/m/n/12 . 
+ []
 
 [26] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -744,53 +837,8 @@ or \DeclareInputMath before using this key.
 [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-! Undefined control sequence.
-l.357 ...servicios gratuitos como el conocido \url
-                                                  {https://github.com/} y \u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.357 ...conocido \url{https://github.com/} y \url
-                                                  {https://bitbucket.org/}. ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.357 ...torio de la memoria es la siguiente: \url
-                                                  {https://github.com/t321/m...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.357 ... repositorio de las aplicaciones web \url
-                                                  {https://bitbucket.org/t32...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.357 ...g} y el de la aplicación de Android \url
-                                                  {https://bitbucket.org/t32...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./Criptografia/criptografia.tex [29] [30
+ [28])
+(./Criptografia/criptografia.tex [29] [30
 
 ]
 Cap\'{\i }tulo 3.
@@ -808,7 +856,7 @@ t/12 c[] mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/cmm/m/i
 t/12 c[] mod\OT1/cmr/m/n/12 (3233)$,
  []
 
-[33] <./Criptografia/imagenes/esquemaPKI.png, id=156, 1003.75pt x 709.65125pt>
+[33] <./Criptografia/imagenes/esquemaPKI.png, id=483, 1003.75pt x 709.65125pt>
 File: ./Criptografia/imagenes/esquemaPKI.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/esquemaPKI.png>
@@ -817,7 +865,7 @@ Overfull \hbox (111.87378pt too wide) in paragraph at lines 71--72
  []
 
 [34] [35 <./Criptografia/imagenes/esquemaPKI.png>]
-<./Criptografia/imagenes/pkiDnie.png, id=164, 438.13687pt x 188.20313pt>
+<./Criptografia/imagenes/pkiDnie.png, id=496, 438.13687pt x 188.20313pt>
 File: ./Criptografia/imagenes/pkiDnie.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/pkiDnie.png>
@@ -829,53 +877,12 @@ Overfull \hbox (48.13579pt too wide) in paragraph at lines 83--84
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./Criptografia/imagenes/pkiDnie.png (PNG copy)>]
-! Undefined control sequence.
-l.94 ...varias PKI importantes como Verisign: \url
-                                                  {http://www.verisign.com/}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.94 ...{http://www.verisign.com/}, o Comodo: \url
-                                                  {http://www.comodo.com}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (47.22185pt too wide) in paragraph at lines 94--95
-\OT1/cmr/m/n/12 tantes co-mo Verisign: http://www.verisign.com/, o Co-mo-do: ht
-tp://www.comodo.com 
- []
-
-! Undefined control sequence.
-l.101 ...ión de números aleatorios, etc. En \url
-                                                  {http://docs.oracle.com/ja...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (139.10146pt too wide) in paragraph at lines 101--102
-\OT1/cmr/m/n/12 eraci^^Son de n^^Sumeros aleato-rios, etc. En http://docs.oracl
-e.com/javase/6/docs/technotes/guides/security/
- []
-
-<./Criptografia/imagenes/messageDigest.png, id=168, 225.09094pt x 42.91031pt>
+<./Criptografia/imagenes/messageDigest.png, id=505, 225.09094pt x 42.91031pt>
 File: ./Criptografia/imagenes/messageDigest.png Graphic file (type png)
 
-<use ./Criptografia/imagenes/messageDigest.png>
-Underfull \vbox (badness 1325) has occurred while \output is active []
-
- [37 <./Criptografia/imagenes/messageDigest.png>]
-<./Criptografia/imagenes/signature.png, id=174, 483.8075pt x 221.82875pt>
+<use ./Criptografia/imagenes/messageDigest.png> [37 <./Criptografia/imagenes/me
+ssageDigest.png>]
+<./Criptografia/imagenes/signature.png, id=518, 483.8075pt x 221.82875pt>
 File: ./Criptografia/imagenes/signature.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/signature.png>
@@ -883,7 +890,7 @@ Overfull \hbox (93.80632pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<./Criptografia/imagenes/cipher.png, id=175, 514.92375pt x 180.675pt>
+<./Criptografia/imagenes/cipher.png, id=522, 514.92375pt x 180.675pt>
 File: ./Criptografia/imagenes/cipher.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/cipher.png>
@@ -894,36 +901,15 @@ Overfull \hbox (73.4271pt too wide) in paragraph at lines 174--175
 [38] [39 <./Criptografia/imagenes/signature.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./Criptografia/imagenes/cipher.png>]
-! Undefined control sequence.
-<argument> ... Para más información visite \url 
-                                                  {http://en.wikipedia.org/w...
-l.200 ...rl{http://en.wikipedia.org/wiki/PKCS12}.}
-                                                   que es un archivo creado ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./Android/android.tex [41] [42
+ [40 <./Criptografia/imagenes/cipher.png>]) (./Android/android.tex [41] [42
 
 ]
 Cap\'{\i }tulo 4.
-! Undefined control sequence.
-l.10 ...ra crear una aplicación en esta web, \url
-                                                  {http://developer.android....
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<./Android/imagenes/arquitecturaAndroid.jpg, id=197, 725.75366pt x 521.15831pt>
+<./Android/imagenes/arquitecturaAndroid.jpg, id=579, 725.75366pt x 521.15831pt>
 File: ./Android/imagenes/arquitecturaAndroid.jpg Graphic file (type jpg)
 <use ./Android/imagenes/arquitecturaAndroid.jpg>
 Overfull \hbox (45.45555pt too wide) in paragraph at lines 24--25
@@ -945,7 +931,7 @@ n Pack-etVideo's Open-CORE
  []
 
 [46]
-<./Android/imagenes/maquinaVirtualDalvik.png, id=207, 501.875pt x 129.48375pt>
+<./Android/imagenes/maquinaVirtualDalvik.png, id=595, 501.875pt x 129.48375pt>
 File: ./Android/imagenes/maquinaVirtualDalvik.png Graphic file (type png)
 
 <use ./Android/imagenes/maquinaVirtualDalvik.png>
@@ -959,154 +945,110 @@ Overfull \hbox (15.19696pt too wide) in paragraph at lines 79--80
 tres archivos, \OT1/cmr/m/it/12 MAN-I-FEST.MF
  []
 
-[47 <./Android/imagenes/maquinaVirtualDalvik.png (PNG copy)>]
-<./Android/imagenes/estructuraAPK.png, id=212, 452.4403pt x 382.42876pt>
+[47 <./Android/imagenes/maquinaVirtualDalvik.png (PNG copy)>] [48]
+<./Android/imagenes/estructuraAPK.png, id=613, 452.4403pt x 382.42876pt>
 File: ./Android/imagenes/estructuraAPK.png Graphic file (type png)
 
-<use ./Android/imagenes/estructuraAPK.png> [48] [49 <./Android/imagenes/estruct
-uraAPK.png (PNG copy)>] [50]
-<./Android/imagenes/contentProvider.png, id=224, 722.7pt x 1284.8pt>
+<use ./Android/imagenes/estructuraAPK.png> [49 <./Android/imagenes/estructuraAP
+K.png (PNG copy)>] [50]
+<./Android/imagenes/contentProvider.png, id=626, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/contentProvider.png Graphic file (type png)
 
 <use ./Android/imagenes/contentProvider.png> [51 <./Android/imagenes/contentPro
 vider.png (PNG copy)>]
-<./Android/imagenes/widget.png, id=228, 722.7pt x 1284.8pt>
+<./Android/imagenes/widget.png, id=633, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/widget.png Graphic file (type png)
 
 <use ./Android/imagenes/widget.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./Android/imagenes/widget.png (PNG copy)>] [53]
-<./Android/imagenes/cicloActivity.png, id=235, 514.92375pt x 665.48625pt>
+<./Android/imagenes/cicloActivity.png, id=654, 514.92375pt x 665.48625pt>
 File: ./Android/imagenes/cicloActivity.png Graphic file (type png)
 
 <use ./Android/imagenes/cicloActivity.png>
-Overfull \hbox (21.93954pt too wide) in paragraph at lines 203--204
+Overfull \hbox (21.93954pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
-) (./GoogleAppEngine/googleappengine.tex [54] [55 <./Android/imagenes/cicloActi
-vity.png>] [56
+[54] [55 <./Android/imagenes/cicloActivity.png>] [56]
+<./Android/imagenes/gmailTablet.png, id=693, 1284.8pt x 803.0pt>
+File: ./Android/imagenes/gmailTablet.png Graphic file (type png)
+
+<use ./Android/imagenes/gmailTablet.png>
+<./Android/imagenes/gmailMovil.png, id=694, 866.23625pt x 632.3625pt>
+File: ./Android/imagenes/gmailMovil.png Graphic file (type png)
+
+<use ./Android/imagenes/gmailMovil.png>
+<./Android/imagenes/swype.png, id=698, 722.7pt x 1284.8pt>
+File: ./Android/imagenes/swype.png Graphic file (type png)
+
+<use ./Android/imagenes/swype.png> [57 <./Android/imagenes/gmailTablet.png (PNG
+ copy)>]
+<./Android/imagenes/estructuraBasicaAndroid.png, id=709, 256.70906pt x 348.5521
+9pt>
+File: ./Android/imagenes/estructuraBasicaAndroid.png Graphic file (type png)
+ <use ./Android/imagenes/estructuraBasicaAndroid.png> [58 <./Android/imagenes/g
+mailMovil.png>] [59 <./Android/imagenes/swype.png (PNG copy)>] [60 <./Android/i
+magenes/estructuraBasicaAndroid.png (PNG copy)>]
+Overfull \hbox (1.57451pt too wide) in paragraph at lines 311--312
+\OT1/cmr/m/it/12 drawable-xhdpi \OT1/cmr/m/n/12 es donde se a~naden to-das im^^
+Sagenes us-adas, sonidos,
+ []
+
+[61]) (./GoogleAppEngine/googleappengine.tex [62]
+Cap\'{\i }tulo 5.
+[63
 
 ]
-Cap\'{\i }tulo 5.
-! Undefined control sequence.
-l.5 ...to Google, ofrecen un dominio, que es: \url
-                                                  {http://nombre\_de\_la\_ap...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[57]
 Overfull \hbox (33.59442pt too wide) in paragraph at lines 16--16
 []\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-caci^^Son web gen^^Seri-
  []
 
-[58]
+[64]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 59
+LE APP ENGINE. \OT1/cmr/m/n/12 65
  []
 
-[59]
-! Undefined control sequence.
-l.71 ...nes \textbf{GET} sería la siquiente: \url
-                                                  {https://servertimestamp.a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced alignment tab character &.
-l.71 .../servertimestamp.appspot.com/search?id=63&
-                                                  texto=Prueba}, como se pue...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Undefined control sequence.
-l.71 ...e puede ver la dirección base seria: \url
-                                                  {https://servertimestamp.a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.71 ... próximas sección, en la dirección \url
-                                                  {/search} y el primer par�...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.71 ... el primer parámetro va precedido de \url
-                                                  {?id\_parámetro} y el res...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.71 ...e \url{?id\_parámetro} y el resto de \url
-                                                  {\&id\_parámetro}. En nue...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (33.87477pt too wide) in paragraph at lines 71--72
-\OT1/cmr/m/n/12 siquiente: https://servertimestamp.appspot.com/search?id=63text
-o=Prueba,
+[65]
+Overfull \hbox (29.98128pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/12 siquiente: []$\OT1/cmtt/m/n/12 https : / / servertimestamp . ap
+pspot . com / search ? id = 63&texto =
  []
 
 
-Overfull \hbox (49.77182pt too wide) in paragraph at lines 71--72
-\OT1/cmr/m/n/12 co-mo se puede ver la di-rec-ci^^Son base se-ria: https://serve
-rtimestamp.appspot.com/,
+Overfull \hbox (37.62396pt too wide) in paragraph at lines 66--67
+\OT1/cmtt/m/n/12 Prueba$[]\OT1/cmr/m/n/12 , co-mo se puede ver la di-rec-ci^^So
+n base se-ria: []$\OT1/cmtt/m/n/12 https : / / servertimestamp .
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=256, 354.32375pt x 405.515pt>
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=769, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) [60]
+) [66]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 104.
-
-Underfull \vbox (badness 1642) has occurred while \output is active []
-
+(Font)              <10.95> on input line 99.
 
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 61
+LE APP ENGINE. \OT1/cmr/m/n/12 67
  []
 
-[61 <./GoogleAppEngine/imagenes/JSP_Model.png>]
-<./GoogleAppEngine/imagenes/carpetawar.png, id=265, 210.03468pt x 349.305pt>
+[67 <./GoogleAppEngine/imagenes/JSP_Model.png>]
+<./GoogleAppEngine/imagenes/carpetawar.png, id=816, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
-<use ./GoogleAppEngine/imagenes/carpetawar.png> [62]
+<use ./GoogleAppEngine/imagenes/carpetawar.png> [68]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 63
+LE APP ENGINE. \OT1/cmr/m/n/12 69
  []
 
-[63 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>] [64]
+[69 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -1123,7 +1065,7 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \begin{lstlisting}[language=YAML]
+l.174 \begin{lstlisting}[language=YAML]
                                        
 The following languages weren't loadable:
     ,yaml$
@@ -1136,273 +1078,174 @@ See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \begin{lstlisting}[language=YAML]
+l.174 \begin{lstlisting}[language=YAML]
                                        
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Undefined control sequence.
-l.196 ...ml} se puede consultar estos enlaces \url
-                                                  {https://developers.google...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.196 ...le.com/appengine/docs/java/config/}, \url
-                                                  {https://developers.google...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
-
- []
-
-
-Overfull \hbox (228.81468pt too wide) in paragraph at lines 192--197
-\OT1/cmr/m/it/12 app.yalm \OT1/cmr/m/n/12 o en \OT1/cmr/m/it/12 web.xml \OT1/cm
-r/m/n/12 se puede con-sul-tar es-tos en-laces https://developers.google.com/app
-engine/docs/java/config/,
- []
-
-
-Overfull \hbox (4.63063pt too wide) in paragraph at lines 192--197
-\OT1/cmr/m/n/12 https://developers.google.com/appengine/docs/java/configyaml/. 
-En el
- []
-
-! Undefined control sequence.
-l.201 ...ho documento. Un ejemplo podría ser \url
-                                                  {https://seguro.ips.es/ser...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (12.2986pt too wide) in paragraph at lines 201--202
-\OT1/cmr/m/n/12 Un ejem-p-lo po-dr^^S^^Pa ser https://seguro.ips.es/servidortim
-estamp/index.asp
- []
-
-[65]
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=278, 738.50906pt x 307
+[70] [71]
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=892, 738.50906pt x 307
 .1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
- <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [66 <./GoogleAppEngi
-ne/imagenes/server_ips_timestamp.png (PNG copy)>] [67]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=286, 1111.15125pt x 510.90875pt>
+ <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [72 <./GoogleAppEngi
+ne/imagenes/server_ips_timestamp.png (PNG copy)>] [73]
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=906, 1111.15125pt x 510.90875pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
-Overfull \hbox (165.57426pt too wide) in paragraph at lines 235--236
+Overfull \hbox (165.57426pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-[68 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>] [69] [70]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=296, 841.64438pt 
+[74 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>] [75] [76]
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=949, 841.64438pt 
 x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
  <use ./GoogleAppEngine/imagenes/login_repositorio_general.png>
-Overfull \hbox (30.82117pt too wide) in paragraph at lines 312--313
+Overfull \hbox (30.82117pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
 
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=297, 962.84718pt x 357.
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=951, 962.84718pt x 357.
 58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
  <use ./GoogleAppEngine/imagenes/repositorio_general.png>
-Overfull \hbox (91.42241pt too wide) in paragraph at lines 321--322
+Overfull \hbox (91.42241pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
-
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=298, 1089.06876pt x 933.487
+[77 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=959, 1089.06876pt x 933.487
 5pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png>
-Overfull \hbox (154.53305pt too wide) in paragraph at lines 334--335
-[][] 
+Overfull \hbox (154.53305pt too wide) in paragraph at lines 328--329
+ [][] 
  []
 
-
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [71]
-[72 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
-[73]
-Overfull \hbox (7.431pt too wide) in paragraph at lines 384--385
+[78]
+Overfull \hbox (7.431pt too wide) in paragraph at lines 378--379
 []\OT1/cmr/bx/n/12 ServletCreateCertificate.java: \OT1/cmr/m/n/12 Este servlet 
 es el en-car-ga-do de a~nadir
  []
 
 
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=309, 800.992
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=980, 800.992
 5pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
 
 <use ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png>
-Overfull \hbox (10.49527pt too wide) in paragraph at lines 388--389
+Overfull \hbox (10.49527pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
-! Undefined control sequence.
-l.393 ...vlet está mapeado en la dirección: \url
-                                                  {https://repositoriorecibo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-<./GoogleAppEngine/imagenes/botonExportar.png, id=310, 955.31906pt x 33.87656pt
+[79]
+<./GoogleAppEngine/imagenes/botonExportar.png, id=996, 955.31906pt x 33.87656pt
 >
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png>
-Overfull \hbox (87.65836pt too wide) in paragraph at lines 401--402
+Overfull \hbox (87.65836pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
-[74]
-! Undefined control sequence.
-<argument> ...sultar los siguientes enlaces: \url 
-                                                  {http://www.json.org/} o \...
-l.441 ... \url{http://en.wikipedia.org/wiki/JSON}}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... \url {http://www.json.org/} o \url 
-                                                  {http://en.wikipedia.org/w...
-l.441 ... \url{http://en.wikipedia.org/wiki/JSON}}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 441--441
-[][]\OT1/cmr/m/n/10 Para saber que es un ob-je-to JSON pueden con-sul-tar los s
-igu-ientes en-laces:
- []
-
-
-Overfull \hbox (291.29616pt too wide) in paragraph at lines 441--442
+[80]
+Overfull \hbox (291.29616pt too wide) in paragraph at lines 435--436
 []\OT1/cmr/m/n/12 Una vez se con-sigue el usuario se lla-ma a la fun-ci^^Son \O
 T1/cmr/m/it/12 pub-lic List<RowRepositorioGeneral>getRowRepositorioGeneralList(
 String
  []
 
-[75]
+[81]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.459 ... en la figura~\ref{fig:pestañaVerificar}
+l.453 ... en la figura~\ref{fig:pestañaVerificar}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Use of \r@fig:pesta doesn't match its definition.
-\@setref ...ndefined}\else \expandafter #2#1\null 
-                                                  \fi 
-l.459 ... en la figura~\ref{fig:pestañaVerificar}
+\@setref ...expandafter \Hy@setref@link #1\@empty 
+                                                  \@empty \@nil {#2}\fi 
+l.453 ... en la figura~\ref{fig:pestañaVerificar}
                                                   
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
 made up of letters only. The macro here has not been
 followed by the required stuff, so I'm ignoring it.
 
-! Missing number, treated as zero.
+Runaway argument?
+\z@skip \add@accent {126}{n}\bbl@allowhyphens \setbox \@tempboxa \hbox \ETC.
+! Paragraph ended before \Hy@setref@link was complete.
 <to be read again> 
-                   \hskip 
-l.459 ... en la figura~\ref{fig:pestañaVerificar}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Extra \endcsname.
-\org@ref ...after \@setref \csname r@#1\endcsname 
-                                                  \@firstoftwo {#1}
-l.459 ... en la figura~\ref{fig:pestañaVerificar}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
+                   \par 
+l.454 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=317, 773.13844pt x 252.19
-218pt>
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1034, 773.13844pt x 252.1
+9218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
- <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [76]
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=321, 529.98pt x 268.75406pt>
+ <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [82]
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1048, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
-<./GoogleAppEngine/imagenes/codigoQR.png, id=322, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=1049, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
-Overfull \hbox (88.78758pt too wide) in paragraph at lines 483--484
-[][] 
+Overfull \hbox (88.78758pt too wide) in paragraph at lines 478--479
+ [][] 
  []
 
-) [77] [78 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
-[79 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [80 <./GoogleA
+) [83] [84 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
+[85 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [86 <./GoogleA
 ppEngine/imagenes/certificadosRepositorioGeneral.png> <./GoogleAppEngine/imagen
 es/botonExportar.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaVerificar.
 png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaQR.png (PNG copy)>]
-[81 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>] [82
+[87 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>] [88
 
 ]
 (/home/juanantonio/memoriaPFC/Memoria.lof
-Overfull \hbox (4.85707pt too wide) in paragraph at lines 8--8
- [][] [][]\OT1/cmr/m/n/12 Indice tiobe en sep-tiem-bre del 2012. http://www.tio
-be.com/ [][]  
+Overfull \hbox (0.1666pt too wide) in paragraph at lines 8--8
+ [][] [][][]\OT1/cmr/m/n/12 Indice tiobe en sep-tiem-bre del 2012. []$\OT1/cmtt
+/m/n/12 http : / / www . tiobe . 
  []
 
-[83
+[89
 
 ])
-\tf@lof=\write4
-\openout4 = `Memoria.lof'.
+\tf@lof=\write5
+\openout5 = `Memoria.lof'.
 
+ [90]
 
-
-! LaTeX Error: \begin{itemize} on input line 121 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 132 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \end{document}
-                   
+l.103 \end{document}
+                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[84] (/home/juanantonio/memoriaPFC/Memoria.aux
+(/home/juanantonio/memoriaPFC/Memoria.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1410,7 +1253,7 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.146 ...ig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
+l.167 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -1421,32 +1264,34 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 121 (\begingroup)
-### bottom level 
+### semi simple group (level 1) entered at line 132 (\begingroup)
+### bottom level
+(\end occurred when \ifx on line 453 was incomplete) 
 Here is how much of TeX's memory you used:
- 4383 strings out of 495061
- 61019 string characters out of 1182621
- 200772 words of memory out of 3000000
- 7474 multiletter control sequences out of 15000+50000
- 11366 words of font info for 40 fonts, out of 3000000 for 9000
+ 8071 strings out of 495061
+ 116553 string characters out of 1182621
+ 347268 words of memory out of 3000000
+ 10643 multiletter control sequences out of 15000+50000
+ 11534 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,8n,51p,1479b,2132s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-tt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Memoria.pdf (90 pages, 2820055 bytes).
+ 39i,8n,51p,1742b,2160s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Memoria.pdf (96 pages, 3358986 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1282 PDF objects out of 1440 (max. 8388607)
+ 440 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 

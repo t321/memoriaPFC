@@ -27,11 +27,8 @@ Los servlet forman parte de Java Enterprise Edition (JEE) que a su vez es una am
 
 Para crear un servlet hay que generar una clase java que implemente la interfaz \textit{javax.servlet.Servlet} o que extienda cualquier clase que herede de una clase o que implemente la interfaz anterior, como puede ser \textit{javax.servlet.http.HttpServlet} que es específico para conexiones HTTP. 
 Una vez generada la clase hay que implementar el método \textbf{doGet} para peticiones tipo \textbf{GET} o el método \textbf{doPost} para peticiones de tipo \textbf{POST}. En el siguiente trozo se código se puede ver la implementación mas básica de los métodos \textbf{doGet} y \textbf{doPost}, con las llamadas sus respectivas llamadas a \textit{super}.
-\begin{small}
- \begin{flushleft}
-\begin{scriptsize}
-\begin{lstlisting}[language=Java] 
 
+\begin{lstlisting}[style=Java] 
 @Override
 protected void doGet(HttpServletRequest req, 
 	HttpServletResponse resp) throws ServletException, IOException {
@@ -46,20 +43,18 @@ HttpServletResponse resp) throws ServletException, IOException {
 	super.doPost(req, resp);
 }
 \end{lstlisting}
-\end{scriptsize}
-\end{flushleft}
-\end{small}
+
 
 Una vez implementados los métodos que se necesiten se pueden usar el parámetro \textit{HttpServletRequest req} para recibir los valores que queramos enviar a la aplicación web y podemos usar \textit{HttpServletResponse resp} para enviar lo que queramos desde una redirección a JSP o una página web a una JSON o cadena de texto. 
 Un ejemplo de como se reciben los parámetros sería: 
 
-\begin{lstlisting}[language=Java]  
+\begin{lstlisting}[style=Java]  
 String num_sec = req.getParameter("sec");
 \end{lstlisting}
 
 Y si queremos enviar algo por \textit{HttpServletResponse resp} podríamos usar:
 
-\begin{lstlisting}[language=Java]   
+\begin{lstlisting}[style=Java]   
 PrintWriter out = resp.getWriter();
 out.print(jsonArray);
 out.flush();
@@ -68,7 +63,7 @@ out.flush();
 Como podemos ver el objeto \textit{resp} nos da la posibilidad de conseguir un objeto \textit{java.io.PrintWriter} por el que podemos enviar lo que necesitemos.
 
 %TODO: añadir la referencia... xD donde pone capítulo proximos xD
-La forma de acceder a un servlet mandandole peticiones \textbf{GET} sería la siquiente: \url{https://servertimestamp.appspot.com/search?id=63&texto=Prueba}, como se puede ver la dirección base seria: \url{https://servertimestamp.appspot.com/}, el servlets estaría mapeado internamente en el servidor web, como ya veremos en próximas sección, en la dirección \url{/search} y el primer parámetro va precedido de \url{?id\_parámetro} y el resto de \url{\&id\_parámetro}. En nuestro ejemplo tendría dos parámetros que son \textit{id} y \textit{texto}, con sus respectivos valores después del =.
+La forma de acceder a un servlet mandandole peticiones \textbf{GET} sería la siquiente: \url{https://servertimestamp.appspot.com/search?id=63&texto=Prueba}, como se puede ver la dirección base seria: \url{https://servertimestamp.appspot.com/}, el servlets estaría mapeado internamente en el servidor web, como ya veremos en próximas sección, en la dirección \url{/search} y el primer parámetro va precedido de \url{?id\_parametro} y el resto de \url{\&id\_parametro}. En nuestro ejemplo tendría dos parámetros que son \textit{id} y \textit{texto}, con sus respectivos valores después del =.
 
 El método \textbf{POST} es el utilizado para pasar parámetros por medio de formularios.
 
@@ -84,7 +79,7 @@ JSP es el acrónimo de JavaServer Pages y es una tecnología que ayuda a crear d
 
 Un fichero \textit{*.jsp} es la unión de código HTML con código java, el cual es interpretado en el momento de visualización de la página web. Un ejemplo es el siguiente:
  
-\begin{lstlisting}[language=HTML]   
+\begin{lstlisting}[style=HTML]   
 <!DOCTYPE html>
 <html>
 <body>
@@ -191,8 +186,7 @@ welcome_files:
 
 Como podemos observar es mucho más fácil de entender y de escribir, el único problema que tienen los archivos YALM es que son sensibles a los espacios en blanco y tabuladores, por lo que hay que tener cuidado al redactarlos. En este archivo se crea un servlet en la ruta \textbf{/add}, que es la clase java \textbf{ServletCreateRow} del paquete \textbf{pfc} y que siempre hay que estar registrado en la aplicación para poder acceder a él. También podemos observar el fichero de bienvenida para cuando accedemos a la aplicación web. 
 Al tener el archivo \textit{app.yalm} en la carpeta WEB-INF el parseador de YALM interpreta dicho archivo y genera un archivo \textit{web.xml} que es el que usará el servidor web para su configuración automáticamente.
-\\
-\\
+
 Para ver todas las opciones de configuración que se pueden modificar en \textit{app.yalm} o en \textit{web.xml} se puede consultar estos enlaces \url{https://developers.google.com/appengine/docs/java/config/}, \url{https://developers.google.com/appengine/docs/java/configyaml/}. En el primero podemos ver todas las opciones configurables de \textit{web.xml} y el la segunda las de \textit{app.yalm}.
 
 \section{Servidor de timestamp.}
@@ -241,7 +235,7 @@ A continuación voy a explicar una a una las clases desarrolladas.
 
 \begin{description}
 \item \textbf{Dao.java: \label{prueba}} Esta clase es la encargada de todos los accesos a la base de datos, desde insercción, borrado y listado de las filas, hasta consultas que se necesiten hacer. Se puede observar que las consultas que son de listado de columnas se ejecutan con una sentencia SQL, un ejemplo es la siguiente:
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 EntityManager em = EMFService.get().createEntityManager();
 Query q = em.createQuery("select t from RowTimerstamp t where t.num_sec = :num_sec");
 q.setParameter("num_sec", id);
@@ -249,7 +243,7 @@ RowTimerstamp RowTimerstamps = (RowTimerstamp)q.getSingleResult();
 \end{lstlisting}
 
 Pero las consultas que implican borrado o inclusión de filas no se realizan con sentencias SQL convencionales, se añaden con métodos que proporciona la API, un ejemplo es el siguiente:
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 EntityManager em = EMFService.get().createEntityManager();
 RowTimerstamp RowTimerstamp = new RowTimerstamp(num_sec, firma, fecha);
 em.persist(RowTimerstamp);
@@ -258,7 +252,7 @@ em.close();
 
 \item \textbf{RowTimerstamp.java:} En esta clase se diseña el formato de las filas de la base de datos, que como se ha explicado anteriormente no se crea con sentencias SQL, se usa un modelo de programación llamado JPA. Para dicho modelo hay que crear una clase que contenga como variables de clase las columnas de la tabla de la base de datos. Como podemos ver mediante anotaciones Java se le indica que campo es la clave primaría, también se puede indicar que ese campo es autoincrementado y otras opciones que habría que indicar en la creación de la tabla.   
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 @Id
 @GeneratedValue(strategy = GenerationType.SEQUENCE)
 private Long id;
@@ -272,7 +266,7 @@ El resto de métodos que tiene esta clase es un contructor, getter para consulta
 
 \item \textbf{ServletCreateRow.java:} Esta clase es un servet que se encagar de recibir todos los parámetros necesarios y añadirlos a la base de datos. Al recibir los parámetros mediante \textbf{GET} tiene que implementar el método \textit{doGet}, casi todos los servlets implementados en el proyecto mandan los parámetros mediante \textbf{GET}. La forma de recibir parámetros es la siguiente:
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 String firma = req.getParameter("firma");
 \end{lstlisting}
 
@@ -286,7 +280,7 @@ Si la insercción se produce correctamente se devuelve una cadena que tiene el s
 
 \item \textbf{ServletSearchRow.java:} Es un servlet que devuelve una página web donde se puede observar en una única columna toda la infomación almacenada que corresponde con el número de secuencia que se le pasa en el parámetro \textbf{id}. La forma de hacerlo es la siguiente:
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 PrintWriter pw = resp.getWriter();
 pw.print("<!DOCTYPE html>");
 pw.print("<html><head><title>Lista Time Stamp</title><link rel=\"stylesheet\" type=\"text/css\" " +
@@ -330,7 +324,7 @@ La aplicación tiene varias pestañas, que se explicarán posteriormente cuando 
 En la figura~\ref{fig:clasesReposotorioGeneral} se puede ver las clases que forman el paquete \textit{pfc} de la aplicación web repositorio general.
 
 \begin{figure}
-
+  \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/UML_repositorio.png}
   \caption{Detalles de las clases Repositorio General.}
   \label{fig:clasesReposotorioGeneral}
@@ -345,7 +339,7 @@ A continuación vamos a explicar una a una las clases desarrolladas.
 
 \item \textbf{RowRepositorioGeneral.java:} Esta es la clase con la que se crea la tabla en la que se almacenan las firmas de los usuario, tiene los siguientes campos:  
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 @Id
 @GeneratedValue(strategy = GenerationType.SEQUENCE) //	 GenerationType.IDENTITY
 private Long id;
@@ -366,7 +360,7 @@ Tiene una clave primaría que es \textit{id} que es usada por Google internament
 %TODO: poner el tipo de archivo que necesitamos usar y esas cosas.
 Los campos que usaremos para almacenarlos serán los que se pueden ver en 
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 @Id
 @GeneratedValue(strategy = GenerationType.SEQUENCE)
 private Long id;
@@ -405,7 +399,7 @@ A continuación vamos a explicar los diferentes servlets que hemos desarrollado 
 
 El servlet recibe los siguiente parámetros:
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 String mensaje = checkNull(req.getParameter("mensaje"));
 String url_firma = checkNull(req.getParameter("token"));
 String id_blob = checkNull(req.getParameter("id_blob"));
@@ -413,17 +407,17 @@ String user = checkNull(req.getParameter("usuario"));
 \end{lstlisting}
 
 Una vez se tienen esos parámetros creamos una cadena de texto en la que unimos los siguiente campos y cada parámetro va separado por el separador: \textit{;/:}.
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 String cadACodificar = mensaje + ";/:" + url_firma + ";/:" + id_blob + ";/:" + user;
 \end{lstlisting}
 
 Acto seguido codificamos la cadena con \textbf{Base64}, que es una forma simple de codificar los caracteres para que no viajen en texto claro.
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 String cadCodificada = Base64.encode(cadACodificar.getBytes("UTF-8"));
 \end{lstlisting}
 
 También añadimos unos limitadores para que cuando tengamos que decodificar ese mensaje podamos saber donde empiezan y donde termina la exportación.
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 pw.println("BEGIN EXPORT");
 pw.println("--------------------------");
 pw.println(cadCodificada);
@@ -433,7 +427,7 @@ pw.println("END EXPORT");
 
 \item \textbf{ServletListRow.java:} Este servlet es el encargado en devolver todas las filas de la tabla que pertenecen a un usuario. La forma de hacerlo es la siguiente, primero se identifica el usuario con el que se ha logueado de esta forma:
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 UserService userService = UserServiceFactory.getUserService();
 User user = userService.getCurrentUser();
 \end{lstlisting}
@@ -441,7 +435,7 @@ User user = userService.getCurrentUser();
 Una vez se consigue el usuario se llama a la función \textit{public List<RowRepositorioGeneral> getRowRepositorioGeneralList(String userId, Long num\_sec)} de la clase \textit{Dao.java}, esta última función nos devuelve una lista con todas las filas. Al llamar al servlet le pasaremos el último número de secuencia que tenemos guardado en el telefono móvil, para así agilizar las transferencias de datos, de esta forma solo nos devolverá las filas nuevas. La forma de devolvernos las filas será en un JSONArray, que es un objeto que dentro contiene varios objetos JSON\footnote{Para saber que es un objeto JSON pueden consultar los siguientes enlaces: \url{http://www.json.org/} o \url{http://en.wikipedia.org/wiki/JSON}}.
 
 La creación de los objetos JSON la realizamos de la siguiente forma:
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[style=Java]
 JSONObject jsonObject = new JSONObject();
 
 jsonObject.put("num_sec", rowRepositorioGeneral.getNum_sec().toString());
@@ -459,7 +453,7 @@ Ese objeto JSON se añade un objeto JSONArray que a su vez es el que devolveremo
 \item \textbf{ServletVerify.java:} Este servlet es el utilizado en la pestaña verificar de nuestra aplicación web, como se puede observar en la figura~\ref{fig:pestañaVerificar}
 
 \begin{figure}
-
+  \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaVerificar.png}
   \caption{Detalle de la pestaña verificación.}
   \label{fig:pestañaVerificar}
@@ -473,13 +467,14 @@ Los archivos \textit{*.jsp} que hemos creado en su mayoría solo rellenan tablas
 \item \textbf{GenerarQR.jsp:} Este archivo JSP es el que se muestra en la pestaña \textit{Generar QR}, se puede ver en la figura~\ref{fig:pestanhaQR}. Su función es generar un código QR para que pueda ser leido por la aplicación del móvil. Hay que rellenar los campos de destino y el texto que queremos que firme dicha persona. Al darle a \textit{Generar código QR} se hace una llamada a la API Google Chart y se genera un código QR que contiene dichas cadenas y se muestra en la parte de la derecha, como se puede ver en la figura~\ref{fig:codigoQR}.
 
 \begin{figure}
+  \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaQR.png}
   \caption{Pestaña para generar el código QR.}
   \label{fig:pestanhaQR}
 \end{figure}
 
 \begin{figure}
-
+  \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/codigoQR.png}
   \caption{Pestaña con el código QR generado.}
   \label{fig:codigoQR}

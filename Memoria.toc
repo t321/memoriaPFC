@@ -1,45 +1,46 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n.}{1}
-\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Por qu\IeC {\'e} decidimos hacer el proyecto?}{1}
-\contentsline {section}{\numberline {1.2}Objetivos que quer\IeC {\'\i }amos conseguir.}{2}
-\contentsline {section}{\numberline {1.3}Organizaci\IeC {\'o}n de la memoria.}{5}
-\contentsline {section}{\numberline {1.4}Material usado.}{5}
-\contentsline {chapter}{\numberline {2}Conocimientos previos}{7}
-\contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}
-\contentsline {subsection}{\numberline {2.1.1}Historia}{9}
-\contentsline {subsubsection}{Versiones}{10}
-\contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}
-\contentsline {subsection}{\numberline {2.2.1}Historia}{13}
-\contentsline {subsection}{\numberline {2.2.2}Versiones}{13}
-\contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a.}{13}
-\contentsline {subsection}{\numberline {2.3.1}Historia}{14}
-\contentsline {subsection}{\numberline {2.3.2}Critograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}
-\contentsline {subsection}{\numberline {2.3.3}Criptograf\IeC {\'\i }a durante la \IeC {\'e}poca de los ordenadores.}{16}
-\contentsline {section}{\numberline {2.4}Android.}{20}
-\contentsline {subsection}{\numberline {2.4.1}Historia.}{21}
-\contentsline {subsection}{\numberline {2.4.2}Versiones.}{22}
-\contentsline {section}{\numberline {2.5}Google App Engine.}{24}
-\contentsline {section}{\numberline {2.6}SQLite.}{26}
-\contentsline {section}{\numberline {2.7}XML.}{27}
-\contentsline {section}{\numberline {2.8}UML.}{28}
-\contentsline {section}{\numberline {2.9}GIT.}{29}
-\contentsline {chapter}{\numberline {3}Criptograf\IeC {\'\i }a usada en el proyecto.}{31}
-\contentsline {section}{\numberline {3.1}RSA.}{31}
-\contentsline {section}{\numberline {3.2}Public-Key Infrastructure.}{34}
-\contentsline {section}{\numberline {3.3}Critograf\IeC {\'\i }a en Java.}{37}
-\contentsline {chapter}{\numberline {4}Android}{43}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n.}{43}
-\contentsline {section}{\numberline {4.2}Arquitectura de la plataforma Android.}{44}
-\contentsline {subsection}{\numberline {4.2.1}Desarrollando en Android.}{53}
-\contentsline {subsection}{\numberline {4.2.2}Proyecto b\IeC {\'a}sico de Android en Eclipse.}{54}
-\contentsline {chapter}{\numberline {5}Google App Engine.}{57}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n.}{57}
-\contentsline {section}{\numberline {5.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{58}
-\contentsline {subsection}{\numberline {5.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{58}
-\contentsline {subsection}{\numberline {5.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{60}
-\contentsline {subsection}{\numberline {5.2.3}La carpeta WAR.}{62}
-\contentsline {subsection}{\numberline {5.2.4}Archivos de configuraci\IeC {\'o}n.}{64}
-\contentsline {section}{\numberline {5.3}Servidor de timestamp.}{65}
-\contentsline {subsection}{\numberline {5.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{68}
-\contentsline {section}{\numberline {5.4}Servidor de registro de firmas.}{71}
-\contentsline {subsection}{\numberline {5.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{72}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n.}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Por qu\IeC {\'e} decidimos hacer el proyecto?}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos que quer\IeC {\'\i }amos conseguir.}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Organizaci\IeC {\'o}n de la memoria.}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Material usado.}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Conocimientos previos}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Historia}{9}{subsection.2.1.1}
+\contentsline {subsubsection}{Versiones}{10}{section*.2}
+\contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Historia}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Versiones}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a.}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Historia}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Critograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Criptograf\IeC {\'\i }a durante la \IeC {\'e}poca de los ordenadores.}{16}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Android.}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Historia.}{21}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Versiones.}{22}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Google App Engine.}{24}{section.2.5}
+\contentsline {section}{\numberline {2.6}SQLite.}{26}{section.2.6}
+\contentsline {section}{\numberline {2.7}XML.}{27}{section.2.7}
+\contentsline {section}{\numberline {2.8}UML.}{28}{section.2.8}
+\contentsline {section}{\numberline {2.9}GIT.}{29}{section.2.9}
+\contentsline {chapter}{\numberline {3}Criptograf\IeC {\'\i }a usada en el proyecto.}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}RSA.}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Public-Key Infrastructure.}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}Critograf\IeC {\'\i }a en Java.}{37}{section.3.3}
+\contentsline {chapter}{\numberline {4}Android}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n.}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Arquitectura de la plataforma Android.}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Desarrollando en Android.}{53}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Proyecto b\IeC {\'a}sico de Android en Eclipse.}{58}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Proyecto firma digital UMA.}{62}{section.4.3}
+\contentsline {chapter}{\numberline {5}Google App Engine.}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n.}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{64}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{64}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{66}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}La carpeta WAR.}{68}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Archivos de configuraci\IeC {\'o}n.}{70}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Servidor de timestamp.}{71}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{73}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Servidor de registro de firmas.}{77}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{78}{subsection.5.4.1}

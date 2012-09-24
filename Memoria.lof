@@ -1,46 +1,50 @@
 \select@language {spanish}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Action Bar.}}{3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Gr\IeC {\'a}fico de las versiones de android a finales de agosto del 2012.}}{4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Gr\IeC {\'a}fico del uso de las versiones de android a finales de agosto del 2012.}}{4}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Samsung Galaxy Nexus.}}{5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Action Bar.}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Gr\IeC {\'a}fico de las versiones de android a finales de agosto del 2012.}}{4}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Gr\IeC {\'a}fico del uso de las versiones de android a finales de agosto del 2012.}}{4}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Samsung Galaxy Nexus.}}{5}{figure.1.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. {http://www.tiobe.com/}}}{8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces C\IeC {\'o}digo ejemplo c\IeC {\'o}digo for mejorado.}}{11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Eclipse 4.2 Juno.}}{12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Ejemplo Cifrado Cesar}}{15}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{15}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Iteraciones en el cifrado DES}}{18}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{25}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces C\IeC {\'o}digo ejemplo XML.}}{28}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. \url {http://www.tiobe.com/}}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces C\IeC {\'o}digo ejemplo c\IeC {\'o}digo for mejorado.}}{11}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Eclipse 4.2 Juno.}}{12}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ejemplo Cifrado Cesar}}{15}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{15}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Iteraciones en el cifrado DES}}{18}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{25}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces C\IeC {\'o}digo ejemplo XML.}}{28}{figure.2.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura gen\IeC {\'e}rica de una PKI.}}{35}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura gen\IeC {\'e}rica de una PKI.}}{35}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}{figure.3.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para tablet.}}{57}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para m\IeC {\'o}vil.}}{58}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Gesto Swype en la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{59}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura b\IeC {\'a}sica de un proyecto Android.}}{60}{figure.4.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{61}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{63}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{66}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{68}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{72}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{78}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{79}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{80}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{80}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{80}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{80}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{81}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{67}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{69}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{72}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{74}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{77}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{84}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{85}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{86}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{86}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{86}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{86}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{87}{figure.5.12}

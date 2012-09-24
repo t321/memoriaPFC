@@ -4,6 +4,7 @@
 \usepackage[spanish]{babel}
 %\usepackage{listings}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \usepackage{color}
 \definecolor{gray97}{gray}{.97}
@@ -33,6 +34,7 @@ numbersep=15pt,
 numberstyle=\tiny,
 numberfirstline = false,
 breaklines=true,
+tabsize=2,
 }
 
 % minimizar fragmentado de listados
@@ -50,7 +52,15 @@ backgroundcolor=\color{gray75},
 {language=Java,
 }
 
+% estilo para código XML
+\lstdefinestyle{XML}
+{language=XML,
+}
 
+% estilo para código HTML
+\lstdefinestyle{HTML}
+{language=HTML,
+}
 
 
 

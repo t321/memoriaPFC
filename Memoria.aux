@@ -3,148 +3,169 @@
 \catcode`<\active
 \catcode`>\active
 \@nameuse{es@quoting}
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
 \select@language{spanish}
 \@writefile{toc}{\select@language{spanish}}
 \@writefile{lof}{\select@language{spanish}}
 \@writefile{lot}{\select@language{spanish}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n.}{1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n.}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Por qu\IeC {\'e} decidimos hacer el proyecto?}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Objetivos que quer\IeC {\'\i }amos conseguir.}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Action Bar.}}{3}}
-\newlabel{fig:actionBar}{{1.1}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Gr\IeC {\'a}fico de las versiones de android a finales de agosto del 2012.}}{4}}
-\newlabel{fig:graficoEvolucionAndroid}{{1.2}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Gr\IeC {\'a}fico del uso de las versiones de android a finales de agosto del 2012.}}{4}}
-\newlabel{fig:graficoUsoAndroid}{{1.3}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Samsung Galaxy Nexus.}}{5}}
-\newlabel{fig:nexus}{{1.4}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Organizaci\IeC {\'o}n de la memoria.}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Material usado.}{5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Conocimientos previos}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Por qu\IeC {\'e} decidimos hacer el proyecto?}{1}{section.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Objetivos que quer\IeC {\'\i }amos conseguir.}{2}{section.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Action Bar.}}{3}{figure.1.1}}
+\newlabel{fig:actionBar}{{1.1}{3}{Action Bar}{figure.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Gr\IeC {\'a}fico de las versiones de android a finales de agosto del 2012.}}{4}{figure.1.2}}
+\newlabel{fig:graficoEvolucionAndroid}{{1.2}{4}{Gráfico de las versiones de android a finales de agosto del 2012}{figure.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Gr\IeC {\'a}fico del uso de las versiones de android a finales de agosto del 2012.}}{4}{figure.1.3}}
+\newlabel{fig:graficoUsoAndroid}{{1.3}{4}{Gráfico del uso de las versiones de android a finales de agosto del 2012}{figure.1.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Samsung Galaxy Nexus.}}{5}{figure.1.4}}
+\newlabel{fig:nexus}{{1.4}{5}{Samsung Galaxy Nexus}{figure.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Organizaci\IeC {\'o}n de la memoria.}{5}{section.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Material usado.}{5}{section.1.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Conocimientos previos}{7}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{cap:conocimientos}{{2}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. {http://www.tiobe.com/}}}{8}}
-\newlabel{fig:indicetiobe}{{2.1}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Historia}{9}}
-\@writefile{toc}{\contentsline {subsubsection}{Versiones}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces C\IeC {\'o}digo ejemplo c\IeC {\'o}digo for mejorado.}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Eclipse 4.2 Juno.}}{12}}
-\newlabel{fig:pantallaEclipse}{{2.3}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Historia}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Versiones}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a.}{13}}
-\newlabel{lbl:criptografia}{{2.3}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Historia}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Critograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Ejemplo Cifrado Cesar}}{15}}
-\newlabel{fig:cifradoCesar}{{2.4}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{15}}
-\newlabel{fig:cifradoHomofonico}{{2.5}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}}
-\newlabel{fig:cifradoTransposicion}{{2.6}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Criptograf\IeC {\'\i }a durante la \IeC {\'e}poca de los ordenadores.}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Iteraciones en el cifrado DES}}{18}}
-\newlabel{fig:cifradoDes}{{2.7}{18}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Android.}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Historia.}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Versiones.}{22}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Google App Engine.}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{25}}
-\newlabel{fig:android41}{{2.8}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.6}SQLite.}{26}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.7}XML.}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces C\IeC {\'o}digo ejemplo XML.}}{28}}
-\newlabel{cod:XML}{{2.9}{28}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.8}UML.}{28}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.9}GIT.}{29}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Criptograf\IeC {\'\i }a usada en el proyecto.}{31}}
+\newlabel{cap:conocimientos}{{2}{7}{Conocimientos previos\relax }{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}{section.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. \url  {http://www.tiobe.com/}}}{8}{figure.2.1}}
+\newlabel{fig:indicetiobe}{{2.1}{8}{Índice tiobe en septiembre del 2012. \url {http://www.tiobe.com/}\relax }{figure.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Historia}{9}{subsection.2.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{Versiones}{10}{section*.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces C\IeC {\'o}digo ejemplo c\IeC {\'o}digo for mejorado.}}{11}{figure.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Eclipse 4.2 Juno.}}{12}{figure.2.3}}
+\newlabel{fig:pantallaEclipse}{{2.3}{12}{Eclipse 4.2 Juno}{figure.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}{section.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Historia}{13}{subsection.2.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Versiones}{13}{subsection.2.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a.}{13}{section.2.3}}
+\newlabel{lbl:criptografia}{{2.3}{13}{Criptografía}{section.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Historia}{14}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Critograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}{subsection.2.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Ejemplo Cifrado Cesar}}{15}{figure.2.4}}
+\newlabel{fig:cifradoCesar}{{2.4}{15}{Ejemplo Cifrado Cesar\relax }{figure.2.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{15}{figure.2.5}}
+\newlabel{fig:cifradoHomofonico}{{2.5}{15}{Tabla para cifrado homofónico\relax }{figure.2.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}{figure.2.6}}
+\newlabel{fig:cifradoTransposicion}{{2.6}{16}{Ejemplo de cifrado por sustitución\relax }{figure.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Criptograf\IeC {\'\i }a durante la \IeC {\'e}poca de los ordenadores.}{16}{subsection.2.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Iteraciones en el cifrado DES}}{18}{figure.2.7}}
+\newlabel{fig:cifradoDes}{{2.7}{18}{Iteraciones en el cifrado DES\relax }{figure.2.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Android.}{20}{section.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Historia.}{21}{subsection.2.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Versiones.}{22}{subsection.2.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Google App Engine.}{24}{section.2.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{25}{figure.2.8}}
+\newlabel{fig:android41}{{2.8}{25}{Versión de Android 4.1\relax }{figure.2.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}SQLite.}{26}{section.2.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}XML.}{27}{section.2.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces C\IeC {\'o}digo ejemplo XML.}}{28}{figure.2.9}}
+\newlabel{cod:XML}{{2.9}{28}{Código ejemplo XML}{figure.2.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.8}UML.}{28}{section.2.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.9}GIT.}{29}{section.2.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Criptograf\IeC {\'\i }a usada en el proyecto.}{31}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}RSA.}{31}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Public-Key Infrastructure.}{34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura gen\IeC {\'e}rica de una PKI.}}{35}}
-\newlabel{fig:esquemaPKI}{{3.1}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}}
-\newlabel{fig:pkiDnie}{{3.2}{36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}}
-\newlabel{fig:messageDigest}{{3.3}{37}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Critograf\IeC {\'\i }a en Java.}{37}}
-\newlabel{cap:javasecurity}{{3.3}{37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}}
-\newlabel{cod:digest}{{3.4}{38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}}
-\newlabel{fig:signature}{{3.5}{39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}}
-\newlabel{cod:signature}{{3.6}{39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}}
-\newlabel{cod:verify}{{3.7}{39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}}
-\newlabel{fig:cipher}{{3.8}{40}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}}
-\newlabel{cod:keyStore}{{3.9}{41}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Android}{43}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}RSA.}{31}{section.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Public-Key Infrastructure.}{34}{section.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura gen\IeC {\'e}rica de una PKI.}}{35}{figure.3.1}}
+\newlabel{fig:esquemaPKI}{{3.1}{35}{Estructura genérica de una PKI}{figure.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}{figure.3.2}}
+\newlabel{fig:pkiDnie}{{3.2}{36}{Jerarquía de la PKI del DNIe}{figure.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}{figure.3.3}}
+\newlabel{fig:messageDigest}{{3.3}{37}{Uso de la clase MessageDigest}{figure.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Critograf\IeC {\'\i }a en Java.}{37}{section.3.3}}
+\newlabel{cap:javasecurity}{{3.3}{37}{Critografía en Java}{section.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}{figure.3.4}}
+\newlabel{cod:digest}{{3.4}{38}{Ejemplo de un trozo de código fuente con el uso de MessageDigest}{figure.3.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}{figure.3.5}}
+\newlabel{fig:signature}{{3.5}{39}{Modo de uso de la clase Signature}{figure.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}{figure.3.6}}
+\newlabel{cod:signature}{{3.6}{39}{Ejemplo de un trozo de código fuente con el uso de la función sign()}{figure.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}{figure.3.7}}
+\newlabel{cod:verify}{{3.7}{39}{Ejemplo de un trozo de código fuente con el uso de la función verify()}{figure.3.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}{figure.3.8}}
+\newlabel{fig:cipher}{{3.8}{40}{Modo de uso de la clase Cipher}{figure.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}{figure.3.9}}
+\newlabel{cod:keyStore}{{3.9}{41}{Ejemplo de un trozo de código donde se carga un KeyStore}{figure.3.9}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Android}{43}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{cap:android}{{4}{43}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n.}{43}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Arquitectura de la plataforma Android.}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}}
-\newlabel{fig:arquitecturaAndroid}{{4.1}{45}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}}
-\newlabel{fig:maquinaVirtualDalvik}{{4.2}{47}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}}
-\newlabel{fig:estructuraAPK}{{4.3}{49}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}}
-\newlabel{fig:contentProvider}{{4.4}{51}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}}
-\newlabel{fig:widget}{{4.5}{52}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Desarrollando en Android.}{53}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Proyecto b\IeC {\'a}sico de Android en Eclipse.}{54}}
-\newlabel{cap:proyectoBasico}{{4.2.2}{54}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}}
-\newlabel{fig:cicloActivity}{{4.6}{55}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Google App Engine.}{57}}
+\newlabel{cap:android}{{4}{43}{Android\relax }{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n.}{43}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Arquitectura de la plataforma Android.}{44}{section.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}{figure.4.1}}
+\newlabel{fig:arquitecturaAndroid}{{4.1}{45}{Arquitectura de Android}{figure.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}{figure.4.2}}
+\newlabel{fig:maquinaVirtualDalvik}{{4.2}{47}{Proceso de ejecución en Android}{figure.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}{figure.4.3}}
+\newlabel{fig:estructuraAPK}{{4.3}{49}{Estructura del fichero APK del proyecto}{figure.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}{figure.4.4}}
+\newlabel{fig:contentProvider}{{4.4}{51}{Opción compartir de una aplicación}{figure.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}{figure.4.5}}
+\newlabel{fig:widget}{{4.5}{52}{Widget de GMail}{figure.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Desarrollando en Android.}{53}{subsection.4.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}{figure.4.6}}
+\newlabel{fig:cicloActivity}{{4.6}{55}{Ciclo de vida de una activity}{figure.4.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para tablet.}}{57}{figure.4.7}}
+\newlabel{fig:gmailTablet}{{4.7}{57}{Aplicación de Gmail para tablet}{figure.4.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para m\IeC {\'o}vil.}}{58}{figure.4.8}}
+\newlabel{fig:gmailMovil}{{4.8}{58}{Aplicación de Gmail para móvil}{figure.4.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Proyecto b\IeC {\'a}sico de Android en Eclipse.}{58}{subsection.4.2.2}}
+\newlabel{cap:proyectoBasico}{{4.2.2}{58}{Proyecto básico de Android en Eclipse}{subsection.4.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Gesto Swype en la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{59}{figure.4.9}}
+\newlabel{fig:swype}{{4.9}{59}{Gesto Swype en la aplicación móvil}{figure.4.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura b\IeC {\'a}sica de un proyecto Android.}}{60}{figure.4.10}}
+\newlabel{fig:estructuraBasicaAndroid}{{4.10}{60}{Estructura básica de un proyecto Android}{figure.4.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Proyecto firma digital UMA.}{62}{section.4.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Google App Engine.}{63}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{cap:GAE}{{5}{57}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n.}{57}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{58}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{58}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{60}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{61}}
-\newlabel{fig:modoJSP}{{5.1}{61}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}La carpeta WAR.}{62}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{63}}
-\newlabel{fig:carpetawar}{{5.2}{63}}
-\newlabel{ref_archivos_configuracion_google_app_engine}{{5.2.4}{64}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Archivos de configuraci\IeC {\'o}n.}{64}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Servidor de timestamp.}{65}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{66}}
-\newlabel{fig:server_ips_timestamp}{{5.3}{66}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{68}}
-\newlabel{fig:paquete_pfc}{{5.4}{68}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{68}}
-\newlabel{prueba}{{5.3.1}{68}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Servidor de registro de firmas.}{71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{72}}
-\newlabel{fig:logueoRepoGeneral}{{5.5}{72}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{78}}
-\newlabel{fig:repositorio_general}{{5.6}{78}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{79}}
-\newlabel{fig:clasesReposotorioGeneral}{{5.7}{79}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{80}}
-\newlabel{fig:pestanhaCertificados}{{5.8}{80}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{80}}
-\newlabel{fig:botonExportar}{{5.9}{80}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{80}}
-\newlabel{fig:pesta\IeC {\~n}aVerificar}{{5.10}{80}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{80}}
-\newlabel{fig:pestanhaQR}{{5.11}{80}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{81}}
-\newlabel{fig:codigoQR}{{5.12}{81}}
+\newlabel{cap:GAE}{{5}{63}{Google App Engine}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n.}{63}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{64}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{64}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{66}{subsection.5.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{67}{figure.5.1}}
+\newlabel{fig:modoJSP}{{5.1}{67}{Modo de interpretación de un archivo JSP\relax }{figure.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}La carpeta WAR.}{68}{subsection.5.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{69}{figure.5.2}}
+\newlabel{fig:carpetawar}{{5.2}{69}{Carpeta WAR\relax }{figure.5.2}{}}
+\newlabel{ref_archivos_configuracion_google_app_engine}{{5.2.4}{70}{Archivos de configuración.\label {ref_archivos_configuracion_google_app_engine}\relax }{subsection.5.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Archivos de configuraci\IeC {\'o}n.}{70}{subsection.5.2.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Servidor de timestamp.}{71}{section.5.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{72}{figure.5.3}}
+\newlabel{fig:server_ips_timestamp}{{5.3}{72}{Servidor Timestamp https://seguro.ips.es\relax }{figure.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{73}{subsection.5.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{74}{figure.5.4}}
+\newlabel{fig:paquete_pfc}{{5.4}{74}{Detalles del paquete pfc\relax }{figure.5.4}{}}
+\newlabel{prueba}{{5.3.1}{74}{Explicación de la aplicación web}{figure.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{77}{figure.5.5}}
+\newlabel{fig:logueoRepoGeneral}{{5.5}{77}{Login en Repositorio General\relax }{figure.5.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Servidor de registro de firmas.}{77}{section.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{78}{subsection.5.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{84}{figure.5.6}}
+\newlabel{fig:repositorio_general}{{5.6}{84}{Repositorio General\relax }{figure.5.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{85}{figure.5.7}}
+\newlabel{fig:clasesReposotorioGeneral}{{5.7}{85}{Detalles de las clases Repositorio General}{figure.5.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{86}{figure.5.8}}
+\newlabel{fig:pestanhaCertificados}{{5.8}{86}{Pantallazo de la pestaña certificados}{figure.5.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{86}{figure.5.9}}
+\newlabel{fig:botonExportar}{{5.9}{86}{Detalle del botón exportar}{figure.5.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{86}{figure.5.10}}
+\newlabel{fig:pesta\IeC {\~n}aVerificar}{{5.10}{86}{Detalle de la pestaña verificación}{figure.5.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{86}{figure.5.11}}
+\newlabel{fig:pestanhaQR}{{5.11}{86}{Pestaña para generar el código QR}{figure.5.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{87}{figure.5.12}}
+\newlabel{fig:codigoQR}{{5.12}{87}{Pestaña con el código QR generado}{figure.5.12}{}}

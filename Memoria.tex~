@@ -4,6 +4,7 @@
 \usepackage[spanish]{babel}
 %\usepackage{listings}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \usepackage{color}
 \definecolor{gray97}{gray}{.97}
@@ -33,22 +34,33 @@ numbersep=15pt,
 numberstyle=\tiny,
 numberfirstline = false,
 breaklines=true,
+tabsize=2,
 }
 
 % minimizar fragmentado de listados
 \lstnewenvironment{listing}[1][]
 {\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
 
+% estilo para poner comandos de consola
 \lstdefinestyle{consola}
 {basicstyle=\scriptsize\bf\ttfamily,
 backgroundcolor=\color{gray75},
 }
 
+% estilo para código Java
 \lstdefinestyle{Java}
 {language=Java,
 }
 
+% estilo para código XML
+\lstdefinestyle{XML}
+{language=XML,
+}
 
+% estilo para código HTML
+\lstdefinestyle{HTML}
+{language=HTML,
+}
 
 
 
