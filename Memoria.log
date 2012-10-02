@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  1 OCT 2012 17:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  2 OCT 2012 20:15
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -438,7 +438,7 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -449,7 +449,7 @@ LaTeX Warning: Label `fig:pesta\IeC {\~n}aVerificar' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -461,7 +461,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -469,7 +469,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -1098,57 +1098,189 @@ or \DeclareInputMath before using this key.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 428.
-[68]) (./GoogleAppEngine/googleappengine.tex [69] [70
+[68] [69]
+Overfull \hbox (21.56914pt too wide) in paragraph at lines 477--478
+[][][][][][][][][][][] \OT1/cmr/m/n/12 y [][][][][][][][][][][][][][][][][][][]
+[][][][][][][][]
+ []
 
-]
-Cap\'{\i }tulo 5.
-
-Overfull \hbox (4.13478pt too wide) in paragraph at lines 5--6
-[]\OT1/cmr/m/n/12 Google App En-gine es una con-jun-to de apis que pro-por-cion
-a Google
+[70]
+Overfull \hbox (3.0678pt too wide) in paragraph at lines 503--504
+\OT1/cmr/m/n/12 caci^^Son. Se puede ver en el c^^Sodi-go que no ex-tiende a la 
+clase []
  []
 
 
-Overfull \hbox (24.59271pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/12 cen un do-minio, que es: []$\OT1/cmtt/m/n/12 http : / / nombre 
-_ de _ la _ aplicacion . appspot .
+Overfull \hbox (0.57362pt too wide) in paragraph at lines 503--504
+\OT1/cmr/m/n/12 a~nadi-do fun-cional-i-dad me-di-ante el uso de [][][][] y []
  []
 
 [71] [72]
+Overfull \hbox (7.06471pt too wide) in paragraph at lines 577--578
+[]\OT1/cmr/bx/n/12 InitialConfiguration.java, In-tentIn-te-gra-tor-Sup-portV4.j
+ava,
+ []
+
+
+Overfull \hbox (1.90971pt too wide) in paragraph at lines 577--578
+\OT1/cmr/bx/n/12 In-tentIn-te-gra-torV30.java, In-ten-tRe-sult.java: \OT1/cmr/m
+/n/12 es-tas clases son
+ []
+
+[73] <./Android/imagenes/barcodeScanner.png, id=973, 722.7pt x 692.5875pt>
+File: ./Android/imagenes/barcodeScanner.png Graphic file (type png)
+
+<use ./Android/imagenes/barcodeScanner.png>
+Overfull \hbox (12.96286pt too wide) in paragraph at lines 588--589
+\OT1/cmr/m/n/12 a la que ten-emos que di-ri-girnos es a: []$\OT1/cmtt/m/n/12 ht
+tps : / / repositoriorecibos .
+ []
+
+[74 <./Android/imagenes/barcodeScanner.png>]
+Overfull \hbox (7.3868pt too wide) in paragraph at lines 609--610
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] \OT1/cmr/m/n/12 con
+ []
+
+
+Overfull \hbox (20.07353pt too wide) in paragraph at lines 609--610
+\OT1/cmr/m/n/12 para pos-te-ri-or-mente con la fun-ci^^Son [][][][][][][][][]
+ []
+
+[75]
+Overfull \hbox (17.19955pt too wide) in paragraph at lines 634--635
+[]$\OT1/cmtt/m/n/12 http : / / repositoriorecibos . appspot . com / _ah / login
+ ? continue =
+ []
+
+
+Overfull \hbox (11.56151pt too wide) in paragraph at lines 634--635
+\OT1/cmtt/m/n/12 http : / / repositoriorecibos . appspot . com&auth = token$[]\
+OT1/cmr/m/n/12 , en la que
+ []
+
+[76]
+<./Android/imagenes/signaturesGeneral.png, id=1030, 720.6925pt x 1232.605pt>
+File: ./Android/imagenes/signaturesGeneral.png Graphic file (type png)
+
+<use ./Android/imagenes/signaturesGeneral.png> [77] [78 <./Android/imagenes/sig
+naturesGeneral.png (PNG copy)>]
+
+! Package inputenc Error: Unicode char \u8:�\expandafter not set up for use wit
+h LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.675 	bar.setTitle("Información 
+                                  de la firma.");
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.675 	bar.setTitle("Información 
+                                  de la firma.");
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+Overfull \hbox (5.26468pt too wide) in paragraph at lines 702--703
+[]\OT1/cmr/m/n/12 Podemos ver co-mo se gen-era el ob-je-to []
+ []
+
+
+Overfull \hbox (4.39696pt too wide) in paragraph at lines 702--703
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (10.14565pt too wide) in paragraph at lines 702--703
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (9.1375pt too wide) in paragraph at lines 704--705
+[]\OT1/cmr/bx/n/12 SignaturesForYou.java: \OT1/cmr/m/n/12 igual que su clase eq
+uiv-a-lente []
+ []
+
+<./Android/imagenes/signaturesForYou.png, id=1084, 722.7pt x 1236.62pt>
+File: ./Android/imagenes/signaturesForYou.png Graphic file (type png)
+
+<use ./Android/imagenes/signaturesForYou.png>
+Overfull \hbox (132.5908pt too wide) in paragraph at lines 717--718
+[]\OT1/cmr/bx/n/12 SignaturesForYouInformation.java: \OT1/cmr/m/n/12 al igual q
+ue la clase []
+ []
+
+
+Overfull \hbox (44.89648pt too wide) in paragraph at lines 717--718
+\OT1/cmr/m/n/12 van di-rigi-dos a t^^S^^P. El pro-ce-so es igual que en []
+ []
+
+[80] [81 <./Android/imagenes/signaturesForYou.png (PNG copy)>])
+(./GoogleAppEngine/googleappengine.tex [82]
+Cap\'{\i }tulo 5.
+[83
+
+]
+Overfull \hbox (33.59442pt too wide) in paragraph at lines 16--16
+[]\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-caci^^Son web gen^^Seri-
+ []
+
+[84]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 73
+LE APP ENGINE. \OT1/cmr/m/n/12 85
  []
 
-[73]
-Overfull \hbox (19.65692pt too wide) in paragraph at lines 66--67
-\OT1/cmr/m/n/12 ser^^S^^Pa la siquiente: []$\OT1/cmtt/m/n/12 https : / / server
-timestamp . appspot . com / search ?
+[85]
+Overfull \hbox (29.98128pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/12 siquiente: []$\OT1/cmtt/m/n/12 https : / / servertimestamp . ap
+pspot . com / search ? id = 63&texto =
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=914, 354.32375pt x 405.515pt>
+
+Overfull \hbox (37.62396pt too wide) in paragraph at lines 66--67
+\OT1/cmtt/m/n/12 Prueba$[]\OT1/cmr/m/n/12 , co-mo se puede ver la di-rec-ci^^So
+n base se-ria: []$\OT1/cmtt/m/n/12 https : / / servertimestamp .
+ []
+
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=1139, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) [74]
+) [86]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 75
+LE APP ENGINE. \OT1/cmr/m/n/12 87
  []
 
-[75 <./GoogleAppEngine/imagenes/JSP_Model.png>]
-<./GoogleAppEngine/imagenes/carpetawar.png, id=960, 210.03468pt x 349.305pt>
+[87 <./GoogleAppEngine/imagenes/JSP_Model.png>]
+<./GoogleAppEngine/imagenes/carpetawar.png, id=1185, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
-<use ./GoogleAppEngine/imagenes/carpetawar.png> [76]
+<use ./GoogleAppEngine/imagenes/carpetawar.png> [88]
 Overfull \hbox (108.73337pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 5.2.  EXPLICACI[]ON DE UNA APLICACI[]ON WEB GEN[]ERICA EN GOOG
-LE APP ENGINE. \OT1/cmr/m/n/12 77
+LE APP ENGINE. \OT1/cmr/m/n/12 89
  []
 
-[77 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
+[89 <./GoogleAppEngine/imagenes/carpetawar.png (PNG copy)>]
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -1183,29 +1315,14 @@ l.174 \begin{lstlisting}[language=YAML]
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[78]
-Overfull \hbox (20.46341pt too wide) in paragraph at lines 190--191
-[]$\OT1/cmtt/m/n/12 https : / / developers . google . com / appengine / docs / 
-java / config/$[]\OT1/cmr/m/n/12 ,
- []
-
-
-Overfull \hbox (45.16342pt too wide) in paragraph at lines 190--191
-[]$\OT1/cmtt/m/n/12 https : / / developers . google . com / appengine / docs / 
-java / configyaml/$[]\OT1/cmr/m/n/12 .
- []
-
-[79]
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1035, 738.50906pt x 30
+[90] [91]
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1262, 738.50906pt x 30
 7.1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
- <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [80 <./GoogleAppEngi
-ne/imagenes/server_ips_timestamp.png (PNG copy)>]
-Underfull \vbox (badness 3590) has occurred while \output is active []
-
- [81]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=1046, 1111.15125pt x 510.90875pt>
+ <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [92 <./GoogleAppEngi
+ne/imagenes/server_ips_timestamp.png (PNG copy)>] [93]
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=1275, 1111.15125pt x 510.90875pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
@@ -1213,8 +1330,8 @@ Overfull \hbox (165.57426pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-[82 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>] [83] [84]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1087, 841.64438pt
+[94 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>] [95] [96]
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1318, 841.64438pt
  x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
@@ -1223,8 +1340,8 @@ Overfull \hbox (30.82117pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-[85 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=1097, 962.84718pt x 357
+
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=1320, 962.84718pt x 357
 .58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
@@ -1233,8 +1350,8 @@ Overfull \hbox (91.42241pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
-
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1099, 1089.06876pt x 933.48
+[97 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1329, 1089.06876pt x 933.48
 75pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png>
@@ -1242,14 +1359,14 @@ Overfull \hbox (154.53305pt too wide) in paragraph at lines 328--329
  [][] 
  []
 
-
-Overfull \hbox (3.29149pt too wide) in paragraph at lines 338--339
-[]\OT1/cmr/bx/n/12 DaoUserCert.java: \OT1/cmr/m/n/12 En este apli-caci^^Son hem
-os uti-liza-do dos bases
+[98]
+Overfull \hbox (7.431pt too wide) in paragraph at lines 378--379
+[]\OT1/cmr/bx/n/12 ServletCreateCertificate.java: \OT1/cmr/m/n/12 Este servlet 
+es el en-car-ga-do de a~nadir
  []
 
-[86] [87]
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1132, 800.99
+
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1350, 800.99
 25pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
@@ -1259,14 +1376,8 @@ Overfull \hbox (10.49527pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
-
-Overfull \hbox (1.22446pt too wide) in paragraph at lines 387--388
-[]\OT1/cmr/bx/n/12 ServletCreateRowRepositorio.java: \OT1/cmr/m/n/12 Este servl
-et est^^Sa ma-pea-
- []
-
-
-<./GoogleAppEngine/imagenes/botonExportar.png, id=1135, 955.31906pt x 33.87656p
+[99]
+<./GoogleAppEngine/imagenes/botonExportar.png, id=1365, 955.31906pt x 33.87656p
 t>
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png>
@@ -1274,13 +1385,14 @@ Overfull \hbox (87.65836pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
-[88]
-Overfull \hbox (25.07767pt too wide) in paragraph at lines 435--436
-\OT1/cmr/m/it/12 List<RowRepositorioGeneral>getRowRepositorioGeneralList(String
-
+[100]
+Overfull \hbox (291.29616pt too wide) in paragraph at lines 435--436
+[]\OT1/cmr/m/n/12 Una vez se con-sigue el usuario se lla-ma a la fun-ci^^Son \O
+T1/cmr/m/it/12 pub-lic List<RowRepositorioGeneral>getRowRepositorioGeneralList(
+String
  []
 
-[89]
+[101]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
@@ -1311,15 +1423,15 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1170, 773.13844pt x 252.1
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1403, 773.13844pt x 252.1
 9218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
- <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [90]
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1188, 529.98pt x 268.75406pt>
+ <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [102]
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1417, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
-<./GoogleAppEngine/imagenes/codigoQR.png, id=1189, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=1418, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
@@ -1327,23 +1439,29 @@ Overfull \hbox (88.78758pt too wide) in paragraph at lines 478--479
  [][] 
  []
 
-) [91] [92 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
-[93 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [94 <./GoogleA
-ppEngine/imagenes/certificadosRepositorioGeneral.png> <./GoogleAppEngine/imagen
-es/botonExportar.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaVerificar.
-png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaQR.png (PNG copy)>]
-[95 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>] [96
+) [103] [104 <./GoogleAppEngine/imagenes/repositorio_general.png (PNG copy)>]
+[105 <./GoogleAppEngine/imagenes/UML_repositorio.png (PNG copy)>] [106 <./Googl
+eAppEngine/imagenes/certificadosRepositorioGeneral.png> <./GoogleAppEngine/imag
+enes/botonExportar.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaVerifica
+r.png (PNG copy)> <./GoogleAppEngine/imagenes/pestanhaQR.png (PNG copy)>]
+[107 <./GoogleAppEngine/imagenes/codigoQR.png (PNG copy)>] [108
 
 ]
-(/home/juanantonio/memoriaPFC/Memoria.lof [97
+(/home/juanantonio/memoriaPFC/Memoria.lof
+Overfull \hbox (0.1666pt too wide) in paragraph at lines 8--8
+ [][] [][][]\OT1/cmr/m/n/12 Indice tiobe en sep-tiem-bre del 2012. []$\OT1/cmtt
+/m/n/12 http : / / www . tiobe . 
+ []
 
-])
+[109
+
+] [110])
 \tf@lof=\write5
 \openout5 = `Memoria.lof'.
 
- [98]
+ [111]
 
-! LaTeX Error: \begin{itemize} on input line 364 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 132 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1359,7 +1477,7 @@ or  <return>  to continue without it.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \penalty 
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1367,7 +1485,7 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 \@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
                                                   \def \bbl@tempb {#3}\@safe...
-l.177 ...a pestaña verificación}{figure.5.10}{}}
+l.183 ...a pestaña verificación}{figure.5.10}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -1376,20 +1494,19 @@ I'm ignoring this, since I wasn't doing a \csname.
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 2) entered at line 364 (\begingroup)
 ### semi simple group (level 1) entered at line 132 (\begingroup)
 ### bottom level
 (\end occurred when \ifx on line 453 was incomplete) 
 Here is how much of TeX's memory you used:
- 8273 strings out of 495061
- 120064 string characters out of 1182621
- 364205 words of memory out of 3000000
- 10740 multiletter control sequences out of 15000+50000
+ 8627 strings out of 495061
+ 125977 string characters out of 1182621
+ 401207 words of memory out of 3000000
+ 10913 multiletter control sequences out of 15000+50000
  11534 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,8n,51p,1742b,2260s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,51p,1742b,2160s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
@@ -1404,9 +1521,9 @@ cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Memoria.pdf (104 pages, 3578807 bytes).
+Output written on Memoria.pdf (117 pages, 4116920 bytes).
 PDF statistics:
- 1449 PDF objects out of 1728 (max. 8388607)
- 541 named destinations out of 1000 (max. 500000)
- 579 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1720 PDF objects out of 1728 (max. 8388607)
+ 719 named destinations out of 1000 (max. 500000)
+ 594 words of extra memory for PDF output out of 10000 (max. 10000000)
 
