@@ -64,6 +64,8 @@ Como podemos observar en la figura~\ref{fig:nuevoProyectoAndroid} ya tenemos con
   \label{fig:nuevoProyectoAndroid}
 \end{figure}
 
+Para el uso de Git hemos usado el plugins eGit, que se puede descargar gratuitamente de la web \url{http://www.eclipse.org/egit/}. En dicha web también podemos ver la forma de instalación y configuración, que es muy sencilla y solo se necesita la URL del servidor, el nombre de usuario y el password.
+
 \section{Configuración de Eclipse para Google App Engine.}
 
 Al igual que en el apéndice~\ref{cap:configuracionAndroidEclipse} necesitamos tener una versión de Eclipse Classic, yo recomiendo tener un Eclipse diferente para cada plugins que queramos utilizar para evitar incompatibilidades entre los diferentes plugins. Comenzamos como en la instalación del ADT para Eclipse, abriendo Eclipse y pulsamos en \textbf{Help -> Install New Software}, luego en \textbf{Add} y copiamos la siguiente dirección web, \url{http://dl.google.com/eclipse/plugin/3.7} y pulsamos \textbf{Ok}. En la figura~\ref{fig:instalacionGAE} podemos ver el resultado y los paquetes que nos da la posibilidad de instalar, a nosotros nos interesa dentro de \textbf{SDK}, la opción \textbf{Google App Engine Java SDK}, también necesitamos el \textbf{Google Plugin for Eclipse 3.7} y si queremos hacer diseño de la interfaz web de la aplicación podemos instalar \textbf{GWT Designer for GPE}, nosotros no lo usaremos en el proyecto. A continuación pulsamos \textbf{Siguiente}, aceptamos las licencias y pulsamos finalizar. Eclipse acto seguido empezará a descargar los puglins y a instalarlos (figura~\ref{fig:instalacionPlugins}), cuando termine nos pedirá que reiniciemos Eclipse.
@@ -129,7 +131,7 @@ Una vez tenemos un proyecto creado y testeado procederemos a la subida, para eso
   \label{fig:GAESettings}
 \end{figure}
 
-Una vez hecho el despliegue ya podemos tener acceso a la aplicación web mediante el link \url{http://nombre\_aplicacion.appspot.com}.
+Una vez realizado el despliegue ya podemos tener acceso a la aplicación web mediante el link \url{http://nombre\_aplicacion.appspot.com}.
 
 
 

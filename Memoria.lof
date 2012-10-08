@@ -69,3 +69,7 @@
 \contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{118}{figure.A.11}
 \contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{119}{figure.A.12}
 \contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{120}{figure.A.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{124}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{125}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{125}{figure.B.3}

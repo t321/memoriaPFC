@@ -97,7 +97,9 @@ backgroundcolor=\color{gray75},
 	\input{./GoogleAppEngine/googleappengine.tex}
 	\appendix
 	%apendice con la configuración de eclipse tanto para Android como para Google App Engine
-	\input{./ConfiguracionEclipse/apendice1.tex}
+	\input{./ConfiguracionEclipse/configuracionEclipse.tex}
+	%apendice para la creación de los certificados usados con XCA
+	\input{./CreacionCertificado/creacionCertificado.tex}
 	
 	\backmatter
 		\listoffigures

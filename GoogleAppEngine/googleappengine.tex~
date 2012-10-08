@@ -79,7 +79,7 @@ JSP es el acrónimo de JavaServer Pages y es una tecnología que ayuda a crear d
 
 Un fichero \textit{*.jsp} es la unión de código HTML con código java, el cual es interpretado en el momento de visualización de la página web. Un ejemplo es el siguiente:
  
-\begin{lstlisting}[language=HTML]   
+\begin{lstlisting}[style=HTML]   
 <!DOCTYPE html>
 <html>
 <body>
@@ -450,13 +450,13 @@ jsonObject.put("destino", rowRepositorioGeneral.getDestino());
 
 Ese objeto JSON se añade un objeto JSONArray que a su vez es el que devolveremos como respuesta al final de la ejecución de nuestro servlet y que espera la aplicación android que lo ha pedido.
 
-\item \textbf{ServletVerify.java:} Este servlet es el utilizado en la pestaña verificar de nuestra aplicación web, como se puede observar en la figura~\ref{fig:pestañaVerificar}
+\item \textbf{ServletVerify.java:} Este servlet es el utilizado en la pestaña verificar de nuestra aplicación web, como se puede observar en la figura~\ref{fig:pestanhaVerificar}
 
 \begin{figure}
   \centering
     \includegraphics[scale=0.5]{./GoogleAppEngine/imagenes/pestanhaVerificar.png}
   \caption{Detalle de la pestaña verificación.}
-  \label{fig:pestañaVerificar}
+  \label{fig:pestanhaVerificar}
 \end{figure}
 
 Como podemos observar hay un cuadro de texto para introducir la cadena que devolvería al pulsar el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en Base64 y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habiamos revocado ese certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
