@@ -7,13 +7,13 @@
 \contentsline {chapter}{\numberline {2}Conocimientos previos}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}El lenguaje de programaci\IeC {\'o}n Java}{7}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Historia}{9}{subsection.2.1.1}
-\contentsline {subsubsection}{Versiones}{10}{section*.2}
+\contentsline {subsection}{\numberline {2.1.2}Versiones}{10}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}El entorno de programaci\IeC {\'o}n Eclipse.}{12}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Historia}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Versiones}{13}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Criptograf\IeC {\'\i }a.}{13}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Historia}{14}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Critograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Criptograf\IeC {\'\i }a cl\IeC {\'a}sica.}{14}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Criptograf\IeC {\'\i }a durante la \IeC {\'e}poca de los ordenadores.}{16}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Android.}{20}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Historia.}{21}{subsection.2.4.1}

@@ -1,4 +1,4 @@
-\chapter{Criptografía usada en el proyecto.}
+\chapter{Criptografía usada en el proyecto.}\label{cap:criptografía}
 
 En la sección \ref{lbl:criptografia} del capítulo \ref{cap:conocimientos} hemos hecho una breve introducción a la criptografía de clave pública, a continuación vamos a explicarla con más extensión y los usos que le hemos dado en el proyecto.
 
@@ -197,7 +197,7 @@ En el proyecto las no hemos tenido que generar claves, ya que queríamos que se 
 		\label{cod:keyStore}
 \end{figure}
 
-Como podemos ver lo primero que tenemos que hacer es generar un objeto KeyStore, usando la función getInstance() a la que tenemos que pasarle el tipo de llavero que vamos a usar, nosotros hemos usado PKCS12\footnote{Para más información visite \url{http://en.wikipedia.org/wiki/PKCS12}.} que es un archivo creado especialmente para almacenar claves. Acto seguido cargamos el fichero, con el método load(), al cual tenemos que pasarle la ruta hasta el archivo y el password del archivo PKCS12. Para conseguir la clave privada usamos la función getKey() a la que hay que pasarle el alias con el que está guardada la clave en el llavero y el password para poder sacarla. En el código se puede ver un casting ya que la función getKey() devuelve un elemento que implementa la interfaz Key, pero nosotros sabemos que es un objeto de la clase PrivateKey. Acto seguido ya podemos usar la clave para lo que queramos.
+Como podemos ver lo primero que tenemos que hacer es generar un objeto KeyStore, usando la función getInstance() a la que tenemos que pasarle el tipo de llavero que vamos a usar, nosotros hemos usado PKCS12\footnote{Para más información visite \url{http://en.wikipedia.org/wiki/PKCS12}.} que es un archivo creado especialmente para almacenar claves. Acto seguido cargamos el fichero, con el método load(), al cual tenemos que pasarle la ruta hasta el archivo y el password del archivo PKCS12. Para conseguir la clave privada usamos la función getKey() a la que hay que pasarle el alias con el que está guardada la clave en el llavero y el password para poder sacarla. En el código se puede ver un casting ya que la función getKey() devuelve un elemento que implementa la interfaz Key, pero nosotros sabemos que es un objeto de la clase PrivateKey. Acto seguido ya podemos usar la clave para firmar lo que necesitemos.
 
 
 
