@@ -56,20 +56,26 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{106}{figure.5.11}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{107}{figure.5.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{110}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{111}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{111}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{112}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{113}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{113}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{115}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{115}{figure.A.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el puglin de Google App Engine instalado.}}{116}{figure.A.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{117}{figure.A.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{118}{figure.A.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{119}{figure.A.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{120}{figure.A.13}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Arquitectura b\IeC {\'a}sica del proyecto.}}{110}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Estructura del proyecto.}}{111}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Estructura del servidor de timestamp.}}{111}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Estructura del servidor respositorio general.}}{112}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Estructura de la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{113}{figure.6.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{124}{figure.B.1}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{125}{figure.B.2}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{125}{figure.B.3}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{116}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{117}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{117}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{118}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{119}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{119}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{121}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{121}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el puglin de Google App Engine instalado.}}{122}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{123}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{124}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{125}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{126}{figure.A.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{130}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{131}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{131}{figure.B.3}

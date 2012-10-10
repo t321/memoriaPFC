@@ -44,6 +44,9 @@
 \BOOKMARK [2][-]{subsection.5.3.1}{Explicaci\363n de la aplicaci\363n web.}{section.5.3}
 \BOOKMARK [1][-]{section.5.4}{Servidor de registro de firmas.}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.4.1}{Explicaci\363n de la aplicaci\363n web.}{section.5.4}
+\BOOKMARK [0][-]{chapter.6}{Dise\361o y arquitectura}{}
+\BOOKMARK [1][-]{section.6.1}{Metodolog\355a de dise\361o usada.}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Arquitectura del proyecto.}{chapter.6}
 \BOOKMARK [0][-]{appendix.A}{Configuraci\363n de Eclipse.}{}
 \BOOKMARK [1][-]{section.A.1}{Configuraci\363n de Eclipse para Android.}{appendix.A}
 \BOOKMARK [1][-]{section.A.2}{Configuraci\363n de Eclipse para Google App Engine.}{appendix.A}

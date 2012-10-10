@@ -46,7 +46,10 @@
 \contentsline {subsection}{\numberline {5.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{93}{subsection.5.3.1}
 \contentsline {section}{\numberline {5.4}Servidor de registro de firmas.}{97}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{98}{subsection.5.4.1}
-\contentsline {chapter}{\numberline {A}Configuraci\IeC {\'o}n de Eclipse.}{109}{appendix.A}
-\contentsline {section}{\numberline {A.1}Configuraci\IeC {\'o}n de Eclipse para Android.}{109}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configuraci\IeC {\'o}n de Eclipse para Google App Engine.}{114}{section.A.2}
-\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{123}{appendix.B}
+\contentsline {chapter}{\numberline {6}Dise\IeC {\~n}o y arquitectura}{109}{chapter.6}
+\contentsline {section}{\numberline {6.1}Metodolog\IeC {\'\i }a de dise\IeC {\~n}o usada.}{109}{section.6.1}
+\contentsline {section}{\numberline {6.2}Arquitectura del proyecto.}{110}{section.6.2}
+\contentsline {chapter}{\numberline {A}Configuraci\IeC {\'o}n de Eclipse.}{115}{appendix.A}
+\contentsline {section}{\numberline {A.1}Configuraci\IeC {\'o}n de Eclipse para Android.}{115}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configuraci\IeC {\'o}n de Eclipse para Google App Engine.}{120}{section.A.2}
+\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{129}{appendix.B}
