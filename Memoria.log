@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.21)  10 OCT 2012 19:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.11)  11 OCT 2012 20:18
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -249,12 +249,6 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Spanish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@spanish = a dialect from \language0
 \es@datefmt=\count89
 \es@quottoks=\toks16
 \es@quotdepth=\count90
@@ -262,7 +256,8 @@ Package babel Info: Making " an active character on input line 492.
 Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
-)) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
@@ -401,6 +396,10 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count98
 )
+(/usr/share/texmf-texlive/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box26
+)
 (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -411,7 +410,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count99
-\lst@gtempboxa=\box26
+\lst@gtempboxa=\box27
 \lst@token=\toks19
 \lst@length=\count100
 \lst@currlwidth=\dimen109
@@ -427,7 +426,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count105
 \lst@skipnumbers=\count106
-\lst@framebox=\box27
+\lst@framebox=\box28
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -437,26 +436,26 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (/home/juanantonio/memoriaPFC/Memoria.aux)
 \openout1 = `Memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen113
-\scratchbox=\box28
+\scratchbox=\box29
 \nofMPsegments=\count108
 \nofMParguments=\count109
 \everyMPshowfont=\toks20
@@ -465,7 +464,7 @@ LaTeX Font Info:    ... okay on input line 78.
 \MPnumerator=\count111
 \everyMPtoPDFconversion=\toks21
 )
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 79.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -474,20 +473,20 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
 
 (/home/juanantonio/memoriaPFC/Memoria.out)
 (/home/juanantonio/memoriaPFC/Memoria.out)
 \@outlinefile=\write3
 \openout3 = `Memoria.out'.
 
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box30
 \c@lstlisting=\count113
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 80.
+(Font)              <14.4> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 80.
+(Font)              <7> on input line 81.
  [1
 
 
@@ -570,7 +569,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 82pt>
 File: ./ConocimientosPrevios/imagenes/indiceTiobe.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/indiceTiobe.png>
-Underfull \vbox (badness 6461) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./ConocimientosPrevios/imagenes/indiceTiobe.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -614,50 +613,25 @@ pe png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./ConocimientosPrevios/imagenes/cifradoCesar.png> <./ConocimientosPrevios/
-imagenes/cifradoHomofonico.png>]
-Overfull \hbox (4.6712pt too wide) in paragraph at lines 165--165
-[]\OT1/cmr/bx/n/14.4 Criptograf^^S^^Pa du-rante la ^^Sepoca de los or-de-nadore
-s. 
- []
-
-[16 <./ConocimientosPrevios/imagenes/cifradoTransposicion.png>]
+imagenes/cifradoHomofonico.png>] [16 <./ConocimientosPrevios/imagenes/cifradoTr
+ansposicion.png>]
 <./ConocimientosPrevios/imagenes/cifradoDes.png, id=416, 366.61969pt x 499.8675
 pt>
 File: ./ConocimientosPrevios/imagenes/cifradoDes.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/cifradoDes.png> [17] [18 <./Conocimientos
-Previos/imagenes/cifradoDes.png (PNG copy)>] [19]
-
-! Package inputenc Error: Unicode char \u8:€ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 ...�a cantidad de dinero (Alrededor de 25€
-                                                   por una cuenta vitalicia ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Previos/imagenes/cifradoDes.png (PNG copy)>] [19] [20]
+Underfull \vbox (badness 1997) has occurred while \output is active []
 
  [21]
-Overfull \hbox (6.35635pt too wide) in paragraph at lines 244--245
-[]\OT1/cmr/bx/n/12 1.6 (Donut): \OT1/cmr/m/n/12 fue pre-sen-ta-da el 15 de sep-
-tiem-bre de 2009. Se le a~nadieron
- []
-
 [22] [23]
-<./ConocimientosPrevios/imagenes/android41.jpeg, id=454, 722.7pt x 1284.8pt>
+<./ConocimientosPrevios/imagenes/android41.jpeg, id=458, 722.7pt x 1284.8pt>
 File: ./ConocimientosPrevios/imagenes/android41.jpeg Graphic file (type jpg)
 
 <use ./ConocimientosPrevios/imagenes/android41.jpeg> [24] [25 <./ConocimientosP
 revios/imagenes/android41.jpeg>]
-Overfull \hbox (24.58173pt too wide) in paragraph at lines 283--284
-\OT1/cmr/m/n/12 ladores que pro-por-ciona Google, []$\OT1/cmtt/m/n/12 https : /
- / developers . google . com / appengine/$[]\OT1/cmr/m/n/12 . 
+Overfull \hbox (3.04028pt too wide) in paragraph at lines 280--281
+\OT1/cmr/m/n/12 res que pro-por-cio-na Goo-gle, []$\OT1/cmtt/m/n/12 https : / /
+ developers . google . com / appengine/$[]\OT1/cmr/m/n/12 . 
  []
 
 [26] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
@@ -674,7 +648,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 <titulo> Cien años 
+l.314 <titulo> Cien años 
                           de soledad </titulo>
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -688,7 +662,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 <titulo> Cien años 
+l.314 <titulo> Cien años 
                           de soledad </titulo>
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -701,7 +675,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 <autor> Gabriel García 
+l.316 <autor> Gabriel García 
                               Márquez </autor>
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -715,7 +689,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 <autor> Gabriel García 
+l.316 <autor> Gabriel García 
                               Márquez </autor>
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -728,7 +702,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 <autor> Gabriel García Márquez 
+l.316 <autor> Gabriel García Márquez 
                                        </autor>
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -742,7 +716,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 <autor> Gabriel García Márquez 
+l.316 <autor> Gabriel García Márquez 
                                        </autor>
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -755,7 +729,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.320 <formato> Rústica 
+l.317 <formato> Rústica 
                          </formato>
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -769,34 +743,30 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.320 <formato> Rústica 
+l.317 <formato> Rústica 
                          </formato>
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28])
-(./Criptografia/criptografia.tex [29] [30
+[27] [28]) (./Criptografia/criptografia.tex [29] [30
 
 ]
 Cap\'{\i }tulo 3.
 [31] [32]
 Overfull \hbox (27.13457pt too wide) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/12 La fun-ci^^Son de cifra-do quedar^^S^^Pa co-mo la sigu-iente:
- $[](\OML/cmm/m/it/12 m\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 m[] mod\OT1/cmr/m/n
-/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) =
+[]\OT1/cmr/m/n/12 La fun-ci^^Son de ci-fra-do que-dar^^S^^Pa co-mo la si-guien-
+te: $[](\OML/cmm/m/it/12 m\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 m[] mod\OT1/cmr/
+m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) =
  []
 
 
 Overfull \hbox (10.48508pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/12 La fun-ci^^Son de de-scifra-do ser^^S^^Pa: $[] = \OML/cmm/m/i
-t/12 c[] mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/cmm/m/i
-t/12 c[] mod\OT1/cmr/m/n/12 (3233)$,
+[]\OT1/cmr/m/n/12 La fun-ci^^Son de des-ci-fra-do ser^^S^^Pa: $[] = \OML/cmm/m/
+it/12 c[] mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/cmm/m/
+it/12 c[] mod\OT1/cmr/m/n/12 (3233)$,
  []
 
-[33] <./Criptografia/imagenes/esquemaPKI.png, id=527, 1003.75pt x 709.65125pt>
+[33] <./Criptografia/imagenes/esquemaPKI.png, id=530, 1003.75pt x 709.65125pt>
 File: ./Criptografia/imagenes/esquemaPKI.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/esquemaPKI.png>
@@ -805,7 +775,7 @@ Overfull \hbox (111.87378pt too wide) in paragraph at lines 71--72
  []
 
 [34] [35 <./Criptografia/imagenes/esquemaPKI.png>]
-<./Criptografia/imagenes/pkiDnie.png, id=540, 438.13687pt x 188.20313pt>
+<./Criptografia/imagenes/pkiDnie.png, id=543, 438.13687pt x 188.20313pt>
 File: ./Criptografia/imagenes/pkiDnie.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/pkiDnie.png>
@@ -817,12 +787,12 @@ Overfull \hbox (48.13579pt too wide) in paragraph at lines 83--84
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./Criptografia/imagenes/pkiDnie.png (PNG copy)>]
-<./Criptografia/imagenes/messageDigest.png, id=549, 225.09094pt x 42.91031pt>
+<./Criptografia/imagenes/messageDigest.png, id=552, 225.09094pt x 42.91031pt>
 File: ./Criptografia/imagenes/messageDigest.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/messageDigest.png> [37 <./Criptografia/imagenes/me
 ssageDigest.png>]
-<./Criptografia/imagenes/signature.png, id=561, 483.8075pt x 221.82875pt>
+<./Criptografia/imagenes/signature.png, id=564, 483.8075pt x 221.82875pt>
 File: ./Criptografia/imagenes/signature.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/signature.png>
@@ -830,7 +800,7 @@ Overfull \hbox (93.80632pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<./Criptografia/imagenes/cipher.png, id=565, 514.92375pt x 180.675pt>
+<./Criptografia/imagenes/cipher.png, id=568, 514.92375pt x 180.675pt>
 File: ./Criptografia/imagenes/cipher.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/cipher.png>
@@ -849,7 +819,7 @@ Cap\'{\i }tulo 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<./Android/imagenes/arquitecturaAndroid.jpg, id=622, 725.75366pt x 521.15831pt>
+<./Android/imagenes/arquitecturaAndroid.jpg, id=625, 725.75366pt x 521.15831pt>
 File: ./Android/imagenes/arquitecturaAndroid.jpg Graphic file (type jpg)
 <use ./Android/imagenes/arquitecturaAndroid.jpg>
 Overfull \hbox (45.45555pt too wide) in paragraph at lines 24--25
@@ -864,14 +834,8 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
-
-Overfull \hbox (0.59279pt too wide) in paragraph at lines 40--41
-[]\OT1/cmr/bx/n/12 Media Li-braries: \OT1/cmr/m/n/12 li-br-er^^S^^Pas basadas e
-n Pack-etVideo's Open-CORE
- []
-
-[46]
-<./Android/imagenes/maquinaVirtualDalvik.png, id=639, 501.875pt x 129.48375pt>
+ [46]
+<./Android/imagenes/maquinaVirtualDalvik.png, id=642, 501.875pt x 129.48375pt>
 File: ./Android/imagenes/maquinaVirtualDalvik.png Graphic file (type png)
 
 <use ./Android/imagenes/maquinaVirtualDalvik.png>
@@ -881,29 +845,29 @@ Overfull \hbox (11.50053pt too wide) in paragraph at lines 67--68
 
 
 Overfull \hbox (15.19696pt too wide) in paragraph at lines 79--80
-[]\OT1/cmr/bx/n/12 META-INF: \OT1/cmr/m/n/12 en un di-rec-to-rio que con-tiene 
-tres archivos, \OT1/cmr/m/it/12 MAN-I-FEST.MF
+[]\OT1/cmr/bx/n/12 META-INF: \OT1/cmr/m/n/12 en un di-rec-to-rio que con-tie-ne
+ tres ar-chi-vos, \OT1/cmr/m/it/12 MA-NI-FEST.MF
  []
 
 [47 <./Android/imagenes/maquinaVirtualDalvik.png (PNG copy)>] [48]
-<./Android/imagenes/estructuraAPK.png, id=657, 452.4403pt x 382.42876pt>
+<./Android/imagenes/estructuraAPK.png, id=660, 452.4403pt x 382.42876pt>
 File: ./Android/imagenes/estructuraAPK.png Graphic file (type png)
 
 <use ./Android/imagenes/estructuraAPK.png> [49 <./Android/imagenes/estructuraAP
 K.png (PNG copy)>] [50]
-<./Android/imagenes/contentProvider.png, id=669, 722.7pt x 1284.8pt>
+<./Android/imagenes/contentProvider.png, id=672, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/contentProvider.png Graphic file (type png)
 
 <use ./Android/imagenes/contentProvider.png> [51 <./Android/imagenes/contentPro
 vider.png (PNG copy)>]
-<./Android/imagenes/widget.png, id=677, 722.7pt x 1284.8pt>
+<./Android/imagenes/widget.png, id=680, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/widget.png Graphic file (type png)
 
 <use ./Android/imagenes/widget.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./Android/imagenes/widget.png (PNG copy)>] [53]
-<./Android/imagenes/cicloActivity.png, id=698, 514.92375pt x 665.48625pt>
+<./Android/imagenes/cicloActivity.png, id=701, 514.92375pt x 665.48625pt>
 File: ./Android/imagenes/cicloActivity.png Graphic file (type png)
 
 <use ./Android/imagenes/cicloActivity.png>
@@ -912,44 +876,39 @@ Overfull \hbox (21.93954pt too wide) in paragraph at lines 196--197
  []
 
 [54] [55 <./Android/imagenes/cicloActivity.png>] [56]
-<./Android/imagenes/gmailTablet.png, id=736, 1284.8pt x 803.0pt>
+<./Android/imagenes/gmailTablet.png, id=739, 1284.8pt x 803.0pt>
 File: ./Android/imagenes/gmailTablet.png Graphic file (type png)
 
 <use ./Android/imagenes/gmailTablet.png>
-<./Android/imagenes/gmailMovil.png, id=737, 866.23625pt x 632.3625pt>
+<./Android/imagenes/gmailMovil.png, id=740, 866.23625pt x 632.3625pt>
 File: ./Android/imagenes/gmailMovil.png Graphic file (type png)
 
 <use ./Android/imagenes/gmailMovil.png>
-<./Android/imagenes/swype.png, id=741, 722.7pt x 1284.8pt>
+<./Android/imagenes/swype.png, id=744, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/swype.png Graphic file (type png)
 
 <use ./Android/imagenes/swype.png> [57 <./Android/imagenes/gmailTablet.png (PNG
  copy)>]
-<./Android/imagenes/estructuraBasicaAndroid.png, id=753, 256.70906pt x 348.5521
+<./Android/imagenes/estructuraBasicaAndroid.png, id=756, 256.70906pt x 348.5521
 9pt>
 File: ./Android/imagenes/estructuraBasicaAndroid.png Graphic file (type png)
  <use ./Android/imagenes/estructuraBasicaAndroid.png> [58 <./Android/imagenes/g
 mailMovil.png>] [59 <./Android/imagenes/swype.png (PNG copy)>] [60 <./Android/i
-magenes/estructuraBasicaAndroid.png (PNG copy)>]
-Overfull \hbox (1.57451pt too wide) in paragraph at lines 311--312
-\OT1/cmr/m/it/12 drawable-xhdpi \OT1/cmr/m/n/12 es donde se a~naden to-das im^^
-Sagenes us-adas, sonidos,
- []
-
-[61] <./Android/imagenes/pantallaPrincipal.png, id=776, 722.7pt x 1284.8pt>
+magenes/estructuraBasicaAndroid.png (PNG copy)>] [61]
+<./Android/imagenes/pantallaPrincipal.png, id=779, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/pantallaPrincipal.png Graphic file (type png)
 
 <use ./Android/imagenes/pantallaPrincipal.png>
-<./Android/imagenes/botonAnhadir.png, id=778, 721.69624pt x 104.39pt>
+<./Android/imagenes/botonAnhadir.png, id=781, 721.69624pt x 104.39pt>
 File: ./Android/imagenes/botonAnhadir.png Graphic file (type png)
 
 <use ./Android/imagenes/botonAnhadir.png> [62] [63 <./Android/imagenes/pantalla
 Principal.png (PNG copy)> <./Android/imagenes/botonAnhadir.png (PNG copy)>]
-<./Android/imagenes/informacionFirma.png, id=792, 722.7pt x 1284.8pt>
+<./Android/imagenes/informacionFirma.png, id=795, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/informacionFirma.png Graphic file (type png)
 
 <use ./Android/imagenes/informacionFirma.png>
-<./Android/imagenes/proyectoAndroid.png, id=794, 339.2675pt x 728.7225pt>
+<./Android/imagenes/proyectoAndroid.png, id=797, 339.2675pt x 728.7225pt>
 File: ./Android/imagenes/proyectoAndroid.png Graphic file (type png)
 
 <use ./Android/imagenes/proyectoAndroid.png> [64 <./Android/imagenes/informacio
@@ -1044,39 +1003,23 @@ Overfull \hbox (21.56914pt too wide) in paragraph at lines 477--478
 [][][][][][][][]
  []
 
-[70]
-Overfull \hbox (3.0678pt too wide) in paragraph at lines 503--504
-\OT1/cmr/m/n/12 caci^^Son. Se puede ver en el c^^Sodi-go que no ex-tiende a la 
-clase []
- []
-
-
-Overfull \hbox (0.57362pt too wide) in paragraph at lines 503--504
-\OT1/cmr/m/n/12 a~nadi-do fun-cional-i-dad me-di-ante el uso de [][][][] y []
- []
-
-[71] [72]
+[70] [71] [72]
 Overfull \hbox (7.06471pt too wide) in paragraph at lines 577--578
-[]\OT1/cmr/bx/n/12 InitialConfiguration.java, In-tentIn-te-gra-tor-Sup-portV4.j
-ava,
+[]\OT1/cmr/bx/n/12 InitialConfiguration.java, In-ten-tIn-te-gra-tor-Sup-portV4.
+java,
  []
 
 
 Overfull \hbox (1.90971pt too wide) in paragraph at lines 577--578
-\OT1/cmr/bx/n/12 In-tentIn-te-gra-torV30.java, In-ten-tRe-sult.java: \OT1/cmr/m
-/n/12 es-tas clases son
+\OT1/cmr/bx/n/12 In-ten-tIn-te-gra-torV30.java, In-ten-tRe-sult.java: \OT1/cmr/
+m/n/12 es-tas cla-ses son
  []
 
-[73] <./Android/imagenes/barcodeScanner.png, id=1006, 722.7pt x 692.5875pt>
+[73] <./Android/imagenes/barcodeScanner.png, id=1009, 722.7pt x 692.5875pt>
 File: ./Android/imagenes/barcodeScanner.png Graphic file (type png)
 
-<use ./Android/imagenes/barcodeScanner.png>
-Overfull \hbox (12.96286pt too wide) in paragraph at lines 588--589
-\OT1/cmr/m/n/12 a la que ten-emos que di-ri-girnos es a: []$\OT1/cmtt/m/n/12 ht
-tps : / / repositoriorecibos .
- []
-
-[74 <./Android/imagenes/barcodeScanner.png>]
+<use ./Android/imagenes/barcodeScanner.png> [74 <./Android/imagenes/barcodeScan
+ner.png>]
 Overfull \hbox (7.3868pt too wide) in paragraph at lines 609--610
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][] \OT1/cmr/m/n/12 con
@@ -1084,7 +1027,7 @@ Overfull \hbox (7.3868pt too wide) in paragraph at lines 609--610
 
 
 Overfull \hbox (20.07353pt too wide) in paragraph at lines 609--610
-\OT1/cmr/m/n/12 para pos-te-ri-or-mente con la fun-ci^^Son [][][][][][][][][]
+\OT1/cmr/m/n/12 pa-ra pos-te-rior-men-te con la fun-ci^^Son [][][][][][][][][]
  []
 
 [75]
@@ -1100,7 +1043,7 @@ OT1/cmr/m/n/12 , en la que
  []
 
 [76]
-<./Android/imagenes/signaturesGeneral.png, id=1064, 720.6925pt x 1232.605pt>
+<./Android/imagenes/signaturesGeneral.png, id=1067, 720.6925pt x 1232.605pt>
 File: ./Android/imagenes/signaturesGeneral.png Graphic file (type png)
 
 <use ./Android/imagenes/signaturesGeneral.png> [77] [78 <./Android/imagenes/sig
@@ -1137,7 +1080,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79]
 Overfull \hbox (5.26468pt too wide) in paragraph at lines 702--703
-[]\OT1/cmr/m/n/12 Podemos ver co-mo se gen-era el ob-je-to []
+[]\OT1/cmr/m/n/12 Podemos ver co-mo se ge-ne-ra el ob-je-to []
  []
 
 
@@ -1152,22 +1095,22 @@ Overfull \hbox (10.14565pt too wide) in paragraph at lines 702--703
 
 
 Overfull \hbox (9.1375pt too wide) in paragraph at lines 704--705
-[]\OT1/cmr/bx/n/12 SignaturesForYou.java: \OT1/cmr/m/n/12 igual que su clase eq
-uiv-a-lente []
+[]\OT1/cmr/bx/n/12 SignaturesForYou.java: \OT1/cmr/m/n/12 igual que su cla-se e
+qui-va-len-te []
  []
 
-<./Android/imagenes/signaturesForYou.png, id=1117, 722.7pt x 1236.62pt>
+<./Android/imagenes/signaturesForYou.png, id=1120, 722.7pt x 1236.62pt>
 File: ./Android/imagenes/signaturesForYou.png Graphic file (type png)
 
 <use ./Android/imagenes/signaturesForYou.png>
 Overfull \hbox (132.5908pt too wide) in paragraph at lines 717--718
 []\OT1/cmr/bx/n/12 SignaturesForYouInformation.java: \OT1/cmr/m/n/12 al igual q
-ue la clase []
+ue la cla-se []
  []
 
 
 Overfull \hbox (44.89648pt too wide) in paragraph at lines 717--718
-\OT1/cmr/m/n/12 van di-rigi-dos a t^^S^^P. El pro-ce-so es igual que en []
+\OT1/cmr/m/n/12 van di-ri-gi-dos a t^^S^^P. El pro-ce-so es igual que en []
  []
 
 [80] [81 <./Android/imagenes/signaturesForYou.png (PNG copy)>])
@@ -1177,7 +1120,7 @@ Cap\'{\i }tulo 5.
 
 ]
 Overfull \hbox (33.59442pt too wide) in paragraph at lines 16--16
-[]\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-caci^^Son web gen^^Seri-
+[]\OT1/cmr/bx/n/17.28 Explicaci^^Son de una apli-ca-ci^^Son web gen^^Seri-
  []
 
 [84]
@@ -1188,17 +1131,17 @@ LE APP ENGINE. \OT1/cmr/m/n/12 85
 
 [85]
 Overfull \hbox (29.98128pt too wide) in paragraph at lines 66--67
-\OT1/cmr/m/n/12 siquiente: []$\OT1/cmtt/m/n/12 https : / / servertimestamp . ap
-pspot . com / search ? id = 63&texto =
+\OT1/cmr/m/n/12 si-quien-te: []$\OT1/cmtt/m/n/12 https : / / servertimestamp . 
+appspot . com / search ? id = 63&texto =
  []
 
 
 Overfull \hbox (37.62396pt too wide) in paragraph at lines 66--67
-\OT1/cmtt/m/n/12 Prueba$[]\OT1/cmr/m/n/12 , co-mo se puede ver la di-rec-ci^^So
-n base se-ria: []$\OT1/cmtt/m/n/12 https : / / servertimestamp .
+\OT1/cmtt/m/n/12 Prueba$[]\OT1/cmr/m/n/12 , co-mo se pue-de ver la di-rec-ci^^S
+on ba-se se-ria: []$\OT1/cmtt/m/n/12 https : / / servertimestamp .
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=1172, 354.32375pt x 405.515pt>
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=1175, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
@@ -1211,7 +1154,7 @@ LE APP ENGINE. \OT1/cmr/m/n/12 87
  []
 
 [87 <./GoogleAppEngine/imagenes/JSP_Model.png>]
-<./GoogleAppEngine/imagenes/carpetawar.png, id=1219, 210.03468pt x 349.305pt>
+<./GoogleAppEngine/imagenes/carpetawar.png, id=1222, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/carpetawar.png> [88]
@@ -1256,13 +1199,13 @@ The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [90] [91]
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1295, 738.50906pt x 30
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1298, 738.50906pt x 30
 7.1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
  <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [92 <./GoogleAppEngi
 ne/imagenes/server_ips_timestamp.png (PNG copy)>] [93]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=1309, 1111.15125pt x 510.90875pt>
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=1312, 1111.15125pt x 510.90875pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
@@ -1271,7 +1214,7 @@ Overfull \hbox (165.57426pt too wide) in paragraph at lines 229--230
  []
 
 [94 <./GoogleAppEngine/imagenes/UML_pfc.png (PNG copy)>] [95] [96]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1352, 841.64438pt
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1355, 841.64438pt
  x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
@@ -1281,7 +1224,7 @@ Overfull \hbox (30.82117pt too wide) in paragraph at lines 306--307
  []
 
 
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=1354, 962.84718pt x 357
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=1357, 962.84718pt x 357
 .58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
@@ -1291,7 +1234,7 @@ Overfull \hbox (91.42241pt too wide) in paragraph at lines 315--316
  []
 
 [97 <./GoogleAppEngine/imagenes/login_repositorio_general.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1362, 1089.06876pt x 933.48
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1365, 1089.06876pt x 933.48
 75pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png>
@@ -1301,12 +1244,12 @@ Overfull \hbox (154.53305pt too wide) in paragraph at lines 328--329
 
 [98]
 Overfull \hbox (7.431pt too wide) in paragraph at lines 378--379
-[]\OT1/cmr/bx/n/12 ServletCreateCertificate.java: \OT1/cmr/m/n/12 Este servlet 
-es el en-car-ga-do de a~nadir
+[]\OT1/cmr/bx/n/12 ServletCreateCertificate.java: \OT1/cmr/m/n/12 Es-te ser-vle
+t es el en-car-ga-do de a~nadir
  []
 
 
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1383, 800.99
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1386, 800.99
 25pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
@@ -1317,7 +1260,7 @@ Overfull \hbox (10.49527pt too wide) in paragraph at lines 382--383
  []
 
 [99]
-<./GoogleAppEngine/imagenes/botonExportar.png, id=1399, 955.31906pt x 33.87656p
+<./GoogleAppEngine/imagenes/botonExportar.png, id=1402, 955.31906pt x 33.87656p
 t>
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png>
@@ -1327,21 +1270,21 @@ Overfull \hbox (87.65836pt too wide) in paragraph at lines 395--396
 
 [100]
 Overfull \hbox (291.29616pt too wide) in paragraph at lines 435--436
-[]\OT1/cmr/m/n/12 Una vez se con-sigue el usuario se lla-ma a la fun-ci^^Son \O
-T1/cmr/m/it/12 pub-lic List<RowRepositorioGeneral>getRowRepositorioGeneralList(
-String
+[]\OT1/cmr/m/n/12 Una vez se con-si-gue el usua-rio se lla-ma a la fun-ci^^Son 
+\OT1/cmr/m/it/12 pu-blic List<RowRepositorioGeneral>getRowRepositorioGeneralLis
+t(String
  []
 
 [101]
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1438, 773.13844pt x 252.1
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1441, 773.13844pt x 252.1
 9218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png> [102]
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1453, 529.98pt x 268.75406pt>
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1456, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
-<./GoogleAppEngine/imagenes/codigoQR.png, id=1454, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=1457, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
@@ -1360,28 +1303,22 @@ igoQR.png (PNG copy)>] [108
 ]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (13.05138pt too wide) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/12 La metodolog^^S^^Pa us-a-da a lo largo de to-do el proyec-to 
-a si-do una metodolog^^S^^Pa
- []
-
-
-<./DisenhoYArquitectura/imagenes/arquitecturaBasica.png, id=1483, 879.99353pt x
+<./DisenhoYArquitectura/imagenes/arquitecturaBasica.png, id=1486, 879.99353pt x
  661.76646pt>
 File: ./DisenhoYArquitectura/imagenes/arquitecturaBasica.png Graphic file (type
  png)
  <use ./DisenhoYArquitectura/imagenes/arquitecturaBasica.png>
 [109]
-<./DisenhoYArquitectura/imagenes/estructura.png, id=1489, 1076.9647pt x 524.311
+<./DisenhoYArquitectura/imagenes/estructura.png, id=1492, 1076.9647pt x 524.311
 77pt>
 File: ./DisenhoYArquitectura/imagenes/estructura.png Graphic file (type png)
  <use ./DisenhoYArquitectura/imagenes/estructura.png>
-<./DisenhoYArquitectura/imagenes/servertimestamp.png, id=1491, 367.01823pt x 48
+<./DisenhoYArquitectura/imagenes/servertimestamp.png, id=1494, 367.01823pt x 48
 7.46823pt>
 File: ./DisenhoYArquitectura/imagenes/servertimestamp.png Graphic file (type pn
 g)
  <use ./DisenhoYArquitectura/imagenes/servertimestamp.png>
-<./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png, id=1492, 453.458
+<./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png, id=1495, 453.458
 82pt x 770.88pt>
 File: ./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png Graphic file
  (type png)
@@ -1390,7 +1327,7 @@ File: ./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png Graphic file
 nhoYArquitectura/imagenes/arquitecturaBasica.png>] [111 <./DisenhoYArquitectura
 /imagenes/estructura.png> <./DisenhoYArquitectura/imagenes/servertimestamp.png>
 ]
-<./DisenhoYArquitectura/imagenes/aplicacionMovil.png, id=1510, 459.12706pt x 80
+<./DisenhoYArquitectura/imagenes/aplicacionMovil.png, id=1513, 459.12706pt x 80
 9.1406pt>
 File: ./DisenhoYArquitectura/imagenes/aplicacionMovil.png Graphic file (type pn
 g)
@@ -1410,20 +1347,20 @@ LaTeX Warning: Reference `[' on page 116 undefined on input line 15.
 
 
 Overfull \hbox (81.50914pt too wide) in paragraph at lines 15--16
-[]\OT1/cmr/m/n/12 El re-sul-ta-do de eje-cu-tar este co-man-do pode-mos ver-lo 
-en la figu-ra []hola]fig:androidSDK 
+[]\OT1/cmr/m/n/12 El re-sul-ta-do de eje-cu-tar es-te co-man-do po-de-mos ver-l
+o en la fi-gu-ra []hola]fig:androidSDK 
  []
 
 
-<./ConfiguracionEclipse/imagenes/androidSDK.png, id=1535, 704.6325pt x 753.8162
+<./ConfiguracionEclipse/imagenes/androidSDK.png, id=1538, 704.6325pt x 753.8162
 5pt>
 File: ./ConfiguracionEclipse/imagenes/androidSDK.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/androidSDK.png>
-<./ConfiguracionEclipse/imagenes/licencias.png, id=1537, 563.10374pt x 304.1362
+<./ConfiguracionEclipse/imagenes/licencias.png, id=1540, 563.10374pt x 304.1362
 5pt>
 File: ./ConfiguracionEclipse/imagenes/licencias.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/licencias.png>
-<./ConfiguracionEclipse/imagenes/SDKfinalizado.png, id=1538, 514.92375pt x 224.
+<./ConfiguracionEclipse/imagenes/SDKfinalizado.png, id=1541, 514.92375pt x 224.
 33812pt>
 File: ./ConfiguracionEclipse/imagenes/SDKfinalizado.png Graphic file (type png)
 
@@ -1431,23 +1368,17 @@ File: ./ConfiguracionEclipse/imagenes/SDKfinalizado.png Graphic file (type png)
 clipse/imagenes/androidSDK.png>] [117 <./ConfiguracionEclipse/imagenes/licencia
 s.png (PNG copy)> <./ConfiguracionEclipse/imagenes/SDKfinalizado.png (PNG copy)
 >]
-<./ConfiguracionEclipse/imagenes/instalacionADT.png, id=1558, 534.49687pt x 542
+<./ConfiguracionEclipse/imagenes/instalacionADT.png, id=1561, 534.49687pt x 542
 .025pt>
 File: ./ConfiguracionEclipse/imagenes/instalacionADT.png Graphic file (type png
 )
  <use ./ConfiguracionEclipse/imagenes/instalacionADT.png>
-<./ConfiguracionEclipse/imagenes/configuracionSDK.png, id=1560, 453.94594pt x 3
+<./ConfiguracionEclipse/imagenes/configuracionSDK.png, id=1563, 453.94594pt x 3
 82.42876pt>
 File: ./ConfiguracionEclipse/imagenes/configuracionSDK.png Graphic file (type p
 ng)
  <use ./ConfiguracionEclipse/imagenes/configuracionSDK.png>
-Overfull \hbox (0.77512pt too wide) in paragraph at lines 58--59
-[]\OT1/cmr/m/n/12 Como pode-mos ob-ser-var en la figu-ra []A.6[] ya ten-emos co
-n-fig-u-ra-do Eclipse
- []
-
-
-<./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png, id=1562, 311.66437pt
+<./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png, id=1565, 311.66437pt
  x 450.9347pt>
 File: ./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png Graphic file (ty
 pe png)
@@ -1455,22 +1386,17 @@ pe png)
 [118 <./ConfiguracionEclipse/imagenes/instalacionADT.png (PNG copy)>] [119 <./C
 onfiguracionEclipse/imagenes/configuracionSDK.png (PNG copy)> <./ConfiguracionE
 clipse/imagenes/nuevoProyectoAndroid.png (PNG copy)>]
-Overfull \hbox (5.22246pt too wide) in paragraph at lines 69--69
-[]\OT1/cmr/bx/n/17.28 Configuraci^^Son de Eclipse para Google
- []
-
-
-<./ConfiguracionEclipse/imagenes/instalacionGAE.png, id=1579, 543.53062pt x 563
+<./ConfiguracionEclipse/imagenes/instalacionGAE.png, id=1582, 543.53062pt x 563
 .85657pt>
 File: ./ConfiguracionEclipse/imagenes/instalacionGAE.png Graphic file (type png
 )
  <use ./ConfiguracionEclipse/imagenes/instalacionGAE.png>
-<./ConfiguracionEclipse/imagenes/instalacionPlugins.png, id=1580, 401.24907pt x
+<./ConfiguracionEclipse/imagenes/instalacionPlugins.png, id=1583, 401.24907pt x
  313.17pt>
 File: ./ConfiguracionEclipse/imagenes/instalacionPlugins.png Graphic file (type
  png)
  <use ./ConfiguracionEclipse/imagenes/instalacionPlugins.png>
-<./ConfiguracionEclipse/imagenes/eclipseGAE.png, id=1582, 765.6103pt x 578.9128
+<./ConfiguracionEclipse/imagenes/eclipseGAE.png, id=1585, 765.6103pt x 578.9128
 1pt>
 File: ./ConfiguracionEclipse/imagenes/eclipseGAE.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/eclipseGAE.png>
@@ -1479,7 +1405,7 @@ Overfull \hbox (69.36972pt too wide) in paragraph at lines 91--92
  []
 
 
-<./ConfiguracionEclipse/imagenes/appEngine.png, id=1585, 732.48656pt x 309.4059
+<./ConfiguracionEclipse/imagenes/appEngine.png, id=1588, 732.48656pt x 309.4059
 4pt>
 File: ./ConfiguracionEclipse/imagenes/appEngine.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/appEngine.png>
@@ -1496,7 +1422,7 @@ cmr/m/n/12 121
 [121 <./ConfiguracionEclipse/imagenes/instalacionGAE.png (PNG copy)> <./Configu
 racionEclipse/imagenes/instalacionPlugins.png (PNG copy)>] [122 <./Configuracio
 nEclipse/imagenes/eclipseGAE.png (PNG copy)>]
-<./ConfiguracionEclipse/imagenes/createGAE.png, id=1605, 724.20563pt x 502.1259
+<./ConfiguracionEclipse/imagenes/createGAE.png, id=1608, 724.20563pt x 502.1259
 3pt>
 File: ./ConfiguracionEclipse/imagenes/createGAE.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/createGAE.png>
@@ -1505,7 +1431,7 @@ Overfull \hbox (44.52673pt too wide) in paragraph at lines 109--110
  []
 
 
-<./ConfiguracionEclipse/imagenes/dashboardGAE.png, id=1607, 956.07187pt x 580.4
+<./ConfiguracionEclipse/imagenes/dashboardGAE.png, id=1610, 956.07187pt x 580.4
 1844pt>
 File: ./ConfiguracionEclipse/imagenes/dashboardGAE.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/dashboardGAE.png>
@@ -1514,7 +1440,7 @@ Overfull \hbox (183.64755pt too wide) in paragraph at lines 118--119
  []
 
 
-<./ConfiguracionEclipse/imagenes/GAESettings.png, id=1609, 940.26282pt x 514.17
+<./ConfiguracionEclipse/imagenes/GAESettings.png, id=1612, 940.26282pt x 514.17
 094pt>
 File: ./ConfiguracionEclipse/imagenes/GAESettings.png Graphic file (type png)
  <use ./ConfiguracionEclipse/imagenes/GAESettings.png>
@@ -1549,16 +1475,16 @@ cmr/m/n/12 127
 Ap\'{e}ndice B.
 
 Overfull \hbox (9.49168pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/12 un gestor de cer-ti-fi-ca-dos y claves, im-ple-men-ta-do por Ch
-ris-tian Hohnst^^?adt.
+\OT1/cmr/m/n/12 un ges-tor de cer-ti-fi-ca-dos y cla-ves, im-ple-men-ta-do por 
+Ch-ris-tian Hohnst^^?adt.
  []
 
 
-<./CreacionCertificado/imagenes/password.png, id=1642, 529.98pt x 405.01312pt>
+<./CreacionCertificado/imagenes/password.png, id=1645, 529.98pt x 405.01312pt>
 File: ./CreacionCertificado/imagenes/password.png Graphic file (type png)
 
 <use ./CreacionCertificado/imagenes/password.png> [129]
-<./CreacionCertificado/imagenes/clavePrivada.png, id=1654, 542.77782pt x 473.51
+<./CreacionCertificado/imagenes/clavePrivada.png, id=1657, 542.77782pt x 473.51
 906pt>
 File: ./CreacionCertificado/imagenes/clavePrivada.png Graphic file (type png)
  <use ./CreacionCertificado/imagenes/clavePrivada.png>
@@ -1571,7 +1497,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<./CreacionCertificado/imagenes/exportacion.png, id=1656, 529.22719pt x 404.260
+<./CreacionCertificado/imagenes/exportacion.png, id=1659, 529.22719pt x 404.260
 31pt>
 File: ./CreacionCertificado/imagenes/exportacion.png Graphic file (type png)
  <use ./CreacionCertificado/imagenes/exportacion.png>) [130 <./CreacionCertific
@@ -1581,8 +1507,8 @@ copy)>] [132
 
 ] (/home/juanantonio/memoriaPFC/Memoria.lof
 Overfull \hbox (0.1666pt too wide) in paragraph at lines 8--8
- [][] [][][]\OT1/cmr/m/n/12 Indice tiobe en sep-tiem-bre del 2012. []$\OT1/cmtt
-/m/n/12 http : / / www . tiobe . 
+ [][] [][][]\OT1/cmr/m/n/12 Indi-ce tio-be en sep-tiem-bre del 2012. []$\OT1/cm
+tt/m/n/12 http : / / www . tiobe . 
  []
 
 [133
@@ -1599,7 +1525,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \end{document}
+l.112 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1615,12 +1541,12 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 132 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8848 strings out of 495061
- 132622 string characters out of 1182621
- 402716 words of memory out of 3000000
- 11041 multiletter control sequences out of 15000+50000
- 12011 words of font info for 43 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
+ 8908 strings out of 494999
+ 133488 string characters out of 1180815
+ 403055 words of memory out of 3000000
+ 11104 multiletter control sequences out of 15000+50000
+ 12128 words of font info for 44 fonts, out of 3000000 for 9000
+ 54 hyphenation exceptions out of 8191
  39i,8n,51p,1742b,2158s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
@@ -1635,10 +1561,11 @@ xmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Memoria.pdf (139 pages, 5431737 bytes).
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on Memoria.pdf (139 pages, 5437204 bytes).
 PDF statistics:
- 1977 PDF objects out of 2073 (max. 8388607)
+ 1983 PDF objects out of 2073 (max. 8388607)
  774 named destinations out of 1000 (max. 500000)
  763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
