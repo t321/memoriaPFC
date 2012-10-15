@@ -12,69 +12,65 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{16}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Iteraciones en el cifrado DES}}{18}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{25}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces C\IeC {\'o}digo ejemplo XML.}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplos de dise\IeC {\~n}os realizados con UML.}}{28}{figure.2.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura gen\IeC {\'e}rica de una PKI.}}{35}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Jerarqu\IeC {\'\i }a de la PKI del DNIe.}}{36}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Uso de la clase MessageDigest.}}{37}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de MessageDigest.}}{38}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Signature.}}{39}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n sign().}}{39}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo fuente con el uso de la funci\IeC {\'o}n verify().}}{39}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Modo de uso de la clase Cipher.}}{40}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ejemplo de un trozo de c\IeC {\'o}digo donde se carga un KeyStore.}}{41}{figure.3.9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Modo de uso de la clase Signature.}}{38}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Modo de uso de la clase Cipher.}}{39}{figure.3.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{45}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{47}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{49}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{51}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{52}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{55}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para tablet.}}{57}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para m\IeC {\'o}vil.}}{58}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Gesto Swype en la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{59}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura b\IeC {\'a}sica de un proyecto Android.}}{60}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pantalla inicial de la aplicaci\IeC {\'o}n.}}{63}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Detalle del bot\IeC {\'o}n a\IeC {\~n}adir.}}{63}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Informaci\IeC {\'o}n de una firma realizada.}}{64}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Proyecto de android en Eclipse.}}{65}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{74}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{78}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{81}{figure.4.17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Android.}}{43}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proceso de ejecuci\IeC {\'o}n en Android.}}{45}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Estructura del fichero APK del proyecto.}}{47}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Opci\IeC {\'o}n compartir de una aplicaci\IeC {\'o}n.}}{49}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Widget de GMail.}}{50}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ciclo de vida de una activity.}}{53}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para tablet.}}{55}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aplicaci\IeC {\'o}n de Gmail para m\IeC {\'o}vil.}}{56}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Gesto Swype en la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{57}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura b\IeC {\'a}sica de un proyecto Android.}}{58}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pantalla inicial de la aplicaci\IeC {\'o}n.}}{61}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Detalle del bot\IeC {\'o}n a\IeC {\~n}adir.}}{61}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Informaci\IeC {\'o}n de una firma realizada.}}{62}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Proyecto de android en Eclipse.}}{63}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{72}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{76}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{79}{figure.4.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{87}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{89}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{92}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{94}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{97}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{104}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{105}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{106}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{106}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{106}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{106}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{107}{figure.5.12}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{85}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Carpeta WAR}}{87}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Servidor Timestamp https://seguro.ips.es}}{90}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detalles del paquete pfc}}{92}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Login en Repositorio General}}{95}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Repositorio General}}{102}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalles de las clases Repositorio General.}}{103}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{104}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{104}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{104}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{104}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{105}{figure.5.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Arquitectura b\IeC {\'a}sica del proyecto.}}{110}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Estructura del proyecto.}}{111}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Estructura del servidor de timestamp.}}{111}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Estructura del servidor respositorio general.}}{112}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Estructura de la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{113}{figure.6.5}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Arquitectura b\IeC {\'a}sica del proyecto.}}{108}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Estructura del proyecto.}}{109}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Estructura del servidor de timestamp.}}{109}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Estructura del servidor respositorio general.}}{110}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Estructura de la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{111}{figure.6.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{116}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{117}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{117}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{118}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{119}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{119}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{121}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{121}{figure.A.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el puglin de Google App Engine instalado.}}{122}{figure.A.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{123}{figure.A.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{124}{figure.A.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{125}{figure.A.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{126}{figure.A.13}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{114}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{115}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{115}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{116}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{117}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{117}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{119}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{119}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el puglin de Google App Engine instalado.}}{120}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{121}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{122}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{123}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{124}{figure.A.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{130}{figure.B.1}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{131}{figure.B.2}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{131}{figure.B.3}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{128}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{129}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{129}{figure.B.3}

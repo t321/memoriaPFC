@@ -275,17 +275,17 @@ Google App Engine para Java soporta muchos estándares y framework, y el Core es
 
 Google garantiza que aplicación estará disponible el 99.95\% del tiempo, para ello ofrece una alta replicación.
 
-La base de datos a la que nos dan acceso no es una base de datos estandar, como pueden ser MySQL, Oracle o SQLServer, pero tiene una sintaxis muy parecida a SQL, llamada GQL. Una de las principales diferencias es que no admite sentencias join, debido a la ineficiencia de la misma. La versión de Java soporta consultas asincronas no bloqueantes, ofreciendo así una forma de procesamiento paralelo de datos.
+La base de datos a la que nos dan acceso no es una base de datos estándar, como pueden ser MySQL, Oracle o SQLServer, pero tiene una sintaxis muy parecida a SQL, llamada GQL. Una de las principales diferencias es que no admite sentencias join, debido a la ineficiencia de la misma. La versión de Java soporta consultas asíncronas no bloqueantes, ofreciendo así una forma de procesamiento paralelo de datos.
 
 Para más información se puede visitar la web diseñada para desarrolladores que proporciona Google, \url{https://developers.google.com/appengine/}. 
 
-En el capítulo \ref{cap:GAE} veremos más ampliamente todo lo relacionado con Google App Engine que se ha usado en el proyecto.
+En el capítulo \ref{cap:GAE} veremos más ampliamente todo lo relacionado con Google App Engine que hemos usado en el proyecto.
 
 \section{SQLite.}
 
-SQLite es un sistema de gestión de bases de datos relacionadas compatibles con ACID, ACID es un acrónimo de Atomicity, Consistency, Isolation and Durability que son todas las características que deben de tener una bases de datos para que se consideren bases de datos relacional. La característica principal es que ocupa muy poco espacio alrededor de 275 Kb y fue escrita en C por Richard Hipp. Está distribuida bajo licencia de dominio público.
+SQLite es un sistema gestión de base de datos relacionales compatibles con ACID, ACID es el acrónimo de Atomicity, Consistency, Isolation and Durability, que son las características que debe tener una base de datos para que se consideren base de datos relacional. Su característica principal es que ocupa muy poco espacio, alrededor de 275 Kb y fue escrita en el lenguaje C por Richard Hipp. Está distribuida bajo licencia de dominio público.
 
-A diferencia de los sitemas de gestión de bases de datos clientes-servidor el motor de SQLite pasa a ser parte del programa que quiere usarlo ya que se integra con él. Esto hace que tenga mayor rendimiento debido a la comunicación por medio de funciones es mucho más eficiente que mediante comunicación de procesos. La totalidad de la base de datos, tablas, indices y los datos, se guardan en un solo fichero estándar en la máquina host. La versión 3 de SQLite permite base de datos de hasta 2 Terabytes y permite campos del tipo BLOB.
+A diferencia de los sistemas de gestión de base de datos clientes-servidor, el motor de SQLite pasa a ser parte del programa que quiere usarlo, ya que se integra con él. Esto hace que tenga mayor rendimiento debido a que la comunicación es por medio de funciones, que es mucho más eficiente que mediante comunicación de procesos. La totalidad de la base de datos, tablas, índices y datos, se guardan en un solo fichero estándar en la máquina host. La versión 3 de SQLite permite base de datos de hasta 2 Terabytes y permite campos del tipo BLOB.
 
 SQLite está muy extendido y se puede programar en infinidad de lenguajes de programación como pueden ser C, C++, Perl, Python, PHP, Java, etc.
 
@@ -297,18 +297,13 @@ Esta es una de las tres formas que proporciona Android para guardar datos, al es
 
 XML son las siglas en inglés de e\textbf{X}tensible \textbf{M}arkup \textbf{L}anguage que es un lenguaje de marcas desarrollado por el World Wide Web Consortium (W3C), deriva del lenguaje SGML y permite definir la gramática de lenguajes específicos para estructurar documentos grandes.
 
-Es una de las formas de intercambio estructurado de información mas extendidas en internet, ya que se puede usar en base de datos, hojas de cálculo o en casi cualquier información que se quiera usar.
+Es una de las formas de intercambio estructurado de información más extendidas en internet, ya que se puede usar en base de datos, hojas de cálculo o en casi cualquier información que se quiera usar.
 
-XML es un lenguaje que puede ser analizado sintáxticamente para averigurar si está bien formado o no, por lo que para que cualquier parser ( analizador sintáxtico ) confirme que es correcto debe te mantener una estructura que viene definida en el estándar. Todos los documentos tiene que tener las siguientes partes para que sean bien formados, prólogo, cuerpo, elementos y atributos.
+XML es un lenguaje que puede ser analizado sintácticamente para averiguar si está bien construido o no, por lo que para que cualquier parser (analizador sintáctico) puede confirmar si tiene la estructura que definida en el estándar. Todos los documentos tiene que tener las siguientes partes, prólogo, cuerpo, elementos y atributos.
 
-Un ejemplo de la figura \ref{cod:XML} podemos ver un trozo de código XML para almacenar un libro en una librería.
+Un ejemplo podemos verlo en el siguiente un trozo de código XML, para almacenar un libro en una librería.
 
-\begin{figure}
-\begin{small}
- \begin{center}
-
-    
-  \begin{lstlisting}[language=XML]   
+\begin{lstlisting}[language=XML]   
 <?xml version="1.0"?>
 <libro>
 <titulo> Cien años de soledad </titulo>
@@ -320,37 +315,35 @@ Un ejemplo de la figura \ref{cod:XML} podemos ver un trozo de código XML para a
 <descuento cantidad="5"/>
 <enlacelibro href="/exec/ISBN/84-473-0619-4"/>
 </libro>
-    
-  \end{lstlisting}
+\end{lstlisting}
 
-\end{center}
-\end{small}
-  
-  \caption{Código ejemplo XML.}
-  \label{cod:XML}
-\end{figure}
-
-En el proyecto hemos usado XML para los archivos de configuración de Android o para el diseño de las interfaces en Android. En una de la aplicaciones web realizadas para los archivos de configuración también hemos usado XML, en la otra hemos usado un lenguaje parecido llamado YALM, que es equivalente a XML.
+En el proyecto hemos usado XML, en los archivos de configuración o para el diseño de las interfaces en Android. En una de la aplicaciones web realizadas para los archivos de configuración también hemos usado XML, en la otra hemos usado un lenguaje parecido llamado YALM, que es equivalente a XML.
 
 \section{UML.}
 
-UML es un lenguaje de modelado de proposito general más usado en la actualidad para el diseño de software. UML son las siglas de Unified Modeling Language. UML tiene la ventaja de que se puede observar visualmente el diseño del software. Se puede desde especificar, construir o documentar un sistema o un software.
+UML es un lenguaje de modelado de propósito general más usado en la actualidad para el diseño de software. UML son las siglas de Unified Modeling Language. UML tiene la ventaja de que se puede observar visualmente el diseño del software. Se puede desde especificar, construir o documentar un sistema o un software.
 
-%Poner una imagen de ejemplo
+\begin{figure}
+  \centering
+    \includegraphics[scale=0.4]{./ConocimientosPrevios/imagenes/UMLDiagrams.jpg}
+  \caption{Ejemplos de diseños realizados con UML.}
+  \label{fig:UMLDiagrams}
+\end{figure}
 
-%Mirar esto... xDDDD
-Hemos usado UML para diseñar las clases usadas a lo largo de todo el proyecto, además de para mostrar en la memoria del proyecto la relación de las clases, los casos de uso...
+En la figura~\ref{fig:UMLDiagrams} podemos ver los diferentes diagramas que podemos realizar mediantes UML.
+
+Hemos usado UML para diseñar las clases usadas a lo largo de todo el proyecto, además de para mostrar en la memoria del proyecto la relación de las clases, los casos de uso, etc.
 
 \section{GIT.}
 
-Git es un software de control de versiones a la vez que mantenedor al coherencia y cohesión del código fuente orientado a la velocidad. Fue desarrollado para el manejo del código fuente de linux y al principio fue diseñado por Linus Torvalds. GIT es un repositorio con un completo historial y una capacidad de identificación de cada cambio realizado sin depender del acceso a la red o a un servidor central. Está liberado con licencia GNU versión 2.
+Git es un software de control de versiones, a la vez que mantenedor de la coherencia y cohesión del código fuente orientado a la velocidad. Fue desarrollado para el manejo del código fuente de Linux y al principio fue diseñado por Linus Torvalds. GIT es un repositorio con un completo historial y una capacidad de identificación de cada cambio realizado sin depender del acceso a la red o a un servidor central. Está liberado con licencia GNU versión 2.
 
-En el proyecto hemos estado usando GIT como control de versiones por si en algún cambio ocurría algún problema y debíamos volver atrás y para tener una copia de seguridad del proyecto alojado en todo momento en un servidor externo por si había algún fallo.
+En el proyecto hemos estado usando GIT como control de versiones, ya que si en algún cambio ocurría algún problema poder volver atrás y para tener una copia de seguridad del proyecto, alojado en todo momento en un servidor externo por si ocurría algún problema en el ordenador donde desarrollamos el proyecto.
 
-A lo largo del proyecto hemos usado dos servicios gratuitos como el conocido \url{https://github.com/} y \url{https://bitbucket.org/}. El primero es muy famoso actualmente y hay mucho software libre en dicha plataforma, tiene un probema y es que el código tiene que ser libre y en la versión gratuita no se pueden tener repositorios privados, cosa que en el segundo servicio si te los ofrece. Para todo el código fuente usando, tanto en la aplicación de Android como en las dos aplicaciones hemos usado bitbucket y para la memoria de proyecto hemos usado github. La dirección del repositorio de la memoria es la siguiente: \url{https://github.com/t321/memoriaPFC}, el repositorio de las aplicaciones web \url{https://bitbucket.org/t321/pfcaeg} y el de la aplicación de Android \url{https://bitbucket.org/t321/pfcandroid}.
+A lo largo del proyecto hemos usado dos servicios gratuitos  que proporcionan servidores GIT, como pueden ser \url{https://github.com/} y \url{https://bitbucket.org/}. El primero es muy conocido actualmente y hay una gran comunidad de software libre en dicha plataforma, tiene un pequeño problema para nuestro proyecto y es que el código tiene que ser libre y en la versión gratuita no se pueden tener repositorios privados, cosa que el segundo servicio si te lo ofrece. Para todo el código fuente usando, tanto en la aplicación de Android como en las dos aplicaciones hemos usado bitbucket y para la memoria de proyecto hemos usado github. La dirección del repositorio de la memoria es la siguiente: \url{https://github.com/t321/memoriaPFC}, el repositorio de las aplicaciones web \url{https://bitbucket.org/t321/pfcaeg} y el de la aplicación de Android \url{https://bitbucket.org/t321/pfcandroid}.
 
 %TODO: poner el apendice
-La configuración básica para el uso de GIT tanto con Eclipse como con la terminal se puede ver en el apendice !!!?????¿¿  
+La configuración básica para el uso de GIT con Eclipse se puede ver en el apendice~\ref{cap:apendiceA}.  
 
 
 
