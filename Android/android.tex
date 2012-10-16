@@ -272,7 +272,7 @@ Desde la versión 3.0 y posteriores las activity siguen ocupando toda la pantall
 En la imagen~\ref{fig:gmailTablet} podemos ver la aplicación de Gmail diseñada mediante fragment y en ella si pulsamos algún correo en la parte izquierda de la aplicación nos mostraría el correo en la derecha sin tener que recagar la aplicación. En la imagen~\ref{fig:gmailMovil} podemos ver como en la versión movil no se usa esta forma por falta de espacio en la pantalla. Nosotros hemos realizado un diseño para intercambio de fragment mediante un gesto llamado swype o scroll lateral y como se puede ver en la imagen~\ref{fig:swype} podemos ver que no hay que volver a cargar otra activity ni nada, por lo que dotamos a la aplicación de una mayor fluidés.
 
 Para que una aplicación pueda usar una determinada activity, el programador primeramente tiene que definir el uso y su función en el archivo \textit{AndroidManifest.xml}. Podemos ver un extracto de dicho archivo donde definimos un par de activity usadas en el proyecto.
-\newpage
+
 \begin{lstlisting}[style=XML]
 <activity android:name=".FirmaDigitalUMA_ICSActivity" />
 <activity android:name=".InitialConfiguration" android:noHistory="true" />
@@ -311,9 +311,13 @@ En la figura~\ref{fig:estructuraBasicaAndroid} podemos ver una captura de un pro
 
 \end{itemize}
 
-\section{Proyecto firma digital UMA.}
+%%---------------------------------------------
+%%Cortar por aquí para pegar en implementación
+%%---------------------------------------------
 
-La aplicación Firma digital UMA es la aplicación móvil que hemos realizado para facilitar la visualización y firma de nuevos documentos. En ella  podemos comprobar los documentos anteriormente firmados o firmar nuevos de una forma fácil, el resto de gestión se tiene que realizar desde la aplicación web, donde se puede verificar, generar nuevos documentos, etc. En la figura~\ref{fig:pantallaPrincipal} podemos ver el aspecto de la aplicación.
+\section{Proyecto Firma Digital UMA.}
+
+La aplicación Firma Digital UMA es la aplicación móvil que hemos realizado para facilitar la firma y visualización de nuevos documentos. En ella  podemos firmar nuevos documentos o comprobar los anteriormente firmados de una forma fácil, el resto de gestiones se pueden realizar desde la aplicación web, donde se puede verificar, generar nuevos documentos para que sean firmados, etc. En la figura~\ref{fig:pantallaPrincipal} podemos ver el aspecto de la aplicación.
 
 \begin{figure}[h]
   \centering
@@ -324,7 +328,7 @@ La aplicación Firma digital UMA es la aplicación móvil que hemos realizado pa
 
 \subsection{Uso de la aplicación.}
 
-Lo primero que pensamos cuando nos pusimos a diseñar la aplicación era que el método se firma tiene que ser rápido y fácil, por lo que se decidió usar los códigos QR para agilizar la lectura de información. Solo hay que pulsar el botón de añadir nuevo recibo (figura~\ref{fig:botonAnhadir}) y se abrirá el lector de códigos QR, una vez leidos el código este se firmará y se subirá automaticamente al servidor sin necesitar que el usuario realice otra acción.
+Lo primero que pensamos cuando nos pusimos a diseñar la aplicación era que el método de firma tenía que ser rápido y fácil de realizar, por lo que se decidió usar los códigos QR para agilizar la lectura de información. Solo hay que pulsar el botón de añadir nuevo recibo (figura~\ref{fig:botonAnhadir}) y se abrirá el lector de códigos QR, una vez leidos el código este se firmará y se subirá automaticamente al servidor sin necesidad de que el usuario realice otra acción.
 
 \begin{figure}[h]
   \centering
@@ -333,7 +337,9 @@ Lo primero que pensamos cuando nos pusimos a diseñar la aplicación era que el 
   \label{fig:botonAnhadir}
 \end{figure}
 
-La aplicación se puede dividir principalmente en dos partes claramente diferenciadas, una en la que se muestra las firmas realizadas y otra en la que se muestran que tienen como destino el usuario que está ejecutando la aplicación. Las dos partes son practicamente idénticas y tienen el mismo uso. Si pulsamos encima de cualquier recibo de la lista nos mostrará toda la información de dicha firma, podemos ver un ejemplo en la figura~\ref{fig:informacionFirma}. Podemos observar todos los datos necesarios, como pueden ser destino, quien la ha mandado, la fecha, el texto, etc y también podemos ver si está verificada con el tick de color verde o una señal de error roja si no está verificada, que podemos ver en la esquina superior derecha. En el caso de los recibos de los cuales se es recipiente se pone de una forma más clara quien es el que usuario que envia el mensaje pero el resto de la información es la misma. En la información que nos proporcionan podemos ver la dirección del servidor de tiempo usado y si pulsamos en ella se abrirá el navegador con una dirección donde podremos confirmar el hash y la fecha en la que se realizó la firma.
+La aplicación se puede dividir principalmente en dos partes claramente diferenciadas, una en la que se muestra las firmas realizadas y otra en la que se muestran que tienen como destino el usuario que está ejecutando la aplicación. Las dos partes son practicamente idénticas y tienen el mismo uso. Si pulsamos encima de cualquier recibo de la lista nos mostrará toda la información de dicha firma, podemos ver un ejemplo en la figura~\ref{fig:informacionFirma}. Podemos observar todos los datos necesarios, como pueden ser destino, quien ha realizado la firma, la fecha, el texto, etc y también podemos ver si está verificada con el tick de color verde o una señal de error roja en caso contrario, que podemos ver en la esquina superior derecha. En el caso de los recibos de los que se es destino se indica de una forma más clara quien es el que usuario que envia el mensaje, pero el resto de la información es la misma.
+
+En la información que nos proporcionan podemos ver la dirección del servidor de tiempo usado y si pulsamos en ella se abrirá el navegador con una dirección donde podremos confirmar el hash y la fecha en la que se realizó la firma.
 
 \begin{figure}
   \centering
@@ -342,7 +348,7 @@ La aplicación se puede dividir principalmente en dos partes claramente diferenc
   \label{fig:informacionFirma}
 \end{figure}
 
-\subsection{Explicación del proyecto de Android.}
+\subsection{Detalles de la implementación.}
 
 En la figura~\ref{fig:proyectoAndroid} podemos ver el proyecto de eclipse con todas las clases que hemos tenido que desarrollar, desde la conexión a la base de datos, el inicio de la aplicación, el cifrado, etc. La estructura del proyecto es la misma que ya hemos explicado anteriormente.
 
