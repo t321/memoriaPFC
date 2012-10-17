@@ -39,10 +39,10 @@
 \BOOKMARK [2][-]{subsection.5.2.2}{Proyecto b\341sico de Android en Eclipse.}{section.5.2}
 \BOOKMARK [1][-]{section.5.3}{Proyecto Firma Digital UMA.}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.3.1}{Uso de la aplicaci\363n.}{section.5.3}
-\BOOKMARK [2][-]{subsection.5.3.2}{Explicaci\363n del proyecto de Android.}{section.5.3}
+\BOOKMARK [2][-]{subsection.5.3.2}{Detalles de la implementaci\363n.}{section.5.3}
 \BOOKMARK [0][-]{chapter.6}{Google App Engine.}{}
 \BOOKMARK [1][-]{section.6.1}{Introducci\363n.}{chapter.6}
-\BOOKMARK [1][-]{section.6.2}{Explicaci\363n de una aplicaci\363n web gen\351rica en Google App Engine.}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Aplicaci\363n web gen\351rica en GAE}{chapter.6}
 \BOOKMARK [2][-]{subsection.6.2.1}{\277Qu\351 es un servlet?.}{section.6.2}
 \BOOKMARK [2][-]{subsection.6.2.2}{\277Qu\351 es JSP?.}{section.6.2}
 \BOOKMARK [2][-]{subsection.6.2.3}{La carpeta WAR.}{section.6.2}

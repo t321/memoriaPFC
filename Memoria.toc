@@ -40,10 +40,10 @@
 \contentsline {subsection}{\numberline {5.2.2}Proyecto b\IeC {\'a}sico de Android en Eclipse.}{76}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Proyecto Firma Digital UMA.}{79}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Uso de la aplicaci\IeC {\'o}n.}{79}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Explicaci\IeC {\'o}n del proyecto de Android.}{80}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Detalles de la implementaci\IeC {\'o}n.}{80}{subsection.5.3.2}
 \contentsline {chapter}{\numberline {6}Google App Engine.}{99}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introducci\IeC {\'o}n.}{99}{section.6.1}
-\contentsline {section}{\numberline {6.2}Explicaci\IeC {\'o}n de una aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en Google App Engine.}{100}{section.6.2}
+\contentsline {section}{\numberline {6.2}Aplicaci\IeC {\'o}n web gen\IeC {\'e}rica en GAE}{100}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un servlet?.}{100}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}\IeC {\textquestiondown }Qu\IeC {\'e} es JSP?.}{102}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}La carpeta WAR.}{104}{subsection.6.2.3}
@@ -58,4 +58,4 @@
 \contentsline {chapter}{\numberline {A}Configuraci\IeC {\'o}n de Eclipse.}{131}{appendix.A}
 \contentsline {section}{\numberline {A.1}Configuraci\IeC {\'o}n de Eclipse para Android.}{131}{section.A.1}
 \contentsline {section}{\numberline {A.2}Configuraci\IeC {\'o}n de Eclipse para Google App Engine.}{136}{section.A.2}
-\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{143}{appendix.B}
+\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{145}{appendix.B}
