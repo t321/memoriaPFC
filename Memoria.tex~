@@ -4,6 +4,7 @@
 \usepackage[spanish]{babel}
 %\usepackage{listings}
 \usepackage{graphicx}
+\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{eurosym}
 
@@ -96,9 +97,9 @@ backgroundcolor=\color{gray75},
 	\input{./AndroidyGAE/androidYGae.tex}
 	
 	%android
-	\input{./Android/android.tex}
+	%\input{./Android/android.tex}
 	%google app engine
-	\input{./GoogleAppEngine/googleappengine.tex}
+	%\input{./GoogleAppEngine/googleAppEngine.tex}
 	
 	%Diseño y arquitectura
 	\input{./DisenhoYArquitectura/DisenhoYArquitectura.tex}

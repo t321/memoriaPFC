@@ -54,7 +54,6 @@ La arquitectura la podemos ver en la figura~\ref{fig:arquitecturaAndroid}. En la
 
 \end{itemize}
 
-%si hablo de la máquina virtual algo más poner una referencia.
 \item \textbf{Android Runtime:} es una capa que está al mismo nivel que la capa de librerías. En esta capa se añaden muchas librerías para dotar de la mayoría de las funcionalidades que proporciona Java, también está en esta capa la máquina virtual (Dalvik) encargada de ejecutar el código Smali de los archivos DEX.
 
 \item \textbf{Linux Kernel:} Android está basado en el kernel de Linux 2.6 y todo lo relatico a seguridad, manejo de memoria, control de procesos, pila de protocolos de red y modelo de drivers es el mismo. El kernel es el que proporciona una capa de abstracción entre el hardware y el software que usará Android.
@@ -241,6 +240,7 @@ onDestroy() & Sí & Ninguna\\
 
 \end{tabular}
 \end{center}
+
 Antes de la versión 3.0 de Android las activity tenian que ocupar toda la ventana y para cambiar o mostrar otra pantalla había que generar una nueva activity de la siguiente forma:
 
 \begin{lstlisting}[style=Java]
@@ -283,7 +283,7 @@ Para que una aplicación pueda usar una determinada activity, el programador pri
 
 Se puede observar que hemos declarado dos activities una sin ninguna opción y otra en la que no se guardará en la pila de llamadas de activity, por lo que si pulsamos el botón atrás no se abrirá de nuevo. Si no realizamos este proceso nos dará un error en tiempo de ejución la aplicación diciendo que hemos intentado ejecutar una activity que no está declarada.
 
-\subsection{Proyecto básico de Android en Eclipse.}\label{cap:proyectoBasico}
+\subsection{Un Proyecto básico de Android en Eclipse.}\label{cap:proyectoBasico}
 
 A continuación vamos explicar con más detenimiento la estructura que tiene un proyecto básico de Android en Eclipse.
 
