@@ -49,13 +49,13 @@
 \contentsline {subsection}{\numberline {6.2.3}La carpeta WAR.}{104}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Archivos de configuraci\IeC {\'o}n.}{106}{subsection.6.2.4}
 \contentsline {section}{\numberline {6.3}Servidor de timestamp.}{107}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{110}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{109}{subsection.6.3.1}
 \contentsline {section}{\numberline {6.4}Servidor de registro de firmas.}{113}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Explicaci\IeC {\'o}n de la aplicaci\IeC {\'o}n web.}{114}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o y arquitectura}{125}{chapter.7}
-\contentsline {section}{\numberline {7.1}Metodolog\IeC {\'\i }a de dise\IeC {\~n}o usada.}{125}{section.7.1}
-\contentsline {section}{\numberline {7.2}Arquitectura del proyecto.}{126}{section.7.2}
-\contentsline {chapter}{\numberline {A}Configuraci\IeC {\'o}n de Eclipse.}{131}{appendix.A}
-\contentsline {section}{\numberline {A.1}Configuraci\IeC {\'o}n de Eclipse para Android.}{131}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configuraci\IeC {\'o}n de Eclipse para Google App Engine.}{136}{section.A.2}
-\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{145}{appendix.B}
+\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o y arquitectura}{123}{chapter.7}
+\contentsline {section}{\numberline {7.1}Metodolog\IeC {\'\i }a de dise\IeC {\~n}o usada.}{123}{section.7.1}
+\contentsline {section}{\numberline {7.2}Arquitectura del proyecto.}{124}{section.7.2}
+\contentsline {chapter}{\numberline {A}Configuraci\IeC {\'o}n de Eclipse.}{129}{appendix.A}
+\contentsline {section}{\numberline {A.1}Configuraci\IeC {\'o}n de Eclipse para Android.}{129}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configuraci\IeC {\'o}n de Eclipse para Google App Engine.}{134}{section.A.2}
+\contentsline {chapter}{\numberline {B}Creaci\IeC {\'o}n certificados digitales.}{143}{appendix.B}
