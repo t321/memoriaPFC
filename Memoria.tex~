@@ -4,7 +4,7 @@
 \usepackage[spanish]{babel}
 %\usepackage{listings}
 \usepackage{graphicx}
-\usepackage{amssymb}
+%\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{eurosym}
 
@@ -28,6 +28,8 @@ rulesepcolor=\color{black},
 stringstyle=\ttfamily,
 showstringspaces = false,
 basicstyle=\small\ttfamily,
+%\footnotesize\ttfamily,
+%\small\ttfamily,
 commentstyle=\color{gray45},
 keywordstyle=\bfseries,
 %
@@ -52,6 +54,7 @@ backgroundcolor=\color{gray75},
 % estilo para código Java
 \lstdefinestyle{Java}
 {language=Java,
+basicstyle=\footnotesize\ttfamily,
 }
 
 % estilo para código XML
@@ -64,6 +67,12 @@ backgroundcolor=\color{gray75},
 {language=HTML,
 }
 
+%para los márgenes
+%\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+%\geometry{a4paper}
+%\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}
+
+\usepackage[left=2.5cm,top=3.5cm,right=2.5cm,bottom=3.5cm]{geometry} 
 
 
 \title{\Huge Plataforma de firma digital móvil en el contexto universitario.}
@@ -102,7 +111,10 @@ backgroundcolor=\color{gray75},
 	%\input{./GoogleAppEngine/googleAppEngine.tex}
 	
 	%Diseño y arquitectura
-	\input{./DisenhoYArquitectura/DisenhoYArquitectura.tex}
+	\input{./DisenhoYArquitectura/disenhoYArquitectura.tex}
+	
+	%Conclusiones y trabajo futuro
+	\input{./ConclusionesYTrabajoFuturo/conclusionesYTrabajoFuturo.tex}
 		
 	\appendix
 	%apendice con la configuración de eclipse tanto para Android como para Google App Engine
@@ -110,6 +122,10 @@ backgroundcolor=\color{gray75},
 	%apendice para la creación de los certificados usados con XCA
 	\input{./CreacionCertificado/creacionCertificado.tex}
 	
+	
 	\backmatter
 		\listoffigures
+		%bibliografía
+		\input{./Bibliografia/bibliografia.tex}
+		
 \end{document}

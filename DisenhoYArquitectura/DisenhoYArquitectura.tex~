@@ -332,9 +332,10 @@ public void onActivityResult(int requestCode, int resultCode, Intent intent) {
 \item \textbf{InitialConfiguration.java:} esta clase es la encargada de realizar la configuración de la aplicación cuando es la primera ejecución en un teléfono, en ella se tiene que configurar el certificado y su password y la cuenta. Es la encargada de crear las \lstinline{SharedPreferences} para que la aplicación funcione correctamente.
 
 \item \textbf{InitialConfiguration.java, IntentIntegratorSupportV4.java, IntentIntegratorV30.java, IntentResult.java:} estas clases son las encargadas de la lectura de los códigos QR. Están hechas por ZXing y se distribuyen bajo licencia Apache License, Version 2.0. Proporcionan mediante un intent la posibilidad de lectura de códigos QR con su aplicación Barcode Scanner (figura~\ref{fig:barcodeScanner}) gratuita en Google Play, si no se tiene la aplicación instalada proporciona los métodos para hacerlo.
+
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[h]
   \centering
     \includegraphics[scale=0.3]{./Android/imagenes/barcodeScanner.png}
   \caption{Aplicación Barcode Scanner.}
@@ -457,7 +458,7 @@ if (cursor.moveToPosition(pos)) {
 
 Podemos ver como se genera el objeto \lstinline{DigitalSignatureOpenHelper} y se realiza la consulta con el método \lstinline{public Cursor query(String table, String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy);}, a continuación generamos todos los \lstinline{TextView} necesarios para mostrar la información y los rellenamos con los datos.
 
-\item \textbf{SignaturesForYou.java:} igual que su clase equivalente \lstinline{SignaturesGeneral.java} es la encargada de mostrar una lista con todos los recibos de los que el usuario es destinatario, la estructura es prácticamente idéntica, con una única diferencia y es que se realiza un filtrado para que el campo destino sea el mismo que la cuenta de usuario usada en la aplicación. Podemos ver el resultado en la figura~\ref{fig:signaturesForYou}.
+\item \textbf{SignaturesForYou.java:} esta clase desarrollada es equivalente a la clase \lstinline{SignaturesGeneral.java} y es la encargada de mostrar una lista con todos los recibos de los que el usuario es destinatario, la estructura es prácticamente idéntica, con una única diferencia y es que se realiza un filtrado para que el campo destino sea el mismo que la cuenta de usuario usada en la aplicación. Podemos ver el resultado en la figura~\ref{fig:signaturesForYou}.
 
 %\end{itemize}
 
@@ -470,7 +471,7 @@ Podemos ver como se genera el objeto \lstinline{DigitalSignatureOpenHelper} y se
 
 %\begin{itemize}
 
-\item \textbf{SignaturesForYouInformation.java:} al igual que la clase \lstinline{SignaturesGeneralInformation.java} es la encargada de mostrar la información de los recibos que van dirigidos al usuario. El proceso es igual que en \lstinline{SignaturesGeneralInformation.java}, se envía la posición que ha sido marcada y se busca dicho recibo y se muestra toda la información.
+\item \textbf{SignaturesForYouInformation.java:} es equivalente a la clase \lstinline{SignaturesGeneralInformation.java} y es la encargada de mostrar la información de los recibos que van dirigidos al usuario. El proceso es igual que en \lstinline{SignaturesGeneralInformation.java}, se envía la posición que ha sido marcada y se busca dicho recibo y se muestra toda la información.
 
 \item \textbf{SplashScreenActivity.java:} esta clase es la encargada de generar la primera activity que se muestra en la aplicación cuando se inicia, además de cargar todas las variables que serán usadas durante la ejecución. Esta clase crea una interfaz en la que solo muestra el logo de la aplicación y una barra progreso que muestra el proceso de carga, pero en background comprueba que no sea la primera ejecución, si lo es llama a la clase \lstinline{InitialConfiguration.java} para generar la configuración. Si no es la primera ejecución abre el archivo de preferencias compartidas y genera todos los objetos necesarios para la ejecución como pueden ser, la cuenta que utilizaremos posteriormente, el tema que estamos usando, hace el login en la aplicación web, el keystore que usaremos para firmar en la aplicación y a parte realizamos la conexión con la aplicación web Repositorio General y conseguimos las filas que se hayan insertado nuevas añadiéndolas a la base de datos de la aplicación para que posteriormente podamos usarlas sin tener que pedirlas al servidor, para ello se utiliza un objeto de tipo \lstinline{JSONArray}, una vez realizadas todas esas acciones se procede a la inicialización de una nueva activity que genera la clase \lstinline{FirmaDigitalUMA_ICSActivity.java} y que dará lugar a la creación de la interfaz principal de la aplicación.
 
