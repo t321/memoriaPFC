@@ -32,28 +32,29 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura b\IeC {\'a}sica de un proyecto Android.}}{48}{figure.4.10}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Modo de interpretaci\IeC {\'o}n de un archivo JSP}}{53}{figure.4.11}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Carpeta WAR}}{55}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Arquitectura b\IeC {\'a}sica del proyecto.}}{57}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Estructura del proyecto.}}{58}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Estructura del servidor de timestamp.}}{58}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Estructura del servidor respositorio general.}}{59}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Estructura de la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{60}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Pantalla inicial de la aplicaci\IeC {\'o}n.}}{61}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Detalle del bot\IeC {\'o}n a\IeC {\~n}adir.}}{61}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Informaci\IeC {\'o}n de una firma realizada.}}{62}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Proyecto de Android en Eclipse.}}{63}{figure.4.21}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{69}{figure.4.22}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{72}{figure.4.23}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{74}{figure.4.24}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Servidor Timestamp https://seguro.ips.es/servidortimestamp}}{75}{figure.4.25}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Detalles del paquete pfc}}{77}{figure.4.26}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Login en Repositorio General}}{79}{figure.4.27}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Repositorio General}}{80}{figure.4.28}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Detalles de las clases Repositorio General.}}{81}{figure.4.29}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{82}{figure.4.30}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{83}{figure.4.31}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{84}{figure.4.32}
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{85}{figure.4.33}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{85}{figure.4.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Arquitectura b\IeC {\'a}sica del proyecto.}}{58}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Estructura del proyecto.}}{58}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Estructura del servidor de timestamp.}}{59}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Estructura del servidor respositorio general.}}{59}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Estructura de la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}}{60}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Pantalla inicial de la aplicaci\IeC {\'o}n.}}{61}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Detalle del bot\IeC {\'o}n a\IeC {\~n}adir.}}{61}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Informaci\IeC {\'o}n de una firma realizada.}}{62}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Proyecto de Android en Eclipse.}}{63}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{70}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{72}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{74}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Servidor Timestamp https://seguro.ips.es/servidortimestamp}}{75}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Detalles del paquete pfc}}{77}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Login en Repositorio General}}{80}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Repositorio General}}{80}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Detalles de las clases Repositorio General.}}{81}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{83}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{83}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{85}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{86}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{86}{figure.5.22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{90}{figure.A.1}
