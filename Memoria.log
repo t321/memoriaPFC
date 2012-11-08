@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.11)  8 NOV 2012 19:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.11)  8 NOV 2012 19:19
 entering extended mode
  %&-line parsing enabled.
 **\nonstopmode \input{"/home/juanantonio/memoriaPFC/Memoria.tex"}
@@ -567,7 +567,7 @@ l.10
 
 
 ]
-<./Introduccion/imagenes/actionbar.png, id=290, 815.045pt x 325.215pt>
+<./Introduccion/imagenes/actionbar.png, id=295, 815.045pt x 325.215pt>
 File: ./Introduccion/imagenes/actionbar.png Graphic file (type png)
 
 <use ./Introduccion/imagenes/actionbar.png>pdfTeX warning (ext4): destination w
@@ -577,12 +577,12 @@ ith the same identifier (name{page.2}) has been already used, duplicate ignored
                    \relax 
 l.29 
       [2 <./Introduccion/imagenes/actionbar.png>]
-<./Introduccion/imagenes/graficoEvolucionAndroid.png, id=300, 508.14844pt x 223
+<./Introduccion/imagenes/graficoEvolucionAndroid.png, id=305, 508.14844pt x 223
 .58531pt>
 File: ./Introduccion/imagenes/graficoEvolucionAndroid.png Graphic file (type pn
 g)
  <use ./Introduccion/imagenes/graficoEvolucionAndroid.png>
-<./Introduccion/imagenes/graficoUsoAndroid.png, id=301, 581.17125pt x 316.18124
+<./Introduccion/imagenes/graficoUsoAndroid.png, id=306, 581.17125pt x 316.18124
 pt>
 File: ./Introduccion/imagenes/graficoUsoAndroid.png Graphic file (type png)
  <use ./Introduccion/imagenes/graficoUsoAndroid.png>pdfTeX warning (ext4): dest
@@ -594,23 +594,25 @@ l.47 \section
              {Organización de la memoria.} [3 <./Introduccion/imagenes/grafico
 EvolucionAndroid.png (PNG copy)> <./Introduccion/imagenes/graficoUsoAndroid.png
  (PNG copy)>]
-<./Introduccion/imagenes/nexus.png, id=308, 474.77374pt x 889.3225pt>
+<./Introduccion/imagenes/nexus.png, id=313, 474.77374pt x 889.3225pt>
 File: ./Introduccion/imagenes/nexus.png Graphic file (type png)
 
-<use ./Introduccion/imagenes/nexus.png>pdfTeX warning (ext4): destination with 
-the same identifier (name{page.4}) has been already used, duplicate ignored
+<use ./Introduccion/imagenes/nexus.png>)
+(./ConocimientosPrevios/conocimientosPrevios.texpdfTeX warning (ext4): destinat
+ion with the same identifier (name{page.4}) has been already used, duplicate ig
+nored
 <to be read again> 
                    \relax 
-l.68 \end{figure}
-                  [4]) (./ConocimientosPrevios/conocimientosPrevios.tex
-[5 <./Introduccion/imagenes/nexus.png>] [6
+l.1 \chapter
+            [Conocimientos previos]{Conocimientos previos sobre las tecnolog...
+[4] [5 <./Introduccion/imagenes/nexus.png>] [6
 
 ]
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 9.
 [7]
-<./ConocimientosPrevios/imagenes/indiceTiobe.png, id=334, 429.10312pt x 145.292
+<./ConocimientosPrevios/imagenes/indiceTiobe.png, id=339, 429.10312pt x 145.292
 82pt>
 File: ./ConocimientosPrevios/imagenes/indiceTiobe.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/indiceTiobe.png> [8 <./ConocimientosPrevi
@@ -621,7 +623,7 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 56.
  [10]
-<./ConocimientosPrevios/imagenes/pantallaEclipse.png, id=361, 783.67781pt x 520
+<./ConocimientosPrevios/imagenes/pantallaEclipse.png, id=366, 783.67781pt x 520
 .19344pt>
 File: ./ConocimientosPrevios/imagenes/pantallaEclipse.png Graphic file (type pn
 g)
@@ -629,7 +631,7 @@ g)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./ConocimientosPrevios/imagenes/pantallaEclipse.png (PNG copy)>] [12]
-<./ConocimientosPrevios/imagenes/cifradoCesar.png, id=374, 501.875pt x 211.7912
+<./ConocimientosPrevios/imagenes/cifradoCesar.png, id=379, 501.875pt x 211.7912
 4pt>
 File: ./ConocimientosPrevios/imagenes/cifradoCesar.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/cifradoCesar.png>
@@ -637,7 +639,7 @@ File: ./ConocimientosPrevios/imagenes/cifradoCesar.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./ConocimientosPrevios/imagenes/cifradoHomofonico.png, id=376, 337.26pt x 175.
+<./ConocimientosPrevios/imagenes/cifradoHomofonico.png, id=381, 337.26pt x 175.
 65625pt>
 File: ./ConocimientosPrevios/imagenes/cifradoHomofonico.png Graphic file (type 
 png)
@@ -646,7 +648,7 @@ png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-<./ConocimientosPrevios/imagenes/cifradoTransposicion.png, id=384, 969.6225pt x
+<./ConocimientosPrevios/imagenes/cifradoTransposicion.png, id=389, 969.6225pt x
  564.1075pt>
 File: ./ConocimientosPrevios/imagenes/cifradoTransposicion.png Graphic file (ty
 pe png)
@@ -656,13 +658,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14 <./ConocimientosPrevios/imagenes/cifradoCesar.png> <./ConocimientosPrevios/
 imagenes/cifradoHomofonico.png>]
-<./ConocimientosPrevios/imagenes/cifradoDes.png, id=393, 366.61969pt x 499.8675
+<./ConocimientosPrevios/imagenes/cifradoDes.png, id=398, 366.61969pt x 499.8675
 pt>
 File: ./ConocimientosPrevios/imagenes/cifradoDes.png Graphic file (type png)
  <use ./ConocimientosPrevios/imagenes/cifradoDes.png> [15 <./ConocimientosPrevi
 os/imagenes/cifradoTransposicion.png>] [16 <./ConocimientosPrevios/imagenes/cif
 radoDes.png (PNG copy)>] [17] [18] [19] [20]
-<./ConocimientosPrevios/imagenes/android41.jpeg, id=431, 722.7pt x 1284.8pt>
+<./ConocimientosPrevios/imagenes/android41.jpeg, id=436, 722.7pt x 1284.8pt>
 File: ./ConocimientosPrevios/imagenes/android41.jpeg Graphic file (type jpg)
 
 <use ./ConocimientosPrevios/imagenes/android41.jpeg> [21]
@@ -786,7 +788,7 @@ l.312 <formato> Rústica
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<./ConocimientosPrevios/imagenes/UMLDiagrams.jpg, id=448, 642.4pt x 481.8pt>
+<./ConocimientosPrevios/imagenes/UMLDiagrams.jpg, id=453, 642.4pt x 481.8pt>
 File: ./ConocimientosPrevios/imagenes/UMLDiagrams.jpg Graphic file (type jpg)
 
 <use ./ConocimientosPrevios/imagenes/UMLDiagrams.jpg> [24])
@@ -796,11 +798,11 @@ ms.jpg>] [26
 ]
 Cap\'{\i }tulo 3.
 [27] [28] [29]
-<./Criptografia/imagenes/esquemaPKI.png, id=501, 1003.75pt x 709.65125pt>
+<./Criptografia/imagenes/esquemaPKI.png, id=506, 1003.75pt x 709.65125pt>
 File: ./Criptografia/imagenes/esquemaPKI.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/esquemaPKI.png>
-<./Criptografia/imagenes/pkiDnie.png, id=504, 438.13687pt x 188.20313pt>
+<./Criptografia/imagenes/pkiDnie.png, id=509, 438.13687pt x 188.20313pt>
 File: ./Criptografia/imagenes/pkiDnie.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/pkiDnie.png>
@@ -808,11 +810,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./Criptografia/imagenes/esquemaPKI.png>] [31 <./Criptografia/imagenes/pki
 Dnie.png (PNG copy)>]
-<./Criptografia/imagenes/messageDigest.png, id=527, 225.09094pt x 42.91031pt>
+<./Criptografia/imagenes/messageDigest.png, id=532, 225.09094pt x 42.91031pt>
 File: ./Criptografia/imagenes/messageDigest.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/messageDigest.png>
-<./Criptografia/imagenes/signature.png, id=529, 483.8075pt x 221.82875pt>
+<./Criptografia/imagenes/signature.png, id=534, 483.8075pt x 221.82875pt>
 File: ./Criptografia/imagenes/signature.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/signature.png>
@@ -820,7 +822,7 @@ File: ./Criptografia/imagenes/signature.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32 <./Criptografia/imagenes/messageDigest.png>]
-<./Criptografia/imagenes/cipher.png, id=547, 514.92375pt x 180.675pt>
+<./Criptografia/imagenes/cipher.png, id=552, 514.92375pt x 180.675pt>
 File: ./Criptografia/imagenes/cipher.png Graphic file (type png)
 
 <use ./Criptografia/imagenes/cipher.png> [33 <./Criptografia/imagenes/signature
@@ -833,7 +835,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [35
 
 ]
-<./Android/imagenes/arquitecturaAndroid.jpg, id=580, 725.75366pt x 521.15831pt>
+<./Android/imagenes/arquitecturaAndroid.jpg, id=585, 725.75366pt x 521.15831pt>
 File: ./Android/imagenes/arquitecturaAndroid.jpg Graphic file (type jpg)
 <use ./Android/imagenes/arquitecturaAndroid.jpg> [36 <./Android/imagenes/arquit
 ecturaAndroid.jpg>]
@@ -845,12 +847,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 [37]
-<./Android/imagenes/maquinaVirtualDalvik.png, id=592, 501.875pt x 129.48375pt>
+<./Android/imagenes/maquinaVirtualDalvik.png, id=597, 501.875pt x 129.48375pt>
 File: ./Android/imagenes/maquinaVirtualDalvik.png Graphic file (type png)
 
 <use ./Android/imagenes/maquinaVirtualDalvik.png> [38 <./Android/imagenes/maqui
 naVirtualDalvik.png (PNG copy)>]
-<./Android/imagenes/estructuraAPK.png, id=600, 452.4403pt x 382.42876pt>
+<./Android/imagenes/estructuraAPK.png, id=605, 452.4403pt x 382.42876pt>
 File: ./Android/imagenes/estructuraAPK.png Graphic file (type png)
 
 <use ./Android/imagenes/estructuraAPK.png>
@@ -858,28 +860,28 @@ File: ./Android/imagenes/estructuraAPK.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39] [40 <./Android/imagenes/estructuraAPK.png (PNG copy)>]
-<./Android/imagenes/contentProvider.png, id=620, 722.7pt x 1284.8pt>
+<./Android/imagenes/contentProvider.png, id=625, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/contentProvider.png Graphic file (type png)
 
 <use ./Android/imagenes/contentProvider.png> [41 <./Android/imagenes/contentPro
 vider.png (PNG copy)>]
-<./Android/imagenes/widget.png, id=627, 722.7pt x 1284.8pt>
+<./Android/imagenes/widget.png, id=632, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/widget.png Graphic file (type png)
 
 <use ./Android/imagenes/widget.png> [42 <./Android/imagenes/widget.png (PNG cop
-y)>] <./Android/imagenes/cicloActivity.png, id=636, 514.92375pt x 665.48625pt>
+y)>] <./Android/imagenes/cicloActivity.png, id=641, 514.92375pt x 665.48625pt>
 File: ./Android/imagenes/cicloActivity.png Graphic file (type png)
 
 <use ./Android/imagenes/cicloActivity.png> [43] [44 <./Android/imagenes/cicloAc
-tivity.png>] <./Android/imagenes/gmailTablet.png, id=676, 1284.8pt x 803.0pt>
+tivity.png>] <./Android/imagenes/gmailTablet.png, id=681, 1284.8pt x 803.0pt>
 File: ./Android/imagenes/gmailTablet.png Graphic file (type png)
 
 <use ./Android/imagenes/gmailTablet.png>
-<./Android/imagenes/gmailMovil.png, id=677, 866.23625pt x 632.3625pt>
+<./Android/imagenes/gmailMovil.png, id=682, 866.23625pt x 632.3625pt>
 File: ./Android/imagenes/gmailMovil.png Graphic file (type png)
 
 <use ./Android/imagenes/gmailMovil.png>
-<./Android/imagenes/swype.png, id=678, 722.7pt x 1284.8pt>
+<./Android/imagenes/swype.png, id=683, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/swype.png Graphic file (type png)
 
 <use ./Android/imagenes/swype.png>
@@ -888,7 +890,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45] [46 <./Android/imagenes/gmailTablet.png (PNG copy)> <./Android/imagenes/gm
 ailMovil.png>] [47 <./Android/imagenes/swype.png>]
-<./Android/imagenes/estructuraBasicaAndroid.png, id=703, 256.70906pt x 348.5521
+<./Android/imagenes/estructuraBasicaAndroid.png, id=708, 256.70906pt x 348.5521
 9pt>
 File: ./Android/imagenes/estructuraBasicaAndroid.png Graphic file (type png)
  <use ./Android/imagenes/estructuraBasicaAndroid.png> [48 <./Android/imagenes/e
@@ -907,14 +909,14 @@ Overfull \hbox (5.96492pt too wide) in paragraph at lines 388--389
  63&texto = Prueba$[]\OT1/cmr/m/n/12 . Co-mo po-
  []
 
-<./GoogleAppEngine/imagenes/JSP_Model.png, id=749, 354.32375pt x 405.515pt>
+<./GoogleAppEngine/imagenes/JSP_Model.png, id=754, 354.32375pt x 405.515pt>
 File: ./GoogleAppEngine/imagenes/JSP_Model.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/JSP_Model.png>
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ) [52] [53 <./GoogleAppEngine/imagenes/JSP_Model.png>]
-<./GoogleAppEngine/imagenes/carpetawar.png, id=807, 210.03468pt x 349.305pt>
+<./GoogleAppEngine/imagenes/carpetawar.png, id=812, 210.03468pt x 349.305pt>
 File: ./GoogleAppEngine/imagenes/carpetawar.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/carpetawar.png> [54] [55 <./GoogleAppEngine/ima
@@ -962,7 +964,7 @@ Overfull \hbox (23.9793pt too wide) in paragraph at lines 515--516
 ) (./DisenhoYArquitectura/disenhoYArquitectura.tex [56]
 Cap\'{\i }tulo 5.
 
-<./DisenhoYArquitectura/imagenes/arquitecturaBasica.png, id=870, 879.99353pt x 
+<./DisenhoYArquitectura/imagenes/arquitecturaBasica.png, id=875, 879.99353pt x 
 661.76646pt>
 File: ./DisenhoYArquitectura/imagenes/arquitecturaBasica.png Graphic file (type
  png)
@@ -970,16 +972,16 @@ File: ./DisenhoYArquitectura/imagenes/arquitecturaBasica.png Graphic file (type
 [57
 
 ]
-<./DisenhoYArquitectura/imagenes/estructura.png, id=878, 1076.9647pt x 524.3117
+<./DisenhoYArquitectura/imagenes/estructura.png, id=883, 1076.9647pt x 524.3117
 7pt>
 File: ./DisenhoYArquitectura/imagenes/estructura.png Graphic file (type png)
  <use ./DisenhoYArquitectura/imagenes/estructura.png>
-<./DisenhoYArquitectura/imagenes/servertimestamp.png, id=880, 367.01823pt x 487
+<./DisenhoYArquitectura/imagenes/servertimestamp.png, id=885, 367.01823pt x 487
 .46823pt>
 File: ./DisenhoYArquitectura/imagenes/servertimestamp.png Graphic file (type pn
 g)
  <use ./DisenhoYArquitectura/imagenes/servertimestamp.png>
-<./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png, id=881, 453.4588
+<./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png, id=886, 453.4588
 2pt x 770.88pt>
 File: ./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png Graphic file
  (type png)
@@ -988,26 +990,26 @@ File: ./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png Graphic file
 hoYArquitectura/imagenes/arquitecturaBasica.png> <./DisenhoYArquitectura/imagen
 es/estructura.png>] [59 <./DisenhoYArquitectura/imagenes/servertimestamp.png> <
 ./DisenhoYArquitectura/imagenes/serverRepositorioGeneral.png>]
-<./DisenhoYArquitectura/imagenes/aplicacionMovil.png, id=898, 459.12706pt x 809
+<./DisenhoYArquitectura/imagenes/aplicacionMovil.png, id=903, 459.12706pt x 809
 .1406pt>
 File: ./DisenhoYArquitectura/imagenes/aplicacionMovil.png Graphic file (type pn
 g)
  <use ./DisenhoYArquitectura/imagenes/aplicacionMovil.png> [60 <./DisenhoYArqui
 tectura/imagenes/aplicacionMovil.png>]
-<./Android/imagenes/pantallaPrincipal.png, id=907, 722.7pt x 1284.8pt>
+<./Android/imagenes/pantallaPrincipal.png, id=912, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/pantallaPrincipal.png Graphic file (type png)
 
 <use ./Android/imagenes/pantallaPrincipal.png>
-<./Android/imagenes/botonAnhadir.png, id=909, 721.69624pt x 104.39pt>
+<./Android/imagenes/botonAnhadir.png, id=914, 721.69624pt x 104.39pt>
 File: ./Android/imagenes/botonAnhadir.png Graphic file (type png)
 
 <use ./Android/imagenes/botonAnhadir.png> [61 <./Android/imagenes/pantallaPrinc
 ipal.png (PNG copy)> <./Android/imagenes/botonAnhadir.png (PNG copy)>]
-<./Android/imagenes/informacionFirma.png, id=918, 722.7pt x 1284.8pt>
+<./Android/imagenes/informacionFirma.png, id=923, 722.7pt x 1284.8pt>
 File: ./Android/imagenes/informacionFirma.png Graphic file (type png)
 
 <use ./Android/imagenes/informacionFirma.png>
-<./Android/imagenes/proyectoAndroid.png, id=920, 339.2675pt x 728.7225pt>
+<./Android/imagenes/proyectoAndroid.png, id=925, 339.2675pt x 728.7225pt>
 File: ./Android/imagenes/proyectoAndroid.png Graphic file (type png)
 
 <use ./Android/imagenes/proyectoAndroid.png> [62 <./Android/imagenes/informacio
@@ -1095,7 +1097,7 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 [65] [66] [67] [68]
-<./Android/imagenes/barcodeScanner.png, id=1098, 722.7pt x 692.5875pt>
+<./Android/imagenes/barcodeScanner.png, id=1103, 722.7pt x 692.5875pt>
 File: ./Android/imagenes/barcodeScanner.png Graphic file (type png)
 
 <use ./Android/imagenes/barcodeScanner.png>
@@ -1115,7 +1117,7 @@ orecibos . appspot .
  []
 
 [71]
-<./Android/imagenes/signaturesGeneral.png, id=1181, 720.6925pt x 1232.605pt>
+<./Android/imagenes/signaturesGeneral.png, id=1186, 720.6925pt x 1232.605pt>
 File: ./Android/imagenes/signaturesGeneral.png Graphic file (type png)
 
 <use ./Android/imagenes/signaturesGeneral.png> [72 <./Android/imagenes/signatur
@@ -1162,7 +1164,7 @@ Overfull \hbox (69.51665pt too wide) in paragraph at lines 461--462
 -lla-da es equi-va-len-te a la cla-se []
  []
 
-<./Android/imagenes/signaturesForYou.png, id=1233, 722.7pt x 1236.62pt>
+<./Android/imagenes/signaturesForYou.png, id=1238, 722.7pt x 1236.62pt>
 File: ./Android/imagenes/signaturesForYou.png Graphic file (type png)
 
 <use ./Android/imagenes/signaturesForYou.png>
@@ -1172,13 +1174,13 @@ Overfull \hbox (88.30064pt too wide) in paragraph at lines 474--475
  []
 
 [74 <./Android/imagenes/signaturesForYou.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1241, 738.50906pt x 30
+<./GoogleAppEngine/imagenes/server_ips_timestamp.png, id=1246, 738.50906pt x 30
 7.1475pt>
 File: ./GoogleAppEngine/imagenes/server_ips_timestamp.png Graphic file (type pn
 g)
  <use ./GoogleAppEngine/imagenes/server_ips_timestamp.png> [75 <./GoogleAppEngi
 ne/imagenes/server_ips_timestamp.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/UML_pfc.png, id=1250, 511.9125pt x 1111.15125pt>
+<./GoogleAppEngine/imagenes/UML_pfc.png, id=1255, 511.9125pt x 1111.15125pt>
 File: ./GoogleAppEngine/imagenes/UML_pfc.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/UML_pfc.png>
@@ -1189,24 +1191,24 @@ LaTeX Warning: Float too large for page by 33.42526pt on input line 524.
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [79]
-<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1296, 841.64438pt
+<./GoogleAppEngine/imagenes/login_repositorio_general.png, id=1301, 841.64438pt
  x 292.09125pt>
 File: ./GoogleAppEngine/imagenes/login_repositorio_general.png Graphic file (ty
 pe png)
  <use ./GoogleAppEngine/imagenes/login_repositorio_general.png>
-<./GoogleAppEngine/imagenes/repositorio_general.png, id=1298, 962.84718pt x 357
+<./GoogleAppEngine/imagenes/repositorio_general.png, id=1303, 962.84718pt x 357
 .58594pt>
 File: ./GoogleAppEngine/imagenes/repositorio_general.png Graphic file (type png
 )
  <use ./GoogleAppEngine/imagenes/repositorio_general.png> [80 <./GoogleAppEngin
 e/imagenes/login_repositorio_general.png (PNG copy)> <./GoogleAppEngine/imagene
 s/repositorio_general.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1306, 1089.06876pt x 933.48
+<./GoogleAppEngine/imagenes/UML_repositorio.png, id=1311, 1089.06876pt x 933.48
 75pt>
 File: ./GoogleAppEngine/imagenes/UML_repositorio.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/UML_repositorio.png> [81 <./GoogleAppEngine/im
 agenes/UML_repositorio.png (PNG copy)>]
-<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1317, 762.59
+<./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png, id=1322, 762.59
 906pt x 216.81pt>
 File: ./GoogleAppEngine/imagenes/certificadosRepositorioGeneral.png Graphic fil
 e (type png)
@@ -1216,7 +1218,7 @@ e (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [82]
-<./GoogleAppEngine/imagenes/botonExportar.png, id=1348, 955.31906pt x 33.87656p
+<./GoogleAppEngine/imagenes/botonExportar.png, id=1353, 955.31906pt x 33.87656p
 t>
 File: ./GoogleAppEngine/imagenes/botonExportar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/botonExportar.png> [83 <./GoogleAppEngine/imag
@@ -1228,7 +1230,7 @@ Overfull \hbox (45.17737pt too wide) in paragraph at lines 739--740
  []
 
 [84]
-<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1393, 773.13844pt x 252.1
+<./GoogleAppEngine/imagenes/pestanhaVerificar.png, id=1398, 773.13844pt x 252.1
 9218pt>
 File: ./GoogleAppEngine/imagenes/pestanhaVerificar.png Graphic file (type png)
  <use ./GoogleAppEngine/imagenes/pestanhaVerificar.png>
@@ -1244,14 +1246,14 @@ l.773 \end{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1396, 529.98pt x 268.75406pt>
+<./GoogleAppEngine/imagenes/pestanhaQR.png, id=1401, 529.98pt x 268.75406pt>
 File: ./GoogleAppEngine/imagenes/pestanhaQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/pestanhaQR.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./GoogleAppEngine/imagenes/codigoQR.png, id=1397, 957.5775pt x 287.57437pt>
+<./GoogleAppEngine/imagenes/codigoQR.png, id=1402, 957.5775pt x 287.57437pt>
 File: ./GoogleAppEngine/imagenes/codigoQR.png Graphic file (type png)
 
 <use ./GoogleAppEngine/imagenes/codigoQR.png>
@@ -1265,93 +1267,290 @@ py)>]
 Cap\'{\i }tulo 6.
 [87
 
-]) (./ConfiguracionEclipse/configuracionEclipse.tex [88]
+]) (./AnexoConfiguracionEclipse/configuracionEclipse.tex [88]
 Ap\'{e}ndice A.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
 
-<./ConfiguracionEclipse/imagenes/androidSDK.png, id=1424, 704.6325pt x 753.8162
-5pt>
-File: ./ConfiguracionEclipse/imagenes/androidSDK.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/androidSDK.png> [89
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/androidSDK.png' not found 
+on input line 19.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/androidSDK.pn
+g' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...figuracionEclipse/imagenes/androidSDK.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[89
 
 ]
-<./ConfiguracionEclipse/imagenes/licencias.png, id=1435, 563.10374pt x 304.1362
-5pt>
-File: ./ConfiguracionEclipse/imagenes/licencias.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/licencias.png>
-<./ConfiguracionEclipse/imagenes/SDKfinalizado.png, id=1436, 514.92375pt x 224.
-33812pt>
-File: ./ConfiguracionEclipse/imagenes/SDKfinalizado.png Graphic file (type png)
 
- <use ./ConfiguracionEclipse/imagenes/SDKfinalizado.png>
-<./ConfiguracionEclipse/imagenes/instalacionADT.png, id=1440, 534.49687pt x 542
-.025pt>
-File: ./ConfiguracionEclipse/imagenes/instalacionADT.png Graphic file (type png
-)
- <use ./ConfiguracionEclipse/imagenes/instalacionADT.png>
-<./ConfiguracionEclipse/imagenes/configuracionSDK.png, id=1442, 453.94594pt x 3
-82.42876pt>
-File: ./ConfiguracionEclipse/imagenes/configuracionSDK.png Graphic file (type p
-ng)
- <use ./ConfiguracionEclipse/imagenes/configuracionSDK.png>
-<./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png, id=1444, 311.66437pt
- x 450.9347pt>
-File: ./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png Graphic file (ty
-pe png)
- <use ./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png>
-[90 <./ConfiguracionEclipse/imagenes/androidSDK.png>] [91 <./ConfiguracionEclip
-se/imagenes/licencias.png (PNG copy)> <./ConfiguracionEclipse/imagenes/SDKfinal
-izado.png (PNG copy)>] [92 <./ConfiguracionEclipse/imagenes/instalacionADT.png 
-(PNG copy)> <./ConfiguracionEclipse/imagenes/configuracionSDK.png (PNG copy)>]
-<./ConfiguracionEclipse/imagenes/instalacionGAE.png, id=1468, 543.53062pt x 563
-.85657pt>
-File: ./ConfiguracionEclipse/imagenes/instalacionGAE.png Graphic file (type png
-)
- <use ./ConfiguracionEclipse/imagenes/instalacionGAE.png>
-<./ConfiguracionEclipse/imagenes/instalacionPlugins.png, id=1470, 401.24907pt x
- 313.17pt>
-File: ./ConfiguracionEclipse/imagenes/instalacionPlugins.png Graphic file (type
- png)
- <use ./ConfiguracionEclipse/imagenes/instalacionPlugins.png>
-[93 <./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png (PNG copy)>]
-<./ConfiguracionEclipse/imagenes/eclipseGAE.png, id=1481, 765.6103pt x 578.9128
-1pt>
-File: ./ConfiguracionEclipse/imagenes/eclipseGAE.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/eclipseGAE.png>
-<./ConfiguracionEclipse/imagenes/appEngine.png, id=1484, 732.48656pt x 309.4059
-4pt>
-File: ./ConfiguracionEclipse/imagenes/appEngine.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/appEngine.png>
-<./ConfiguracionEclipse/imagenes/createGAE.png, id=1486, 724.20563pt x 502.1259
-3pt>
-File: ./ConfiguracionEclipse/imagenes/createGAE.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/createGAE.png>
-<./ConfiguracionEclipse/imagenes/dashboardGAE.png, id=1488, 956.07187pt x 580.4
-1844pt>
-File: ./ConfiguracionEclipse/imagenes/dashboardGAE.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/dashboardGAE.png> [94 <./ConfiguracionEcl
-ipse/imagenes/instalacionGAE.png (PNG copy)>]
-<./ConfiguracionEclipse/imagenes/GAESettings.png, id=1497, 940.26282pt x 514.17
-094pt>
-File: ./ConfiguracionEclipse/imagenes/GAESettings.png Graphic file (type png)
- <use ./ConfiguracionEclipse/imagenes/GAESettings.png>)
-(./CreacionCertificado/creacionCertificado.tex [95 <./ConfiguracionEclipse/imag
-enes/instalacionPlugins.png (PNG copy)>] [96 <./ConfiguracionEclipse/imagenes/e
-clipseGAE.png (PNG copy)> <./ConfiguracionEclipse/imagenes/appEngine.png (PNG c
-opy)>] [97 <./ConfiguracionEclipse/imagenes/createGAE.png (PNG copy)> <./Config
-uracionEclipse/imagenes/dashboardGAE.png (PNG copy)>] [98 <./ConfiguracionEclip
-se/imagenes/GAESettings.png (PNG copy)>]
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/licencias.png' not found o
+n input line 28.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/licencias.png
+' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...nfiguracionEclipse/imagenes/licencias.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/SDKfinalizado.png' not fou
+nd on input line 35.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/SDKfinalizado
+.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...uracionEclipse/imagenes/SDKfinalizado.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/instalacionADT.png' not fo
+und on input line 44.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/instalacionAD
+T.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...racionEclipse/imagenes/instalacionADT.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/configuracionSDK.png' not 
+found on input line 53.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/configuracion
+SDK.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...cionEclipse/imagenes/configuracionSDK.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png' 
+not found on input line 62.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/nuevoProyecto
+Android.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...Eclipse/imagenes/nuevoProyectoAndroid.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[90]
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/instalacionGAE.png' not fo
+und on input line 75.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/instalacionGA
+E.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...racionEclipse/imagenes/instalacionGAE.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/instalacionPlugins.png' no
+t found on input line 84.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/instalacionPl
+ugins.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...onEclipse/imagenes/instalacionPlugins.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/eclipseGAE.png' not found 
+on input line 93.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/eclipseGAE.pn
+g' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...figuracionEclipse/imagenes/eclipseGAE.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/appEngine.png' not found o
+n input line 102.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/appEngine.png
+' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...figuracionEclipse/imagenes/appEngine.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[91]
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/createGAE.png' not found o
+n input line 111.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/createGAE.png
+' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...figuracionEclipse/imagenes/createGAE.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/dashboardGAE.png' not foun
+d on input line 120.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/dashboardGAE.
+png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...uracionEclipse/imagenes/dashboardGAE.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./ConfiguracionEclipse/imagenes/GAESettings.png' not found
+ on input line 131.
+
+
+! Package pdftex.def Error: File `./ConfiguracionEclipse/imagenes/GAESettings.p
+ng' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...guracionEclipse/imagenes/GAESettings.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./AnexoCreacionCertificado/creacionCertificado.tex [92] [93] [94
+
+]
 Ap\'{e}ndice B.
 
-<./CreacionCertificado/imagenes/password.png, id=1519, 529.98pt x 405.01312pt>
-File: ./CreacionCertificado/imagenes/password.png Graphic file (type png)
+LaTeX Warning: File `./CreacionCertificado/imagenes/password.png' not found on 
+input line 19.
 
-<use ./CreacionCertificado/imagenes/password.png>
-<./CreacionCertificado/imagenes/clavePrivada.png, id=1521, 542.77782pt x 473.51
-906pt>
-File: ./CreacionCertificado/imagenes/clavePrivada.png Graphic file (type png)
- <use ./CreacionCertificado/imagenes/clavePrivada.png>
+
+! Package pdftex.def Error: File `./CreacionCertificado/imagenes/password.png' 
+not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...CreacionCertificado/imagenes/password.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[95]
+
+LaTeX Warning: File `./CreacionCertificado/imagenes/clavePrivada.png' not found
+ on input line 28.
+
+
+! Package pdftex.def Error: File `./CreacionCertificado/imagenes/clavePrivada.p
+ng' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...cionCertificado/imagenes/clavePrivada.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ! You can't use `macro parameter character #' in horizontal mode.
 l.33 ...certificado lo exportamos en formato PKCS#
                                                   12 y lo almacenamos en la ...
@@ -1361,23 +1560,37 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<./CreacionCertificado/imagenes/exportacion.png, id=1523, 529.22719pt x 404.260
-31pt>
-File: ./CreacionCertificado/imagenes/exportacion.png Graphic file (type png)
- <use ./CreacionCertificado/imagenes/exportacion.png> [99
+LaTeX Warning: File `./CreacionCertificado/imagenes/exportacion.png' not found 
+on input line 37.
 
-] [100 <./CreacionCertificado/imagenes/password.png (PNG copy)> <./CreacionCert
-ificado/imagenes/clavePrivada.png (PNG copy)>]) [101 <./CreacionCertificado/ima
-genes/exportacion.png (PNG copy)>] [102
 
-] (/home/juanantonio/memoriaPFC/Memoria.lof [103
+! Package pdftex.def Error: File `./CreacionCertificado/imagenes/exportacion.pn
+g' not found.
 
-]
-[104])
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...acionCertificado/imagenes/exportacion.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./AnexoContenidoCD/contenidoCD.tex [96]
+Ap\'{e}ndice C.
+) [97
+
+] [98
+
+] (/home/juanantonio/memoriaPFC/Memoria.lof [99
+
+] [100])
 \tf@lof=\write5
 \openout5 = `Memoria.lof'.
 
- (./Bibliografia/bibliografia.tex [105] [106
+
+(./Bibliografia/bibliografia.tex [101] [102
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1385,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 developer . android . com / guide /
  []
 
-) [107]
+) [103]
 
 ! LaTeX Error: \begin{itemize} on input line 133 ended by \end{document}.
 
@@ -1393,7 +1606,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \end{document}
+l.132 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1405,13 +1618,13 @@ or  <return>  to continue without it.
 ### semi simple group (level 1) entered at line 133 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9377 strings out of 494999
- 140735 string characters out of 1180815
- 477437 words of memory out of 3000000
- 11583 multiletter control sequences out of 15000+50000
+ 9315 strings out of 494999
+ 137409 string characters out of 1180815
+ 477434 words of memory out of 3000000
+ 11520 multiletter control sequences out of 15000+50000
  12128 words of font info for 44 fonts, out of 3000000 for 9000
  54 hyphenation exceptions out of 8191
- 39i,8n,51p,1648b,2154s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,51p,1666b,2154s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
@@ -1427,9 +1640,9 @@ fonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
 usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on Memoria.pdf (111 pages, 5450423 bytes).
+Output written on Memoria.pdf (107 pages, 4250380 bytes).
 PDF statistics:
- 1867 PDF objects out of 2073 (max. 8388607)
- 754 named destinations out of 1000 (max. 500000)
- 752 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1837 PDF objects out of 2073 (max. 8388607)
+ 751 named destinations out of 1000 (max. 500000)
+ 680 words of extra memory for PDF output out of 10000 (max. 10000000)
 

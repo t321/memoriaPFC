@@ -72,7 +72,7 @@ basicstyle=\footnotesize\ttfamily,
 %\geometry{a4paper}
 %\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}
 
-\usepackage[left=2.5cm,top=3.5cm,right=2.5cm,bottom=3.5cm]{geometry} 
+\usepackage[left=2.5cm,top=3.5cm,right=2.5cm,bottom=3cm]{geometry} 
 
 
 \title{\Huge Plataforma de firma digital móvil en el contexto universitario.}
