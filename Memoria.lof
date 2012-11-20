@@ -5,11 +5,11 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Gr\IeC {\'a}fico del uso de las versiones de Android a principios de octubre del 2012.}}{3}{figure.1.3}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Samsung Galaxy Nexus.}}{5}{figure.1.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice tiobe en septiembre del 2012. \url {http://www.tiobe.com/}}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'I}ndice Tiobe en septiembre del 2012. \url {http://www.tiobe.com/}}}{8}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Eclipse 4.2 Juno.}}{11}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplo Cifrado Cesar}}{14}{figure.2.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplo Cifrado Cesar}}{13}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Tabla para cifrado homof\IeC {\'o}nico}}{14}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{15}{figure.2.5}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Ejemplo de cifrado por sustituci\IeC {\'o}n}}{14}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Iteraciones en el cifrado DES}}{16}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Versi\IeC {\'o}n de Android 4.1}}{22}{figure.2.7}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Ejemplos de dise\IeC {\~n}os realizados con UML.}}{25}{figure.2.8}
@@ -42,36 +42,36 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Detalle del bot\IeC {\'o}n a\IeC {\~n}adir.}}{61}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Informaci\IeC {\'o}n de una firma realizada.}}{62}{figure.5.8}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Proyecto de Android en Eclipse.}}{63}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{70}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{72}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{74}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Servidor Timestamp https://seguro.ips.es/servidortimestamp}}{75}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Detalles del paquete pfc}}{77}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Login en Repositorio General}}{80}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Repositorio General}}{80}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Detalles de las clases Repositorio General.}}{81}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{83}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{83}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{85}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{86}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{86}{figure.5.22}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Aplicaci\IeC {\'o}n Barcode Scanner.}}{69}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Detalle fragment generado por la clase SignaturesGeneral.java.}}{71}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Detalle fragment generado por la clase SignaturesForYou.java.}}{73}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Servidor Timestamp https://seguro.ips.es/servidortimestamp}}{74}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Detalles del paquete pfc}}{76}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Login en Repositorio General}}{79}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Repositorio General}}{79}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Detalles de las clases Repositorio General.}}{80}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Pantallazo de la pesta\IeC {\~n}a certificados.}}{82}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Detalle del bot\IeC {\'o}n exportar.}}{82}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Detalle de la pesta\IeC {\~n}a verificaci\IeC {\'o}n.}}{84}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Pesta\IeC {\~n}a para generar el c\IeC {\'o}digo QR.}}{84}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Pesta\IeC {\~n}a con el c\IeC {\'o}digo QR generado.}}{85}{figure.5.22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Ventana de instalaci\IeC {\'o}n del SDK de Android.}}{90}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{90}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{90}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{91}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{91}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{91}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{92}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{92}{figure.A.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el plugin de Google App Engine instalado.}}{92}{figure.A.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{93}{figure.A.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{93}{figure.A.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{93}{figure.A.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{93}{figure.A.13}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Ventana para aceptar las licencias.}}{91}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Instalaci\IeC {\'o}n del SDK finalizada.}}{91}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Instalaci\IeC {\'o}n del ADT en Eclipse.}}{92}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Instalaci\IeC {\'o}n del SDK en Eclipse.}}{92}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Creaci\IeC {\'o}n de un nuevo proyecto Android.}}{93}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Instalaci\IeC {\'o}n puglins Google App Engine.}}{94}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Detalle de la descarga de plugins.}}{95}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Eclipse con el plugin de Google App Engine instalado.}}{96}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Panel de administraci\IeC {\'o}n Google App Engine.}}{96}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Par\IeC {\'a}metros para la creaci\IeC {\'o}n de una nueva aplicaci\IeC {\'o}n web.}}{97}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Dashboard para la configuraci\IeC {\'o}n de una aplicaci\IeC {\'o}n web.}}{97}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Despliegue de una aplicaci\IeC {\'o}n web.}}{98}{figure.A.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{95}{figure.B.1}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{96}{figure.B.2}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{96}{figure.B.3}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Password para la CA.}}{100}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Creaci\IeC {\'o}n de la clave privada.}}{100}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Exportaci\IeC {\'o}n del certificado.}}{101}{figure.B.3}
 \addvspace {10\p@ }

@@ -15,11 +15,11 @@
 
 \usepackage{listings}
 \lstset{ frame=Ltb,
-framerule=0pt,
+framerule=0.4pt,
 aboveskip=0.5cm,
 framextopmargin=3pt,
 framexbottommargin=3pt,
-framexleftmargin=0.4cm,
+%framexleftmargin=0.4cm,
 framesep=0pt,
 rulesep=.4pt,
 backgroundcolor=\color{gray97},
@@ -33,11 +33,11 @@ basicstyle=\small\ttfamily,
 commentstyle=\color{gray45},
 keywordstyle=\bfseries,
 %
-numbers=left,
-numbersep=15pt,
-numberstyle=\tiny,
-numberfirstline = false,
-breaklines=true,
+%numbers=left,
+%numbersep=15pt,
+%numberstyle=\tiny,
+%numberfirstline = false,
+%breaklines=true,
 tabsize=2,
 }
 
@@ -118,10 +118,11 @@ basicstyle=\footnotesize\ttfamily,
 		
 	\appendix
 	%apendice con la configuración de eclipse tanto para Android como para Google App Engine
-	\input{./ConfiguracionEclipse/configuracionEclipse.tex}
+	\input{./AnexoConfiguracionEclipse/configuracionEclipse.tex}
 	%apendice para la creación de los certificados usados con XCA
-	\input{./CreacionCertificado/creacionCertificado.tex}
-	
+	\input{./AnexoCreacionCertificado/creacionCertificado.tex}
+	%apendice con el contenido del CD
+	\input{./AnexoContenidoCD/contenidoCD.tex}
 	
 	\backmatter
 		\listoffigures

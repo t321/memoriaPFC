@@ -1,4 +1,4 @@
-\chapter[Creación certificados digitales.]{Creación de los certificados digitales para la aplicación.}
+\chapter[Creación certificados digitales.]{Creación de los certificados digitales para la aplicación.}\label{cap:anexoB}
 
 En este anexo vamos a explicar como hemos realizado la generación de los certificados digitales usados tanto por la aplicación del móvil, como las aplicación web para la verificación de las firmas.
 

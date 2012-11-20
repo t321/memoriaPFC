@@ -16,7 +16,7 @@ El resultado de ejecutar este comando podemos verlo en la figura~\ref{fig:androi
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.4]{./ConfiguracionEclipse/imagenes/androidSDK.png}
+    \includegraphics[scale=0.4]{./AnexoConfiguracionEclipse/imagenes/androidSDK.png}
   \caption{Ventana de instalación del SDK de Android.}
   \label{fig:androidSDK}
 \end{figure}
@@ -25,14 +25,14 @@ En la pantalla que aparece podemos elegir que versión del SDK queremos instalar
 
 \begin{figure}
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/licencias.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/licencias.png}
   \caption{Ventana para aceptar las licencias.}
   \label{fig:licencias}
 \end{figure}
 
 \begin{figure}
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/SDKfinalizado.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/SDKfinalizado.png}
   \caption{Instalación del SDK finalizada.}
   \label{fig:SDKfinalizado}
 \end{figure}
@@ -41,7 +41,7 @@ Una vez hemos instalado el SDK (figura~\ref{fig:SDKfinalizado}) tenemos que inst
 
 \begin{figure}
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/instalacionADT.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/instalacionADT.png}
   \caption{Instalación del ADT en Eclipse.}
   \label{fig:instalacionADT}
 \end{figure}
@@ -50,7 +50,7 @@ Una vez instalados nos pide que reiniciemos Eclipse, al iniciar de nuevo nos apa
  
 \begin{figure}
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/configuracionSDK.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/configuracionSDK.png}
   \caption{Instalación del SDK en Eclipse.}
   \label{fig:configuracionSDK}
 \end{figure}
@@ -59,7 +59,7 @@ Como podemos observar en la figura~\ref{fig:nuevoProyectoAndroid} ya tenemos con
 
 \begin{figure}
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/nuevoProyectoAndroid.png}
   \caption{Creación de un nuevo proyecto Android.}
   \label{fig:nuevoProyectoAndroid}
 \end{figure}
@@ -72,7 +72,7 @@ Al igual que en el apéndice~\ref{cap:configuracionAndroidEclipse} necesitamos t
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/instalacionGAE.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/instalacionGAE.png}
   \caption{Instalación puglins Google App Engine.}
   \label{fig:instalacionGAE}
 \end{figure}
@@ -81,7 +81,7 @@ A nosotros nos interesa el paquete que está dentro de \textbf{SDK}, \textbf{Goo
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/instalacionPlugins.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/instalacionPlugins.png}
   \caption{Detalle de la descarga de plugins.}
   \label{fig:instalacionPlugins}
 \end{figure}
@@ -90,7 +90,7 @@ Cuando se vuelve a abrir Eclipse ya vemos que hay varias cosas que han cambiado 
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.5]{./ConfiguracionEclipse/imagenes/eclipseGAE.png}
+    \includegraphics[scale=0.5]{./AnexoConfiguracionEclipse/imagenes/eclipseGAE.png}
   \caption{Eclipse con el plugin de Google App Engine instalado.}
   \label{fig:eclipseGAE}
 \end{figure}
@@ -99,7 +99,7 @@ Una vez preparado Eclipse para que podamos programar, hay que genera los dominio
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.6]{./ConfiguracionEclipse/imagenes/appEngine.png}
+    \includegraphics[scale=0.6]{./AnexoConfiguracionEclipse/imagenes/appEngine.png}
   \caption{Panel de administración Google App Engine.}
   \label{fig:appEngine}
 \end{figure}
@@ -108,7 +108,7 @@ Pulsando el botón \textbf{Create Application} tenemos acceso a todos los parám
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.5]{./ConfiguracionEclipse/imagenes/createGAE.png}
+    \includegraphics[scale=0.5]{./AnexoConfiguracionEclipse/imagenes/createGAE.png}
   \caption{Parámetros para la creación de una nueva aplicación web.}
   \label{fig:createGAE}
 \end{figure}
@@ -117,18 +117,18 @@ Una vez creada la aplicación web, tenemos acceso a un dashboard donde podemos c
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.5]{./ConfiguracionEclipse/imagenes/dashboardGAE.png}
+    \includegraphics[scale=0.4]{./AnexoConfiguracionEclipse/imagenes/dashboardGAE.png}
   \caption{Dashboard para la configuración de una aplicación web.}
   \label{fig:dashboardGAE}
 \end{figure}
 
 Con esto habríamos terminado la parte de la creación de la aplicación web y a continuación vamos a explicar como hacer el despliegue de una aplicación con Eclipse.
 
-Una vez tenemos un proyecto creado y testeado procederemos a la subida, para eso tendríamos que pulsar en el botón de Google que vimos antes y pulsar en la opción \textbf{Deploy to App Engine}. Nos aparece una nueva ventana en la que debemos configurar unos parámetros básicos, pero si es la primera vez que vamos a hacer el despliegue tenemos pulsar en \textbf{App Engine project settings...} (figura~\ref{fig:GAESettings}), en la ventana que nos aparece podemos configurar muchos más parámetros, el más importante el \textbf{Application ID} y \textbf{Version}. En \textbf{Application ID} tenemos que poner el nombre con el que hemos creado la aplicación web, en nuestro caso \textit{repositoriorecibos}. También podemos cambiar la versión del SDK que queremos usar, que según hemos podido observar durante el desarrollo del proyecto se ha actualizado varias veces, si la base de datos es altamente replicada, etc.
+Una vez tenemos un proyecto creado y testeado procederemos a la subida, para eso tendríamos que pulsar en el botón de Google que vimos antes y pulsar en la opción \textbf{Deploy to App Engine}. Nos aparece una nueva ventana en la que debemos configurar unos parámetros básicos, pero si es la primera vez que vamos a hacer el despliegue tenemos que pulsar en \textbf{App Engine project settings...} (figura~\ref{fig:GAESettings}), en la ventana que nos aparece podemos configurar muchos más parámetros, el más importante el \textbf{Application ID} y \textbf{Version}. En \textbf{Application ID} tenemos que poner el nombre con el que hemos creado la aplicación web, en nuestro caso \textit{repositoriorecibos}. También podemos cambiar la versión del SDK que queremos usar, que según hemos podido observar durante el desarrollo del proyecto se ha actualizado varias veces, si la base de datos es altamente replicada, etc.
 
 \begin{figure}[hbt]
   \centering
-    \includegraphics[scale=0.5]{./ConfiguracionEclipse/imagenes/GAESettings.png}
+    \includegraphics[scale=0.4]{./AnexoConfiguracionEclipse/imagenes/GAESettings.png}
   \caption{Despliegue de una aplicación web.}
   \label{fig:GAESettings}
 \end{figure}

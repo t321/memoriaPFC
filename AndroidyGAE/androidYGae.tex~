@@ -115,7 +115,7 @@ Podemos ver que con esto garantizamos que la aplicación pueda conectarse a inte
 
 \item \textbf{classes.dex:} el archivo DEX donde están todas las clases precompiladas en byte code para la máquina virtual Dalvik.
 
-\item \textbf{resources.arsc:} es un fichero que contiene los recurdos precompiados como pueden ser los XML de las interfaces de la aplicación, etc.
+\item \textbf{resources.arsc:} es un fichero que contiene los recursos precompilados como pueden ser los XML de las interfaces de la aplicación, etc.
 
 \end{itemize}
 
@@ -128,14 +128,14 @@ En la imagen~\ref{fig:estructuraAPK} se pueden observar los ficheros y las carpe
   \label{fig:estructuraAPK}
 \end{figure}
 
-Toda aplicación en Android se contruye con unos componentes básicos como pueden ser activities, intents, views, services, contents providers, widgets y un largo etcétera. A continuación vamos a explicar los más importantes.
+Toda aplicación en Android se construye con unos componentes básicos como pueden ser activities, intents, views, services, contents providers, widgets y un largo etcétera. A continuación vamos a explicar los más importantes.
 
 \begin{itemize}
 
 %poner sección
 \item \textbf{Activity:} una activity es la entidad más básica de una interfaz de usuario donde se puede mostrar información en Android, podemos pensar que es como una ventana de cualquier aplicación de escritorio. Cada interfaz que vemos en una aplicación de Android es una activity. Android tiene un ciclo de manejo de activitys bastante complejo, se explicará en la sección~\ref{cap:desarrolandoAndroid} donde pondremos más incapié en el desarrollo de la aplicación móvil del proyecto.
 
-\item \textbf{Intent:} un intent es un componente practicamente imprescindible en cualquier aplicación de Android, es una forma de comunicación entre cualquier componente. Se pueden definir como mensajes o peticiones, ya que también puede comunicar aplicaciones entre sí. En el proyecto usamos intent para comunicar las activities y poder intercambiar datos entre ellas, también la usamos para abrir el lector de códigos QR que necesitamos, dentro de nuestra aplicación llamamos al intent que nos proporciona la aplicación lectora y cuando termine ella nos devuelve el valor que había en el código QR para que podamos tratarlo.
+\item \textbf{Intent:} un intent es un componente prácticamente imprescindible en cualquier aplicación de Android, es una forma de comunicación entre cualquier componente. Se pueden definir como mensajes o peticiones, ya que también puede comunicar aplicaciones entre sí. En el proyecto usamos intent para comunicar las activities y poder intercambiar datos entre ellas, también la usamos para abrir el lector de códigos QR que necesitamos, dentro de nuestra aplicación llamamos al intent que nos proporciona la aplicación lectora y cuando termine ella nos devuelve el valor que había en el código QR para que podamos tratarlo.
 
 \item \textbf{View:} son los componentes básicos con los que podemos contruir las interfaces gráficas, como pueden ser botones, barras de texto, campos de texto, spinner, etc. Android pone a nuestra disposición una gran cantidad de estos elementos, y además brinda la posibilidad de crear nuevos, según los vayamos necesitando. Estos objetos normalmente se añaden a una vista y se pueden añadir, modificar o borrar en ella. Estos objetos tienen un ID único en la aplicación por el que podemos controlarlo y añadirle por ejemplo el texto si es un campo de texto o un listener si es un botón para que cuando se pulse realizar la acción que necesitemos.
 
@@ -167,9 +167,9 @@ Como ya hemos dicho anteriormente para el desarrollo de la aplicación móvil he
 
 En este apartado vamos a explicar las entidades más importantes que existen en Android, como pueden ser las activity, fragment, y view usados en el proyecto.
 
-En el proyecto la entidad más importante que hemos usado es la \lstinline{Activity}. Normalmente las activity están enfocadas a interactuar con el usuario de alguna forma, ya puede ser necesitando de alguna acción del usuario o mostrando información y normalmente ocupan toda la pantalla del terminal, pero puede flotar dentro de otra activity o agruparse con otras usando la clase \lstinline{ActivityGroup}. Todas las subclases que hereden de \lstinline{Activity} tienen que implementar dos métodos impresindibles. Estos son \lstinline{onCreate(Bundle)} y \lstinline{onPause()}. El primero es donde se inicializa la activity y en el segundo es lo que ocurre cuando el usuario abandona la activity.
+En el proyecto la entidad más importante que hemos usado es la \lstinline{Activity}. Normalmente las activity están enfocadas a interactuar con el usuario de alguna forma, ya puede ser necesitando de alguna acción del usuario o mostrando información y normalmente ocupan toda la pantalla del terminal, pero puede flotar dentro de otra activity o agruparse con otras usando la clase \lstinline{ActivityGroup}. Todas las subclases que hereden de \lstinline{Activity} tienen que implementar dos métodos imprescindibles. Estos son \lstinline{onCreate(Bundle)} y \lstinline{onPause()}. El primero es donde se inicializa la activity y en el segundo es lo que ocurre cuando el usuario abandona la activity.
 
-Habitualmente toda Activity tiene asociada una interfáz gráfica que se diseña en un fichero XML, como veremos posteriormente, este archivo se le indica a cada Activity con el método \lstinline{setContentView(int);} al cual hay que pasarle una constante que genera automáticamente la clase \lstinline{R} de Android. Una vez se le ha indicado el archivo XML se puede obtener cada uno de los componentes (botones, cuadros de texto, etc) que componen la intefaz gráfica con el método \lstinline{findViewById(int)}. Todo este proceso se tiene que realizar dentro del método \lstinline{onCreate();} y se puede observar en el siguiente trozo de código.
+Habitualmente toda Activity tiene asociada una interfaz gráfica que se diseña en un fichero XML, como veremos posteriormente, este archivo se le indica a cada Activity con el método \lstinline{setContentView(int);} al cual hay que pasarle una constante que genera automáticamente la clase \lstinline{R} de Android. Una vez se le ha indicado el archivo XML se puede obtener cada uno de los componentes (botones, cuadros de texto, etc) que componen la interfaz gráfica con el método \lstinline{findViewById(int)}. Todo este proceso se tiene que realizar dentro del método \lstinline{onCreate();} y se puede observar en el siguiente trozo de código.
 
 \begin{lstlisting}[style=Java]
 @Override
@@ -214,7 +214,7 @@ public class Activity extends ApplicationContext {
 }
 \end{lstlisting}
 
-Como podemos ver en la figura \ref{fig:cicloActivity} podemos ver que el ciclo completo de una activity es desde el método \lstinline{onCreate(Bundle);} hasta que se realiza la llamada al método \lstinline{onDestroy();}. Como hemos visto antes en \lstinline{onCreate(Bundle);} se genera todo lo necesario para que la activity funcione, como puede ser la inicialización de la interfaz, la creación de un hilo para que realice una operación en background o cualquier otra acción que necesite ser inicializada. El método \lstinline{onDestroy();} se pararía el hilo y se liberá la memoria usada por la activity. Entre los procesos \lstinline{onStart();} y \lstinline{onStop();} es donde se mantienen los recursos para que la activity pueda mostrar los datos al usuario. Por ejemplo si tenemos un \lstinline{BroadcastReceiver}, que nos puede cambiar la interfaz de usuario pues lo registramos en el método \lstinline{onStart();} y lo paramos en \lstinline{onStop();}. Estos dos métodos se llaman mucho a lo largo de la ejecución de la activity cada vez que el usuario oculta la activity y vuelve a ejecutarla. Los métodos \lstinline{onResume();} y \lstinline{onPause();} se usan para intercambio de activity, cuando apagamos la pantalla del móvil y volvemos a encenderla, cuando giramos la pantalla, etc. En estos métodos se suelen usar \lstinline{Bundle} para intercambiar información entre los estados y así conseguir por ejemplo restaurar el texto de un cuadros de texto cuando vuelve a generarse.
+Como podemos ver en la figura \ref{fig:cicloActivity} podemos ver que el ciclo completo de una activity es desde el método \lstinline{onCreate(Bundle);} hasta que se realiza la llamada al método \lstinline{onDestroy();}. Como hemos visto antes en \lstinline{onCreate(Bundle);} se genera todo lo necesario para que la activity funcione, como puede ser la inicialización de la interfaz, la creación de un hilo para que realice una operación en background o cualquier otra acción que necesite ser inicializada. El método \lstinline{onDestroy();} se pararía el hilo y se libera la memoria usada por la activity. Entre los procesos \lstinline{onStart();} y \lstinline{onStop();} es donde se mantienen los recursos para que la activity pueda mostrar los datos al usuario. Por ejemplo si tenemos un \lstinline{BroadcastReceiver}, que nos puede cambiar la interfaz de usuario pues lo registramos en el método \lstinline{onStart();} y lo paramos en \lstinline{onStop();}. Estos dos métodos se llaman mucho a lo largo de la ejecución de la activity cada vez que el usuario oculta la activity y vuelve a ejecutarla. Los métodos \lstinline{onResume();} y \lstinline{onPause();} se usan para intercambio de activity, cuando apagamos la pantalla del móvil y volvemos a encenderla, cuando giramos la pantalla, etc. En estos métodos se suelen usar \lstinline{Bundle} para intercambiar información entre los estados y así conseguir por ejemplo restaurar el texto de un cuadro de texto cuando vuelve a generarse.
 
 En esta tabla podemos observar en cada estado del ciclo de vida de una activity puede ser matada y cual sería el próximo estado.
 \begin{center}
@@ -241,16 +241,16 @@ onDestroy() & Sí & Ninguna\\
 \end{tabular}
 \end{center}
 
-Antes de la versión 3.0 de Android las activity tenian que ocupar toda la ventana y para cambiar o mostrar otra pantalla había que generar una nueva activity de la siguiente forma:
+Antes de la versión 3.0 de Android las activity tenían que ocupar toda la ventana y para cambiar o mostrar otra pantalla había que generar una nueva activity de la siguiente forma:
 
 \begin{lstlisting}[style=Java]
 Intent intent = new Intent(activity, SplashScreenActivity.class);
 startActivity(intent);
 \end{lstlisting}
 
-Ese trozo de código se ejecuta en una activity y podemos ver que se crea un objetos \lstinline{Intent} al cual se le dice la activity en la que está y la activity que tiene que iniciar, en este caso la variable \lstinline{activity} es la actual, y \lstinline{SplashScreenActivity} es una activity que tiene la función de inciar todas las variables y realizar las conexiones básicas en el proyecto, acto seguido se usa el procedimiento \lstinline{startActivity(intent);} al que se le pasa el objeto \lstinline{Intent} creado anteriormente y con esto tendríamos la nueva activity ejecutándose.
+Ese trozo de código se ejecuta en una activity y podemos ver que se crea un objeto \lstinline{Intent} al cual se le dice la activity en la que está y la activity que tiene que iniciar, en este caso la variable \lstinline{activity} es la actual, y \lstinline{SplashScreenActivity} es una activity que tiene la función de inciar todas las variables y realizar las conexiones básicas en el proyecto, acto seguido se usa el procedimiento \lstinline{startActivity(intent);} al que se le pasa el objeto \lstinline{Intent} creado anteriormente y con esto tendríamos la nueva activity ejecutándose.
 
-Desde la versión 3.0 y posteriores las activity siguen ocupando toda la pantalla pero se dio la posibilidad al programador de que usara solo trozos de ella con una clase llamada \lstinline{Fragment} de esta forma no tendría que iniciar una nueva activity cada vez que quiera modificar la interfáz, de este modo se pudieron empezar a usar gestos de scroll laterar para mostrar varias interfaces o en pantallas grandes como una tablet poder modificarla sin tener que generar una nueva activity. 
+Desde la versión 3.0 y posteriores las activity siguen ocupando toda la pantalla pero se dio la posibilidad al programador de que usara solo trozos de ella con una clase llamada \lstinline{Fragment} de esta forma no tendría que iniciar una nueva activity cada vez que quiera modificar la interfaz, de este modo se pudieron empezar a usar gestos de scroll laterar para mostrar varias interfaces o en pantallas grandes como una tablet poder modificarla sin tener que generar una nueva activity. 
 \begin{figure}
   \centering
     \includegraphics[scale=0.3]{./Android/imagenes/gmailTablet.png}
@@ -272,7 +272,7 @@ Desde la versión 3.0 y posteriores las activity siguen ocupando toda la pantall
   \label{fig:swype}
 \end{figure}
 
-En la imagen~\ref{fig:gmailTablet} podemos ver la aplicación de Gmail diseñada mediante fragment y en ella si pulsamos algún correo en la parte izquierda de la aplicación nos mostraría el correo en la derecha sin tener que recagar la aplicación. En la imagen~\ref{fig:gmailMovil} podemos ver como en la versión movil no se usa esta forma por falta de espacio en la pantalla. Nosotros hemos realizado un diseño para intercambio de fragment mediante un gesto llamado swype o scroll lateral y como se puede ver en la imagen~\ref{fig:swype} podemos ver que no hay que volver a cargar otra activity ni nada, por lo que dotamos a la aplicación de una mayor fluidés.
+En la imagen~\ref{fig:gmailTablet} podemos ver la aplicación de Gmail diseñada mediante fragment y en ella si pulsamos algún correo en la parte izquierda de la aplicación nos mostraría el correo en la derecha sin tener que recargar la aplicación. En la imagen~\ref{fig:gmailMovil} podemos ver como en la versión movil no se usa esta forma por falta de espacio en la pantalla. Nosotros hemos realizado un diseño para intercambio de fragment mediante un gesto llamado swype o scroll lateral y como se puede ver en la imagen~\ref{fig:swype} podemos ver que no hay que volver a cargar otra activity ni nada, por lo que dotamos a la aplicación de una mayor fluidez.
 
 Para que una aplicación pueda usar una determinada activity, el programador primeramente tiene que definir el uso y su función en el archivo \textit{AndroidManifest.xml}. Podemos ver un extracto de dicho archivo donde definimos un par de activity usadas en el proyecto.
 \newpage
@@ -294,7 +294,7 @@ A continuación vamos explicar con más detenimiento la estructura que tiene un 
   \label{fig:estructuraBasicaAndroid}
 \end{figure}
 
-En la figura~\ref{fig:estructuraBasicaAndroid} podemos ver una captura de un proyecto recien creado. Podemos observar que se genera una carpeta principal en la que posteriormente colgarán el resto de carpetas necesarias. Estas carpetas son \textit{src}, \textit{gen}, \textit{assets}, \textit{bin}, \textit{res} y varios archivos sueltos como con \textit{AndroidManifest.xml}, \textit{proguard-project.txt}, \textit{project.properties}, vamos a explicar brevemente que contiene y cual es la función de dichas carpetas y documentos.
+En la figura~\ref{fig:estructuraBasicaAndroid} podemos ver una captura de un proyecto recién creado. Podemos observar que se genera una carpeta principal en la que posteriormente colgarán el resto de carpetas necesarias. Estas carpetas son \textit{src}, \textit{gen}, \textit{assets}, \textit{bin}, \textit{res} y varios archivos sueltos como con \textit{AndroidManifest.xml}, \textit{proguard-project.txt}, \textit{project.properties}, vamos a explicar brevemente que contiene y cual es la función de dichas carpetas y documentos.
 
 \begin{itemize}
 
@@ -304,13 +304,13 @@ En la figura~\ref{fig:estructuraBasicaAndroid} podemos ver una captura de un pro
 
 \item \textbf{bin:} es una carpeta donde se almacenan todos los archivos binarios, como puede ser el archivo APK, los archivos DEX, etc.
 
-\item \textbf{res:} esta carpeta la encargada de contener todos los recursos necesarios para nuestra aplicación. Esta carpeta se divide en varias, como por ejemplo \textit{drawable-hdpi}, \textit{drawable-ldpi}, \textit{drawable-mdpi}, \textit{drawable-xhdpi} es donde se añaden todas imágenes usadas, sonidos, videos, etc. Pero no todos los recursos son contenido multimedia, hay otras carpetas como por ejemplo la carpeta \textit{layout} donde se almacenan las diferentes interfaces usadas en el en formato XML o la carpeta \textit{values} donde se guardan todas las cadenas constantes en un archivo XML.
+\item \textbf{res:} esta carpeta la encargada de contener todos los recursos necesarios para nuestra aplicación. Esta carpeta se divide en varias, como por ejemplo \textit{drawable-hdpi}, \textit{drawable-ldpi}, \textit{drawable-mdpi}, \textit{drawable-xhdpi} es donde se añaden todas imágenes usadas, sonidos, vídeos, etc. Pero no todos los recursos son contenido multimedia, hay otras carpetas como por ejemplo la carpeta \textit{layout} donde se almacenan las diferentes interfaces usadas en el formato XML o la carpeta \textit{values} donde se guardan todas las cadenas constantes en un archivo XML.
 
-\item \textbf{AndroidManifest.xml:} como ya hemos explicado anteriormente es el archivo donde se declara todos los permisos e información de interes de la aplicación, como pueden ser las activity, los intent, la versión mínima que tiene que tener el móvil para ejecutar nuestra aplicación, etc.  
+\item \textbf{AndroidManifest.xml:} como ya hemos explicado anteriormente es el archivo donde se declara todos los permisos e información de interés de la aplicación, como pueden ser las activity, los intent, la versión mínima que tiene que tener el móvil para ejecutar nuestra aplicación, etc.  
 
 \item \textbf{project.properties:} es un archivo donde se pueden configurar diferentes parámetros del proyecto, como puede ser la API sobre la que se va a ejecutar el proyecto, o si queremos usar una herramienta que ofrece Google dentro del SDK para ofuscar el código llamada ProGuard.
 
-\item \textbf{proguard-project.txt:} ProGuard como hemos dicho antes es una herramienta que ofrece Google dentro del SDK de Android para ofuscación de código, ya que hay muchas herramientas de ingeniería inversa que mediante la decompilación de los archivos DEX se puede llegar casi a conseguir el código realizado sin permiso. En este archivo se puede configurar los diferentes valores para el uso de esta herramienta, tales como son que tipo de ofuscación queremos utilizar si solo sintáctica o semántica, si queremos que se pueda tracear la salida del archivo, etc. Para amplicar conocimientos sobre dicha herramienta podemos visitar esta web, \url{http://developer.android.com/tools/help/proguard.html} donde está toda la información necesaria.
+\item \textbf{proguard-project.txt:} ProGuard como hemos dicho antes es una herramienta que ofrece Google dentro del SDK de Android para ofuscación de código, ya que hay muchas herramientas de ingeniería inversa que mediante la decompilación de los archivos DEX se puede llegar casi a conseguir el código realizado sin permiso. En este archivo se puede configurar los diferentes valores para el uso de esta herramienta, tales como son: qué tipo de ofuscación queremos utilizar si solo sintáctica o semántica, si queremos que se pueda tracear la salida del archivo, etc. Para ampliar conocimientos sobre dicha herramienta podemos visitar esta web, \url{http://developer.android.com/tools/help/proguard.html} donde está toda la información necesaria.
 
 \end{itemize}
 
@@ -325,9 +325,9 @@ En este apartado de la memoria vamos a explicar lo que es, la configuración y c
 \subsection{Introducción.}
 Google App Engine es una conjunto de APIS que proporciona Google para construir tus propias aplicaciones web, que pueden ser alojadas y usadas en su servicio Google App y vendidas en Google Apps Marketplace. Además de alojamiento gratuito, Google ofrece un dominio, que es como el siguiente: \url{http://nombre\_de\_la\_aplicacion.appspot.com} y una base de datos propietaria de Google que se accede transparentemente a través de su API, gestión de usuarios mediante autentificación con cuentas Google del tipo: usuario@gmail.com, autentificación por federación o openID.
 
-Además de todas estas características Google proporciona APIS para el desarrollo con Java, Python y Go, este último un lenguaje experimental propiedad de Google. Para usar dicha API, Google también proporciona un plugin para Eclipse, en caso de que el lenguaje elegido sea Java, que ayuda al despliegue de la aplicación web, auto completado y gestión de de las aplicaciones creadas. 
+Además de todas estas características Google proporciona APIS para el desarrollo con Java, Python y Go, este último un lenguaje experimental propiedad de Google. Para usar dicha API, Google también proporciona un plugins para Eclipse, en caso de que el lenguaje elegido sea Java, que ayuda al despliegue de la aplicación web, auto completado y gestión de de las aplicaciones creadas. 
 
-En el anexo~\ref{cap:configuracionGAEEclipse} se puede ver como instalar el plugin de Google App Engine para Eclipse.
+En el anexo~\ref{cap:configuracionGAEEclipse} se puede ver como instalar el plugins de Google App Engine para Eclipse.
 
 En el proyecto se ha usado Java, por lo que las APIS de Python y Go no se han estudiado.
 
@@ -339,13 +339,13 @@ Para este proyecto hemos tenido que desarrollar dos aplicaciones web, una que es
 En esta parte voy a explicar en profundidad que es un servlet, los archivos de configuración, los archivos JSP y el resto de archivos necesarios para poder desplegar una aplicación en Google App Engine.
  
 \subsubsection{¿Qué es un servlet?.}
-Un servlet es la evolución de los antiguos applet de Java, su uso más común es generar páginas web dinámicamente con los parámetros que recibe mediante una petición realizada por el navegador web y datos que están almacenados en el servidor web.
+Un servlet es la evolución de los antiguos applets de Java, su uso más común es generar páginas web dinámicamente con los parámetros que recibe mediante una petición realizada por el navegador web y datos que están almacenados en el servidor web.
 
 Un servlet es un objeto Java que tiene que ser ejecutado en un servidor web o contenedor J2EE, que recibe unos parámetros, realiza una o varias acciones y devuelve un resultado que puede ser desde un código HTML, un JSP que genera dinámicamente un código HTML, un JSON o una simple cadena de texto.
 
 Los servlets, junto con JSP, son la solución de Oracle a la generación de contenido dinámico equivalente al lenguaje PHP, ASP de Microsoft, Ruby, etc.
 
-Los servlet forman parte de Java 2 Enterprise Edition (J2EE) que a su vez es una amplicación de Java 2 Standard Edition (J2SE), para su uso es necesario un servidor web que pueda interpretar código Java, el más famoso es Apache Tomcat que está desarrollado y mantenido por Apache Foundation, que son los encargados también de mantener y desarrollar el famoso servidor web Apache, aunque existen otro como JBoss, Jetty o GlassFish, pero como podremos ver no son los únicos, ya que el propio Google App Engine también funciona internamente a base de servlets y JSP.
+Los servlets forman parte de Java 2 Enterprise Edition (J2EE) que a su vez es una amplicación de Java 2 Standard Edition (J2SE), para su uso es necesario un servidor web que pueda interpretar código Java, el más famoso es Apache Tomcat que está desarrollado y mantenido por Apache Foundation, que son los encargados también de mantener y desarrollar el famoso servidor web Apache, aunque existen otro como JBoss, Jetty o GlassFish, pero como podremos ver no son los únicos, ya que el propio Google App Engine también funciona internamente a base de servlets y JSP.
 
 Para crear un servlet hay que generar una clase Java que implemente la interfaz \lstinline{javax.servlet.Servlet} como puede ser \lstinline{javax.servlet.http.HttpServlet} que es un servlet específico para conexiones HTTP.
  
@@ -385,7 +385,7 @@ out.flush();
 
 Como podemos ver el objeto \lstinline{resp} nos da la posibilidad de conseguir un objeto \lstinline{java.io.PrintWriter} por el que podemos enviar lo que necesitemos.
 
-La forma de acceder a un servlet mandándole peticiones \lstinline{GET} sería la siquiente: \url{https://servertimestamp.appspot.com/search?id=63&texto=Prueba}. Como podemos ver la dirección base es: \url{https://servertimestamp.appspot.com/}, el servlets estaría mapeado internamente en el servidor web, como ya veremos, en la dirección \url{/search} y el primer parámetro va precedido de \url{?id\_parametro} y el resto de \url{\&id\_parametro}. En nuestro ejemplo tendría dos parámetros que son \textit{id} y \textit{texto}, con sus valores después del =.
+La forma de acceder a un servlet mandándole peticiones \lstinline{GET} sería la siguiente: \url{https://servertimestamp.appspot.com/search?id=63&texto=Prueba}. Como podemos ver la dirección base es: \url{https://servertimestamp.appspot.com/}, el servlets estaría mapeado internamente en el servidor web, como ya veremos, en la dirección \url{/search} y el primer parámetro va precedido de \url{?id\_parametro} y el resto de \url{\&id\_parametro}. En nuestro ejemplo tendría dos parámetros que son \textit{id} y \textit{texto}, con sus valores después del =.
 
 El método \lstinline{POST} es el utilizado para pasar parámetros por medio de formularios.
 
