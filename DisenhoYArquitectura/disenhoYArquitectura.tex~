@@ -1,12 +1,12 @@
-\chapter{Diseño e implementación del proyecto.}
-
+\chapter{Diseño e implementación del proyecto.}\label{cap:DisenhoEImplementacion}
+\markboth{CAPÍTULO \ref{cap:DisenhoEImplementacion}. DISEÑO E IMPLEMENTACIÓN DEL PROYECT.O}{}
 En este capítulo vamos a explicar el método elegido para el diseño de las aplicaciones del proyecto y la arquitectura que hemos tenido que diseñar para la implementación del proyecto.
 
 \section{Metodología de diseño usada.}
 
 La metodología usada a lo largo de todo el proyecto ha sido una metodología ágil de desarrollo. Esta metodología fue elegida ya que se basa en dar varias iteraciones y en cada iteración se va añadiendo nuevas funcionalidades al proyecto. Normalmente esta metodología se usa por equipo de programadores pero en este caso sólo estaba yo como programador y el director de proyecto fin de carrera como director del proyecto software. Al estar sólo como programador, no hemos podido aplicar ninguna de las metodologías ágiles que ya existen, por lo que hemos tomado las características generales y otras que más nos interesaban de cada una.
 
-Las características general es que es un desarrollo iterativo e incremental. Cada uno de los periodos en los que se divide el proceso de diseño e implementación se llama etapas, que deben de tener una duración de entre una a cuatro semanas y al final de cada una debemos tener una demo funcional del proyecto, esta idea nos gustó ya que después de cada reunión añadíamos cosas nuevas al proyecto y a su vez podíamos ver como iba evolucionando.  
+La característica general es que es un desarrollo iterativo e incremental. Cada uno de los periodos en los que se divide el proceso de diseño e implementación se llama etapas, que deben de tener una duración de entre una a cuatro semanas y al final de cada una debemos tener una demo funcional del proyecto, esta idea nos gustó ya que después de cada reunión añadíamos cosas nuevas al proyecto y a su vez podíamos ver como iba evolucionando.  
 
 \section{Arquitectura del proyecto.}
 
@@ -14,12 +14,12 @@ La arquitectura básica del proyecto es la que podemos ver en la figura~\ref{fig
 
 \begin{figure}
   \centering
-    \includegraphics[scale=0.3]{./DisenhoYArquitectura/imagenes/arquitecturaBasica.png}
+    \includegraphics[scale=0.5]{./DisenhoYArquitectura/imagenes/arquitecturaBasica.png}
   \caption{Arquitectura básica del proyecto.}
   \label{fig:arquitecturaBasica}
 \end{figure}
 
-Podemos ver que la idea es tener dos aplicaciones web que son representadas por las nubes, ya que estaría en internet y una aplicación para un terminar Android. Como ya se ha explicado en capítulos anteriores las aplicaciones web se ha usado Google App Engine para el desarrollo y un terminar Android para la realización de las firmas. 
+Podemos ver que la idea es tener dos aplicaciones web que son representadas por las nubes, ya que estaría en internet y una aplicación para un terminar Android. Como ya se ha explicado en capítulos anteriores en las aplicaciones web se ha usado Google App Engine para el desarrollo del proyecto y un terminar Android para la realización de las firmas. 
 
 En la figura~\ref{fig:estructura} podemos ver la estructura final que tiene el proyecto, con las dos aplicaciones web diferenciadas y la aplicación del telefono.
 
@@ -63,7 +63,7 @@ A continuación vamos a explicar cada una de las tres partes en las que se divid
 \end{figure}
 
 \begin{itemize}
-\item \textbf{Aplicación Móvil:} podemos ver en la figura~\ref{fig:aplicacionMovil} la estructura general de la aplicación móvil. Como podemos ver tiene varias partes, podemos diferenciar el proceso de lectura del código QR, uso de certificados, realización de la firma digital y subirla a la aplicación web, las conexiones con las aplicaciones web, la parte de listado de las firmas y la conexión con la base de datos. Cada una de ellas tiene relación con las otras como podemos ver. El listado de las firmas podrá listarlas desde la base de datos o directamente de la aplicación web, dependiendo del caso en el que nos encontremos.
+\item \textbf{Aplicación Móvil:} podemos ver en la figura~\ref{fig:aplicacionMovil} la estructura general de la aplicación móvil. Como podemos observar tiene varias partes, podemos diferenciar el proceso de lectura del código QR, uso de certificados, realización de la firma digital y subirla a la aplicación web, las conexiones con las aplicaciones web, la parte de listado de las firmas y la conexión con la base de datos. Cada una de ellas tiene relación con las otras como podemos apreciar. El listado de las firmas podrá listarlas desde la base de datos o directamente de la aplicación web, dependiendo del caso en el que nos encontremos.
 \end{itemize}
 
 \section{Implementación del proyecto.}
@@ -92,7 +92,7 @@ Lo primero que pensamos cuando nos pusimos a diseñar la aplicación era que el 
   \label{fig:botonAnhadir}
 \end{figure}
 
-La aplicación se puede dividir principalmente en dos partes claramente diferenciadas, una en la que se muestra las firmas realizadas y otra en la que se muestran que tienen como destino el usuario que está ejecutando la aplicación. Las dos partes son prácticamente idénticas y tienen el mismo uso. Si pulsamos encima de cualquier recibo de la lista nos mostrará toda la información de dicha firma, podemos ver un ejemplo en la figura~\ref{fig:informacionFirma}. Podemos observar todos los datos necesarios, como pueden ser destino, quien ha realizado la firma, la fecha, el texto, etc y también podemos ver si está verificada con el tick de color verde o una señal de error roja en caso contrario, que podemos ver en la esquina superior derecha. En el caso de los recibos de los que se es destino se indica de una forma más clara quien es el que usuario que envía el mensaje, pero el resto de la información es la misma.
+La aplicación se puede dividir principalmente en dos partes claramente diferenciadas, una en la que se muestra las firmas realizadas y otra en la que se muestran que tienen como destino el usuario que está ejecutando la aplicación. Las dos partes son prácticamente idénticas y tienen el mismo uso. Si pulsamos encima de cualquier recibo de la lista nos mostrará toda la información de dicha firma, podemos ver un ejemplo en la figura~\ref{fig:informacionFirma}. Podemos observar todos los datos necesarios, como pueden ser destino, quien ha realizado la firma, la fecha, el texto, etc y también podemos ver si está verificada con el tick de color verde o una señal de error roja en caso contrario, que podemos ver en la esquina superior derecha. En el caso de los recibos de los que se es destino de la firma, se indica de una forma más clara quien es el que usuario que envía el mensaje, pero el resto de la información es la misma.
 
 En la información que nos proporcionan podemos ver la dirección del servidor de tiempo usado y si pulsamos en ella se abrirá el navegador con una dirección donde podremos confirmar el hash y la fecha en la que se realizó la firma.
 
@@ -173,7 +173,7 @@ textPath.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
 
 Creamos la variable EditTextPreference donde mostraremos el password del certificado que estamos usando para firmar el texto. A continuación implementamos el listener \lstinline{OnPreferenceChangeListener}, el cual se activará cuando cambiemos el password del certificado. Podemos observar que cuando introducimos un nuevo password hacemos una comprobación para ver si después del cambio podemos seguir usando dicho certificado, si no es posible informamos al usuario mostrando un mensaje en el que se le indicará que no se ha guardado el password.
 
-\item \textbf{ConexionRepositorio.java:} en esta clase se ha implementado todo lo referente a interactuar con la aplicación web Repositorio General. En dicha clase se ha implementado el método para añadir un recibo nuevo, listar todos los recibos que hay guardados, etc. Todos los métodos son estáticos para no tener que crear instancias de esta clase, además se vio que teníamos que crear una nueva conexión cada vez que queríamos añadir un nuevo nuevo recibo, por lo que no tendría sentido crea instancias de esta clase. A continuación podemos ver el método que añade un nuevo recibo.
+\item \textbf{ConexionRepositorio.java:} en esta clase se ha implementado todo lo referente a interactuar con la aplicación web Repositorio General. En dicha clase se ha implementado el método para añadir un recibo nuevo, listar todos los recibos que hay guardados, etc. Todos los métodos son estáticos para no tener que crear instancias de esta clase, además se vio que teníamos que crear una nueva conexión cada vez que queríamos añadir un nuevo recibo, por lo que no tendría sentido crea instancias de esta clase. A continuación podemos ver el método que añade un nuevo recibo.
 
 \begin{lstlisting}[style=Java]
 public static String addRow(String plainText, String tokenTime, Account account, String to) {
@@ -233,7 +233,7 @@ La función necesita una serie de parámetros para poder ser invocada, estos par
 
 Esta clase tiene que heredar de \lstinline{SQLiteOpenHelper} que es la clase genérica que proporciona Android para manejo de la base de datos SQLite que tiene. Hay que implementar el constructor y dos métodos más obligatoriamente \lstinline{public void onCreate(SQLiteDatabase db);} y \lstinline{public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion);}, el primero es usado para crear la base de datos en la primera ejecución y el segundo para actualizar la base de datos cuando sea necesario.
 
-La base de datos se crea que con la siguiente sentencia SQL, podemos verla en el siguiente trozo de código.
+La base de datos se crea con la siguiente sentencia SQL, podemos verla en el siguiente trozo de código.
 
 \begin{lstlisting}[style=Java]
 static final String KEY_SEQ_NUM = "NUM_SEC";
@@ -273,7 +273,7 @@ mTabsAdapter.addTab(bar.newTab().setText("Repositorio general"), SignaturesGener
 mTabsAdapter.addTab(bar.newTab().setText("Firmas para ti"), SignaturesForYou.class, null);
 \end{lstlisting}
 
-Además de la creación de los elementos anteriores esta clase también es la encargada de crear los menús, que en la versión 4.0 de Android tienden a desaparecer debido a la desaparición del botón físico de menú en los nuevos terminales. En las nuevas versión el botón de menú se añade a la action bar, junto con las acciones más importantes. A continuación podemos ver como se crean y añaden los botones de añadir un nuevo recibo, el de configuración o el de salir de la aplicación.
+Además de la creación de los elementos anteriores esta clase también es la encargada de crear los menús, que en la versión 4.0 de Android tienden a desaparecer debido a la desaparición del botón físico de menú en los nuevos terminales. En las nueva versión el botón de menú se añade a la action bar, junto con las acciones más importantes. A continuación podemos ver como se crean y añaden los botones de añadir un nuevo recibo, el de configuración o el de salir de la aplicación.
 
 \begin{lstlisting}[style=Java]
 @Override
@@ -344,7 +344,7 @@ public void onActivityResult(int requestCode, int resultCode, Intent intent) {
 
 \begin{itemize}
 
-\item \textbf{Login.java:} esta clase es la encargada de realizar el login en la aplicación web Repositorio General. Google proporciona un método de login si se tienen las credenciales, cosa que tenemos gracias a que en Android se necesita tener una cuenta de Google para poder usar Google Play y los diferentes servicios que ofrece. La dirección a la que tenemos que dirigirnos es a: \url{https://repositoriorecibos.appspot.com/\_ah/login}. Esta clase tiene una variable privada que es el token de autentificación que conseguimos mediante la realización del login, para conseguirlo mostramos todas las cuentas de Google que hay configuradas en el terminal Android, cuando el usuario selecciona una de ellas iniciamos la conexión con el servidor y recibimos el token. Esto se hace todo el segundo plano para que la aplicación no se quede parada mientras se realiza el proceso de obtención del token. En el código que sigue podemos ver el proceso de obtención del token.
+\item \textbf{Login.java:} esta clase es la encargada de realizar el login en la aplicación web Repositorio General. Google proporciona un método de login si se tienen las credenciales, cosa que tenemos gracias a que en Android se necesita tener una cuenta de Google para poder usar Google Play y los diferentes servicios que ofrece. La dirección a la que tenemos que dirigirnos es a: \url{https://repositoriorecibos.appspot.com/\_ah/login}. Esta clase tiene una variable privada que es el token de autentificación que conseguimos mediante la realización del login, para conseguirlo mostramos todas las cuentas de Google que hay configuradas en el terminal Android, cuando el usuario selecciona una de ellas iniciamos la conexión con el servidor y recibimos el token. Esto se hace todo en segundo plano para que la aplicación no se quede parada mientras se realiza el proceso de obtención del token. En el código que sigue podemos ver el proceso de obtención del token.
 
 \begin{lstlisting}[style=Java]
 Thread t = new Thread() {
@@ -627,7 +627,7 @@ En la figura~\ref{fig:clasesReposotorioGeneral} se puede ver las clases que form
 
 \begin{itemize}
 
-\item \textbf{Dao.java:} al igual en el servidor de timestamp esta clase es la encargada de hacer todas operaciones relacionadas con la base de datos.
+\item \textbf{Dao.java:} al igual que en el servidor de timestamp, esta clase es la encargada de hacer todas las operaciones relacionadas con la base de datos.
 
 \item \textbf{DaoUserCert.java:} como hemos implementado dos bases de datos, una para guardar las firmas y otra para guardar los certificados de clave pública que se necesitan, esta clase es la encargada de realizar todas las operaciones en la base de datos donde se guardan los certificados. 
 
@@ -768,7 +768,7 @@ Ese objeto \lstinline{JSON} se añade un objeto \lstinline{JSONArray}, que es el
 
 \begin{itemize}
 
-Podemos observar hay un cuadro de texto para introducir la cadena que devuelve el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en \lstinline{Base64} y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habíamos revocado dicho certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
+Podemos observar que hay un cuadro de texto para introducir la cadena que devuelve el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en \lstinline{Base64} y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habíamos revocado dicho certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
 
 \end{itemize}
 

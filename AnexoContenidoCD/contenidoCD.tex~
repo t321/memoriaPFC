@@ -1,6 +1,7 @@
-\chapter{Contenido del CD.}
+\chapter{Contenido del CD.}\label{cap:contenidoCD}
+\markboth{ANEXO \ref{cap:contenidoCD}. CONTENIDO DEL CD}{}
 
-El CD que acompaña a la memoria contine los siguientes archivos.
+El CD que acompaña a la memoria contine los siguientes archivos:
 
 \begin{itemize}
 

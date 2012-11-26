@@ -7,6 +7,14 @@
 %\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{eurosym}
+\usepackage{pdfpages}
+
+
+%para que la sección sea en mínuscula y no en mayusculas
+\usepackage[nouppercase]{scrpage2} % encabezados
+\pagestyle{scrheadings} %encabezados
+\setlength{\headheight}{1.1\baselineskip} %encabezados
+
 
 \usepackage{color}
 \definecolor{gray97}{gray}{.97}
@@ -15,7 +23,7 @@
 
 \usepackage{listings}
 \lstset{ frame=Ltb,
-framerule=0.4pt,
+framerule=0pt,
 aboveskip=0.5cm,
 framextopmargin=3pt,
 framexbottommargin=3pt,
@@ -37,7 +45,7 @@ keywordstyle=\bfseries,
 %numbersep=15pt,
 %numberstyle=\tiny,
 %numberfirstline = false,
-%breaklines=true,
+breaklines=true,
 tabsize=2,
 }
 
@@ -60,35 +68,43 @@ basicstyle=\footnotesize\ttfamily,
 % estilo para código XML
 \lstdefinestyle{XML}
 {language=XML,
+basicstyle=\footnotesize\ttfamily,
 }
 
 % estilo para código HTML
 \lstdefinestyle{HTML}
 {language=HTML,
+basicstyle=\footnotesize\ttfamily,
 }
 
-%para los márgenes
-%\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
-%\geometry{a4paper}
-%\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}
 
 \usepackage[left=2.5cm,top=3.5cm,right=2.5cm,bottom=3cm]{geometry} 
 
 
-\title{\Huge Plataforma de firma digital móvil en el contexto universitario.}
-	
- 	\author{Juan Antonio Pérez Ariza \\
-		Escuela Técnica Superior Ingeniería Informática \\
-		Universidad de Málaga \\
-		\\
-		Profesor: \\
-		Isaac Agudo Ruíz\\
-		Departamento Lenguajes y Ciencias de la Comunicación \\
-		Universidad de Málaga}
-
 \begin{document}
-	\maketitle	
+	%\maketitle	
 	
+	\pagenumbering{roman} % para comenzar la numeracion de paginas en numeros romanos
+	%portada
+	\includepdf{./primera.pdf}
+
+	\newpage
+	\mbox{}
+
+	
+	%acta
+	\includepdf{./acta.pdf}
+		
+	\newpage
+	\mbox{}
+
+
+	\chapter*{}
+
+	\begin{flushright}
+	\textit{Dedicado a mi familia por todo el apoyo que he recibido \\y a mis amigos por aguantarme a lo largo de la carrera y el proyecto fin de carrera.}
+	\end{flushright}
+		
 	%Table of contents	
 	\tableofcontents
 	

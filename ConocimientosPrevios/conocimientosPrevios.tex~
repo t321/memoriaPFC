@@ -1,4 +1,5 @@
 \chapter[Conocimientos previos]{Conocimientos previos sobre las tecnologías usadas.}\label{cap:conocimientos}
+\markboth{CAPÍTULO \ref{cap:conocimientos}. CONOCIMIENTOS PREVIOS}{}
 
 En este segundo capítulo vamos a explicar cuáles son las ideas previas de las que partimos y los conocimientos que poseíamos sobre las tecnologías que hemos usado en el proyecto. Haciendo una breve explicación sobre su funcionamiento, su uso, su historia y sus recientes versiones.
 
@@ -6,7 +7,7 @@ El principal elemento usado en el proyecto es el lenguaje de programación Java,
 
 \section{El lenguaje de programación Java}
 
-Java es un lenguaje de programación orientado a objetos que fue diseñado por James Gosling\footnote{Para más información sobre James Gosling: \url{http://en.wikipedia.org/wiki/James\_Gosling}} para Sun Microsystems y que recientemente ha sido comprado por Oracle Corporation. Fue lanzado en 1995 y ha sido el centro de toda la plataforma Java de Sun Microsystems. Es un lenguaje con una sintaxis muy parecida a C o C++, pero con la gran ventaja de que el manejo de punteros y objetos es automático, al igual que la recogida de basura.
+Java es un lenguaje de programación orientado a objetos que fue diseñado por James Gosling\footnote{ Para más información sobre James Gosling: \url{http://en.wikipedia.org/wiki/James\_Gosling}} para Sun Microsystems y que recientemente ha sido comprado por Oracle Corporation. Fue lanzado en 1995 y ha sido el centro de toda la plataforma Java de Sun Microsystems. Es un lenguaje con una sintaxis muy parecida a C o C++, pero con la gran ventaja de que el manejo de punteros y objetos es automático, al igual que la recogida de basura.
 
 Java es un lenguaje en el que hay que compilar los códigos fuentes para crear unos archivos intermedios llamados bytecodes, los archivos *.class, que luego serán interpretados por la máquina virtual de Java (JVM). Esta dependerá de la arquitectura en la que se quiera ejecutar la aplicación Java. Gracias a esto se puede decir que Java es un lenguaje multiplataforma, lo que significa que un mismo código Java se puede ejecutar en Linux, en Windows, en Mac o cualquier otro sistema para el cual exista una máquina virtual, lo que en inglés se llama ``write once, run anywhere" (WORA). Además de esta importante ventaja Java es un lenguaje de propósito general, concurrente, basado en clases y orientado a objetos. Java es el segundo lenguaje de programación más popular de 2012, gracias a las aplicaciones web cliente-servidor que tienen tanto auge en estos momentos, como podemos ver en la figura \ref{fig:indicetiobe}.
 
@@ -43,7 +44,7 @@ En 2009-2010 Oracle Corporation compró Sun Microsystems por lo que Java actualm
 	
 	\item \textbf{JDK 1.1} (19 de febrero de 1997): Las primeras características añadidas fueron una reestructuración intensiva del modelo de eventos AWT (Abstract Windowing Toolkit), clases internas (inner classes), JavaBeans, JDBC (Java Database Connectivity), para la integración de bases de datos y RMI (Remote Method Invocation).
 	
-     \item \textbf{JDK 1.2}(8 de diciembre de 1998): Recibió el nombre en clave Playground. Esta y las siguientes versiones fueron recogidas bajo la denominación Java 2 y el nombre "J2SE" (Java 2 Platform, Standard Edition), reemplazó a JDK para distinguir la plataforma base de J2EE (Java 2 Platform, Enterprise Edition) y J2ME (Java 2 Platform, Micro Edition). 
+     \item \textbf{JDK 1.2}(8 de diciembre de 1998): Recibió el nombre en clave Playground. Esta y las siguientes versiones fueron recogidas bajo la denominación Java 2 y el nombre ``J2SE" (Java 2 Platform, Standard Edition), reemplazó a JDK para distinguir la plataforma base de J2EE (Java 2 Platform, Enterprise Edition) y J2ME (Java 2 Platform, Micro Edition). 
     Se añadieron las siguientes mejoras, la palabra reservada strictfp, reflexión en la programación, la API gráfica (Swing) fue integrada en las clases básicas, la máquina virtual (JVM) de Sun fue equipada con un compilador JIT (Just in Time) por primera vez, Java Plug-in, Java IDL, una implementación de IDL (Lenguaje de Descripción de Interfaz) para la interoperabilidad con CORBA y Colecciones.
 
     \item \textbf{J2SE 1.3} (8 de mayo de 2000): Recibió el nombre en clave Kestrel. Los cambios más notables fueron: la inclusión de la máquina virtual HotSpot JVM, RMI fue cambiado para que se basara en CORBA, JavaSound, se incluyó el Java Naming and Directory Interface (JNDI) en el paquete de bibliotecas principales (anteriormente disponible como una extensión), Java Platform Debugger Architecture (JPDA).
@@ -68,7 +69,7 @@ void displayWidgets (Iterable<Widget> widgets) {
 
 \section{El entorno de programación Eclipse.}
 
-Eclipse es un entorno integral de desarrollo que consta de un entorno de desarrollo integrado (IDE) y es extensible mediante plugins que están escritos en Java. Puede ser usado para una larga lista de lenguajes de programación como pueden ser C, C++, Haskell, Perl, PHP, Python, Android y un largo etcétera. Fue originalmente desarrollado por IBM y fue lanzado con la licencia de software Eclipse Public License\footnote{Para más información visite: \url{http://en.wikipedia.org/wiki/Eclipse\_Public\_License}} la cual es una licencia de software libre. El SDK de Eclipse es libre y tiene licencia Open Source por lo que cualquier persona con los conocimientos necesarios puede programar el plugin que necesite para Eclipse. Fue el primer entorno de programación que funcionó bajo GNU Classpath y que funcionaba sin problemas con IcedTea. En la figura \ref{fig:pantallaEclipse} se puede ver el aspecto que tiene.
+Eclipse es un entorno integral de desarrollo que consta de un entorno de desarrollo integrado (IDE) y es extensible mediante plugins que están escritos en Java. Puede ser usado para una larga lista de lenguajes de programación como pueden ser C, C++, Haskell, Perl, PHP, Python, Android y un largo etcétera. Fue originalmente desarrollado por IBM y fue lanzado con la licencia de software Eclipse Public License\footnote{ Para más información visite: \url{http://en.wikipedia.org/wiki/Eclipse\_Public\_License}} la cual es una licencia de software libre. El SDK de Eclipse es libre y tiene licencia Open Source por lo que cualquier persona con los conocimientos necesarios puede programar el plugin que necesite para Eclipse. Fue el primer entorno de programación que funcionó bajo GNU Classpath y que funcionaba sin problemas con IcedTea. En la figura \ref{fig:pantallaEclipse} se puede ver el aspecto que tiene.
 
 \begin{figure}
   \centering
@@ -111,9 +112,9 @@ Eclipse comenzó como un proyecto de IBM Canadá. En noviembre de 2001 se creó 
 
 \section{Criptografía.}\label{lbl:criptografia}
 
-La criptografía es la ciencia que se encarga del estudio y creación de técnicas para la protección de una comunicación, para que solamente los usuarios autorizados pueda verla, leerla y entenderla. En la actualidad la criptografía es un término que se usa de forma similar a encriptación, que es el proceso para transformar una información mediante diferentes algoritmos, en un mensaje que no pueda entender un atacante que intercepte una comunicación. 
+La criptografía es la ciencia que se encarga del estudio y creación de técnicas para la protección de una comunicación, para que solamente los usuarios autorizados puedan verla, leerla y entenderla. En la actualidad la criptografía es un término que se usa de forma similar a encriptación, que es el proceso para transformar una información mediante diferentes algoritmos, en un mensaje que no pueda entender un atacante que intercepte una comunicación. 
 
-En el proyecto hemos usado una criptografía llamada \textbf{Criptografía de Clave Pública}, que como veremos a continuación en la historia brevemente y en el capítulo~\ref{cap:criptografia} en el que se explicará la criptografía usada en el proyecto, en profundidad, consta de dos claves, ambas enlazadas matemáticamente y si sabemos una no podremos de ninguna forma conseguir la otra. La pública  es la que tendría la persona que quiera desencriptar el mensaje, que a su vez da nombre a este algoritmo y otra privada que solo conocerá la persona que quiere encriptar el mensaje.
+En el proyecto hemos usado una criptografía llamada \textbf{Criptografía de Clave Pública}, que como veremos a continuación en la historia brevemente y posteriormente en el capítulo~\ref{cap:criptografia}, en el que se explicará la criptografía usada a lo largo del proyecto con mas profundidad, consta de dos claves, ambas enlazadas matemáticamente y si conocemos una no podremos de ninguna forma conseguir la otra. La pública es la que tendría la persona que quiera desencriptar el mensaje, que a su vez da nombre a este algoritmo y otra privada que sólo conocerá la persona que quiere encriptar el mensaje.
 
 La criptografía ha evolucionado mucho y actualmente no solo se usan para proteger mensajes, si no que también se usa para proteger la integridad de ellos. Este es uno de los usos más común de la criptografía de clave pública.
 
@@ -123,12 +124,13 @@ Podemos hacer dos grandes grupos dentro de la historia de la criptografía, la c
 
 \subsection{Criptografía clásica.}
 
-	Durante la época de la criptografía clásica solo se quería proteger el mensaje que se enviaba de la mirada de curiosos y enemigos por lo que solo existían algoritmos de encriptación, la integridad del mensaje no importaba en esa época.  
+	Durante la época de la criptografía clásica sólo se quería proteger el mensaje que se enviaba de la mirada de curiosos y enemigos por lo que únicamente existían algoritmos de encriptación, la integridad del mensaje no importaba en esa época.  
 	
-	En dicha época todos los algoritmos de cifrados que existían eran por transposición o sustitución de caracteres. A continuación vamos a poner unos ejemplos de los algoritmos utilizados más famosos. 
+	En dicha época todos los algoritmos de cifrados que existían eran por transposición o sustitución de caracteres. A continuación exponer unos ejemplos de los algoritmos utilizados más famosos. 
 \begin{itemize}
 
-	\item \textbf{Cifrado Cesar:} dicho cifrado es famoso porque los usaban las centurias romanas para comunicarse entre ellas y que si un mensaje era interceptado no pudiera ser leído. Consiste en sustituir cada carácter del mensaje por el que hay tres lugares a la derecha. Por ejemplo si tenemos el mensaje ``Hola" si lo ciframos con este cifrado conseguimos ``Krod", en la figura \ref{fig:cifradoCesar} podemos ver como es el cifrado.
+	\item \textbf{Cifrado Cesar:} dicho cifrado es famoso porque los usaban las centurias romanas para comunicarse entre ellas de manera que si un mensaje era interceptado no pudiera ser leído. Consiste en sustituir cada carácter del mensaje por el que hay tres lugares a la derecha. Por ejemplo si tenemos el mensaje ``Hola" si lo ciframos con este sistema conseguimos ``Krod", en la figura \ref{fig:cifradoCesar} podemos ver como es el cifrado.
+	
 	Para desencriptar solo habría que intercambiar por la tercera letra anterior.
 
 \begin{figure}[h]
@@ -156,7 +158,7 @@ Podemos hacer dos grandes grupos dentro de la historia de la criptografía, la c
   \label{fig:cifradoTransposicion}
 \end{figure}	
 
-	\item \textbf{Cifrado Producto:} Es un cifrado que combina sustitución y transposición y se puede considerar como un encadenamiento de varios cifrados. Esto da lugar a cifrados complejos, seguros y difíciles de atacar, ya que tendríamos que averiguar no solo el método de cifrado utilizado, si no que también tendríamos que saber el orden en el que se ha ejecutado las encriptaciones.
+	\item \textbf{Cifrado Producto:} Es un cifrado que combina sustitución y transposición y se puede considerar como un encadenamiento de varios cifrados. Esto da lugar a cifrados complejos, seguros y difíciles de atacar, ya que tendríamos que averiguar no sólo el método de cifrado utilizado, sino que también tendríamos que saber el orden en el que se ha ejecutado las encriptaciones.
 
 	\item \textbf{Cifrado Vernam:} es un tipo de cifrado que se denomina cifrado de flujo. El texto en claro se combina con una cadena, del mismo tamaño del texto en claro, de número aleatorios o pseudoaleatorio por medio de la función XOR. Lo inventó Gilbert Vernam que era un ingeniero de AT\&T en 1917. Es también conocido como RC4 en internet.  
 	
@@ -169,8 +171,9 @@ La criptografía dio un gran salto en cuanto a calidad en el momento en el que s
 Se empezaron a idear nuevos algoritmos de cifrado mucho más complejos, los cuales se pueden dividir en dos grandes grupos, la criptografía de clave simétrica y la criptografía de clave pública. A continuación vamos a explicar brevemente los algoritmos más famosos de ambos.
 
 \subsubsection*{Criptografía de Clave simétrica}
-	
-Esta técnicas de criptografía se principal característica es que usan la misma clave para encriptar y desencriptar.
+
+La principal característica de esta técnica de criptografía es que usan la misma clave para encriptar y desencriptar.
+
 \begin{itemize}
 
 	\item \textbf{Data Encryption Standard (DES):} Fue presentado por IBM en 1974, para generar un estandar de cifrado para transmisión de datos y cifrado de almacenamiento de datos y que fuera usado por gobiernos, empresas privadas o cualquier usuario. IBM comenzó el desarrollo basándose en un dispositivo de cifrado llamado Lucifer el cual tenia una clave de 128 bits. DES es un criptosistema de clave secreta que cifra en bloques de 64 bits del texto en claro y genera otros bloques de 64 bits del texto cifrado. La clave utilizada también es de 64 bits, pero el bit final de cada octeto de los 64 bits de la clave se usa como bit de paridad para control de errores. El cifrado se realiza en 16 iteraciones en las que se usan varias operaciones como son operaciones XOR, permutaciones y sustituciones. El esquema para cifrar se puede ver en la figura \ref{fig:cifradoDes}.
@@ -186,17 +189,17 @@ Esta técnicas de criptografía se principal característica es que usan la mism
 
 \end{itemize}
 
-El mayor problema que tiene este tipo de criptografía es que para que el destinatario pueda leer el mensaje necesita saber la clave y el intercambio de clave puede ser un problema muy grande, si los dos usuarios no se pueden comunicar directamente, ya que usando cualquier otro método la clave podría ser interceptada y todo el proceso de encriptación sería inutil.
+El mayor problema que tiene este tipo de criptografía es que para que el destinatario pueda leer el mensaje necesita saber la clave y el intercambio de clave puede ser una dificultad muy grande si ambos usuarios no se pueden comunicar directamente, ya que usando cualquier otro método la clave podría ser interceptada y todo el proceso de encriptación sería inutil.
 
 \subsubsection*{Criptografía de Clave Pública}
 
 La criptografía de clave pública fue inventada por Diffie y Hellman y paralelamente por Merkle y ambos grupos aportaron a la criptografía el concepto de la utilización de pares de claves.
 
-La característica principal es que cada usuario posee dos claves, una privada que solo conoce el dueño de la clave y será usada para descifrar todo lo que otros usuarios cifren con su otra clave, la clave pública que es conocida por el resto de usuario y será la que estos usarán para encriptar el mensaje que queremos que sea secreto. Así de esta forma si una persona quiere comunicarse con otra de forma secreta solo tiene que conocer su clave pública, cifrar con ella y el destinatario podrá descifrar el mensaje con su clave privada. 
+La característica principal es que cada usuario posee dos claves, una privada que sólo conoce el dueño de la clave y será usada para descifrar todo lo que otros usuarios cifren con su otra clave y otra la clave pública que es conocida por el resto de usuarios y será la que estos usarán para encriptar el mensaje que queremos que sea secreto. Así de esta forma si una persona quiere comunicarse con otra de forma secreta sólo tiene que conocer su clave pública, cifrar con ella y el destinatario podrá descifrar el mensaje con su clave privada. 
 
 Otra característica es que las claves son imposibles de deducir una a partir de la otra, ambas claves son de una gran longitud y son generadas mediante exponenciación y/o productos de números primos grandes.
 
-En los primeros años de existencia de la criptografía de clave pública se inventaron tres sistemas, Algoritmo de la mochila de Merkle-Hellman que fue roto, el esquema de McEliece que está considerado imposible de llevar a la práctica y un tercero que es el que explicaremos a continuación llamado RSA que es el más usado actualmente.
+En los primeros años de existencia de la criptografía de clave pública se inventaron tres sistemas, Algoritmo de la mochila de Merkle-Hellman que fue roto, el esquema de McEliece que está considerado imposible de llevar a la práctica y un tercero que es el que explicaremos a continuación llamado RSA cuyo uso de ha impuesto actualmente.
 
 \begin{itemize}
 
@@ -204,18 +207,17 @@ En los primeros años de existencia de la criptografía de clave pública se inv
 
 \end{itemize}
 
-%TODO: poner el número del capítulo
 El algoritmo RSA será explicado con más profundidad en el capítulo~\ref{cap:criptografia}.
 
-Los algoritmos de clave pública tienen un gran problema, es que son muy lentos realizando el proceso de cifrado y descifrado, por lo que en la situaciones reales se usan para realizar el intercambio de claves de algoritmos de clave simétrica que son mucho más rápido y también igual de seguros, de esta forma solucionamos su principal problema.
+Los algoritmos de clave pública tienen un gran problema, es que son muy lentos realizando el proceso de cifrado y descifrado, por lo que en la situaciones reales se usan para realizar el intercambio de claves de algoritmos de clave simétrica que son mucho más rápidos y también igual de seguros, de esta forma solucionamos su principal problema.
 
 \section{Android.}
 
-Android es un sistema operativo basado en Linux especialmente diseñado para smartphone, tablet, smart TV y una infinidad de dispositivos, desarrollado por Google con Open Handset Alliance. Android empezó siendo desarrollado por la compañía llamada Android que inicialemente fue financiada y después comprada por Google en 2005. En 2007 cuando se presentó por primera vez Android también se anunció la fundación de Open Handset Alliance que es un conjunto de 86 empresas, entre las que hay compañías de hardware, software y telecomunicaciones, interesadas en el mundo de los dispositivos móviles. Android es código abierto y está distribuido bajo licencia Apache\footnote{Para saber más sobre la licencia visite: \url{http://en.wikipedia.org/wiki/Apache\_License}}. La tarea del mantenimiento y desarrollo de Android es de Android Open Source Project (AOSP).
+Android es un sistema operativo basado en Linux especialmente diseñado para smartphone, tablet, smart TV y una infinidad de dispositivos, desarrollado por Google con Open Handset Alliance. Android empezó siendo desarrollado por la compañía llamada Android que inicialemente fue financiada y después comprada por Google en 2005. En 2007 cuando se presentó por primera vez Android también se anunció la fundación de Open Handset Alliance que es un conjunto de 86 empresas, entre las que hay compañías de hardware, software y telecomunicaciones, interesadas en el mundo de los dispositivos móviles. Android es código abierto y está distribuido bajo licencia Apache\footnote{ Para saber más sobre la licencia visite: \url{http://en.wikipedia.org/wiki/Apache\_License}}. La tarea del mantenimiento y desarrollo de Android es de Android Open Source Project (AOSP).
 
 Android tiene una gran comunidad de desarrolladores que pueden extender las funcionalidad de los teléfonos o de cualquier dispositivos que pueda ejecutar la máquina virtual de Android, se puede desarrollar tanto en Java usando el SDK o en C++ usando el NDK, posee una tienda online llamada Google Play (anteriormente Android Market), donde se pueden comprar aplicaciones, películas, libros o música y en la que cualquier desarrollador por una pequeña cantidad de dinero (alrededor de 25\euro, por una cuenta vitalicia de desarrollador) puede subir todas las aplicaciones gratuitas o de pago que desee. En Junio de 2012 había alrededor de 600.000 aplicaciones en Google Play.
 
-En el primer cuartrimestre de 2012, Android tenia el 59\% del mercado de smartphones en el mundo, de ahí la importancia de esta plataforma para los desarrolladores, ya que proporciona un mercado muy amplio y una forma muy fácil y barata de conseguir un gran número de usuarios.
+En el primer cuatrimestre de 2012, Android tenía el 59\% del mercado de smartphones en el mundo, de ahí la importancia de esta plataforma para los desarrolladores, ya que proporciona un mercado muy amplio y una forma muy fácil y barata de conseguir un gran número de usuarios.
 
 Los detalles técnicos de Android se explicarán con más profundidad en el capítulo~\ref{cap:android}.
 
@@ -248,14 +250,14 @@ Como curiosidad todas las versiones de Android se denominan con un nombre en cla
 
 	\item \textbf{3.0 / 3.1 / 3.2 (Honeycomb):} Esta versión fue diseñada exclusivamente para tablet, por lo que no hubo smartphones que actualizaran a esta versión. Las características principales fueron un escritorio en 3D con widget rediseñado, sistema multitarea mejorado, mejoras en el navegador de internet, videochat mediante Google Talk, mejoras en el soporte de redes WiFi, añadidos soporte para gran cantidad de periféricos y conexión USB.
 	
-	\item \textbf{4.0 (Ice Cream Sandwich):} Fue una de las actualizaciones más importantes que ha recibido Android y fue lanzada el 19 de octubre de 2011, en ella se unificaron todas las versiones y se tenía una sola versión para smartphne, televisores, tablets, netbooks, etc. Se añadió una nueva versión de interfaz mucho más limpia y usable llamada Holo, una nueva fuente llamada Roboto, se da la opción de utilizar botones virtuales en la interfaz de usuario en vez de botones físicos, soporte para aceleración gráfica por hardware, por lo que la interfaz es manejada y dibujada por la GPU, aumentando notablemente el rendimiento, multitarea mejorada, se ha añadido un nuevo corrector ortográfico, en la lista de notificaciones se pueden eliminar las que no sean interesantes, capturas de pantalla pulsando el botón de encendido y el de bajar volumen, mejorada la aplicación encargada de hacer fotografías, añadida una nueva opción para crear fotos panorámicas, Android Beam, una nueva característica que nos permite compartir contenidos entre teléfonos mediante NFC, reconocimiento de voz del usuario, reconocimiento facial, para bloqueo y desbloqueo del teléfono, añadidas nuevas carpetas que se crean solo con arrastrar y soltar, un único y nuevo framework para crear aplicaciones y soporte para contenedor MKV.
+	\item \textbf{4.0 (Ice Cream Sandwich):} Fue una de las actualizaciones más importantes que ha recibido Android y fue lanzada el 19 de octubre de 2011, en ella se unificaron todas las versiones y se tenía una sola versión para smartphne, televisores, tablets, netbooks, etc. Se añadió una nueva versión de interfaz mucho más limpia y usable llamada Holo, una nueva fuente llamada Roboto, se da la opción de utilizar botones virtuales en la interfaz de usuario en vez de botones físicos, soporte para aceleración gráfica por hardware, por lo que la interfaz es manejada y dibujada por la GPU, aumentando notablemente el rendimiento, multitarea mejorada, se ha añadido un nuevo corrector ortográfico, en la lista de notificaciones se pueden eliminar las que no sean interesantes, capturas de pantalla pulsando el botón de encendido y el de bajar volumen, mejorada la aplicación encargada de hacer fotografías, añadida una nueva opción para crear fotos panorámicas, Android Beam, una nueva característica que nos permite compartir contenidos entre teléfonos mediante NFC, reconocimiento de voz del usuario, reconocimiento facial, para bloqueo y desbloqueo del teléfono, añadidas nuevas carpetas que se crean sólo con arrastrar y soltar, un único y nuevo framework para crear aplicaciones y soporte para contenedor MKV.
 
-	\item \textbf{4.1 (Jelly Bean):} Esta es la última versión de Android que hay en el mercado, fue lanzada el 27 de junio de 2012 durantes la última Google I/O. Se mejoró la fluidez y la estabilidad gracias al proyecto ``Project Butter", ajuste automático de widget cuando se añaden al escritorio, se añadió soporte para lenguas no occidentales, mejora de Android Beam para poder enviar video por NFC, dictado de voz mejorada y sin tener que tener conexión a internet para usarlo, nuevas notificaciones en las que se puede añadir botones para controlar o tener acceso a opciones más comunes, como puede ser responder a un email, pulsar pause o pasar de canción, nueva función Google Now que intenta ser el competidor de SIRI del iPhone en Android, cifrado de aplicaciones y nuevas actualizaciones incrementales, en las que no es necesario volver a bajar toda la aplicación para actualizarla, solo se baja las partes nuevas, Google Chrome se convierte en el navegador por defecto de Android y se pone fin al soporte de Adoble Flash Player, se añade una nueva función llamada Sound Search que permite identificar la canción que está sonando, se ha añadido una nueva función llamada Gestual Mode para personas discapacitadas visualmente.
+	\item \textbf{4.1 (Jelly Bean):} Esta es la última versión de Android que hay en el mercado, fue lanzada el 27 de junio de 2012 durantes la última Google I/O. Se mejoró la fluidez y la estabilidad gracias al proyecto ``Project Butter", ajuste automático de widget cuando se añaden al escritorio, se añadió soporte para lenguas no occidentales, mejora de Android Beam para poder enviar video por NFC, dictado de voz mejorada y sin tener que tener conexión a internet para usarlo, nuevas notificaciones en las que se puede añadir botones para controlar o tener acceso a opciones más comunes, como puede ser responder a un email, pulsar pause o pasar de canción, nueva función Google Now que intenta ser el competidor de SIRI del iPhone en Android, cifrado de aplicaciones y nuevas actualizaciones incrementales, en las que no es necesario volver a bajar toda la aplicación para actualizarla, sólo se baja las partes nuevas, Google Chrome se convierte en el navegador por defecto de Android y se pone fin al soporte de Adoble Flash Player, se añade una nueva función llamada Sound Search que permite identificar la canción que está sonando, se ha añadido una nueva función llamada Gestual Mode para personas discapacitadas visualmente.
 \end{itemize}
 
 En el proyecto se ha usado la versión \textbf{Android 4.0} para el desarrollo.
 
-En la figura \ref{fig:Android41} se puede como se ve visualemte Android en la actualidad con la versión 4.1.
+En la figura \ref{fig:Android41} se puede ver como es visualemte Android en la actualidad, con la versión 4.1.
 
 \begin{figure}
   \centering
@@ -267,7 +269,7 @@ En la figura \ref{fig:Android41} se puede como se ve visualemte Android en la ac
 
 \section{Google App Engine.}
 
-Google App Engine es un plataforma de cloud computing para desarrollar y almacenar aplicaciones web que ofrece Google. Las aplicaciones web pueden ser escalables y si necesitan más recursos automáticamente le son asignados para poder seguir ofreciendo servicio. Google App Engine es gratis para un cierto número de peticiones y almacenamiento y la primera versión fue lanzada en abril de 2008.
+Google App Engine es una plataforma de cloud computing para desarrollar y almacenar aplicaciones web que ofrece Google. Las aplicaciones web pueden ser escalables y si necesitan más recursos automáticamente le son asignados para poder seguir ofreciendo servicio. Google App Engine es gratis para un cierto número de peticiones y almacenamiento y la primera versión fue lanzada en abril de 2008.
 
 Actualmente se puede desarrollar en tres lenguajes, que son Java, Python y Go, este último un lenguaje creado por Google. En el proyecto hemos usado Java para desarrollar en la plataforma. 
 
@@ -299,21 +301,21 @@ XML son las siglas en inglés de e\textbf{X}tensible \textbf{M}arkup \textbf{L}a
 
 Es una de las formas de intercambio estructurado de información más extendidas en internet, ya que se puede usar en base de datos, hojas de cálculo o en casi cualquier información que se quiera usar.
 
-XML es un lenguaje que puede ser analizado sintácticamente para averiguar si está bien construido o no, por lo que para que cualquier parser (analizador sintáctico) puede confirmar si tiene la estructura que definida en el estándar. Todos los documentos tiene que tener las siguientes partes, prólogo, cuerpo, elementos y atributos.
+XML es un lenguaje que puede ser analizado sintácticamente para averiguar si está bien construido o no, por lo que cualquier parser (analizador sintáctico) puede confirmar si tiene la estructura bien definida según el estándar. Todos los documentos tiene que tener las siguientes partes: prólogo, cuerpo, elementos y atributos.
 
 Un ejemplo podemos verlo en el siguiente un trozo de código XML, para almacenar un libro en una librería.
 
 \begin{lstlisting}[language=XML]   
 <?xml version="1.0"?>
 <libro>
-<titulo> Cien años de soledad </titulo>
+<titulo> A Game of Thrones </titulo>
 <disponible tiempo="24" unidad="horas"/>
-<autor> Gabriel García Márquez </autor>
+<autor> George R. R. Martin </autor>
 <formato> Rústica </formato>
-<publicacion>1967 </publicacion>
+<publicacion> 1996 </publicacion>
 <precio cantidad="9.99" moneda="euro"/>
 <descuento cantidad="5"/>
-<enlacelibro href="/exec/ISBN/84-473-0619-4"/>
+<enlacelibro href="/exec/ISBN/0-553-10354-7"/>
 </libro>
 \end{lstlisting}
 
@@ -342,7 +344,6 @@ En el proyecto hemos estado usando GIT como control de versiones, ya que si en a
 
 A lo largo del proyecto hemos usado dos servicios gratuitos  que proporcionan servidores GIT, como pueden ser \url{https://github.com/} y \url{https://bitbucket.org/}. El primero es muy conocido actualmente y hay una gran comunidad de software libre en dicha plataforma, tiene un pequeño problema para nuestro proyecto y es que el código tiene que ser libre y en la versión gratuita no se pueden tener repositorios privados, cosa que el segundo servicio si te lo ofrece. Para todo el código fuente usando, tanto en la aplicación de Android como en las dos aplicaciones hemos usado bitbucket y para la memoria de proyecto hemos usado github. La dirección del repositorio de la memoria es la siguiente: \url{https://github.com/t321/memoriaPFC}, el repositorio de las aplicaciones web \url{https://bitbucket.org/t321/pfcaeg} y el de la aplicación de Android \url{https://bitbucket.org/t321/pfcandroid}.
 
-%TODO: poner el apendice
 La configuración básica para el uso de GIT con Eclipse se puede ver en el apendice~\ref{cap:apendiceA}.  
 
 

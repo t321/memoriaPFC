@@ -1,4 +1,5 @@
-\chapter{Android y Google App Engine.}
+\chapter{Android y Google App Engine.}\label{cap:androidYGAE}
+\markboth{CAPÍTULO \ref{cap:androidYGAE}. ANDROID Y GOOGLE APP ENGINE.}{}
 
 En este capítulo vamos a explicar más detenidamente las dos principales plataformas usadas durante el proyecto, Android en la parte móvil y Google App Engine en la parte de las aplicaciones web. 
 
@@ -103,10 +104,10 @@ Además de estas carpetas todos los ficheros APK incluyen estos tres archivos.
 \item \textbf{AndroidManifest.xml:} es un archivo que sirve para indicar la versión, los permisos que contiene la aplicación, las referencias a librerías, las activitys que contiene la aplicación. En el siguiente listado podemos observar un extracto de los permisos que usamos en la aplicación del proyecto.
 
 \begin{lstlisting}[style=XML]
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.WRITE_SETTINGS" />
-<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
 \end{lstlisting}
@@ -178,7 +179,8 @@ protected void onCreate(Bundle savedInstanceState) {
 	setContentView(R.layout.initialconfigurescreen);
 
 	TextView tAccountOk = (TextView) findViewById(R.id.tAccountOk);
-	EditText tCertificate = (EditText) findViewById(R.id.tCertificate);
+	EditText tCertificate = (EditText) findViewById(R.id.
+		tCertificate);
 	ImageView image = (ImageView) findViewById(R.id.imageView1);
 
 	Button bSelectAccount = (Button) findViewById(R.id.bConfigureScreenAccount);
@@ -199,17 +201,11 @@ Todos estos estados se pueden controlar mediante la implementación en la clase 
 \begin{lstlisting}[language=Java]
 public class Activity extends ApplicationContext {
 	protected void onCreate(Bundle savedInstanceState);
-
 	protected void onStart();
-
 	protected void onRestart();
-
 	protected void onResume();
-
 	protected void onPause();
-
 	protected void onStop();
-
 	protected void onDestroy();
 }
 \end{lstlisting}
@@ -278,7 +274,8 @@ Para que una aplicación pueda usar una determinada activity, el programador pri
 \newpage
 \begin{lstlisting}[style=XML]
 <activity android:name=".FirmaDigitalUMA_ICSActivity" />
-<activity android:name=".InitialConfiguration" android:noHistory="true" />
+<activity android:name=".InitialConfiguration" android:noHistory=
+	"true" />
 \end{lstlisting}
 
 Se puede observar que hemos declarado dos activities una sin ninguna opción y otra en la que no se guardará en la pila de llamadas de activity, por lo que si pulsamos el botón atrás no se abrirá de nuevo. Si no realizamos este proceso nos dará un error en tiempo de ejución la aplicación diciendo que hemos intentado ejecutar una activity que no está declarada.
@@ -349,7 +346,7 @@ Los servlets forman parte de Java 2 Enterprise Edition (J2EE) que a su vez es un
 
 Para crear un servlet hay que generar una clase Java que implemente la interfaz \lstinline{javax.servlet.Servlet} como puede ser \lstinline{javax.servlet.http.HttpServlet} que es un servlet específico para conexiones HTTP.
  
-Una vez generada la clase hay que implementar el método \lstinline{doGet} para peticiones tipo \lstinline{GET} o el método \lstinline{doPost} para peticiones de tipo \lstinline{POST}. En el siguiente trozo se código se puede ver la implementación más básica de los métodos \lstinline{doGet} y \lstinline{doPost}.
+Una vez generada la clase hay que implementar el método \lstinline{doGet} para peticiones tipo \lstinline{GET} o el método \lstinline{doPost} para peticiones de tipo \lstinline{POST}. En el siguiente trozo de código se puede ver la implementación más básica de los métodos \lstinline{doGet} y \lstinline{doPost}.
 
 \begin{lstlisting}[style=Java] 
 @Override
@@ -417,7 +414,6 @@ Un fichero JSP es la unión de código HTML con código Java, el cual es interpr
 	<th id="filadestino">Destino</th>
 	<th>Verificado?</th>
 </tr>
-
 <% for (RowRepositorioGeneral row : rows) {%>
 <tr>
 	<td><%=row.getId()%></td>
@@ -430,10 +426,8 @@ Un fichero JSP es la unión de código HTML con código Java, el cual es interpr
 	<td><%=row.getUsuario()%></td>
 	<td id="filadestino"><%=row.getDestino()%></td>
 	<td>
-		<%
-		Boolean confirmado = row.getConfirmado();
-		if (!(confirmado == null) && confirmado) {
-		%>
+		<%Boolean confirmado = row.getConfirmado();
+		if (!(confirmado == null) && confirmado) {%>
 		<center>
 			<img src="ok.png" />
 		</center> <%} else {%>
@@ -452,7 +446,7 @@ Como se puede ver en este trozo de código de este archivo JSP genera una tabla 
 
 \subsubsection{La carpeta WAR.}
 
-La carpeta WAR es la carpeta principal para el despliegue de una aplicación web, ya que en ella es donde se almacenan todos los archivos que se necesitan para el funcionamiento de la aplicación web, como pueden ser archivos HTML, CSS, JSP, imágenes, etc. En la figura~\ref{fig:carpetawar} se puede la carpeta WAR de una de las aplicaciones web realizadas.
+La carpeta WAR es la carpeta principal para el despliegue de una aplicación web, ya que en ella es donde se almacenan todos los archivos que se necesitan para el funcionamiento de la aplicación web, como pueden ser archivos HTML, CSS, JSP, imágenes, etc. En la figura~\ref{fig:carpetawar} se puede observar la carpeta WAR de una de las aplicaciones web realizadas.
 
 \begin{figure}
   \centering
@@ -470,11 +464,13 @@ Un ejemplo de un archivo web.xml es el siguiente:
 
 \begin{lstlisting}[language=XML]
 <?xml version="1.0" encoding="utf-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-
+	instance"
 xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version=
+	"2.5">
 
 	<servlet>
 		<servlet-name>AddRow</servlet-name>
@@ -512,11 +508,7 @@ Como podemos observar es mucho más fácil de entender y de escribir, el único 
 
 Al tener el archivo app.yalm en la carpeta WEB-INF el parseador de YALM  interpreta dicho archivo y genera automáticamente un archivo web.xml que usará el servidor web para su configuración.
 
-Para ver todas las opciones de configuración que se pueden modificar en app.yalm o en web.xml se puede consultar los siguientes enlaces \url{https://developers.google.com/appengine/docs/java/config/} y \url{https://developers.google.com/appengine/docs/java/configyaml/}. En el primero podemos ver todas las opciones configurables de web.xml y en el segundo las de app.yalm.
-
-
-
-
+Para ver todas las opciones de configuración que se pueden modificar en app.yalm\footnote{ Parámetros de configuración en el archivo app.yalm, \url{https://developers.google.com/appengine/docs/java/configyaml/}} o en web.xml\footnote{ Parámetros de configuración en el archivo web.xml, \url{https://developers.google.com/appengine/docs/java/config/}} se puede consultar los enlaces que hay en las notas al pie.
 
 
 
