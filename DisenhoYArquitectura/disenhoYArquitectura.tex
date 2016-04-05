@@ -140,7 +140,7 @@ Un trozo de esta clase, en el que se puede observar como se crea y se implementa
 \begin{lstlisting}[style=Java]
 EditTextPreference textPath = (EditTextPreference) findPreference(getActivity().getResources().getString(R.string.key_cert_path));
 
-// Para que cuando cambie el texto lo cambie también en el título...
+// Para que cuando cambie el texto lo cambie tambien en el titulo...
 textPath.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
 	public boolean onPreferenceChange(Preference preference, Object newValue) {
 		EditTextPreference textPath = (EditTextPreference) preference;
@@ -178,7 +178,7 @@ Creamos la variable EditTextPreference donde mostraremos el password del certifi
 \begin{lstlisting}[style=Java]
 public static String addRow(String plainText, String tokenTime, Account account, String to) {
 	/*
-	 * Primero se le codifican los espacios porque si no la función
+	 * Primero se le codifican los espacios porque si no la funcion
 	 * URLEncoder.encode los cambia por '+' y si el documento tiene '+'
 	 * luego los pone como si fueran espacios
 	 */
@@ -429,7 +429,7 @@ Cursor cursor = sqLiteDatabase.query(DigitalSignatureOpenHelper.DIGITALSIGNATURE
 if (cursor.moveToPosition(pos)) {
 	
 	final ActionBar bar = getActionBar();
-	bar.setTitle("Información de la firma.");
+	bar.setTitle("Informacion de la firma.");
 	bar.setDisplayHomeAsUpEnabled(true);
 
 	TextView textUser = (TextView) findViewById(R.id.text_sign_general_user);
@@ -768,7 +768,7 @@ Ese objeto \lstinline{JSON} se añade un objeto \lstinline{JSONArray}, que es el
 
 \begin{itemize}
 
-Podemos observar que hay un cuadro de texto para introducir la cadena que devuelve el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en \lstinline{Base64} y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habíamos revocado dicho certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
+\item Podemos observar que hay un cuadro de texto para introducir la cadena que devuelve el botón exportar. Cualquier usuario puede verificar si una firma es correcta o no. En este servlet se hace el proceso contrario que hicimos en exportar, quitamos los indicadores de inicio y final de exportación, desencriptamos la cadena en \lstinline{Base64} y hacemos varias comprobaciones. Comprobamos que en la fecha en la que se firmó el certificado era válido y que no habíamos revocado dicho certificado, también se comprueba que no fuera reemplazado por otro certificado antes de su expiración, ya que entonces la firma no sería válida. También comprobamos la integridad del mensaje, que la cadena no esté mal formada y que siga el formato que hemos obligado anteriormente.
 
 \end{itemize}
 
