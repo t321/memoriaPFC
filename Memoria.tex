@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{book}
-
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+
 %\usepackage{listings}
 \usepackage{graphicx}
 %\usepackage{amssymb}
@@ -77,6 +77,12 @@ basicstyle=\footnotesize\ttfamily,
 basicstyle=\footnotesize\ttfamily,
 }
 
+% estilo para código YAML
+\lstdefinestyle{YAML}
+{
+basicstyle=\footnotesize\ttfamily,
+}
+
 
 \usepackage[left=2.5cm,top=3.5cm,right=2.5cm,bottom=3cm]{geometry} 
 
@@ -141,8 +147,8 @@ basicstyle=\footnotesize\ttfamily,
 	\input{./AnexoContenidoCD/contenidoCD.tex}
 	
 	\backmatter
-		\listoffigures
-		%bibliografía
-		\input{./Bibliografia/bibliografia.tex}
+	\listoffigures
+	%bibliografía
+	\input{./Bibliografia/bibliografia.tex}
 		
 \end{document}
